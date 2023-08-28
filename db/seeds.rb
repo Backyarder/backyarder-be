@@ -1,4 +1,4 @@
-require './app/models/cell.rb'
+require "./app/models/cell"
 
 Cell.destroy_all
 
