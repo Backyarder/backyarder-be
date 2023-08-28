@@ -1,3 +1,5 @@
+require './app/models/cell.rb'
+
 Cell.destroy_all
 
 ("A".."J").each do |letter|
