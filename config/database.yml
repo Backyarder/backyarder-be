@@ -1,7 +1,7 @@
-development: 
+development:
   adapter: sqlite3
-  database: db/development.sqlite3
+  database: db/backyarder-development
 
-test: 
+test:
   adapter: sqlite3
-  database: db/test.sqlite3
+  database: db/backyarder-test
