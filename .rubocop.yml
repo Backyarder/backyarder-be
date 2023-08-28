@@ -10,8 +10,7 @@
 # See https://docs.rubocop.org/rubocop/configuration
 AllCops:
   Exclude:
-    # - 'Gemfile'
-    # - 'Rakefile'
+    - "./db/schema.rb"
 
 Style/StringLiterals:
   Enabled: false
