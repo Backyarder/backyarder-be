@@ -3,4 +3,4 @@ require "sinatra/activerecord"
 
 set :database_file, "config/database.yml"
 
-require "./models/cell"
+require "./app/models/cell"
