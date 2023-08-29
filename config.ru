@@ -1,2 +1,3 @@
-require './config/routes'
-run Sinatra::Application
+require File.expand_path("backyarder-be", File.dirname(__FILE__))
+
+run Backyarder_BE
