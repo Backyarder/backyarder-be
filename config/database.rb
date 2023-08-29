@@ -9,5 +9,5 @@ ActiveRecord::Base.establish_connection(
 )
 ActiveRecord::Base.establish_connection(
   :adapter => "postgresql",
-  :database => "db/backyarder-production"
+  :database => "backyarder"
 )
