@@ -8,11 +8,14 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.2' # Not needed with a .ruby-version file
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Install dependencies
+        run: |
+          gem install bundler
+          bundler install
     - run: bundle exec rake
-      - name: Create database
+    - name: Create database
         run: |
           bundler exec rake db:create
           bundler exec rake db:migrate
-      - name: Run tests
+    - name: Run tests
         run: bundle exec rspec spec/*
