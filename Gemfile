@@ -5,6 +5,7 @@ ruby "3.2.2"
 gem "activerecord"
 gem "jsonapi-serializer"
 gem "pry"
+gem "rack", "~> 2.2"
 gem "rake"
 gem "rerun"
 gem "sinatra", require: "sinatra/base"
@@ -25,3 +26,4 @@ end
 group :production do
   gem "pg"
 end
+

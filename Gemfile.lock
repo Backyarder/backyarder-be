@@ -113,6 +113,7 @@ DEPENDENCIES
   jsonapi-serializer
   pg
   pry
+  rack (~> 2.2)
   rake
   rerun
   rspec

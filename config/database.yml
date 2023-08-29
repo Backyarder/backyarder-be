@@ -8,5 +8,7 @@ test:
 
 production:
   adapater: postgresql
-  database: db/backyarder-production
-  host: <%= ENV['DATABASE_HOST'] %>
+  database: backyarder
+  username: username
+  password: N0LYc3B2GVWxwY7RYiV3aQBru9L05FV8
+  host: dpg-cjn5vllhe99c73bdg7s0-a
