@@ -5,3 +5,8 @@ development:
 test:
   adapter: sqlite3
   database: db/backyarder-test
+
+production:
+  adapater: postgresql
+  database: db/backyarder-production
+  host: <%= ENV['DATABASE_HOST'] %>

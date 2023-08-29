@@ -11,6 +11,7 @@ gem "sinatra", require: "sinatra/base"
 gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "sqlite3"
+gem "tux"
 
 group :development, :test do
   gem "database_cleaner-active_record"
@@ -19,4 +20,8 @@ end
 
 group :test do
   gem "simplecov"
+end
+
+group :production do
+  gem "pg"
 end
