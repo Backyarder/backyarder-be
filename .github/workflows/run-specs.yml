@@ -1,4 +1,4 @@
-name: rspec
+name: My workflow
 on: [push, pull_request]
 jobs:
   test:
@@ -7,15 +7,6 @@ jobs:
     - uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2.2' # Not needed with a .ruby-version file
-    - name: Install dependencies
-        run: |
-          gem install bundler
-          bundler install
+        ruby-version: '3.2' # Not needed with a .ruby-version file
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - run: bundle exec rake
-    - name: Create database
-        run: |
-          bundler exec rake db:create
-          bundler exec rake db:migrate
-    - name: Run tests
-        run: bundle exec rspec spec/*
