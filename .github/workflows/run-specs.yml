@@ -1,0 +1,24 @@
+env:
+  RUBY_VERSION: 3.2.2
+
+name: Rails Specs
+on: [push,pull_request]
+jobs:
+  rspec-test:
+    name: RSpec
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+      - name: Create database
+        run: |
+          bundler exec rake db:create
+          bundler exec rake db:migrate
+      - name: Run tests
+        run: bundle exec rspec spec/*
