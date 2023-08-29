@@ -1,6 +1,6 @@
 require "bundler"
 Bundler.require
 
-require "./app/routes"
+require File.expand_path("routes.rb", File.dirname(__FILE__))
 
-run Backyarder_BE
+run Routes
