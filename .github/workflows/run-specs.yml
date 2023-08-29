@@ -1,4 +1,4 @@
-name: RSPEC 
+name: rspec
 on: [push, pull_request]
 jobs:
   test:
