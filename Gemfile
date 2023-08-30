@@ -14,6 +14,8 @@ gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "sqlite3"
 gem "tux"
+gem "faraday"
+gem "json"
 
 group :development, :test do
   gem "database_cleaner-active_record"
