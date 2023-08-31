@@ -12,7 +12,9 @@ Dir.glob(File.join(APP_ROOT, "app", "models", "*.rb")).each { |file| require fil
 Dir.glob(File.join(APP_ROOT, "app", "*.rb")).each { |file| require file }
 
 # require the serializer(s)
-# Dir.glob(File.join(APP_ROOT, "app", "serializers", "*.rb")).each { |file| require file }
+Dir.glob(File.join(APP_ROOT, "app", "serializers", "*.rb")).each { |file| require file }
+Dir.glob(File.join(APP_ROOT, "app", "poros", "*.rb")).each { |file| require file }
+Dir.glob(File.join(APP_ROOT, "app", "services", "*.rb")).each { |file| require file }
 
 # configure TaskManagerApp settings
 class Backyarder < Sinatra::Base
