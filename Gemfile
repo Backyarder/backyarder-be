@@ -16,6 +16,7 @@ gem "sqlite3"
 gem "tux"
 gem "faraday"
 gem "json"
+gem "dotenv"
 
 group :development, :test do
   gem "database_cleaner-active_record"
