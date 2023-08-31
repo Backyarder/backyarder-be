@@ -1,0 +1,130 @@
+{
+  "id": 2719,
+  "common_name": "elephant's foot",
+  "scientific_name": [
+      "Elephantopus carolinianus"
+  ],
+  "other_name": [],
+  "family": "Asteraceae",
+  "origin": [
+      "United States",
+      "West Indies"
+  ],
+  "type": "Shrub",
+  "dimension": "2.00 to 3.00 feet",
+  "dimensions": {
+      "type": null,
+      "min_value": 2,
+      "max_value": 3,
+      "unit": ""
+  },
+  "cycle": "Herbaceous Perennial",
+  "attracts": [],
+  "propagation": [
+      "Division",
+      "Seed Propagation",
+      "Cutting"
+  ],
+  "hardiness": {
+      "min": "4",
+      "max": "9"
+  },
+  "hardiness_location": {
+      "full_url": "https://perenual.com/api/hardiness-map?species_id=2719&size=og&key=sk-l4Yi64e2945b42f691935",
+      "full_iframe": "<iframe frameborder=0 scrolling=yes seamless=seamless width=1000 height=550 style='margin:auto;' src='https://perenual.com/api/hardiness-map?species_id=2719&size=og&key=sk-l4Yi64e2945b42f691935'></iframe>"
+  },
+  "watering": "Minimum",
+  "depth_water_requirement": [],
+  "volume_water_requirement": [],
+  "watering_period": null,
+  "watering_general_benchmark": {
+      "value": null,
+      "unit": "days"
+  },
+  "plant_anatomy": [
+      {
+          "part": "flower",
+          "color": [
+              "purple-white"
+          ]
+      },
+      {
+          "part": "leaves",
+          "color": [
+              "dark-green"
+          ]
+      },
+      {
+          "part": "veins",
+          "color": [
+              "green"
+          ]
+      },
+      {
+          "part": "midribs",
+          "color": [
+              "light-green"
+          ]
+      },
+      {
+          "part": "stems",
+          "color": [
+              "green"
+          ]
+      }
+  ],
+  "sunlight": [
+      "Part shade"
+  ],
+  "pruning_month": [
+      "March",
+      "April"
+  ],
+  "pruning_count": {
+      "amount": 1,
+      "interval": "yearly"
+  },
+  "seeds": 0,
+  "maintenance": "Low",
+  "care-guides": "http://perenual.com/api/species-care-guide-list?species_id=2719&key=sk-l4Yi64e2945b42f691935",
+  "soil": [],
+  "growth_rate": "Low",
+  "drought_tolerant": true,
+  "salt_tolerant": true,
+  "thorny": true,
+  "invasive": false,
+  "tropical": false,
+  "indoor": false,
+  "care_level": "Medium",
+  "pest_susceptibility": [],
+  "pest_susceptibility_api": "Coming Soon",
+  "flowers": true,
+  "flowering_season": null,
+  "flower_color": "White/lavender",
+  "cones": false,
+  "fruits": false,
+  "edible_fruit": false,
+  "edible_fruit_taste_profile": "Coming Soon",
+  "fruit_nutritional_value": "Coming Soon",
+  "fruit_color": [],
+  "harvest_season": null,
+  "leaf": false,
+  "leaf_color": [],
+  "edible_leaf": false,
+  "cuisine": false,
+  "medicinal": true,
+  "poisonous_to_humans": 0,
+  "poisonous_to_pets": 0,
+  "description": "Elephant's Foot (Elephantopus carolinianus) is an amazing plant species. It is a hardy perennial that prefers sunny locations and low humidity. It is named for its large, gray-green leaves, which resemble the feet of an elephant. Its flowers are yellow and white and create a stunning contrast against its foliage. The blooms attract beneficial pollinators, such as bees and butterflies. It is also used as a ground cover to reduce soil erosion and provide texture to landscapes. It requires minimal care, making it an ideal addition to any garden. Its unique shape and flowers add colour, beauty and interest to your outdoor space.",
+  "default_image": {
+      "license": 5,
+      "license_name": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "original_url": "https://perenual.com/storage/species_image/2719_elephantopus_carolinianus/og/9286939262_9e870c574e_b.jpg",
+      "regular_url": "https://perenual.com/storage/species_image/2719_elephantopus_carolinianus/regular/9286939262_9e870c574e_b.jpg",
+      "medium_url": "https://perenual.com/storage/species_image/2719_elephantopus_carolinianus/medium/9286939262_9e870c574e_b.jpg",
+      "small_url": "https://perenual.com/storage/species_image/2719_elephantopus_carolinianus/small/9286939262_9e870c574e_b.jpg",
+      "thumbnail": "https://perenual.com/storage/species_image/2719_elephantopus_carolinianus/thumbnail/9286939262_9e870c574e_b.jpg"
+  },
+  "other_images": "Upgrade Plan To Supreme For Access https://perenual.com/subscription-api-pricing. Im sorry"
+}

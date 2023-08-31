@@ -1,0 +1,140 @@
+{
+  "id": 2699,
+  "common_name": "small globe thistle",
+  "scientific_name": [
+      "Echinops ritro"
+  ],
+  "other_name": [],
+  "family": "Asteraceae",
+  "origin": [
+      "Central and eastern Europe",
+      "Asia"
+  ],
+  "type": "Thistle",
+  "dimension": "3.00 to 4.00 feet",
+  "dimensions": {
+      "type": null,
+      "min_value": 3,
+      "max_value": 4,
+      "unit": ""
+  },
+  "cycle": "Herbaceous Perennial",
+  "attracts": [
+      "Butterflies"
+  ],
+  "propagation": [
+      "Division",
+      "Root Cutting",
+      "Seed Propagation",
+      "Layering Propagation"
+  ],
+  "hardiness": {
+      "min": "3",
+      "max": "8"
+  },
+  "hardiness_location": {
+      "full_url": "https://perenual.com/api/hardiness-map?species_id=2699&size=og&key=sk-l4Yi64e2945b42f691935",
+      "full_iframe": "<iframe frameborder=0 scrolling=yes seamless=seamless width=1000 height=550 style='margin:auto;' src='https://perenual.com/api/hardiness-map?species_id=2699&size=og&key=sk-l4Yi64e2945b42f691935'></iframe>"
+  },
+  "watering": "Minimum",
+  "depth_water_requirement": [],
+  "volume_water_requirement": [],
+  "watering_period": null,
+  "watering_general_benchmark": {
+      "value": null,
+      "unit": "days"
+  },
+  "plant_anatomy": [
+      {
+          "part": "flower",
+          "color": [
+              "blue-white"
+          ]
+      },
+      {
+          "part": "spadix",
+          "color": [
+              "gray-blue",
+              "gray-white"
+          ]
+      },
+      {
+          "part": "stem",
+          "color": [
+              "white"
+          ]
+      },
+      {
+          "part": "flowers",
+          "color": [
+              "blue-white"
+          ]
+      },
+      {
+          "part": "stems",
+          "color": [
+              "white"
+          ]
+      }
+  ],
+  "sunlight": [
+      "Full sun"
+  ],
+  "pruning_month": [
+      "March",
+      "April",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+  ],
+  "pruning_count": [],
+  "seeds": 0,
+  "maintenance": "Low",
+  "care-guides": "http://perenual.com/api/species-care-guide-list?species_id=2699&key=sk-l4Yi64e2945b42f691935",
+  "soil": [],
+  "growth_rate": "Low",
+  "drought_tolerant": true,
+  "salt_tolerant": true,
+  "thorny": true,
+  "invasive": true,
+  "tropical": false,
+  "indoor": false,
+  "care_level": "Moderate",
+  "pest_susceptibility": [],
+  "pest_susceptibility_api": "Coming Soon",
+  "flowers": true,
+  "flowering_season": null,
+  "flower_color": "Blue",
+  "cones": false,
+  "fruits": false,
+  "edible_fruit": false,
+  "edible_fruit_taste_profile": "Coming Soon",
+  "fruit_nutritional_value": "Coming Soon",
+  "fruit_color": [],
+  "harvest_season": null,
+  "leaf": true,
+  "leaf_color": [
+      "green"
+  ],
+  "edible_leaf": false,
+  "cuisine": false,
+  "medicinal": true,
+  "poisonous_to_humans": 0,
+  "poisonous_to_pets": 0,
+  "description": "Small globe thistle (Echinops ritro) is an amazing perennial plant to have in any garden. It has a unique look with its spiky silver-white thistle-like heads and round foliage. It is best grown in well-drained soil in a sunny place and can be grown in containers if desired. Flowering typically occurs in summer in shades of blue, white and pink and it’s a great plant for attracting bees and butterflies into the garden. It’s hardy, undemanding and easy to grow, making it an excellent addition to any garden. Plus, its silver-ish spiky heads add an interesting element to any garden and its compact size makes it ideal for borders or pots.",
+  "default_image": {
+      "license": 4,
+      "license_name": "Attribution License",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "original_url": "https://perenual.com/storage/species_image/2699_echinops_ritro/og/52315581367_1406967d9d_b.jpg",
+      "regular_url": "https://perenual.com/storage/species_image/2699_echinops_ritro/regular/52315581367_1406967d9d_b.jpg",
+      "medium_url": "https://perenual.com/storage/species_image/2699_echinops_ritro/medium/52315581367_1406967d9d_b.jpg",
+      "small_url": "https://perenual.com/storage/species_image/2699_echinops_ritro/small/52315581367_1406967d9d_b.jpg",
+      "thumbnail": "https://perenual.com/storage/species_image/2699_echinops_ritro/thumbnail/52315581367_1406967d9d_b.jpg"
+  },
+  "other_images": "Upgrade Plan To Supreme For Access https://perenual.com/subscription-api-pricing. Im sorry"
+}
