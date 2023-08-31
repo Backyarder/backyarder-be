@@ -1,0 +1,135 @@
+{
+  "id": 2730,
+  "common_name": "prickly cycad",
+  "scientific_name": [
+      "Encephalartos altensteinii"
+  ],
+  "other_name": [],
+  "family": "Zamiaceae",
+  "origin": [
+      "Southern Africa"
+  ],
+  "type": "Palm or Cycad",
+  "dimension": "10.00 to 20.00 feet",
+  "dimensions": {
+      "type": null,
+      "min_value": 10,
+      "max_value": 20,
+      "unit": ""
+  },
+  "cycle": "Perennial",
+  "attracts": [],
+  "propagation": [
+      "Seed Propagation",
+      "Offsets",
+      "Leaf Cutting",
+      "Tissue Culture"
+  ],
+  "hardiness": {
+      "min": "10",
+      "max": "12"
+  },
+  "hardiness_location": {
+      "full_url": "https://perenual.com/api/hardiness-map?species_id=2730&size=og&key=sk-l4Yi64e2945b42f691935",
+      "full_iframe": "<iframe frameborder=0 scrolling=yes seamless=seamless width=1000 height=550 style='margin:auto;' src='https://perenual.com/api/hardiness-map?species_id=2730&size=og&key=sk-l4Yi64e2945b42f691935'></iframe>"
+  },
+  "watering": "Average",
+  "depth_water_requirement": {
+      "unit": "inches",
+      "value": "3"
+  },
+  "volume_water_requirement": [],
+  "watering_period": null,
+  "watering_general_benchmark": {
+      "value": null,
+      "unit": "days"
+  },
+  "plant_anatomy": [
+      {
+          "part": "foliage",
+          "color": [
+              "green"
+          ]
+      },
+      {
+          "part": "stems",
+          "color": [
+              "green"
+          ]
+      },
+      {
+          "part": "trunk",
+          "color": [
+              "yellow-brown"
+          ]
+      },
+      {
+          "part": "leaves",
+          "color": [
+              "green"
+          ]
+      },
+      {
+          "part": "branches",
+          "color": [
+              "yellow-green"
+          ]
+      }
+  ],
+  "sunlight": [
+      "Full sun",
+      "part shade"
+  ],
+  "pruning_month": [
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May"
+  ],
+  "pruning_count": [],
+  "seeds": 0,
+  "maintenance": "Moderate",
+  "care-guides": "http://perenual.com/api/species-care-guide-list?species_id=2730&key=sk-l4Yi64e2945b42f691935",
+  "soil": [],
+  "growth_rate": "Low",
+  "drought_tolerant": true,
+  "salt_tolerant": false,
+  "thorny": false,
+  "invasive": false,
+  "tropical": false,
+  "indoor": false,
+  "care_level": "High",
+  "pest_susceptibility": [],
+  "pest_susceptibility_api": "Coming Soon",
+  "flowers": true,
+  "flowering_season": null,
+  "flower_color": "Non-flowering",
+  "cones": true,
+  "fruits": false,
+  "edible_fruit": false,
+  "edible_fruit_taste_profile": "Coming Soon",
+  "fruit_nutritional_value": "Coming Soon",
+  "fruit_color": [],
+  "harvest_season": null,
+  "leaf": true,
+  "leaf_color": [],
+  "edible_leaf": false,
+  "cuisine": false,
+  "medicinal": false,
+  "poisonous_to_humans": 0,
+  "poisonous_to_pets": 0,
+  "description": "The prickly cycad (Encephalartos altensteinii) is an amazing plant species. It has an impressive crown of deep green leaflets with sharp yellow-tipped leaflets that look like a bed of thorns. Its thick trunk topped with a conical crown makes it a highly ornamental species. It is also incredibly resilient and can survive for years in harsh environmental conditions. Along with its unique beauty and resilience, the prickly cycad is also relatively easy to care for. It requires minimal water and fertilizer, making it an ideal choice for those looking for an easy care plant. The prickly cycad is a truly remarkable species that adds beauty and character to any garden or environment.",
+  "default_image": {
+      "license": 5,
+      "license_name": "Attribution-ShareAlike License",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "original_url": "https://perenual.com/storage/species_image/2730_encephalartos_altensteinii/og/32943227366_7a5f6c8764_b.jpg",
+      "regular_url": "https://perenual.com/storage/species_image/2730_encephalartos_altensteinii/regular/32943227366_7a5f6c8764_b.jpg",
+      "medium_url": "https://perenual.com/storage/species_image/2730_encephalartos_altensteinii/medium/32943227366_7a5f6c8764_b.jpg",
+      "small_url": "https://perenual.com/storage/species_image/2730_encephalartos_altensteinii/small/32943227366_7a5f6c8764_b.jpg",
+      "thumbnail": "https://perenual.com/storage/species_image/2730_encephalartos_altensteinii/thumbnail/32943227366_7a5f6c8764_b.jpg"
+  },
+  "other_images": "Upgrade Plan To Supreme For Access https://perenual.com/subscription-api-pricing. Im sorry"
+}
