@@ -80,3 +80,7 @@ Metrics/PerceivedComplexity:
 
 Lint/UselessAssignment:
   Enabled: false
+
+Style/CaseLikeIf:
+  Enabled: false
+  

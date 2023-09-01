@@ -4,7 +4,6 @@ Bundler.require
 require File.expand_path("config/environment", __dir__)
 # require File.expand_path("routes.rb", File.dirname(__FILE__))
 require "rack/cors"
-require "./app/v1/server"
 
 use Rack::Cors do
   allow do
