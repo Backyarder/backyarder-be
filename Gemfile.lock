@@ -144,6 +144,7 @@ DEPENDENCIES
   rack (~> 2.2)
   rack-test
   rack-cors
+  rack-test
   rake
   rerun
   rspec
