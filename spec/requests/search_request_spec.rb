@@ -16,7 +16,6 @@ RSpec.describe "Search Request", type: :request do
         expect(response[:data].count).to be <= 10
 
         response[:data].each do |plant|
-          #  require 'pry'; binding.pry
           expect(plant).to have_key(:id)
           expect(plant[:id]).to eq(nil)
           expect(plant).to have_key(:type)
