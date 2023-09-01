@@ -51,4 +51,15 @@ class Server < Sinatra::Base
 
     json ListSerializer.new(plants)
   end
+
+  get "/show/:id" do
+    show = PerenualService.new.detail_search(params[:id])
+    plant = Detail.new(show)
+
+    maintenance = PerenualService.new.maintenance_search(params[:id])
+    plant.watering_description = maintenance[:watering_description]
+    plant.sunlight_description = maintenance[:sunlight_description]
+    
+
+  end
 end
