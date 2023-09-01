@@ -1,9 +1,10 @@
 require "json"
 require "sinatra"
 require "dotenv"
+
 Dotenv.load
 
-class Server < Sinatra::Base
+class Backyarder < Sinatra::Base
   get "/" do
     "Welcome to Backyarder!"
   end
@@ -59,7 +60,7 @@ class Server < Sinatra::Base
     maintenance = PerenualService.new.maintenance_search(params[:id])
     plant.watering_description = maintenance[:watering_description]
     plant.sunlight_description = maintenance[:sunlight_description]
-    
+
 
   end
 end
