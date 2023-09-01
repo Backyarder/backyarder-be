@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:03 GMT
+      - Fri, 01 Sep 2023 18:57:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -36,7 +36,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '263'
+      - '252'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -669,7 +669,7 @@ http_interactions:
         the tree''s branches to maintain its health. When pruning, use clean, sharp
         tools and make sure to dip them in rubbing alcohol or a bleach solution to
         prevent any spread of disease."}]}],"to":30,"per_page":30,"current_page":1,"from":1,"last_page":7,"total":190}'
-  recorded_at: Fri, 01 Sep 2023 18:25:03 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:23 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/10?key=<API_KEY>
@@ -691,7 +691,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:04 GMT
+      - Fri, 01 Sep 2023 18:57:25 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -706,7 +706,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '262'
+      - '251'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -732,7 +732,7 @@ http_interactions:
         1.0 Universal (CC0 1.0) Public Domain Dedication","license_url":"https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/10_acer_johin\/og\/pexels-photo-2183508.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/10_acer_johin\/regular\/pexels-photo-2183508.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/10_acer_johin\/medium\/pexels-photo-2183508.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/10_acer_johin\/small\/pexels-photo-2183508.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/10_acer_johin\/thumbnail\/pexels-photo-2183508.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:04 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:25 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/11?key=<API_KEY>
@@ -754,7 +754,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:04 GMT
+      - Fri, 01 Sep 2023 18:57:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -769,7 +769,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '261'
+      - '250'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -794,7 +794,7 @@ http_interactions:
         License","license_url":"https:\/\/creativecommons.org\/licenses\/by-sa\/2.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/11_acer_davidii\/og\/6868591754_f4ac5b0510_b.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/11_acer_davidii\/regular\/6868591754_f4ac5b0510_b.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/11_acer_davidii\/medium\/6868591754_f4ac5b0510_b.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/11_acer_davidii\/small\/6868591754_f4ac5b0510_b.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/11_acer_davidii\/thumbnail\/6868591754_f4ac5b0510_b.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:04 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:26 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/12?key=<API_KEY>
@@ -816,7 +816,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:05 GMT
+      - Fri, 01 Sep 2023 18:57:26 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -831,7 +831,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '260'
+      - '249'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -855,7 +855,7 @@ http_interactions:
         License","license_url":"https:\/\/creativecommons.org\/licenses\/by-sa\/2.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/12_acer_ginnala\/og\/10476032513_76ca899bc4_b.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/12_acer_ginnala\/regular\/10476032513_76ca899bc4_b.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/12_acer_ginnala\/medium\/10476032513_76ca899bc4_b.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/12_acer_ginnala\/small\/10476032513_76ca899bc4_b.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/12_acer_ginnala\/thumbnail\/10476032513_76ca899bc4_b.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:05 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:26 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/13?key=<API_KEY>
@@ -877,7 +877,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:06 GMT
+      - Fri, 01 Sep 2023 18:57:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -892,7 +892,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '259'
+      - '248'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -918,7 +918,7 @@ http_interactions:
         1.0 Universal (CC0 1.0) Public Domain Dedication","license_url":"https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/13_acer_ginnala_flame\/og\/pexels-photo-1649190.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/13_acer_ginnala_flame\/regular\/pexels-photo-1649190.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/13_acer_ginnala_flame\/medium\/pexels-photo-1649190.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/13_acer_ginnala_flame\/small\/pexels-photo-1649190.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/13_acer_ginnala_flame\/thumbnail\/pexels-photo-1649190.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:06 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:27 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/14?key=<API_KEY>
@@ -940,7 +940,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:06 GMT
+      - Fri, 01 Sep 2023 18:57:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -955,7 +955,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '258'
+      - '247'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -981,7 +981,7 @@ http_interactions:
         (CC0 1.0) Public Domain Dedication","license_url":"https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/14_acer_ginnala_mondy\/og\/pexels-photo-1789879.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/14_acer_ginnala_mondy\/regular\/pexels-photo-1789879.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/14_acer_ginnala_mondy\/medium\/pexels-photo-1789879.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/14_acer_ginnala_mondy\/small\/pexels-photo-1789879.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/14_acer_ginnala_mondy\/thumbnail\/pexels-photo-1789879.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:06 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:27 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/15?key=<API_KEY>
@@ -1003,7 +1003,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:07 GMT
+      - Fri, 01 Sep 2023 18:57:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1018,7 +1018,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '257'
+      - '246'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -1044,7 +1044,7 @@ http_interactions:
         (CC0 1.0) Public Domain Dedication","license_url":"https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/15_acer_ginnala_ruby_slippers\/og\/pexels-photo-1640820.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/15_acer_ginnala_ruby_slippers\/regular\/pexels-photo-1640820.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/15_acer_ginnala_ruby_slippers\/medium\/pexels-photo-1640820.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/15_acer_ginnala_ruby_slippers\/small\/pexels-photo-1640820.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/15_acer_ginnala_ruby_slippers\/thumbnail\/pexels-photo-1640820.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:07 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:28 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/16?key=<API_KEY>
@@ -1066,7 +1066,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:07 GMT
+      - Fri, 01 Sep 2023 18:57:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1081,7 +1081,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '256'
+      - '245'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -1107,7 +1107,7 @@ http_interactions:
         License","license_url":"https:\/\/creativecommons.org\/licenses\/by-sa\/2.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/16_acer_griseum\/og\/5158906371_ed08a86876_b.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/16_acer_griseum\/regular\/5158906371_ed08a86876_b.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/16_acer_griseum\/medium\/5158906371_ed08a86876_b.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/16_acer_griseum\/small\/5158906371_ed08a86876_b.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/16_acer_griseum\/thumbnail\/5158906371_ed08a86876_b.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:07 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:28 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/17?key=<API_KEY>
@@ -1129,7 +1129,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:08 GMT
+      - Fri, 01 Sep 2023 18:57:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1144,7 +1144,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '255'
+      - '244'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -1170,7 +1170,7 @@ http_interactions:
         License","license_url":"https:\/\/creativecommons.org\/licenses\/by\/2.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/17_acer_japonicum\/og\/7175475239_52543c51b3_b.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/17_acer_japonicum\/regular\/7175475239_52543c51b3_b.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/17_acer_japonicum\/medium\/7175475239_52543c51b3_b.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/17_acer_japonicum\/small\/7175475239_52543c51b3_b.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/17_acer_japonicum\/thumbnail\/7175475239_52543c51b3_b.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:08 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:29 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/18?key=<API_KEY>
@@ -1192,7 +1192,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:09 GMT
+      - Fri, 01 Sep 2023 18:57:29 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1207,7 +1207,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '254'
+      - '243'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -1237,7 +1237,7 @@ http_interactions:
         License","license_url":"https:\/\/creativecommons.org\/licenses\/by\/2.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/18_acer_japonicum_aconitifolium\/og\/23528789198_c419363323_b.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/18_acer_japonicum_aconitifolium\/regular\/23528789198_c419363323_b.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/18_acer_japonicum_aconitifolium\/medium\/23528789198_c419363323_b.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/18_acer_japonicum_aconitifolium\/small\/23528789198_c419363323_b.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/18_acer_japonicum_aconitifolium\/thumbnail\/23528789198_c419363323_b.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:09 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:29 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species/details/19?key=<API_KEY>
@@ -1259,7 +1259,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Fri, 01 Sep 2023 18:25:09 GMT
+      - Fri, 01 Sep 2023 18:57:30 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -1274,7 +1274,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '300'
       X-Ratelimit-Remaining:
-      - '253'
+      - '242'
       Access-Control-Allow-Origin:
       - "*"
     body:
@@ -1301,5 +1301,5 @@ http_interactions:
         (CC0 1.0) Public Domain Dedication","license_url":"https:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/19_acer_japonicum_attaryi\/og\/pexels-photo-669323.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/19_acer_japonicum_attaryi\/regular\/pexels-photo-669323.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/19_acer_japonicum_attaryi\/medium\/pexels-photo-669323.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/19_acer_japonicum_attaryi\/small\/pexels-photo-669323.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/19_acer_japonicum_attaryi\/thumbnail\/pexels-photo-669323.jpg"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Fri, 01 Sep 2023 18:25:09 GMT
+  recorded_at: Fri, 01 Sep 2023 18:57:30 GMT
 recorded_with: VCR 6.2.0
