@@ -3,7 +3,7 @@ require "sinatra"
 require "dotenv"
 Dotenv.load
 
-class Server < Sinatra::Base
+class Backyarder < Sinatra::Base
   get "/" do
     "Welcome to Backyarder!"
   end

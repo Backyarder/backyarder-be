@@ -10,6 +10,7 @@ gem "jsonapi-serializer"
 gem "pry"
 gem "puma"
 gem "rack", "~> 2.2"
+gem "rack-test"
 gem "rake"
 gem "rerun"
 gem "sinatra", require: "sinatra/base"
@@ -26,6 +27,8 @@ end
 
 group :test do
   gem "simplecov"
+  gem "vcr"
+  gem "webmock"
 end
 
 group :production do
