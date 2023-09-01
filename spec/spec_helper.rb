@@ -36,4 +36,9 @@ VCR.configure do |config|
   config.allow_http_connections_when_no_cassette = false
   config.filter_sensitive_data("<API_KEY>") { ENV["PERENUAL_API_KEY"] }
   config.debug_logger = $stdout
+
+  config.ignore_request do |request|
+    uri = URI(request.uri)
+    uri.host == 'perenual.com' # Ignore requests to perenual.com
+  end
 end
