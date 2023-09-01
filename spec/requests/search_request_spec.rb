@@ -9,8 +9,8 @@ RSpec.describe "Search Request", type: :request do
   describe "GET /search/:q", :vcr do
     it "returns JSON data" do
       VCR.use_cassette("search_request") do
+        get "/search/maple"
         VCR.use_cassette("details") do
-          get "/search/maple"
           expect(last_response).to be_ok
           response = JSON.parse(last_response.body, symbolize_names: true)
           expect(response[:data]).to be_an(Array)
