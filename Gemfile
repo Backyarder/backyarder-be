@@ -10,6 +10,7 @@ gem "jsonapi-serializer"
 gem "pry"
 gem "puma"
 gem "rack", "~> 2.2"
+gem "rack-cors", require: "rack/cors"
 gem "rack-test"
 gem "rake"
 gem "rerun"
@@ -18,7 +19,6 @@ gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "sqlite3"
 gem "tux"
-gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   gem "database_cleaner-active_record"

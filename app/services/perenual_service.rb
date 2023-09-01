@@ -15,4 +15,8 @@ class PerenualService
   def detail_search(plant_id)
     get_url("species/details/#{plant_id}?key=#{ENV['PERENUAL_API_KEY']}")
   end
+
+  def maintenance_search(plant_id)
+    get_url("species-care-guide-list?species_id=#{plant_id}&key=#{ENV['PERENUAL_API_KEY']}&page=1")
+  end
 end
