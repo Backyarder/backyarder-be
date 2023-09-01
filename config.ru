@@ -7,12 +7,14 @@ require "rack/cors"
 
 use Rack::Cors do
   allow do
-    if ENV['RACK_ENV'] == 'production'
-      origins 'https://your-production-frontend.com'
+    if ENV['RACK_ENV'] == 'development'
+      origins 'https://localhost:3000'
+    elsif ENV['RACK_ENV'] == 'test'
+      origins 'https://localhost:3000'
     elsif ENV['RACK_ENV'] == 'staging'
-      origins 'https://your-staging-frontend.com'
+      origins 'https://localhost:3000'
     else
-      origins '*'  # for development and test
+      origins '*'
     end
 
     resource '*', :headers => :any, :methods => [:get, :post, :options]
