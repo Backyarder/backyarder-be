@@ -58,6 +58,6 @@ class Backyarder < Sinatra::Base
 
   #   maintenance = PerenualService.new.maintenance_search(params[:id])
   #   plant.watering_description = maintenance[:watering_description]
-  #   plant.sunlight_description = maintenance[:sunlight_description]
-  end
+  # #   plant.sunlight_description = maintenance[:sunlight_description]
+  # end
 end
