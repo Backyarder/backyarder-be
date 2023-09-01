@@ -15,16 +15,16 @@ class Server < Sinatra::Base
       Search.new(a)
     end
 
-    type = search[0..4].map do |s|
-      if s.plant_id <= 3000
-        show = PerenualService.new.detail_search(s.plant_id)
-        s.hardiness = show[:hardiness]
-        s.image = show.dig(:default_image, :thumbnail)
-        s.type = show[:type]
-        s.sunlight = show[:sunlight]
+    type = search[0..9].map do |s|
+      next if s.plant_id > 3000
 
-        s
-      end
+      show = PerenualService.new.detail_search(s.plant_id)
+      s.hardiness = show[:hardiness]
+      s.image = show.dig(:default_image, :thumbnail)
+      s.type = show[:type]
+      s.sunlight = show[:sunlight]
+
+      s
     end
 
     json SearchSerializer.new(type)

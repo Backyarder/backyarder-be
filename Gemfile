@@ -3,6 +3,9 @@ source "https://rubygems.org"
 ruby "3.2.2"
 
 gem "activerecord"
+gem "dotenv"
+gem "faraday"
+gem "json"
 gem "jsonapi-serializer"
 gem "pry"
 gem "puma"
@@ -14,9 +17,6 @@ gem "sinatra-activerecord"
 gem "sinatra-contrib"
 gem "sqlite3"
 gem "tux"
-gem "faraday"
-gem "json"
-gem "dotenv"
 
 group :development, :test do
   gem "database_cleaner-active_record"
@@ -30,4 +30,3 @@ end
 group :production do
   gem "pg"
 end
-
