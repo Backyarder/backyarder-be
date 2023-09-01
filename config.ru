@@ -7,18 +7,18 @@ require "rack/cors"
 
 use Rack::Cors do
   allow do
-    if ENV['RACK_ENV'] == 'development'
-      origins 'https://localhost:3000'
-    elsif ENV['RACK_ENV'] == 'test'
-      origins 'https://localhost:3000'
-    elsif ENV['RACK_ENV'] == 'staging'
-      origins 'https://localhost:3000'
+    if ENV["RACK_ENV"] == "development"
+      origins "https://localhost:3000"
+    elsif ENV["RACK_ENV"] == "test"
+      origins "https://localhost:3000"
+    elsif ENV["RACK_ENV"] == "staging"
+      origins "https://localhost:3000"
     else
-      origins '*'
+      origins "*"
     end
 
-    resource '*', :headers => :any, :methods => [:get, :post, :options]
+    resource "*", :headers => :any, :methods => [:get, :post, :options]
   end
 end
 
-run Backyarder
+map("/api/v1") { run Backyarder }

@@ -1,6 +1,8 @@
 require "bundler"
 Bundler.require
 
+# require "./app/server.rb"
+
 # get the path of the root of the app
 APP_ROOT = File.expand_path("..", __dir__)
 

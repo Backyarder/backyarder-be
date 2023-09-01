@@ -1,6 +1,7 @@
 require "json"
 require "sinatra"
 require "dotenv"
+
 Dotenv.load
 
 class Backyarder < Sinatra::Base
@@ -30,7 +31,7 @@ class Backyarder < Sinatra::Base
     json ListSerializer.new(type)
   end
 
-  get "/index" do
+  get "/plants" do
     json = JSON.parse(File.read("mock_json/index.json"), symbolize_names: true)[:data]
 
     type = json.map do |result|
@@ -52,12 +53,13 @@ class Backyarder < Sinatra::Base
     json ListSerializer.new(plants)
   end
 
-  # get "/show/:id" do
-  #   show = PerenualService.new.detail_search(params[:id])
-  #   plant = Detail.new(show)
+  get "/plants/:id" do
+    show = PerenualService.new.detail_search(params[:id])
+    plant = Detail.new(show)
 
-  #   maintenance = PerenualService.new.maintenance_search(params[:id])
-  #   plant.watering_description = maintenance[:watering_description]
-  # #   plant.sunlight_description = maintenance[:sunlight_description]
-  # end
+    maintenance = PerenualService.new.maintenance_search(params[:id])[:data][0]
+    plant.section = maintenance[:section]
+
+    json DetailSerializer.new(plant)
+  end
 end
