@@ -27,7 +27,7 @@ class Server < Sinatra::Base
       plant
     end
 
-    json SearchSerializer.new(type)
+    json ListSerializer.new(type)
   end
 
   get "/index" do
@@ -40,16 +40,15 @@ class Server < Sinatra::Base
     plants = type.map do |plant|
       next if plant.plant_id > 3000
 
-      plant_details = JSON.parse(File.read("mock_json/details/#{plant[:id]}.json"), symbolize_names: true)[:data]
-      plant.hardiness = show[:hardiness]
-      plant.image = show.dig(:default_image, :thumbnail)
-      plant.type = show[:type]
-      plant.sunlight = show[:sunlight]
+      plant_details = JSON.parse(File.read("mock_json/details/#{plant.plant_id}.json"), symbolize_names: true)
+      plant.hardiness = plant_details[:hardiness]
+      plant.image = plant_details.dig(:default_image, :thumbnail)
+      plant.type = plant_details[:type]
+      plant.sunlight = plant_details[:sunlight]
 
       plant
     end
 
-    json SearchSerializer.new(plants)
+    json ListSerializer.new(plants)
   end
-
 end
