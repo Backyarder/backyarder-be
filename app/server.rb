@@ -63,6 +63,10 @@ class Backyarder < Sinatra::Base
     json DetailSerializer.new(plant)
   end
 
+  get "/garden" do
+    json CellSerializer.new(Cell.all)
+  end
+
   patch "/cell" do
     params = JSON.parse(request.body.string, symbolize_names: true)
     cell = Cell.find_by(location_id: params[:location_id])
