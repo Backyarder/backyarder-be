@@ -20,4 +20,3 @@ RSpec.describe Plant, type: :poro do
     end
   end
 end
-
