@@ -7,8 +7,9 @@ test:
   database: db/backyarder-test
 
 production:
-  adapater: postgresql
-  database: backyarder
-  username: username
-  password: N0LYc3B2GVWxwY7RYiV3aQBru9L05FV8
-  host: dpg-cjn5vllhe99c73bdg7s0-a
+  adapter: postgresql
+  database: d7b4h2udgt8lof
+  username: thvwiironkprcm
+  password: ced5159bf0e97f398837a83c235ec1a655658eaf5ab0fa49896bf60204cf48ee
+  host: ec2-54-211-177-159.compute-1.amazonaws.com
+  port: 5432

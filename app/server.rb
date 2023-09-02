@@ -78,4 +78,18 @@ class Backyarder < Sinatra::Base
 
     json CellSerializer.new(cell)
   end
+
+  get "/garden-stats" do
+    cells = Cell.all
+    response = {}
+    cells.each do |cell|
+      if response[cell.plant_name]
+        response[cell.plant_name] += 1
+      else
+        response[cell.plant_name] = 1
+      end
+    end
+
+    json response
+  end
 end
