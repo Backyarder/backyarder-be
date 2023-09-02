@@ -1,3 +1,75 @@
+
+# Backyarder - BE
+
+## Deployed at: https://backyarder-be-47454958a7d2.herokuapp.com/
+
+
+## Authors
+
+### Kim Bergstrom
+#### [GitHub](https://github.com/kbergstrom78) | [LinkedIn](https://www.linkedin.com/in/kimberley-bergstrom/)
+
+### Boston Lowrey
+#### [GitHub](https://github.com/BLowrey24) | [LinkedIn](https://www.linkedin.com/in/boston-lowrey/)
+
+### Myles Nottingham
+#### [GitHub](https://github.com/MylesNottingham) | [LinkedIn](https://www.linkedin.com/in/mylesnottingham/)
+
+### Austin Woods
+#### [GitHub](https://github.com/boomclear) | [LinkedIn](https://www.linkedin.com/in/austin-woods-1830aa195/)
+
+## Tech Stack
+
+**Server:** 
+ - Ruby (language)
+ - Sinatra (framework)
+
+## Gems
+
+- dotenv-rails
+  - Documentation for dotenv-rails can be found here: https://www.rubydoc.info/gems/dotenv-rails/2.1.1
+     
+- Faraday
+  - Used for HTTP request to APIs 
+  - Documentation for Faraday can be found here: https://lostisland.github.io/faraday/#/
+
+- Figaro
+  - Used to mask API key(s) from files. 
+  - Documentation for Figaro can be found here: https://rubygems.org/gems/figaro/versions/1.1.1
+
+- jsonapi-serializer
+ - Provides fast JSON serialization of API objects according to the JSON:API specification.
+ - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0
+
+- pg
+    - Provides support for using PostgreSQL as your database.
+    - Documentation for pg can be found at: https://www.rubydoc.info/gems/pg
+- Rack
+    - A low-level interface for web frameworks in Ruby, providing the underlying functionality used by Sinatra and Rails.
+    - Documentation for Rack can be found at: https://www.rubydoc.info/gems/rack/Rack
+
+- rack-cors
+    - Middleware for handling Cross-Origin Resource Sharing (CORS) in Rack-compatible web apps.
+    - Documentation for rack-cors can be found here: https://www.rubydoc.info/gems/rack-cors/0.4.0
+
+- rack-test
+    - Provides methods for testing Rack-based apps.
+    - Documentation for rack-test can be found at: https://www.rubydoc.info/github/brynary/rack-test/Rack/Test/Methods
+
+- Tux
+    - A command-line tool for interacting with your Sinatra app's environment.
+    - Documentation for Tux can be found here: https://github.com/cldwalker/tux
+
+## Installation
+- Backyarder-BE requires an API key from the Perenual.com.  You can follow the steps to get the required credentials at: https://perenual.com/docs/api
+  - Once you have the required credentials, make an .env file at the root directory and put the credentials in that .env file.
+   - PERENUAL_API_KEY = <Your_api_key>
+- 
+
+
+
+
+
 ### Get info for one plant
  GET '/api/v1/plants/:id’
 
