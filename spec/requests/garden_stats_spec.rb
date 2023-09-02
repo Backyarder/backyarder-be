@@ -17,7 +17,7 @@ RSpec.describe "Search Request", type: :request do
 
           expect(response).to be_successful
           json_response = JSON.parse(response.body, symbolize_names: true)
-          expect(json_response).to eq({ :"Green Leaf"=>3 })
+          expect(json_response).to eq({ :"Green Leaf" => {:count=>2, :image=>"https://perenual.com/storage/species_image/1_abies_alba/small/1536px-Abies_alba_SkalitC3A9.jpg"} })
         end
       end
     end
