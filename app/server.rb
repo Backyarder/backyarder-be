@@ -67,13 +67,15 @@ class Backyarder < Sinatra::Base
     params = JSON.parse(request.body.string, symbolize_names: true)
     cell = Cell.find_by(location_id: params[:location_id])
 
-    if params[:action] == "remove_plant"
+    case params[:action]
+    when "remove_plant"
       cell.update(status: :empty, plant_id: nil, image: nil, plant_name: nil)
+    when "disable_cell"
+      cell.update(status: :disabled)
     else
       cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], plant_name: params[:plant_name])
     end
 
     json CellSerializer.new(cell)
-    # end
   end
 end
