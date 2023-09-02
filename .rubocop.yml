@@ -83,4 +83,6 @@ Lint/UselessAssignment:
 
 Style/CaseLikeIf:
   Enabled: false
-  
+
+Style/WordArray:
+  Enabled: false
