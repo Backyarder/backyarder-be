@@ -82,4 +82,8 @@ class Backyarder < Sinatra::Base
   delete "/garden" do
     Cell.where(status: :placed).update_all(status: :empty, plant_id: nil, image: nil, plant_name: nil)
   end
+
+  delete "/all" do
+    Cell.update_all(status: :empty, plant_id: nil, image: nil, plant_name: nil)
+  end
 end
