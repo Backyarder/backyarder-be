@@ -20,4 +20,26 @@ RSpec.describe Cell, type: :model do
       expect(cell).to_not be_valid
     end
   end
+
+  describe "status enums" do
+    it "should have a status empty" do
+      cell = Cell.create!(location_id: "A1", status: :empty)
+      expect(cell.empty?).to be_truthy
+    end
+
+    it "should have a status placed" do
+      cell = Cell.create!(location_id: "A1", status: :placed)
+      expect(cell.placed?).to be_truthy
+    end
+
+    it "should have a status disabled" do
+      cell = Cell.create!(location_id: "A1", status: :disabled)
+      expect(cell.disabled?).to be_truthy
+    end
+
+    it "should have a status locked" do
+      cell = Cell.create!(location_id: "A1", status: :locked)
+      expect(cell.locked?).to be_truthy
+    end
+  end
 end

@@ -66,7 +66,13 @@ class Backyarder < Sinatra::Base
   patch "/cell" do
     params = JSON.parse(request.body.string, symbolize_names: true)
     cell = Cell.find_by(location_id: params[:location_id])
-    cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], plant_name: params[:plant_name])
+
+    if params[:action] == "remove_plant"
+      cell.update(status: :empty, plant_id: nil, image: nil, plant_name: nil)
+    else
+      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], plant_name: params[:plant_name])
+    end
+
     json CellSerializer.new(cell)
     # end
   end
