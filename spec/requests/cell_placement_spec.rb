@@ -48,5 +48,19 @@ RSpec.describe "Search Request", type: :request do
       expect(json_response[:data][:attributes][:image]).to be_nil
       expect(json_response[:data][:attributes][:plant_name]).to be_nil
     end
+
+    it "disables the cell and sets the status to disabled" do
+      cell = Cell.create!(location_id: "A1", status: :empty)
+
+      cell_params = { action: 'disable_cell', location_id: "A1" }
+      headers = { "CONTENT_TYPE" => "application/json" }
+
+      response = patch "/cell", JSON.generate(cell_params), headers
+
+      expect(response).to be_successful
+      json_response = JSON.parse(response.body, symbolize_names: true)
+
+      expect(json_response[:data][:attributes][:status]).to eq("disabled")
+    end
   end
 end
