@@ -20,7 +20,7 @@
 
 ## Tech Stack
 
-**Server:** 
+**Server:**
  - Ruby (language)
  - Sinatra (framework)
 
@@ -28,13 +28,13 @@
 
 - dotenv-rails
   - Documentation for dotenv-rails can be found here: https://www.rubydoc.info/gems/dotenv-rails/2.1.1
-     
+
 - Faraday
-  - Used for HTTP request to APIs 
+  - Used for HTTP request to APIs
   - Documentation for Faraday can be found here: https://lostisland.github.io/faraday/#/
 
 - Figaro
-  - Used to mask API key(s) from files. 
+  - Used to mask API key(s) from files.
   - Documentation for Figaro can be found here: https://rubygems.org/gems/figaro/versions/1.1.1
 
 - jsonapi-serializer
@@ -64,138 +64,294 @@
 - Backyarder-BE requires an API key from the Perenual.com.  You can follow the steps to get the required credentials at: https://perenual.com/docs/api
   - Once you have the required credentials, make an .env file at the root directory and put the credentials in that .env file.
    - PERENUAL_API_KEY = <Your_api_key>
-- 
+-
 
 
 
 
+## API Reference
 
-### Get info for one plant
- GET '/api/v1/plants/:id’
+### Get API check
+GET '/api/v1/'
+
+Response:
+```
+Welcome to Backyarder!
+```
+
+### Get Plant Index
+GET '/api/v1/plants'
+
+Response:
+```
+{
+  "data": [
+    {
+      "id": null,
+      "type": "list",
+      "attributes": {
+        "image": "https://perenual.com/storage/species_image/2692_echinacea_tomato_soup/thumbnail/red-orange-echinacea-echinacea-cone-flower-medicinal.jpg",
+        "name": "coneflower",
+        "hardiness": {
+          "min": "3",
+          "max": "8"
+        },
+        "type": "Flower",
+        "sunlight": [
+          "Full sun",
+          "part shade"
+        ],
+        "plant_id": 2692
+      }
+    },
+    {
+      "id": null,
+      "type": "list",
+      "attributes": {
+        "image": "https://perenual.com/storage/species_image/2699_echinops_ritro/thumbnail/52315581367_1406967d9d_b.jpg",
+        "name": "small globe thistle",
+        "hardiness": {
+          "min": "3",
+          "max": "8"
+        },
+        "type": "Thistle",
+        "sunlight": [
+          "Full sun"
+        ],
+        "plant_id": 2699
+      }
+    },
+    // ... (more plant objects)
+  ]
+}
+```
+
+### Get Plant Details
+GET '/api/v1/plants/:id’
 
 Request:
 ```
-  {
-    "plantId": 1
-  }
+{
+  "plant_id": 1
+}
 ```
+
  Response:
 ```
 {
-  data: {
-    {
-      "id": 1,
-      "image": "https://perenual.com/storage/species_image/1_abies_alba/og/1536px-Abies_alba_SkalitC3A9.jpg",
+  "data": {
+    "id": null,
+    "type": "detail",
+    "attributes": {
+      "plant_id": 1,
+      "image": "https://perenual.com/storage/species_image/1_abies_alba/regular/1536px-Abies_alba_SkalitC3A9.jpg",
       "common_name": "European Silver Fir",
-      "scientific_name": ["Abies alba"],
+      "scientific_name": [
+        "Abies alba"
+      ],
       "type": "tree",
-      "leaf_color": ["green"],
+      "leaf_color": [
+        "green"
+      ],
       "cycle": "Perennial",
       "watering": "Frequent",
-      "sunlight": ["full sun"],
+      "sunlight": [
+        "full sun"
+      ],
       "hardiness": {
         "min": "7",
         "max": "7"
       },
-      "section": [
-        {
-          "id": 1,
-          "type": "sunlight",
-          "description": "Sunlight is the most important environmental factor..."
-        },
-        {
-          "id": 3,
-          "type": "watering",
-          "description": "Watering European silver fir trees is essential..."
-        }
+      "pruning_month": [
+        "February",
+        "March",
+        "April"
       ],
-      "pruning_month": ["March", "April"],
-      "attracts": ["bees", "birds", "rabbits"],
-      "flowering_season": ["Spring"],
+      "attracts": [],
+      "flowering_season": [],
       "edible_fruit": false,
-      "maintenance": "Low",
+      "maintenance": null,
       "poisonous_to_pets": false,
       "drought_tolerant": false,
       "invasive": false,
-      "indoor": false
+      "indoor": false,
+      "section": [
+        {
+          "id": 109,
+          "type": "watering",
+          "description": "European Silver Fir 'Abies Alba' should be watered about once a week, depending on the season and weather conditions. During the growing season (spring to mid-summer), water deeply and thoroughly. For the rest of the year, water only when the soil is dry. When watering, ensure that the root system is saturated. Do not over-water, as this can lead to root rot."
+        },
+        {
+          "id": 110,
+          "type": "sunlight",
+          "description": "European Silver Fir 'Abies Alba' is a species of coniferous tree that grows best in sunny areas. This species of plant requires a minimum of 6 hours of sunlight per day throughout the growing season. Ideally, it should receive up to 8 hours of direct sunlight in the summer months, and 4-5 hours of sunlight in the winter. It is important to note that European Silver Fir 'Abies Alba' is not tolerant of shade and may be damaged if exposed to too much shade."
+        },
+        {
+          "id": 111,
+          "type": "pruning",
+          "description": "European Silver Fir should be pruned in the late winter to early spring months. This species should be pruned lightly and selectively, removing any dead, diseased, or broken branches. Foliage and branches that cross over 1 another should also be removed. Generally, pruning should not exceed 1/3 of the total height and width of the tree. When pruning, begin from the bottom of the tree and steadily move upwards."
+        }
+      ]
     }
   }
 }
 ```
-### Get a list of plants
- GET '/api/v1/plants'
+
+### Get Garden
+GET '/api/v1/garden'
+
  Response:
 ```
-  {
-    data: [
-        {
-            "id": 1,
-            "name": "European Silver Fir",
-            "image_thumbnail": "https://perenual.com/storage/species_image/1_abies_alba/thumbnail/1536px-Abies_alba_SkalitC3A9.jpg",
-            "type": "tree",
-            "sunlight": ["full sun"],
-            "hardiness": "2"
-        },
-        {
-            "id": 2,
-            "name": "Another Plant",
-            "image_thumbnail": "https://example.com/path/to/thumbnail.jpg",
-            "type": "flower",
-            "sunlight": ["partial shade"],
-            "hardiness": "4"
-        },
-        // ... (more plant objects)
-    ]
-  }
-```
-### Place a plant
- PATCH /api/v1/placement 
-```
 {
-  cell: "C4",
-  plant_id: 1,
-  status: false
+  "data": [
+    {
+      "id": "501",
+      "type": "cell",
+      "attributes": {
+        "image": null,
+        "plant_name": null,
+        "location_id": "A1",
+        "status": "empty",
+        "plant_id": null,
+        "updated_at": "09/02/2023 20:45"
+        }
+    },
+    {
+      "id": "502",
+      "type": "cell",
+      "attributes": {
+        "image": null,
+        "plant_name": null,
+        "location_id": "A2",
+        "status": "empty",
+        "plant_id": null,
+        "updated_at": "09/02/2023 20:45"
+      }
+    },
+    {
+      "id": "503",
+      "type": "cell",
+      "attributes": {
+        "image": null,
+        "plant_name": null,
+        "location_id": "A3",
+        "status": "empty",
+        "plant_id": null,
+        "updated_at": "09/02/2023 20:45"
+      }
+    },
+    // ... (more cell objects)
+  ]
 }
 ```
-200 Response
+
+### Patch a Cell
+PATCH /api/v1/cell
+
+#### Place a Plant
 ```
-{ "data": {
-    "id": 1,
-    "type": "placement",
+{
+  "location_id": "A1",
+  "status": 1,
+  "plant_id": 13,
+  "image": "image_url",
+  "plant_name": "Weedy Weed"
+}
+```
+
+200 Response
+
+```
+{
+  "data": {
+    "id": "501",
+    "type": "cell",
     "attributes": {
-      "cell": "C4",
-      "plant_id": 1,
-      "plant_image": "www.google.com",
-      "sunlight": "low",
-      "common_name": "Tree",
-      "scientific_name": "Treesius",
-      "watering_period": "morning",
-      "watering_general_benchmark": "5-7 days",
-      "type": "tree",
-      "sunlight": "Part shade",
-      "pruning_interval": "1 yearly",
-      "attracts":[
-        "bees",
-        "birds",
-        "rabbits"
-      ],
-      "flowers": true,
-      "flowering_season": "Spring",
-      "fruits": false,
-      "edible_fruit": false,
-      "growth_rate": "High",
-      "maintenance": "Low",
-      "poisonous_to_humans": false,
-      "poisonous_to_pets": false,
-      "drought_tolerant": false,
-      "sunlight_description": "Sunlight is the most important environmental factor controlling the growth and health of European silver fir (Abies alba). This species naturally grows in open, sunny habitats and is adapted to full sunlight or partial shade. Without adequate sunlight, the needles of a silver fir will fail to produce adequate amounts of chlorophyll, a key determinant of essential photosynthesis.\n\nWhen exposed to sunlight, the foliage of a European silver fir is usually thick, dense and lush. The needles are usually a deep green color, although in some areas the needles may take on a bluish hue. Sun-exposed needles are typically more abundant and tightly packed than those in more shaded areas. Furthermore, needles of silver fir trees normally grow more rapidly when exposed to direct sunlight.\n\nThe bark of a European silver fir exposed to direct sunlight typically has a more rugged and weathered appearance. Sun-exposed bark may contain lichens and moss, which act as a natural form of sun protection. In areas where the silver fir is shaded, the bark is typically smoother and lighter in color.\n\nSunlight is essential for the optimal growth and health of a European silver fir. Although this species can survive in both full sun and partial shade, it typically performs best when exposed to adequate sunlight.",
-      "watering_description": "Watering European silver fir trees is essential for them to stay healthy. It is important to provide them with regular watering, especially during their first growing season, as they need to establish a good root system. A weekly deep watering is all they need, but they should be more frequently watered during periods of drought and heat. The soil should always be kept moist but never soggy.\n\nIf they are planted in a container, they should be watered more frequently as they can dry out quickly in containers. The soil should be kept moist but never overly wet. Overwatering can lead to root rot, so be sure not to overwater. When watering a container grown European Silver Fir, wait for the top 1-2 inches of soil to dry out before watering again.\n\nMulching around a European silver fir is a great way to help with water retention and help the soil stay moist. An organic mulch, such as wood chips or shredded bark, can help to keep the soil from drying out and also help reduce the amount of time spent watering. It also helps suppress weeds and keeps the roots protected from extreme temperatures.\n\nOverall, regular and consistent watering is important for young European silver fir trees to help them grow and thrive."
-                },
-      "hardiness": {
-          "min": "7",
-          "max": "7"
-      },
-      "status": "planted"
+      "image": "image_url",
+      "plant_name": "Weedy Weed",
+      "location_id": "A1",
+      "status": "placed",
+      "plant_id": 13,
+      "updated_at": "09/02/2023 23:11"
+    }
   }
+}
+```
+
+#### Remove a Plant
+```
+{
+  "location_id": "A1",
+  "action": "remove_plant"
+}
+```
+
+200 Response
+
+```
+{
+  "data": {
+    "id": "501",
+    "type": "cell",
+    "attributes": {
+      "image": null,
+      "plant_name": null,
+      "location_id": "A1",
+      "status": "empty",
+      "plant_id": null,
+      "updated_at": "09/02/2023 23:17"
+    }
+  }
+}
+```
+
+#### Disable a Cell
+```
+{
+  "location_id": "A2",
+  "action": "disable_cell"
+}
+```
+
+200 Response
+
+```
+{
+  "data": {
+    "id": "502",
+    "type": "cell",
+    "attributes": {
+      "image": null,
+      "plant_name": null,
+      "location_id": "A2",
+      "status": "disabled",
+      "plant_id": null,
+      "updated_at": "09/02/2023 23:20"
+    }
+  }
+}
+```
+
+### Delete Garden
+DELETE /api/v1/garden
+(Clears all cells in the garden with status of 'placed')
+
+200 Response
+
+### Delete All
+DELETE /api/v1/all
+(Clears all cells in the garden)
+
+200 Response
+
+### Get Garden Stats
+GET /api/v1/garden-stats
+
+Response
+```
+{
+  "Bushy Bush": { "count": 2, "image": "image_url_1" },
+  "Weedy Weed": { "count": 5, "image": "image_url_2" },
+  "Treey Tree": { "count": 1, "image": "image_url_3" }
 }
 ```
