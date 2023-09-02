@@ -1,6 +1,6 @@
 require "spec_helper"
 
-RSpec.describe "Plant details request", type: :request do
+RSpec.describe "Delete Garden request", type: :request do
   include Rack::Test::Methods
   def app
     Backyarder
