@@ -101,7 +101,7 @@ class Backyarder < Sinatra::Base
     cells.each do |cell|
       if response[cell.plant_name]
         response[cell.plant_name][:count] += 1
-      else
+      elsif cell.plant_name != nil
         api_call = PerenualService.new.detail_search(cell.plant_id)
         response[cell.plant_name] = { image: api_call[:default_image][:small_url], count: 1 }
       end
