@@ -56,7 +56,6 @@ class Backyarder < Sinatra::Base
   get "/plants/:id" do
     show = PerenualService.new.detail_search(params[:id])
     plant = Detail.new(show)
-
     maintenance = PerenualService.new.maintenance_search(params[:id])[:data][0]
     plant.section = maintenance[:section]
 
