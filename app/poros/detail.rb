@@ -24,7 +24,7 @@ class Detail
 
   def initialize(data)
     @plant_id = data[:id]
-    @image = data[:default_image][:regular_url]
+    @image = data.dig(default_image, :regular_url)
     @plant_name = data[:common_name]
     @scientific_name = data[:scientific_name]
     @type = data[:type]
