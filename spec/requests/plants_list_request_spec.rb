@@ -20,8 +20,8 @@ RSpec.describe "Plant list request", type: :request do
 
       expect(response[:data][0][:attributes]).to have_key(:image)
       expect(response[:data][0][:attributes][:image]).to be_a String
-      expect(response[:data][0][:attributes]).to have_key(:name)
-      expect(response[:data][0][:attributes][:name]).to be_a String
+      expect(response[:data][0][:attributes]).to have_key(:plant_name)
+      expect(response[:data][0][:attributes][:plant_name]).to be_a String
       expect(response[:data][0][:attributes]).to have_key(:hardiness)
       expect(response[:data][0][:attributes][:hardiness]).to be_a Hash
       expect(response[:data][0][:attributes]).to have_key(:type)

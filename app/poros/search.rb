@@ -2,7 +2,7 @@ class Search
   attr_accessor :sunlight,
                 :hardiness,
                 :image,
-                :name,
+                :plant_name,
                 :type
 
   attr_reader :id,
@@ -13,7 +13,7 @@ class Search
     @hardiness = nil
     @plant_id = data[:species_id]
     @image = nil
-    @name = data[:common_name]
+    @plant_name = data[:common_name]
     @type = data[:type]
     @id = nil
   end

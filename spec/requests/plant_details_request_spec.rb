@@ -22,8 +22,8 @@ RSpec.describe "Plant details request", type: :request do
         expect(response[:data][:attributes][:plant_id]).to eq(225)
         expect(response[:data][:attributes]).to have_key(:image)
         expect(response[:data][:attributes][:image]).to be_a String
-        expect(response[:data][:attributes]).to have_key(:common_name)
-        expect(response[:data][:attributes][:common_name]).to be_a String
+        expect(response[:data][:attributes]).to have_key(:plant_name)
+        expect(response[:data][:attributes][:plant_name]).to be_a String
         expect(response[:data][:attributes]).to have_key(:scientific_name)
         expect(response[:data][:attributes][:scientific_name]).to be_an Array
         expect(response[:data][:attributes][:scientific_name][0]).to be_a String

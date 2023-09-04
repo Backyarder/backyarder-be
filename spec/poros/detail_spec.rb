@@ -141,7 +141,7 @@ RSpec.describe Detail, type: :poro do
       expect(detail.id).to be_nil
       expect(detail.plant_id).to eq(3000)
       expect(detail.image).to eq("https://perenual.com/storage/species_image/3000_forsythia_viridissima_bronxensis/regular/26170857033_214e4fbb27_b.jpg")
-      expect(detail.common_name).to eq("greenstem forsythia")
+      expect(detail.plant_name).to eq("greenstem forsythia")
       expect(detail.scientific_name).to eq(["Forsythia viridissima 'Bronxensis'"])
       expect(detail.type).to eq("Deciduous shrub")
       expect(detail.leaf_color).to eq(["green"])

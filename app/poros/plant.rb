@@ -2,7 +2,7 @@ class Plant
   attr_accessor :sunlight,
                 :hardiness,
                 :image,
-                :name,
+                :plant_name,
                 :type
 
   attr_reader :id,
@@ -13,7 +13,7 @@ class Plant
     @hardiness = nil
     @plant_id = data[:id]
     @image = nil
-    @name = data[:common_name]
+    @plant_name = data[:common_name]
     @type = nil
     @id = nil
   end

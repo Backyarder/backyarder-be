@@ -12,7 +12,7 @@ RSpec.describe Plant, type: :poro do
 
       expect(plant.id).to be_nil
       expect(plant.plant_id).to eq(1)
-      expect(plant.name).to eq("Maple")
+      expect(plant.plant_name).to eq("Maple")
       expect(plant.sunlight).to be_nil
       expect(plant.hardiness).to be_nil
       expect(plant.image).to be_nil
