@@ -2,7 +2,7 @@
 # Backyarder - BE
 
 ## Deployed at: https://backyarder-be-47454958a7d2.herokuapp.com/
-
+[![rspec](https://github.com/Backyarder/backyarder-be/actions/workflows/run-specs.yml/badge.svg)](https://github.com/Backyarder/backyarder-be/actions/workflows/run-specs.yml)
 
 ## Authors
 
@@ -38,8 +38,8 @@
   - Documentation for Figaro can be found here: https://rubygems.org/gems/figaro/versions/1.1.1
 
 - jsonapi-serializer
- - Provides fast JSON serialization of API objects according to the JSON:API specification.
- - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0
+  - Provides fast JSON serialization of API objects according to the JSON:API specification.
+  - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0 
 
 - pg
     - Provides support for using PostgreSQL as your database.
@@ -61,13 +61,64 @@
     - Documentation for Tux can be found here: https://github.com/cldwalker/tux
 
 ## Installation
+
+### Prerequisites
+- Ensure Ruby is installed on your local machine
+- Bundler is used for managing Ruby gem dependencies
+- Install and setup PostgreSQL
+
+### Clone the repository
+``` 
+git clone git@github.com:Backyarder/backyarder-be.git
+cd backyarder-be
+```
+
+```
+bundle install
+```
+
+### Database setup
+run ``` rake db:migrate ``` <br>
+run ``` rake db:seed ``` <br>
+
+### Configuration
 - Backyarder-BE requires an API key from the Perenual.com.  You can follow the steps to get the required credentials at: https://perenual.com/docs/api
   - Once you have the required credentials, make an .env file at the root directory and put the credentials in that .env file.
    - PERENUAL_API_KEY = <Your_api_key>
--
 
+## Startup
+- Service is configured to startup locally using port 9292
+- Start service by running the command:
+``` bundle exec puma ```
 
+## Testing
+- Set the test environment
+``` export RACK_ENV=test ``` <br>
+- Run the test suite
+``` bundle exec rspec spec ``` <br>
 
+## Consumed APIs
+This project interacts with  external APIs to provide additional functionality and data. Below are the details of the APIs consumed:
+### Perenual API
+#### Documentation: https://perenual.com/docs/api
+- **Endpoint**: https://perenual.com/api/species-list?page=1&key=<YOUR_KEY>
+- **Usage**: Retrieve plant information including names, cycle, watering, and images
+  <br>
+  <br>
+- **Endpoint**: https://perenual.com/api/species-list?page=1&key=](https://perenual.com/api/species/details/[ID]?key=<YOUR_KEY>
+- **Usage**: Retrieve additional plant information for a specific plant
+  <br>
+  <br>
+- **Endpoint**: https://perenual.com/api/species-care-guide-list?key=<YOUR_KEY>
+- **Usage**: Deatailed care information for plants including watering and sunlight requirements
+
+## Continuous Integration
+Our project uses GitHub Actions for Continuous Integration. This ensures that every pull request and commit is tested against our suite of tests, ensuring code quality and functionality.
+
+### Workflow Details
+- Test Suite: Our tests are run using RSpec. Every PR or push to the main branch triggers the test suite.
+- Linting & Code Quality: We use Rubocop to ensure code quality.
+- On successful tests and code checks, the code is deployed to https://backyarder-be-47454958a7d2.herokuapp.com/
 
 ## API Reference
 
