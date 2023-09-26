@@ -13,6 +13,7 @@ RSpec.describe Search, type: :poro do
 
       expect(search.sunlight).to be_nil
       expect(search.hardiness).to be_nil
+      expect(search.watering).to be_nil
       expect(search.plant_id).to eq(1)
       expect(search.image).to be_nil
       expect(search.plant_name).to eq("Sample Plant")

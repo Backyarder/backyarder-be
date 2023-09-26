@@ -28,6 +28,8 @@ RSpec.describe "Search Request", type: :request do
           expect(plant[:attributes][:plant_name]).to be_a String
           expect(plant[:attributes]).to have_key(:hardiness)
           expect(plant[:attributes][:hardiness]).to be_a Hash
+          expect(plant[:attributes]).to have_key(:watering)
+          expect(plant[:attributes][:watering]).to be_a String
           expect(plant[:attributes]).to have_key(:type)
           expect(plant[:attributes][:type]).to be_a String
           expect(plant[:attributes]).to have_key(:sunlight)

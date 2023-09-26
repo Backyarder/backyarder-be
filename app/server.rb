@@ -24,6 +24,7 @@ class Backyarder < Sinatra::Base
       plant.image = show.dig(:default_image, :thumbnail)
       plant.type = show[:type]
       plant.sunlight = show[:sunlight]
+      plant.watering = show[:watering]
 
       plant
     end
@@ -42,10 +43,12 @@ class Backyarder < Sinatra::Base
       next if plant.plant_id > 3000
 
       plant_details = JSON.parse(File.read("mock_json/details/#{plant.plant_id}.json"), symbolize_names: true)
+
       plant.hardiness = plant_details[:hardiness]
       plant.image = plant_details.dig(:default_image, :thumbnail)
       plant.type = plant_details[:type]
       plant.sunlight = plant_details[:sunlight]
+      plant.watering = plant_details[:watering]
 
       plant
     end

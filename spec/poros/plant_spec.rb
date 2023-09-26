@@ -15,6 +15,7 @@ RSpec.describe Plant, type: :poro do
       expect(plant.plant_name).to eq("Maple")
       expect(plant.sunlight).to be_nil
       expect(plant.hardiness).to be_nil
+      expect(plant.watering).to be_nil
       expect(plant.image).to be_nil
       expect(plant.type).to be_nil
     end

@@ -24,6 +24,8 @@ RSpec.describe "Plant list request", type: :request do
       expect(response[:data][0][:attributes][:plant_name]).to be_a String
       expect(response[:data][0][:attributes]).to have_key(:hardiness)
       expect(response[:data][0][:attributes][:hardiness]).to be_a Hash
+      expect(response[:data][0][:attributes]).to have_key(:watering)
+      expect(response[:data][0][:attributes][:watering]).to be_a String
       expect(response[:data][0][:attributes]).to have_key(:type)
       expect(response[:data][0][:attributes][:type]).to be_a String
       expect(response[:data][0][:attributes]).to have_key(:sunlight)
