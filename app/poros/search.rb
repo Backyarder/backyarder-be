@@ -1,5 +1,6 @@
 class Search
-  attr_accessor :sunlight,
+  attr_accessor :watering,
+                :sunlight,
                 :hardiness,
                 :image,
                 :plant_name,
@@ -9,6 +10,7 @@ class Search
               :plant_id
 
   def initialize(data)
+    @watering = nil
     @sunlight = nil
     @hardiness = nil
     @plant_id = data[:species_id]
