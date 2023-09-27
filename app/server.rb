@@ -79,7 +79,7 @@ class Backyarder < Sinatra::Base
     when "disable_cell"
       cell.update(status: :disabled)
     else
-      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], plant_name: params[:plant_name])
+      cell.update(status: params[:status], watering: params[:watering], plant_id: params[:plant_id], image: params[:image], plant_name: params[:plant_name])
     end
 
     json CellSerializer.new(cell)
