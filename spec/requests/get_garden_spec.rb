@@ -12,17 +12,17 @@ RSpec.describe "Get Garden request", type: :request do
       Cell.create!(location_id: "A2", status: :empty)
       Cell.create!(location_id: "A3", status: :empty)
 
-      Cell.create!(location_id: "B1", status: :placed, plant_id: 1, image: "image_url_1", plant_name: "Bushy Bush")
-      Cell.create!(location_id: "B2", status: :placed, plant_id: 2, image: "image_url_2", plant_name: "Weedy Weed")
-      Cell.create!(location_id: "B3", status: :placed, plant_id: 3, image: "image_url_3", plant_name: "Leafy Leaf")
+      Cell.create!(location_id: "B1", status: :placed, plant_id: 1, image: "image_url_1", plant_name: "Bushy Bush", watering: :Frequent)
+      Cell.create!(location_id: "B2", status: :placed, plant_id: 2, image: "image_url_2", plant_name: "Weedy Weed", watering: :Minimum)
+      Cell.create!(location_id: "B3", status: :placed, plant_id: 3, image: "image_url_3", plant_name: "Leafy Leaf", watering: :Average)
 
       Cell.create!(location_id: "C1", status: :disabled)
       Cell.create!(location_id: "C2", status: :disabled)
       Cell.create!(location_id: "C3", status: :disabled)
 
-      Cell.create!(location_id: "D1", status: :locked, plant_id: 4, image: "image_url_4", plant_name: "Mossy Moss")
-      Cell.create!(location_id: "D2", status: :locked, plant_id: 5, image: "image_url_5", plant_name: "Ferny Fern")
-      Cell.create!(location_id: "D3", status: :locked, plant_id: 6, image: "image_url_6", plant_name: "Grassy Grass")
+      Cell.create!(location_id: "D1", status: :locked, plant_id: 4, image: "image_url_4", plant_name: "Mossy Moss", watering: :None)
+      Cell.create!(location_id: "D2", status: :locked, plant_id: 5, image: "image_url_5", plant_name: "Ferny Fern", watering: :None)
+      Cell.create!(location_id: "D3", status: :locked, plant_id: 6, image: "image_url_6", plant_name: "Grassy Grass", watering: :None)
 
       expect(Cell.empty.count).to eq(3)
       expect(Cell.placed.count).to eq(3)
@@ -62,18 +62,21 @@ RSpec.describe "Get Garden request", type: :request do
       expect(json_response[:data][3][:attributes][:plant_id]).to eq(1)
       expect(json_response[:data][3][:attributes][:image]).to eq("image_url_1")
       expect(json_response[:data][3][:attributes][:plant_name]).to eq("Bushy Bush")
+      expect(json_response[:data][3][:attributes][:watering]).to eq("Frequent")
 
       expect(json_response[:data][4][:attributes][:location_id]).to eq("B2")
       expect(json_response[:data][4][:attributes][:status]).to eq("placed")
       expect(json_response[:data][4][:attributes][:plant_id]).to eq(2)
       expect(json_response[:data][4][:attributes][:image]).to eq("image_url_2")
       expect(json_response[:data][4][:attributes][:plant_name]).to eq("Weedy Weed")
+      expect(json_response[:data][4][:attributes][:watering]).to eq("Minimum")
 
       expect(json_response[:data][5][:attributes][:location_id]).to eq("B3")
       expect(json_response[:data][5][:attributes][:status]).to eq("placed")
       expect(json_response[:data][5][:attributes][:plant_id]).to eq(3)
       expect(json_response[:data][5][:attributes][:image]).to eq("image_url_3")
       expect(json_response[:data][5][:attributes][:plant_name]).to eq("Leafy Leaf")
+      expect(json_response[:data][5][:attributes][:watering]).to eq("Average")
 
       expect(json_response[:data][6][:attributes][:location_id]).to eq("C1")
       expect(json_response[:data][6][:attributes][:status]).to eq("disabled")
@@ -98,18 +101,21 @@ RSpec.describe "Get Garden request", type: :request do
       expect(json_response[:data][9][:attributes][:plant_id]).to eq(4)
       expect(json_response[:data][9][:attributes][:image]).to eq("image_url_4")
       expect(json_response[:data][9][:attributes][:plant_name]).to eq("Mossy Moss")
+      expect(json_response[:data][9][:attributes][:watering]).to eq("None")
 
       expect(json_response[:data][10][:attributes][:location_id]).to eq("D2")
       expect(json_response[:data][10][:attributes][:status]).to eq("locked")
       expect(json_response[:data][10][:attributes][:plant_id]).to eq(5)
       expect(json_response[:data][10][:attributes][:image]).to eq("image_url_5")
       expect(json_response[:data][10][:attributes][:plant_name]).to eq("Ferny Fern")
+      expect(json_response[:data][10][:attributes][:watering]).to eq("None")
 
       expect(json_response[:data][11][:attributes][:location_id]).to eq("D3")
       expect(json_response[:data][11][:attributes][:status]).to eq("locked")
       expect(json_response[:data][11][:attributes][:plant_id]).to eq(6)
       expect(json_response[:data][11][:attributes][:image]).to eq("image_url_6")
       expect(json_response[:data][11][:attributes][:plant_name]).to eq("Grassy Grass")
+      expect(json_response[:data][11][:attributes][:watering]).to eq("None")
     end
   end
 end
