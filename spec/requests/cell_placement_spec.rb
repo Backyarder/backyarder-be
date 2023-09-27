@@ -47,7 +47,7 @@ RSpec.describe "Search Request", type: :request do
       expect(json_response[:data][:attributes][:status]).to eq("empty")
       expect(json_response[:data][:attributes][:plant_id]).to be_nil
       expect(json_response[:data][:attributes][:image]).to be_nil
-      expect(json_response[:data][:attributes][:watering]).to eq("Average")
+      expect(json_response[:data][:attributes][:watering]).to be_nil
       expect(json_response[:data][:attributes][:plant_name]).to be_nil
     end
 
