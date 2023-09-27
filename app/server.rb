@@ -75,7 +75,7 @@ class Backyarder < Sinatra::Base
 
     case params[:action]
     when "remove_plant"
-      cell.update(status: :empty, plant_id: nil, image: nil, plant_name: nil)
+      cell.update(status: :empty, plant_id: nil, image: nil, plant_name: nil, watering: nil)
     when "disable_cell"
       cell.update(status: :disabled)
     else
