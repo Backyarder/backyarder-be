@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_26_190954) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_27_192708) do
   create_table "cells", force: :cascade do |t|
     t.string "plant_name"
     t.string "location_id"
@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_26_190954) do
     t.integer "plant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "watering"
   end
 
 end
