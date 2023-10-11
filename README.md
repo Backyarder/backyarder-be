@@ -39,7 +39,7 @@
 
 - jsonapi-serializer
   - Provides fast JSON serialization of API objects according to the JSON:API specification.
-  - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0 
+  - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0
 
 - pg
     - Provides support for using PostgreSQL as your database.
@@ -68,7 +68,7 @@
 - Install and setup PostgreSQL
 
 ### Clone the repository
-``` 
+```
 git clone git@github.com:Backyarder/backyarder-be.git
 cd backyarder-be
 ```
@@ -260,7 +260,7 @@ GET '/api/v1/garden'
       "type": "cell",
       "attributes": {
         "image": null,
-        "plant_name": null,
+        "name": null,
         "location_id": "A1",
         "status": "empty",
         "plant_id": null,
@@ -272,7 +272,7 @@ GET '/api/v1/garden'
       "type": "cell",
       "attributes": {
         "image": null,
-        "plant_name": null,
+        "name": null,
         "location_id": "A2",
         "status": "empty",
         "plant_id": null,
@@ -284,7 +284,7 @@ GET '/api/v1/garden'
       "type": "cell",
       "attributes": {
         "image": null,
-        "plant_name": null,
+        "name": null,
         "location_id": "A3",
         "status": "empty",
         "plant_id": null,
