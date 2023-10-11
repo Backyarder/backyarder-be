@@ -13,11 +13,12 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - run: |
         rake db:environment:set
+        export RACK_ENV=test
         bundle exec rake db:drop
         bundle exec rake db:create
         bundle exec rake db:migrate
         bundle exec rake db:seed
-        export RACK_ENV=test
+        
     - name: Run tests
       run: bundler exec rspec spec/*
 
