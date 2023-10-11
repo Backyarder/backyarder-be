@@ -12,10 +12,12 @@ jobs:
         ruby-version: '3.2.2' # Not needed with a .ruby-version file
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - run: |
+        rake db:environment:set
         bundle exec rake db:drop
         bundle exec rake db:create
         bundle exec rake db:migrate
         bundle exec rake db:seed
+        export RACK_ENV=test
     - name: Run tests
       run: bundler exec rspec spec/*
 
