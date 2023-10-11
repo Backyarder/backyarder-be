@@ -111,4 +111,17 @@ class Backyarder < Sinatra::Base
 
     json response
   end
+
+  get "/decor" do
+    unsplash_service = UnsplashService.new
+    image_data = unsplash_service.get_images('wooden fence')
+
+    image_url = image_data.dig(:results, 0, :urls, :regular) # or :full or :small based on the size you want
+
+    decor_item = DecorItem.new(image_url, "Wooden Fence", "barrier")
+
+    serialized_data = DecorItemSerializer.new(decor_item).serialized_json
+
+    json serialized_data
+  end
 end
