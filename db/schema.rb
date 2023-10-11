@@ -12,12 +12,11 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_09_27_192708) do
   create_table "cells", force: :cascade do |t|
-    t.string "name"
+    t.string "plant_name"
     t.string "location_id"
     t.string "image"
     t.integer "status"
     t.integer "plant_id"
-    t.string "content_type", default: "None"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "watering"
