@@ -1,11 +1,9 @@
 class DecorItem
-  attr_reader :id,
-              :type,
-              :attributes
+  attr_reader :image_url, :name, :type
 
-  def initialize(image_url, name, type)
-    @image_url = image_url
-    @name = name
-    @type = type
+  def initialize(attributes)
+    @image_url = attributes[:image_url]
+    @name = attributes[:name]
+    @type = attributes[:type]
   end
 end
