@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Search Request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "GET /garden-stats" do
     it "gets a list of all garden plants" do
       VCR.use_cassette("gardentstats-1") do

@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Get Garden request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "get /garden" do
     it "returns all cell data" do
       Cell.create!(location_id: "A1", status: :empty)

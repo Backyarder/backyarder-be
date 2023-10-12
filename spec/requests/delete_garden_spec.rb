@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Delete Garden request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "DELETE /garden" do
     it "empties all cells with a status of 'placed'" do
       Cell.create!(location_id: "A1", status: :empty)

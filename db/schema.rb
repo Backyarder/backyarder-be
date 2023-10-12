@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_27_192708) do
     t.string "image"
     t.integer "status"
     t.integer "plant_id"
-    t.string "content_type", default: "None"
+    t.string "content_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "watering"

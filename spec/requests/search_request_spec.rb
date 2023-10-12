@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Search Request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "GET /search/:q", :vcr do
     it "returns JSON data" do
       VCR.use_cassette("search_request") do

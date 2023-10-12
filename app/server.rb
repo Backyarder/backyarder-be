@@ -79,20 +79,20 @@ class Backyarder < Sinatra::Base
     when "disable_cell"
       cell.update(status: :disabled)
     else
-      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: params[:watering])
+      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: params[:watering], content_type: params[:content_type])
     end
 
     json CellSerializer.new(cell)
   end
 
   delete "/garden" do
-    Cell.where(status: :placed).update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: "None")
+    Cell.where(status: :placed).update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil)
 
     status 200
   end
 
   delete "/all" do
-    Cell.update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: "None")
+    Cell.update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil)
 
     status 200
   end
