@@ -4,6 +4,7 @@ require "vcr"
 require "rspec"
 require "rack/test"
 require "sinatra"
+require 'webmock/rspec'
 
 require "bundler"
 Bundler.require(:default, :test)
@@ -36,5 +37,8 @@ VCR.configure do |config|
   # Enable real HTTP connections if VCR cannot find a cassette
   config.allow_http_connections_when_no_cassette = false
   config.filter_sensitive_data("<API_KEY>") { ENV["PERENUAL_API_KEY"] }
+  config.filter_sensitive_data("<API_KEY>") { ENV["UNSPLASH_ACCESS_KEY"] }
   config.debug_logger = $stdout
 end
+
+WebMock.disable_net_connect!(allow_localhost: true)
