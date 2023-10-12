@@ -8,8 +8,8 @@ test:
 
 production:
   adapter: postgresql
-  database: backyarder_ifmq
-  username: backyarder_ifmq_user
-  password: qfJVBysBRj9FKg7RqOLZ4BudllwJamDS
-  host: postgres://backyarder_ifmq_user:qfJVBysBRj9FKg7RqOLZ4BudllwJamDS@dpg-ckaa1bugtj9c73afjqe0-a.oregon-postgres.render.com/backyarder_ifmq
+  database: backyarder_db
+  username: backyarder_db_user
+  password: ik2zAEyXo0rr5Mi3DOXfq7ZeCy5MteTk
+  host: postgres://backyarder_db_user:ik2zAEyXo0rr5Mi3DOXfq7ZeCy5MteTk@dpg-ckk0vdglk5ic738q10qg-a.ohio-postgres.render.com/backyarder_db
   port: 5432
