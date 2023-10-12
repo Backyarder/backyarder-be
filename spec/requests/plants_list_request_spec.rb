@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Plant list request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "GET /plants" do
     it "returns JSON data" do
       get "/plants"

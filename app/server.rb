@@ -43,7 +43,6 @@ class Backyarder < Sinatra::Base
       next if plant.plant_id > 3000
 
       plant_details = JSON.parse(File.read("mock_json/details/#{plant.plant_id}.json"), symbolize_names: true)
-
       plant.hardiness = plant_details[:hardiness]
       plant.image = plant_details.dig(:default_image, :thumbnail)
       plant.type = plant_details[:type]
@@ -59,6 +58,7 @@ class Backyarder < Sinatra::Base
   get "/plants/:id" do
     show = PerenualService.new.detail_search(params[:id])
     plant = Detail.new(show)
+
     maintenance = PerenualService.new.maintenance_search(params[:id])[:data][0]
     plant.section = maintenance[:section]
 
@@ -75,24 +75,24 @@ class Backyarder < Sinatra::Base
 
     case params[:action]
     when "remove_plant"
-      cell.update(status: :empty, plant_id: nil, image: nil, plant_name: nil, watering: nil)
+      cell.update(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil, watering: nil)
     when "disable_cell"
       cell.update(status: :disabled)
     else
-      cell.update(status: params[:status], watering: params[:watering], plant_id: params[:plant_id], image: params[:image], plant_name: params[:plant_name])
+      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: params[:watering], content_type: params[:content_type])
     end
 
     json CellSerializer.new(cell)
   end
 
   delete "/garden" do
-    Cell.where(status: :placed).update_all(status: :empty, plant_id: nil, image: nil, plant_name: nil)
+    Cell.where(status: :placed).update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil)
 
     status 200
   end
 
   delete "/all" do
-    Cell.update_all(status: :empty, plant_id: nil, image: nil, plant_name: nil)
+    Cell.update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil)
 
     status 200
   end
@@ -101,11 +101,11 @@ class Backyarder < Sinatra::Base
     cells = Cell.all
     response = {}
     cells.each do |cell|
-      if response[cell.plant_name]
-        response[cell.plant_name][:count] += 1
-      elsif cell.plant_name != nil
+      if response[cell.name]
+        response[cell.name][:count] += 1
+      else
         api_call = PerenualService.new.detail_search(cell.plant_id)
-        response[cell.plant_name] = { image: api_call[:default_image][:small_url], count: 1 }
+        response[cell.name] = { image: api_call[:default_image][:small_url], count: 1 }
       end
     end
 

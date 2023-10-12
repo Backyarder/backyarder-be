@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Plant details request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "GET /plants/:id" do
     it "returns JSON data" do
       VCR.use_cassette("plant_show") do
