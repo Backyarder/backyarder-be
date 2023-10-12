@@ -8,8 +8,8 @@ test:
 
 production:
   adapter: postgresql
-  database: backyarder_db
-  username: backyarder_db_user
-  password: ik2zAEyXo0rr5Mi3DOXfq7ZeCy5MteTk
-  host: dpg-ckk0vdglk5ic738q10qg-a
+  database: backyarder_db_9c8v
+  username: backyarder_db_9c8v_user
+  password: SxIpT7w0btw8kuqvYfoJNL4zRXQhdJd5
+  host: dpg-ckk4aibj89us739cmib0-a
   port: 5432
