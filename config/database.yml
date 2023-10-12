@@ -11,5 +11,5 @@ production:
   database: backyarder_db
   username: backyarder_db_user
   password: ik2zAEyXo0rr5Mi3DOXfq7ZeCy5MteTk
-  host: postgres://backyarder_db_user:ik2zAEyXo0rr5Mi3DOXfq7ZeCy5MteTk@dpg-ckk0vdglk5ic738q10qg-a.ohio-postgres.render.com/backyarder_db
+  host: dpg-ckk0vdglk5ic738q10qg-a
   port: 5432
