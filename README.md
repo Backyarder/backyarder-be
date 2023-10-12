@@ -39,7 +39,7 @@
 
 - jsonapi-serializer
   - Provides fast JSON serialization of API objects according to the JSON:API specification.
-  - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0 
+  - Documentation for jsonapi-serializer can be found here: https://www.rubydoc.info/gems/jsonapi-serializers/0.8.0
 
 - pg
     - Provides support for using PostgreSQL as your database.
@@ -68,7 +68,7 @@
 - Install and setup PostgreSQL
 
 ### Clone the repository
-``` 
+```
 git clone git@github.com:Backyarder/backyarder-be.git
 cd backyarder-be
 ```
@@ -259,8 +259,9 @@ GET '/api/v1/garden'
       "id": "501",
       "type": "cell",
       "attributes": {
+        "content_type": null,
         "image": null,
-        "plant_name": null,
+        "name": null,
         "location_id": "A1",
         "status": "empty",
         "plant_id": null,
@@ -271,8 +272,9 @@ GET '/api/v1/garden'
       "id": "502",
       "type": "cell",
       "attributes": {
+        "content_type": null,
         "image": null,
-        "plant_name": null,
+        "name": null,
         "location_id": "A2",
         "status": "empty",
         "plant_id": null,
@@ -283,8 +285,9 @@ GET '/api/v1/garden'
       "id": "503",
       "type": "cell",
       "attributes": {
+        "content_type": null,
         "image": null,
-        "plant_name": null,
+        "name": null,
         "location_id": "A3",
         "status": "empty",
         "plant_id": null,
@@ -306,7 +309,8 @@ PATCH /api/v1/cell
   "status": 1,
   "plant_id": 13,
   "image": "image_url",
-  "plant_name": "Weedy Weed"
+  "name": "Weedy Weed",
+  "content_type": "Plant/Decor"
 }
 ```
 
@@ -318,8 +322,9 @@ PATCH /api/v1/cell
     "id": "501",
     "type": "cell",
     "attributes": {
+      "content_type": "Plant/Decor",
       "image": "image_url",
-      "plant_name": "Weedy Weed",
+      "name": "Weedy Weed",
       "location_id": "A1",
       "status": "placed",
       "plant_id": 13,
@@ -345,8 +350,9 @@ PATCH /api/v1/cell
     "id": "501",
     "type": "cell",
     "attributes": {
+      "content_type": null,
       "image": null,
-      "plant_name": null,
+      "name": null,
       "location_id": "A1",
       "status": "empty",
       "plant_id": null,
@@ -372,8 +378,9 @@ PATCH /api/v1/cell
     "id": "502",
     "type": "cell",
     "attributes": {
+      "content_type": null,
       "image": null,
-      "plant_name": null,
+      "name": null,
       "location_id": "A2",
       "status": "disabled",
       "plant_id": null,

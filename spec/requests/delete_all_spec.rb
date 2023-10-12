@@ -1,11 +1,6 @@
 require "spec_helper"
 
 RSpec.describe "Delete All request", type: :request do
-  include Rack::Test::Methods
-  def app
-    Backyarder
-  end
-
   describe "DELETE /all" do
     it "empties all cells on the grid" do
       Cell.create!(location_id: "A1", status: :empty)

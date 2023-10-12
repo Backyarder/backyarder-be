@@ -14,6 +14,7 @@ require File.expand_path("../config/environment.rb", __dir__)
 require "simplecov"
 SimpleCov.start
 
+include Rack::Test::Methods
 def app
   Backyarder
 end
