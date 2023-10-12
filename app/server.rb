@@ -1,6 +1,7 @@
 require "json"
 require "sinatra"
 require "dotenv"
+require_relative "facades/decor_items_facade"
 
 Dotenv.load
 
@@ -112,16 +113,18 @@ class Backyarder < Sinatra::Base
     json response
   end
 
-  get "/decor" do
-    unsplash_service = UnsplashService.new
-    image_data = unsplash_service.get_images('wooden fence')
 
-    image_url = image_data.dig(:results, 0, :urls, :regular) # or :full or :small based on the size you want
+  get '/decor' do
+    json = JSON.parse(File.read(File.join(File.dirname(__FILE__), '..', 'mock_json', 'decor_item_index.json')), symbolize_names: true)[:data]
+    query = params['query']
 
-    decor_item = DecorItem.new(image_url, "Wooden Fence", "barrier")
+    filtered_items = json.select do |item|
+      matches_type = item[:attributes][:type].downcase.include?(query.downcase)
+      matches_name = item[:attributes][:name].downcase.include?(query.downcase)
 
-    serialized_data = DecorItemSerializer.new(decor_item).serialized_json
+      matches_type || matches_name
+    end
 
-    json serialized_data
+    json({ data: DecorItemsFacade.get_decor_items(filtered_items) })
   end
 end

@@ -3,13 +3,9 @@ class DecorItem
               :type,
               :attributes
 
-  def initialize(image_link, name, decor_type)
-    @id = nil
-    @type = "list"
-    @attributes = {
-      image: image_link,
-      name: name,
-      type: decor_type
-    }
+  def initialize(image_url, name, type)
+    @image_url = image_url
+    @name = name
+    @type = type
   end
 end
