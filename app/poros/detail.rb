@@ -4,7 +4,7 @@ class Detail
   attr_reader :id,
               :plant_id,
               :image,
-              :plant_name,
+              :name,
               :scientific_name,
               :type,
               :leaf_color,
@@ -25,7 +25,7 @@ class Detail
   def initialize(data)
     @plant_id = data[:id]
     @image = data.dig(:default_image, :regular_url)
-    @plant_name = data[:common_name]
+    @name = data[:common_name]
     @scientific_name = data[:scientific_name]
     @type = data[:type]
     @leaf_color = data[:leaf_color]
