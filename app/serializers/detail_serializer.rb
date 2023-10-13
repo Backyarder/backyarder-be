@@ -3,7 +3,7 @@ class DetailSerializer
 
   attributes :plant_id,
              :image,
-             :plant_name,
+             :name,
              :scientific_name,
              :type,
              :leaf_color,

@@ -19,8 +19,8 @@ RSpec.describe "Search Request", type: :request do
 
           expect(plant[:attributes]).to have_key(:image)
           expect(plant[:attributes][:image]).to be_a String
-          expect(plant[:attributes]).to have_key(:plant_name)
-          expect(plant[:attributes][:plant_name]).to be_a String
+          expect(plant[:attributes]).to have_key(:name)
+          expect(plant[:attributes][:name]).to be_a String
           expect(plant[:attributes]).to have_key(:hardiness)
           expect(plant[:attributes][:hardiness]).to be_a Hash
           expect(plant[:attributes]).to have_key(:watering)
