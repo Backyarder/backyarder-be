@@ -1,7 +1,6 @@
 require "json"
 require "sinatra"
 require "dotenv"
-require_relative "facades/decor_items_facade"
 
 Dotenv.load
 
@@ -117,16 +116,12 @@ class Backyarder < Sinatra::Base
 
 
   get '/decor' do
-    json = JSON.parse(File.read(File.join(File.dirname(__FILE__), '..', 'mock_json', 'decor_item_index.json')), symbolize_names: true)[:data]
-    query = params['query']
+    json = JSON.parse(File.read("mock_json/decor_item_index.json"), symbolize_names: true)[:data]
 
-    filtered_items = json.select do |item|
-      matches_type = item[:attributes][:type].downcase.include?(query.downcase)
-      matches_name = item[:attributes][:name].downcase.include?(query.downcase)
-
-      matches_type || matches_name
+    items = json.map do |decor|
+      DecorItem.new(decor)
     end
 
-    json({ data: DecorItemsFacade.get_decor_items(filtered_items) })
+    json DecorItemSerializer.new(items)
   end
 end
