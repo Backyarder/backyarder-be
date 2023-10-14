@@ -1,7 +1,6 @@
 require "json"
 require "sinatra"
 require "dotenv"
-require_relative "facades/decor_items_facade"
 
 Dotenv.load
 
