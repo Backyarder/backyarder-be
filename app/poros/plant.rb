@@ -4,7 +4,8 @@ class Plant
                 :hardiness,
                 :image,
                 :name,
-                :type
+                :type,
+                :content_type
 
   attr_reader :id,
               :plant_id
@@ -18,5 +19,6 @@ class Plant
     @name = data[:common_name]
     @type = nil
     @id = nil
+    @content_type = nil
   end
 end

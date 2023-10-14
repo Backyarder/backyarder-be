@@ -4,7 +4,8 @@ class Search
                 :hardiness,
                 :image,
                 :name,
-                :type
+                :type,
+                :content_type
 
   attr_reader :id,
               :plant_id
@@ -18,5 +19,6 @@ class Search
     @name = data[:common_name]
     @type = data[:type]
     @id = nil
+    @content_type = nil
   end
 end
