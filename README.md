@@ -177,6 +177,47 @@ Response:
 }
 ```
 
+### Get Decor Items
+Get /api/v1/decor
+
+Response
+```
+{
+  "data": [
+    {
+      "id": null,
+      "type": "list",
+      "attributes": {
+        "image_url": "https://images.unsplash.com/photo-1627740282267-542a295da59e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTM1NDh8MHwxfGFsbHx8fHx8fHx8fDE2OTY4NzQ4Mjd8&ixlib=rb-4.0.3&q=80&w=200",
+        "name": "Wood Pile",
+        "type": "barrier",
+        "content_type": "Decor"
+      }
+    },
+    {
+      "id": null,
+      "type": "list",
+      "attributes": {
+        "image_url": "https://images.unsplash.com/photo-1573033370655-f6e3887c575d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTM1NDh8MHwxfGFsbHx8fHx8fHx8fDE2OTY4NzQ4OTl8&ixlib=rb-4.0.3&q=80&w=200",
+        "name": "Shed",
+        "type": "building",
+        "content_type": "Decor"
+      }
+    },
+    {
+      "id": null,
+      "type": "list",
+      "attributes": {
+        "image_url": "https://images.unsplash.com/photo-1590820292118-e256c3ac2676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTM1NDh8MHwxfGFsbHx8fHx8fHx8fDE2OTY4NzQ5ODF8&ixlib=rb-4.0.3&q=80&w=200",
+        "name": "Push Mower",
+        "type": "machinery",
+        "content_type": "Decor"
+      }
+    },
+    etc...
+    ]}
+```
+
 ### Get Plant Details
 GET '/api/v1/plants/:id’
 
@@ -412,4 +453,59 @@ Response
   "Weedy Weed": { "count": 5, "image": "image_url_2" },
   "Treey Tree": { "count": 1, "image": "image_url_3" }
 }
+```
+
+### Search for Plants
+Get /api/v1/search/:q
+
+Response
+```
+{
+  "data":
+  [
+  {"id": nil,
+    "type": "list",
+    "attributes":
+     {
+      "image": "https://perenual.com/storage/species_image/10_acer_johin/thumbnail/pexels-photo-2183508.jpg",
+      "name": "Johin Japanese Maple",
+      "hardiness": {:min=>"6", :max=>"6"},
+      "type": "tree",
+      "sunlight": ["full sun", "part shade"],
+      "watering": "Average",
+      "plant_id": 10,
+      "content_type": "Plant"
+    }
+  },
+  {"id": nil,
+    "type": "list",
+    "attributes":
+     {
+      "image": "https://perenual.com/storage/species_image/11_acer_davidii/thumbnail/6868591754_f4ac5b0510_b.jpg",
+      "name": "Snakebark Maple",
+      "hardiness": {:min=>"6", :max=>"6"},
+      "type": "tree",
+      "sunlight": ["Full sun", "part shade"],
+      "watering": "Average",
+      "plant_id": 11,
+      "content_type": "Plant"
+    }
+  },
+  {"id": nil,
+    "type": "list",
+    "attributes":
+     {
+      "image": "https://perenual.com/storage/species_image/12_acer_ginnala/thumbnail/10476032513_76ca899bc4_b.jpg",
+      "name": "Amur Maple",
+      "hardiness": {:min=>"2", :max=>"2"},
+      "type": "tree",
+      "sunlight": ["full sun", "part shade"],
+      "watering": "Average",
+      "plant_id": 12,
+      "content_type": "Plant"
+    }
+  },
+
+    etc..
+  ]}
 ```
