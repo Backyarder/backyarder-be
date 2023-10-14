@@ -3,5 +3,5 @@ class DecorItemSerializer
 
   set_id :id
   set_type :list
-  attributes :image, :name, :type, :content_type
+  attributes :image_url, :name, :type, :content_type
 end
