@@ -4,7 +4,8 @@ class DecorItemsFacade
       attributes = {
         image_url: item[:attributes][:image_url],
         name: item[:attributes][:name],
-        type: item[:attributes][:type]
+        type: item[:attributes][:type],
+        content_type: item[:attributes][:content_type]
       }
       DecorItem.new(attributes)
     end

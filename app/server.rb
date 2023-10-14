@@ -26,6 +26,7 @@ class Backyarder < Sinatra::Base
       plant.type = show[:type]
       plant.sunlight = show[:sunlight]
       plant.watering = show[:watering]
+      plant.content_type = "Plant"
 
       plant
     end
@@ -49,6 +50,7 @@ class Backyarder < Sinatra::Base
       plant.type = plant_details[:type]
       plant.sunlight = plant_details[:sunlight]
       plant.watering = plant_details[:watering]
+      plant.content_type = "Plant"
 
       plant
     end
