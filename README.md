@@ -152,6 +152,7 @@ Response:
           "Full sun",
           "part shade"
         ],
+        "content_type": "Plant",
         "plant_id": 2692
       }
     },
@@ -169,6 +170,7 @@ Response:
         "sunlight": [
           "Full sun"
         ],
+        "content_type": "Plant",
         "plant_id": 2699
       }
     },
