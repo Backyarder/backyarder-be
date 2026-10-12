@@ -8,7 +8,7 @@ Run one project's checks at a time from an isolated checkout. Use synthetic data
 
 Use the versions and dependency commands in the existing workflow and project development guide. Python projects use an isolated virtual environment; install their existing `requirements-dev.txt` (Playbook: from `scaffold/`). claude-task-runner uses `pip install -e ".[dev]"`. Ruby checks need Ruby 3.2.2 and the locked bundle; lunch_and_learn uses `gem install --no-document vcr:6.2.0 webmock:3.18.1 rspec:3.12.0 faraday:2.7.10`. The script does not install Python/Ruby dependencies or change global tools.
 
-Configure `DATABASE_URL` for a new, isolated loopback PostgreSQL database named `local_checks_<project>`, matching the PostgreSQL version in the workflow. Confirm its host, port, database and ownership before `LOCAL_CHECKS_CONFIRM_SYNTHETIC=1`. Playbook/POS migration and collectstatic steps write only to that isolated database and checkout. Never point this script at a development or production database.
+The existing test profile uses SQLite at `db/backyarder-test` inside the checkout. Use a fresh isolated checkout, verify that this test file is disposable, and set `LOCAL_CHECKS_CONFIRM_SYNTHETIC=1`. The script forces both RACK_ENV and RAILS_ENV to test. It never loads the production profile or drops a database.
 
 The original workflow dropped and recreated its ephemeral database. Create an empty disposable test database before running; the local script deliberately avoids dropping an existing database. Supply the existing provider key privately if the specs require it; never commit it. The demonstration workflow has no behavioral tests and needs no replacement system.
 
@@ -17,7 +17,6 @@ The original workflow dropped and recreated its ephemeral database. Create an em
 ```bash
 # Activate the prepared virtualenv or set LOCAL_CHECKS_PYTHON to its python.
 export LOCAL_CHECKS_CONFIRM_SYNTHETIC=1
-# export DATABASE_URL with your isolated synthetic database URL first.
 bash scripts/local-checks.sh
 ```
 
