@@ -5,34 +5,57 @@ require "dotenv"
 Dotenv.load
 
 class Backyarder < Sinatra::Base
+  ONE_HOUR = 60 * 60
+  ONE_DAY = 24 * ONE_HOUR
+  ONE_YEAR = 365 * ONE_DAY
+
+  # Perenual's daily budget is gone and we have nothing cached for this request.
+  error PerenualService::QuotaExceeded do
+    status 503
+    json({ error: "Plant data is temporarily unavailable: our daily limit for the plant database has been reached. Please try again tomorrow." })
+  end
+
+  error PerenualService::ApiError do
+    status 502
+    json({ error: "The plant database did not respond correctly. Please try again later." })
+  end
+
+  helpers do
+    # Absolute URL for a cached thumbnail. Overridable for proxies/CDNs.
+    def thumbnail_url(plant_id)
+      base = ENV["API_BASE_URL"] || "#{request.base_url}#{request.script_name}"
+      "#{base}/plants/#{plant_id}/thumbnail"
+    end
+
+    def plant_cache
+      @plant_cache ||= PlantCache.new
+    end
+  end
+
   get "/" do
     "Welcome to Backyarder!"
   end
 
+  # One Perenual call for a new query, zero for a repeat within a week.
   get "/search/:q" do
-    query = params[:q]
-    api = PerenualService.new.search(query)[:data]
-    search = api.map do |result|
-      Search.new(result)
-    end
+    results = plant_cache.search(params[:q])
 
-    type = search[0..9].map do |plant|
-      next if plant.plant_id > 3000
-
-      show = PerenualService.new.detail_search(plant.plant_id)
-      plant.hardiness = show[:hardiness]
-      plant.image = show.dig(:default_image, :thumbnail)
-      plant.type = show[:type]
-      plant.sunlight = show[:sunlight]
-      plant.watering = show[:watering]
+    plants = results.map do |result|
+      plant = Plant.new(id: result[:plant_id], common_name: result[:name])
+      plant.hardiness = result[:hardiness]
+      plant.image = result[:has_image] ? thumbnail_url(result[:plant_id]) : nil
+      plant.type = result[:type]
+      plant.sunlight = result[:sunlight]
+      plant.watering = result[:watering]
       plant.content_type = "Plant"
-
       plant
     end
 
-    json ListSerializer.new(type)
+    cache_control :public, max_age: ONE_DAY
+    json ListSerializer.new(plants)
   end
 
+  # Stock plants come from snapshots in mock_json; no Perenual calls.
   get "/plants" do
     json = JSON.parse(File.read("mock_json/index.json"), symbolize_names: true)[:data]
 
@@ -41,11 +64,11 @@ class Backyarder < Sinatra::Base
     end
 
     plants = type.map do |plant|
-      next if plant.plant_id > 3000
+      next if plant.plant_id > PerenualService::FREE_TIER_MAX_ID
 
       plant_details = JSON.parse(File.read("mock_json/details/#{plant.plant_id}.json"), symbolize_names: true)
       plant.hardiness = plant_details[:hardiness]
-      plant.image = plant_details.dig(:default_image, :thumbnail)
+      plant.image = stock_image(plant.plant_id, plant_details.dig(:default_image, :thumbnail))
       plant.type = plant_details[:type]
       plant.sunlight = plant_details[:sunlight]
       plant.watering = plant_details[:watering]
@@ -54,17 +77,33 @@ class Backyarder < Sinatra::Base
       plant
     end
 
+    cache_control :public, max_age: ONE_HOUR
     json ListSerializer.new(plants)
   end
 
+  # Two Perenual calls the first time anyone views a plant, then cached.
   get "/plants/:id" do
-    show = PerenualService.new.detail_search(params[:id])
-    plant = Detail.new(show)
+    details, sections = plant_cache.details(params[:id].to_i)
+    plant = Detail.new(details)
+    plant.section = sections
 
-    maintenance = PerenualService.new.maintenance_search(params[:id])[:data][0]
-    plant.section = maintenance[:section]
-
+    cache_control :public, max_age: ONE_DAY
     json DetailSerializer.new(plant)
+  end
+
+  # Thumbnails are stored once and served from here with a long cache life.
+  get "/plants/:id/thumbnail" do
+    result = plant_cache.thumbnail(params[:id].to_i)
+    halt 404 unless result
+
+    bytes, mime = result
+    content_type mime
+    cache_control :public, max_age: ONE_YEAR
+    bytes
+  end
+
+  get "/perenual-usage" do
+    json ApiUsage.summary
   end
 
   get "/garden" do
@@ -99,25 +138,21 @@ class Backyarder < Sinatra::Base
     status 200
   end
 
+  # Uses the image stored on each cell when it was placed; no Perenual calls.
   get "/garden-stats" do
-    cells = Cell.all
     response = {}
-    cells.each do |cell|
-      next unless cell.plant_id
-
+    Cell.where.not(plant_id: nil).each do |cell|
       if response[cell.name]
         response[cell.name][:count] += 1
       else
-        api_call = PerenualService.new.detail_search(cell.plant_id)
-        response[cell.name] = { image: api_call[:default_image][:small_url], count: 1 }
+        response[cell.name] = { image: cell.image, count: 1 }
       end
     end
 
     json response
   end
 
-
-  get '/decor' do
+  get "/decor" do
     json = JSON.parse(File.read("mock_json/decor_item_index.json"), symbolize_names: true)[:data]
 
     items = json.map do |decor|
@@ -125,5 +160,16 @@ class Backyarder < Sinatra::Base
     end
 
     json DecorItemSerializer.new(items)
+  end
+
+  private
+
+  # Snapshots that point at a frontend-hosted file keep that (free and fast);
+  # anything else is served from the cached thumbnail route.
+  def stock_image(plant_id, snapshot_thumbnail)
+    return nil if snapshot_thumbnail.nil?
+    return snapshot_thumbnail if snapshot_thumbnail.start_with?("/images/")
+
+    thumbnail_url(plant_id)
   end
 end

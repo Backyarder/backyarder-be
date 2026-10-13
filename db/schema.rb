@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_27_192708) do
+ActiveRecord::Schema[7.0].define(version: 2026_10_13_120000) do
+  create_table "api_usages", force: :cascade do |t|
+    t.date "day", null: false
+    t.integer "count", default: 0, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["day"], name: "index_api_usages_on_day", unique: true
+  end
+
   create_table "cells", force: :cascade do |t|
     t.string "name"
     t.string "location_id"
@@ -21,6 +29,26 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_27_192708) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "watering"
+  end
+
+  create_table "plant_details", force: :cascade do |t|
+    t.integer "plant_id", null: false
+    t.text "details"
+    t.text "care"
+    t.datetime "details_fetched_at"
+    t.binary "thumbnail"
+    t.string "thumbnail_content_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["plant_id"], name: "index_plant_details_on_plant_id", unique: true
+  end
+
+  create_table "search_caches", force: :cascade do |t|
+    t.string "query", null: false
+    t.text "results", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["query"], name: "index_search_caches_on_query", unique: true
   end
 
 end

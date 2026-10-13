@@ -6,6 +6,10 @@
 #   API_BASE_URL  e.g. https://backyarder-be.onrender.com/api/v1  (no trailing slash)
 #   FRONTEND_URL  e.g. https://backyarder.vercel.app  (optional)
 #
+# Set SKIP_PERENUAL=1 to skip the checks that may call Perenual (detail and
+# search). Each run of those costs up to 2 calls on a cold cache against the
+# free tier's 100/day budget; use this flag for routine deploy checks.
+#
 # Checks the API is up, the garden is seeded, mock plant data loads, and the
 # Perenual-backed search and detail endpoints return real data. If a frontend
 # URL is given, also checks the deployed bundle points at this API.
@@ -55,7 +59,10 @@ get "/decor"
 n=$(count_data)
 if [ "$CODE" = "200" ] && [ "$n" -gt 0 ] 2>/dev/null; then ok "GET /decor returns $n items"; else bad "GET /decor (HTTP $CODE, $n items)"; fi
 
-# 5. plant detail (Perenual v2)
+# 5/6. Perenual-backed endpoints (cached after first use; skippable)
+if [ "${SKIP_PERENUAL:-0}" = "1" ]; then
+  say "  SKIP  GET /plants/1 and /search/maple (SKIP_PERENUAL=1)"
+else
 get "/plants/1"
 name=$(json_get 'v["data"]["attributes"]["name"]')
 typ=$(json_get 'v["data"]["attributes"]["type"]')
@@ -68,6 +75,12 @@ n=$(count_data)
 first=$(json_get 'v["data"][0]["attributes"]["name"]')
 wat=$(json_get 'v["data"][0]["attributes"]["watering"]')
 if [ "$CODE" = "200" ] && [ "$n" -gt 0 ] 2>/dev/null && [ "$wat" != "None" ]; then ok "GET /search/maple -> $n results, first: $first (watering: $wat)"; else bad "GET /search/maple (HTTP $CODE, $n results, watering=$wat)" "$(printf '%s' "$BODY" | head -c 200)"; fi
+fi
+
+# Perenual budget visibility
+get "/perenual-usage"
+used=$(json_get 'v["count"]'); lim=$(json_get 'v["limit"]')
+if [ "$CODE" = "200" ] && [ -n "$used" ]; then ok "GET /perenual-usage -> $used of $lim calls used today"; else bad "GET /perenual-usage (HTTP $CODE)"; fi
 
 # 7. garden stats (should be valid JSON even when empty)
 get "/garden-stats"

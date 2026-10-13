@@ -1,24 +1,62 @@
+# Thin client for the Perenual API. Every call goes through #get, which
+# enforces the daily budget (ApiUsage) and turns HTTP failures into typed
+# errors the app can map to friendly responses. Callers should go through
+# PlantCache rather than hitting this directly.
 class PerenualService
+  class Error < StandardError; end
+  class QuotaExceeded < Error; end
+  class ApiError < Error; end
+
+  BASE_URL = "https://perenual.com/api/".freeze
+  FREE_TIER_MAX_ID = 3000
+
   def conn
-    Faraday.new("https://perenual.com/api/")
+    Faraday.new(BASE_URL)
   end
 
-  def get_url(url)
-    response = conn.get(url)
-    JSON.parse(response.body, symbolize_names: true)
-  end
-
-  def search(plant_name)
-    get_url("species-care-guide-list?q=#{plant_name}&key=#{ENV['PERENUAL_API_KEY']}")
+  # One call. Returns name, image, cycle, watering and sunlight for each match.
+  def species_list(query)
+    get("v2/species-list", q: query)
   end
 
   def detail_search(plant_id)
-    # The v1 species/details endpoint is deprecated and now returns null for most
+    # The v1 species/details endpoint is deprecated and returns null for most
     # fields (type, cycle, watering, hardiness, ...). v2 returns the full record.
-    get_url("v2/species/details/#{plant_id}?key=#{ENV['PERENUAL_API_KEY']}")
+    get("v2/species/details/#{plant_id}")
   end
 
   def maintenance_search(plant_id)
-    get_url("species-care-guide-list?species_id=#{plant_id}&key=#{ENV['PERENUAL_API_KEY']}&page=1")
+    get("species-care-guide-list", species_id: plant_id, page: 1)
+  end
+
+  # Fetches a binary asset (e.g. a thumbnail from Perenual's image bucket).
+  # Not an API call, so it does not count toward the daily budget.
+  def download(url)
+    response = Faraday.new.get(url)
+    return nil unless response.success? && response.headers["content-type"].to_s.start_with?("image/")
+
+    [response.body, response.headers["content-type"]]
+  rescue Faraday::Error
+    nil
+  end
+
+  private
+
+  def get(path, params = {})
+    if ApiUsage.remaining <= 0
+      raise QuotaExceeded, "Perenual daily request budget (#{ApiUsage.limit}) is used up"
+    end
+
+    ApiUsage.record!
+    response = conn.get(path, params.merge(key: ENV["PERENUAL_API_KEY"]))
+
+    raise QuotaExceeded, "Perenual returned 429 Too Many Requests" if response.status == 429
+    raise ApiError, "Perenual returned HTTP #{response.status}" unless response.success?
+
+    JSON.parse(response.body, symbolize_names: true)
+  rescue JSON::ParserError
+    raise ApiError, "Perenual returned an unreadable response"
+  rescue Faraday::Error => e
+    raise ApiError, "Could not reach Perenual: #{e.message}"
   end
 end

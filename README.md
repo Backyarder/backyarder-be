@@ -120,6 +120,27 @@ Our project uses GitHub Actions for Continuous Integration. This ensures that ev
 - Linting & Code Quality: We use Rubocop to ensure code quality.
 - On successful tests and code checks, the code is deployed to https://backyarder-be-47454958a7d2.herokuapp.com/
 
+## Perenual usage and caching
+
+The free Perenual plan allows 100 requests per day, so the API never calls
+Perenual more than it has to:
+
+- **Plant details and care guides** are cached in the database for good (the
+  data is static). The first view of a plant costs 2 calls; every later view,
+  by anyone, costs 0. Signed image URLs expire after 24h, so a record older
+  than that is refreshed with 1 call when viewed.
+- **Search** uses Perenual's `species-list` endpoint (1 call) and caches the
+  result per query for 7 days. Type and hardiness are filled in from cached
+  details when available. Repeat searches cost 0.
+- **Thumbnails** are downloaded once into the database and served from
+  `GET /api/v1/plants/:id/thumbnail` with a year-long cache header. The stock
+  list's thumbnails live in the frontend repo under `public/images/plants/`.
+- **Budget guard:** calls are counted per UTC day (`GET /api/v1/perenual-usage`).
+  Past `PERENUAL_DAILY_LIMIT` (default 95) the API serves stale cache where it
+  can and otherwise returns `503 {"error": "..."}` instead of calling Perenual.
+- Responses from `/plants/:id` and `/search/:q` carry `Cache-Control: max-age=86400`
+  so browsers reuse them too.
+
 ## API Reference
 
 ### Get API check
@@ -291,6 +312,19 @@ Request:
 }
 ```
 
+### Get Plant Thumbnail
+GET '/api/v1/plants/:id/thumbnail'
+
+Returns the cached JPEG for the plant (`image/jpeg`), or 404 if Perenual has no image for it.
+
+### Get Perenual Usage
+GET '/api/v1/perenual-usage'
+
+Response:
+```
+{ "day": "2026-10-13", "count": 12, "limit": 95, "remaining": 83 }
+```
+
 ### Get Garden
 GET '/api/v1/garden'
 
@@ -447,6 +481,7 @@ DELETE /api/v1/all
 
 ### Get Garden Stats
 GET /api/v1/garden-stats
+(Counts placed plants by name using the image stored on each cell; no Perenual calls.)
 
 Response
 ```
