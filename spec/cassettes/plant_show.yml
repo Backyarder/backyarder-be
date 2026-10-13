@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://perenual.com/api/species/details/225?key=<API_KEY>
+    uri: https://perenual.com/api/v2/species/details/225?key=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -18,38 +18,32 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Sat, 02 Sep 2023 20:00:35 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      - Accept-Encoding,User-Agent
+      - Tue, 13 Oct 2026 02:58:15 GMT
+      Server:
+      - Apache
       Cache-Control:
       - no-cache, private
       X-Ratelimit-Limit:
-      - '300'
+      - '100'
       X-Ratelimit-Remaining:
-      - '285'
+      - '66'
       Access-Control-Allow-Origin:
       - "*"
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Length:
+      - '6203'
+      Content-Type:
+      - application/json
     body:
       encoding: ASCII-8BIT
       string: '{"id":225,"common_name":"Compact Hinoki Falsecypress","scientific_name":["Chamaecyparis
-        obtusa ''Compacta''"],"other_name":[],"family":"Cupressaceae","origin":["Japan","Taiwan"],"type":"tree","dimension":"Height:  50
-        feet","dimensions":{"type":"Height","min_value":50,"max_value":50,"unit":"feet"},"cycle":"Perennial","attracts":[],"propagation":["Cutting","Grafting
+        obtusa ''Compacta''"],"other_name":[],"family":"Cupressaceae","hybrid":null,"authority":null,"subspecies":null,"cultivar":"Compacta","variety":null,"species_epithet":"obtusa","genus":"Chamaecyparis","origin":["Japan","Taiwan"],"type":"tree","dimensions":[{"type":"Height","min_value":50,"max_value":50,"unit":"feet"}],"cycle":"Perennial","attracts":[],"propagation":["Cutting","Grafting
         Propagation","Layering Propagation","Air Layering Propagation","Division"],"hardiness":{"min":"6","max":"6"},"hardiness_location":{"full_url":"https:\/\/perenual.com\/api\/hardiness-map?species_id=225&size=og&key=<API_KEY>","full_iframe":"<iframe
         frameborder=0 scrolling=yes seamless=seamless width=1000 height=550 style=''margin:auto;''
-        src=''https:\/\/perenual.com\/api\/hardiness-map?species_id=225&size=og&key=<API_KEY>''><\/iframe>"},"watering":"Average","depth_water_requirement":[],"volume_water_requirement":[],"watering_period":"afternoon","watering_general_benchmark":{"value":null,"unit":"days"},"plant_anatomy":[{"part":"trunk","color":["brown"]},{"part":"branches","color":["brown"]},{"part":"leaves","color":["green"]},{"part":"stem","color":["red-brown"]}],"sunlight":["full
-        sun","part shade"],"pruning_month":["May","June","July"],"pruning_count":{"amount":1,"interval":"yearly"},"seeds":0,"maintenance":"Low","care-guides":"http:\/\/perenual.com\/api\/species-care-guide-list?species_id=225&key=<API_KEY>","soil":[],"growth_rate":"Low","drought_tolerant":false,"salt_tolerant":false,"thorny":false,"invasive":false,"tropical":false,"indoor":false,"care_level":"Moderate","pest_susceptibility":[],"pest_susceptibility_api":"Coming
-        Soon","flowers":true,"flowering_season":null,"flower_color":"","cones":false,"fruits":true,"edible_fruit":false,"edible_fruit_taste_profile":"Coming
-        Soon","fruit_nutritional_value":"Coming Soon","fruit_color":["purple","brown"],"harvest_season":"Fall","leaf":true,"leaf_color":["green"],"edible_leaf":false,"cuisine":false,"medicinal":false,"poisonous_to_humans":0,"poisonous_to_pets":0,"description":"Compact
+        src=''https:\/\/perenual.com\/api\/hardiness-map?species_id=225&size=og&key=<API_KEY>''><\/iframe>"},"watering":"Average","watering_general_benchmark":{"value":"\"7-10\"","unit":"days"},"plant_anatomy":[{"part":"trunk","color":["brown"]},{"part":"branches","color":["brown"]},{"part":"leaves","color":["green"]},{"part":"stem","color":["red-brown"]}],"sunlight":["full
+        sun","part shade"],"pruning_month":["May","June","July"],"pruning_count":{"amount":1,"interval":"yearly"},"seeds":false,"maintenance":"Low","care_guides":"http:\/\/perenual.com\/api\/species-care-guide-list?species_id=225&key=<API_KEY>","soil":[],"growth_rate":"Low","drought_tolerant":false,"salt_tolerant":false,"thorny":false,"invasive":false,"tropical":false,"indoor":false,"care_level":"Moderate","pest_susceptibility":[],"flowers":true,"flowering_season":null,"cones":false,"fruits":true,"edible_fruit":false,"harvest_season":"Fall","leaf":true,"edible_leaf":false,"cuisine":false,"medicinal":false,"poisonous_to_humans":false,"poisonous_to_pets":false,"description":"Compact
         Hinoki Falsecypress is a beautiful and robust evergreen shrub. Its glossy
         foliage is a soft green, making it an eye-catching addition to any landscape.
         It''s compact structure and mounding form makes it an ideal choice for making
@@ -59,10 +53,21 @@ http_interactions:
         for spring and summer blooming plants. It\u2019s also virtually pest and disease-free
         and easily maintained with occasional pruning. Compact Hinoki Falsecypress
         is a must-have in any garden!","default_image":{"license":5,"license_name":"Attribution-ShareAlike
-        License","license_url":"https:\/\/creativecommons.org\/licenses\/by-sa\/2.0\/","original_url":"https:\/\/perenual.com\/storage\/species_image\/225_chamaecyparis_obtusa_compacta\/og\/49107312326_49bb996d6f_b.jpg","regular_url":"https:\/\/perenual.com\/storage\/species_image\/225_chamaecyparis_obtusa_compacta\/regular\/49107312326_49bb996d6f_b.jpg","medium_url":"https:\/\/perenual.com\/storage\/species_image\/225_chamaecyparis_obtusa_compacta\/medium\/49107312326_49bb996d6f_b.jpg","small_url":"https:\/\/perenual.com\/storage\/species_image\/225_chamaecyparis_obtusa_compacta\/small\/49107312326_49bb996d6f_b.jpg","thumbnail":"https:\/\/perenual.com\/storage\/species_image\/225_chamaecyparis_obtusa_compacta\/thumbnail\/49107312326_49bb996d6f_b.jpg"},"other_images":"Upgrade
+        License","license_url":"https:\/\/creativecommons.org\/licenses\/by-sa\/2.0\/","original_url":"https:\/\/s3.us-central-1.wasabisys.com\/perenual\/species_image\/225_chamaecyparis_obtusa_compacta\/og\/49107312326_49bb996d6f_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20261013%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20261013T025823Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=b0622563e6302c0759a9eb76ceaee1fbf87321e86252f30291e03fa6755f799d","regular_url":"https:\/\/s3.us-central-1.wasabisys.com\/perenual\/species_image\/225_chamaecyparis_obtusa_compacta\/regular\/49107312326_49bb996d6f_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20261013%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20261013T025823Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1536f202040b1569c3be0e336ac1f32a157974a0d459f8097a0f2791936ff327","medium_url":"https:\/\/s3.us-central-1.wasabisys.com\/perenual\/species_image\/225_chamaecyparis_obtusa_compacta\/medium\/49107312326_49bb996d6f_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20261013%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20261013T025823Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=933d46e65cbcaf4253afc476634ec9bc8e3c6560957729bf74e8e6d70c2bbfbf","small_url":"https:\/\/s3.us-central-1.wasabisys.com\/perenual\/species_image\/225_chamaecyparis_obtusa_compacta\/small\/49107312326_49bb996d6f_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20261013%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20261013T025823Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=510ea1833464bba714a551824dca8f60972f10532e054101133aad2d67cd69ef","thumbnail":"https:\/\/s3.us-central-1.wasabisys.com\/perenual\/species_image\/225_chamaecyparis_obtusa_compacta\/thumbnail\/49107312326_49bb996d6f_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20261013%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20261013T025823Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=447099bbcc79793e699d27eab0039b56349fb74d1dd0700e67b95ad57a97b3b7"},"other_images":"Upgrade
         Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xWateringQuality":"Upgrade Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xWateringPeriod":"Upgrade Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xWateringAvgVolumeRequirement":"Upgrade Plan To Supreme For Access
+        https:\/\/perenual.com\/subscription-api-pricing. Im sorry","xWateringDepthRequirement":"Upgrade
+        Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xWateringBasedTemperature":"Upgrade Plan To Supreme For Access
+        https:\/\/perenual.com\/subscription-api-pricing. Im sorry","xWateringPhLevel":"Upgrade
+        Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xSunlightDuration":"Upgrade Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xTemperatureTolence":"Upgrade Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
+        Im sorry","xPlantSpacingRequirement":"Upgrade Plan To Supreme For Access https:\/\/perenual.com\/subscription-api-pricing.
         Im sorry"}'
-  recorded_at: Sat, 02 Sep 2023 20:00:35 GMT
+  recorded_at: Tue, 13 Oct 2026 02:58:23 GMT
 - request:
     method: get
     uri: https://perenual.com/api/species-care-guide-list?key=<API_KEY>&page=1&species_id=225
@@ -81,42 +86,28 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Sat, 02 Sep 2023 20:00:35 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      - Accept-Encoding,User-Agent
+      - Tue, 13 Oct 2026 02:58:25 GMT
+      Server:
+      - Apache
       Cache-Control:
       - no-cache, private
       X-Ratelimit-Limit:
-      - '300'
+      - '100'
       X-Ratelimit-Remaining:
-      - '284'
+      - '65'
       Access-Control-Allow-Origin:
       - "*"
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Length:
+      - '1733'
+      Content-Type:
+      - application/json
     body:
       encoding: ASCII-8BIT
       string: '{"data":[{"id":1739,"species_id":225,"common_name":"Compact Hinoki
-        Falsecypress","scientific_name":["Chamaecyparis obtusa ''Compacta''"],"section":[{"id":5422,"type":"watering","description":"This
-        plant species prefers moist, well-draining soil and should be watered at least
-        once a week, preferably twice a week. Water deeply, ensuring the entire root
-        zone has been adequately moistened. Water early in the day to avoid foliar
-        scorch caused by hot afternoon sun. During hot, dry weather more frequent
-        watering or misting may be needed to help keep soil from drying out and the
-        plant from wilting."},{"id":5423,"type":"sunlight","description":"Compact
-        Hinoki Falsecypress plants prefer full sun or partial shade, although they
-        thrive best in areas with moderate to bright sunlight. In general, they can
-        tolerate up to 5 or 6 hours of direct sunlight a day. While they can withstand
-        periods of brief full afternoon sun, it is best to provide them with abundant
-        morning sun and light afternoon shade for optimal growth and health."},{"id":5424,"type":"pruning","description":"Compact
+        Falsecypress","scientific_name":["Chamaecyparis obtusa ''Compacta''"],"section":[{"id":5424,"type":"pruning","description":"Compact
         Hinoki Falsecypress should be pruned in late spring or early summer, when
         new growth has appeared. Start by removing any dead, diseased, or damaged
         branches to maintain a healthy plant. Next, cut back any overgrown branches
@@ -124,6 +115,17 @@ http_interactions:
         to promote better air circulation and allow sunlight to reach the inner foliage.
         Make sure to use sharp pruning shears, always cutting at a downward, outward
         angle, 1\/4 inch above a bud or branch fork. Avoid pruning too much at once,
-        as over-pruning can damage the plant."}]}],"to":1,"per_page":30,"current_page":1,"from":1,"last_page":1,"total":1}'
-  recorded_at: Sat, 02 Sep 2023 20:00:35 GMT
+        as over-pruning can damage the plant."},{"id":5423,"type":"sunlight","description":"Compact
+        Hinoki Falsecypress plants prefer full sun or partial shade, although they
+        thrive best in areas with moderate to bright sunlight. In general, they can
+        tolerate up to 5 or 6 hours of direct sunlight a day. While they can withstand
+        periods of brief full afternoon sun, it is best to provide them with abundant
+        morning sun and light afternoon shade for optimal growth and health."},{"id":5422,"type":"watering","description":"This
+        plant species prefers moist, well-draining soil and should be watered at least
+        once a week, preferably twice a week. Water deeply, ensuring the entire root
+        zone has been adequately moistened. Water early in the day to avoid foliar
+        scorch caused by hot afternoon sun. During hot, dry weather more frequent
+        watering or misting may be needed to help keep soil from drying out and the
+        plant from wilting."}]}],"to":1,"per_page":30,"current_page":1,"from":1,"last_page":1,"total":1}'
+  recorded_at: Tue, 13 Oct 2026 02:58:30 GMT
 recorded_with: VCR 6.2.0

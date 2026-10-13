@@ -7,12 +7,9 @@ require "rack/cors"
 
 use Rack::Cors do
   allow do
-    if ENV["RACK_ENV"] == "development"
-      origins "https://localhost:3000"
-    elsif ENV["RACK_ENV"] == "test"
-      origins "https://localhost:3000"
-    elsif ENV["RACK_ENV"] == "staging"
-      origins "https://localhost:3000"
+    if %w[development test staging].include?(ENV["RACK_ENV"])
+      # Allow the local frontend dev server on any localhost port (http or https)
+      origins %r{\Ahttps?://localhost(:\d+)?\z}
     else
       origins "*"
     end

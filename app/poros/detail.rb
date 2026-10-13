@@ -26,23 +26,30 @@ class Detail
     @plant_id = data[:id]
     @image = data.dig(:default_image, :regular_url)
     @name = data[:common_name]
-    @scientific_name = data[:scientific_name]
+    @scientific_name = data[:scientific_name] || []
     @type = data[:type]
-    @leaf_color = data[:leaf_color]
+    @leaf_color = data[:leaf_color] || []
     @cycle = data[:cycle]
     @watering = data[:watering]
-    @sunlight = data[:sunlight]
+    @sunlight = data[:sunlight] || []
     @hardiness = data[:hardiness]
     @section = nil
-    @pruning_month = data[:pruning_month]
-    @attracts = data[:attracts]
+    @pruning_month = data[:pruning_month] || []
+    @attracts = data[:attracts] || []
     @flowering_season = data[:flowering_season] || []
     @edible_fruit = data[:edible_fruit]
     @maintenance = data[:maintenance]
-    @poisonous_to_pets = !data[:poisonous_to_pets].zero?
+    @poisonous_to_pets = truthy?(data[:poisonous_to_pets])
     @drought_tolerant = data[:drought_tolerant]
     @invasive = data[:invasive]
     @indoor = data[:indoor]
     @id = nil
+  end
+
+  private
+
+  # Perenual v1 returned 0/1 for this flag; v2 returns true/false/nil.
+  def truthy?(value)
+    value.is_a?(Integer) ? !value.zero? : value == true
   end
 end

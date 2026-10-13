@@ -13,7 +13,9 @@ class PerenualService
   end
 
   def detail_search(plant_id)
-    get_url("species/details/#{plant_id}?key=#{ENV['PERENUAL_API_KEY']}")
+    # The v1 species/details endpoint is deprecated and now returns null for most
+    # fields (type, cycle, watering, hardiness, ...). v2 returns the full record.
+    get_url("v2/species/details/#{plant_id}?key=#{ENV['PERENUAL_API_KEY']}")
   end
 
   def maintenance_search(plant_id)

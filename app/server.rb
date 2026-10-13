@@ -103,6 +103,8 @@ class Backyarder < Sinatra::Base
     cells = Cell.all
     response = {}
     cells.each do |cell|
+      next unless cell.plant_id
+
       if response[cell.name]
         response[cell.name][:count] += 1
       else

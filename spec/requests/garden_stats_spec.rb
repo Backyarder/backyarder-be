@@ -12,7 +12,10 @@ RSpec.describe "Search Request", type: :request do
 
           expect(response).to be_successful
           json_response = JSON.parse(response.body, symbolize_names: true)
-          expect(json_response).to eq({ :"Green Leaf" => { :count=>2, :image=>"https://perenual.com/storage/species_image/1_abies_alba/small/1536px-Abies_alba_SkalitC3A9.jpg" } })
+          expect(json_response.keys).to eq([:"Green Leaf"])
+          expect(json_response[:"Green Leaf"][:count]).to eq(2)
+          # Perenual v2 serves signed image URLs, so only check the stable part of the path
+          expect(json_response[:"Green Leaf"][:image]).to include("species_image/1_abies_alba/small/")
         end
       end
     end
