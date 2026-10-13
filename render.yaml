@@ -1,0 +1,21 @@
+# Render Blueprint for the Backyarder API.
+# In the Render dashboard: New -> Blueprint -> connect this repo.
+# Render will prompt for the two secret env vars marked sync: false.
+services:
+  - type: web
+    name: backyarder-be
+    runtime: ruby
+    plan: free
+    branch: main
+    buildCommand: bundle install && bundle exec rake db:migrate && bundle exec rake db:seed
+    startCommand: bundle exec puma config.ru -p $PORT
+    healthCheckPath: /api/v1/
+    envVars:
+      - key: RACK_ENV
+        value: production
+      - key: BUNDLE_WITHOUT
+        value: development:test
+      - key: DATABASE_URL
+        sync: false # paste the Neon connection string (postgresql://...?sslmode=require)
+      - key: PERENUAL_API_KEY
+        sync: false # paste your Perenual key

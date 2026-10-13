@@ -40,12 +40,14 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     method_source (1.0.0)
+    mini_portile2 (2.8.9)
     minitest (5.19.0)
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.9)
     pg (1.5.3)
+    pg (1.5.3-x64-mingw-ucrt)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -108,7 +110,10 @@ GEM
       rack-protection (= 3.1.0)
       sinatra (= 3.1.0)
       tilt (~> 2.0)
+    sqlite3 (1.6.3)
+      mini_portile2 (~> 2.8.0)
     sqlite3 (1.6.3-arm64-darwin)
+    sqlite3 (1.6.3-x64-mingw-ucrt)
     sqlite3 (1.6.3-x86_64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
     tilt (2.2.0)
@@ -127,6 +132,8 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  ruby
+  x64-mingw-ucrt
   x86_64-darwin-21
   x86_64-darwin-22
   x86_64-linux
@@ -160,4 +167,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.17
+   2.4.19
