@@ -49,6 +49,7 @@ class PerenualService
 
     ApiUsage.record!
     response = conn.get(path, params.merge(key: ENV["PERENUAL_API_KEY"]))
+    record_rate_limit(response)
 
     raise QuotaExceeded, "Perenual returned 429 Too Many Requests" if response.status == 429
     raise ApiError, "Perenual returned HTTP #{response.status}" unless response.success?
@@ -58,5 +59,25 @@ class PerenualService
     raise ApiError, "Perenual returned an unreadable response"
   rescue Faraday::Error => e
     raise ApiError, "Could not reach Perenual: #{e.message}"
+  end
+
+  # Perenual sends X-RateLimit-Remaining / X-RateLimit-Reset as headers on
+  # normal responses and as a JSON body on 429s. Keep whichever we got.
+  def record_rate_limit(response)
+    headers = response.headers
+    remaining = headers["x-ratelimit-remaining"]
+    reset = headers["x-ratelimit-reset"]
+
+    if response.status == 429 && (remaining.nil? || reset.nil?)
+      body = JSON.parse(response.body) rescue {}
+      remaining ||= body["X-RateLimit-Remaining"]
+      reset ||= body["X-RateLimit-Reset"]
+    end
+    return if remaining.nil?
+
+    reset_at = reset ? Time.at(reset.to_i).utc : Time.now.utc + 24 * 60 * 60
+    ApiUsage.report!(remaining: remaining, reset_at: reset_at)
+  rescue StandardError
+    nil # never let bookkeeping break a request
   end
 end

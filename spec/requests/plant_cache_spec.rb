@@ -149,6 +149,41 @@ RSpec.describe "Plant detail caching", type: :request do
     end
   end
 
+  describe "Perenual rate-limit reporting" do
+    it "records the remaining count from a 429 body and blocks further calls until reset" do
+      reset = Time.now.utc.to_i + 3600
+      stub_request(:get, %r{perenual\.com/api/v2/species-list}).to_return(
+        status: 429, body: JSON.generate("X-RateLimit-Limit" => 100, "X-RateLimit-Remaining" => 0, "X-RateLimit-Reset" => reset)
+      )
+
+      get "/search/fern"
+      expect(last_response.status).to eq(503)
+      expect(ApiUsage.remaining).to eq(0)
+
+      get "/search/moss"
+      expect(last_response.status).to eq(503)
+      expect(a_request(:get, %r{species-list})).to have_been_made.once
+
+      body = JSON.parse(last_response.body)
+      get "/perenual-usage"
+      usage = JSON.parse(last_response.body)
+      expect(usage["perenual_reported_remaining"]).to eq(0)
+      expect(usage["perenual_reset_at"]).to include(Time.at(reset).utc.strftime("%Y-%m-%dT%H:%M"))
+    end
+
+    it "uses X-RateLimit headers from successful responses when present" do
+      stub_request(:get, %r{perenual\.com/api/v2/species-list}).to_return(
+        status: 200, body: JSON.generate(data: []),
+        headers: { "Content-Type" => "application/json", "X-RateLimit-Remaining" => "7", "X-RateLimit-Reset" => (Time.now.utc.to_i + 3600).to_s }
+      )
+
+      get "/search/fern"
+
+      expect(last_response).to be_ok
+      expect(ApiUsage.remaining).to eq(7)
+    end
+  end
+
   describe "GET /perenual-usage" do
     it "reports today's budget" do
       ApiUsage.create!(day: ApiUsage.today, count: 4)

@@ -10,12 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_10_13_120000) do
+ActiveRecord::Schema[7.0].define(version: 2026_10_13_130000) do
   create_table "api_usages", force: :cascade do |t|
     t.date "day", null: false
     t.integer "count", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "reported_remaining"
+    t.datetime "reported_reset_at"
     t.index ["day"], name: "index_api_usages_on_day", unique: true
   end
 

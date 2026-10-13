@@ -322,7 +322,19 @@ GET '/api/v1/perenual-usage'
 
 Response:
 ```
-{ "day": "2026-10-13", "count": 12, "limit": 95, "remaining": 83 }
+{
+  "day": "2026-10-13",
+  "count": 12,
+  "limit": 95,
+  "remaining": 83,
+  "perenual_reported_remaining": 88,
+  "perenual_reset_at": "2026-10-14T03:28:00Z"
+}
+```
+`count`/`limit`/`remaining` are this app's own per-UTC-day tally. The `perenual_*`
+fields echo Perenual's `X-RateLimit-*` headers (a rolling 24h window per calling
+IP) when it has sent them, and the guard uses the lower of the two.
+```
 ```
 
 ### Get Garden

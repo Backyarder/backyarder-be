@@ -15,8 +15,21 @@ class ApiUsage < ActiveRecord::Base
     find_by(day: today)&.count || 0
   end
 
+  # Our own tally, capped by whatever Perenual last told us (if anything).
   def self.remaining
-    [limit - count_today, 0].max
+    own = [limit - count_today, 0].max
+    row = find_by(day: today)
+    return own unless row&.reported_remaining && row.reported_reset_at && row.reported_reset_at > Time.now.utc
+
+    [own, row.reported_remaining].min
+  end
+
+  # Store what Perenual reported in its X-RateLimit-* headers / 429 body.
+  def self.report!(remaining:, reset_at:)
+    row = find_or_create_by!(day: today)
+    row.update_columns(reported_remaining: remaining.to_i, reported_reset_at: reset_at)
+  rescue ActiveRecord::RecordNotUnique
+    retry
   end
 
   # Increments today's counter and returns the new count.
@@ -29,6 +42,14 @@ class ApiUsage < ActiveRecord::Base
   end
 
   def self.summary
-    { day: today.to_s, count: count_today, limit: limit, remaining: remaining }
+    row = find_by(day: today)
+    {
+      day: today.to_s,
+      count: count_today,
+      limit: limit,
+      remaining: remaining,
+      perenual_reported_remaining: row&.reported_remaining,
+      perenual_reset_at: row&.reported_reset_at&.utc&.iso8601
+    }
   end
 end
