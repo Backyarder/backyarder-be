@@ -23,6 +23,14 @@ class PlantCache
     [record.details_hash, record.care_sections]
   end
 
+  # Returns [details_hash] without the care guide: at most one call on a miss.
+  def details_only(plant_id)
+    record = PlantDetail.find_or_initialize_by(plant_id: plant_id)
+    ensure_details(record)
+    record.save! if record.changed?
+    [record.details_hash]
+  end
+
   # Returns [bytes, content_type] or nil when the plant has no image.
   # At most one call on a cold miss (the care guide is not needed here).
   def thumbnail(plant_id)

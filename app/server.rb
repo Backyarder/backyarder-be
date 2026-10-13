@@ -120,7 +120,12 @@ class Backyarder < Sinatra::Base
     when "disable_cell"
       cell.update(status: :disabled)
     else
-      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: params[:watering], content_type: params[:content_type])
+      watering = params[:watering]
+      # Search results from the lightweight species-list call may not carry a
+      # watering value; look it up (cached, or one call) so alerts keep working.
+      watering = backfill_watering(params[:plant_id]) if watering.nil? && params[:content_type] == "Plant" && params[:plant_id]
+
+      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: watering, content_type: params[:content_type])
     end
 
     json CellSerializer.new(cell)
@@ -163,6 +168,16 @@ class Backyarder < Sinatra::Base
   end
 
   private
+
+  # Returns the Cell#watering enum key ("Minimum", "Average", "Frequent") for a
+  # plant, or nil if Perenual doesn't know or the budget is gone.
+  def backfill_watering(plant_id)
+    details, = plant_cache.details_only(plant_id.to_i)
+    value = details && details[:watering]
+    Cell.waterings.key?(value) ? value : nil
+  rescue PerenualService::Error
+    nil
+  end
 
   # Snapshots that point at a frontend-hosted file keep that (free and fast);
   # anything else is served from the cached thumbnail route.
