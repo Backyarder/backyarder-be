@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_11_12_170000) do
+ActiveRecord::Schema[7.0].define(version: 2026_11_12_200000) do
   create_table "api_usages", force: :cascade do |t|
     t.date "day", null: false
     t.integer "count", default: 0, null: false
@@ -85,6 +85,9 @@ ActiveRecord::Schema[7.0].define(version: 2026_11_12_170000) do
     t.datetime "updated_at", null: false
     t.decimal "latitude", precision: 9, scale: 6
     t.decimal "longitude", precision: 9, scale: 6
+    t.text "weather"
+    t.datetime "weather_fetched_at"
+    t.date "last_digest_sent_on"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 

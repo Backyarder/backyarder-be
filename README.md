@@ -97,6 +97,25 @@ run ``` rake db:seed ``` <br>
 - Run the test suite
 ``` bundle exec rspec spec ``` <br>
 
+## Alerts and the daily email digest
+
+`GET /api/v1/alerts` (signed in) lists plants due for water, rain over the last two days, and the first frost in the three-day forecast. Weather comes from [Open-Meteo](https://open-meteo.com/) (free, no key) using the coordinates saved with the user's zip code, cached on the user for three hours.
+
+`POST /api/v1/alerts/digest` emails every user who has something due, once per UTC day. It is meant to be called by an external scheduler such as cron-job.org (free) every morning:
+
+```
+curl -X POST "https://backyarder-be-ch5a.onrender.com/api/v1/alerts/digest" -H "X-Cron-Secret: $CRON_SECRET"
+```
+
+Add `?dry_run=1` to see who would get mail without sending. Environment variables on Render:
+
+| Variable | Purpose |
+| --- | --- |
+| `CRON_SECRET` | Shared secret the scheduler sends; the endpoint is off until it is set |
+| `SMTP_HOST`, `SMTP_PORT` (587), `SMTP_USER`, `SMTP_PASSWORD` | Any SMTP relay: a Gmail app password, Brevo's free tier, etc. |
+| `MAIL_FROM` | Sender address |
+| `APP_BASE_URL` | Link in the email (defaults to https://backyarder.vercel.app) |
+
 ## Consumed APIs
 This project interacts with  external APIs to provide additional functionality and data. Below are the details of the APIs consumed:
 ### Perenual API
