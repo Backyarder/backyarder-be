@@ -9,6 +9,17 @@ class Garden < ActiveRecord::Base
 
   validates :name, presence: true
 
+  # The pre-accounts garden (no user). The first person to sign up inherits
+  # it so the plants already in the ground are not lost; returns nil if there
+  # is nothing to claim.
+  def self.claim_shared!(user)
+    shared = where(user_id: nil).order(:id).first
+    return nil unless shared && user.gardens.none?
+
+    shared.update!(user: user, name: "My Garden")
+    shared
+  end
+
   def self.create_for!(user, name: "My Garden")
     transaction do
       garden = create!(user: user, name: name)

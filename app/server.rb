@@ -20,7 +20,68 @@ class Backyarder < Sinatra::Base
     json({ error: "The plant database did not respond correctly. Please try again later." })
   end
 
+  SESSION_COOKIE = "backyarder_session".freeze
+
   helpers do
+    # --- authentication ---------------------------------------------------
+
+    # The session token travels as an httpOnly cookie (browser) or a bearer
+    # token (scripts, specs).
+    def session_token
+      auth = request.env["HTTP_AUTHORIZATION"].to_s
+      return auth.sub(/\ABearer\s+/i, "") if auth.match?(/\ABearer\s+\S/i)
+
+      request.cookies[SESSION_COOKIE]
+    end
+
+    def current_session
+      return @current_session if defined?(@current_session)
+
+      @current_session = Session.authenticate(session_token)
+    end
+
+    def current_user
+      current_session&.user
+    end
+
+    def current_garden
+      @current_garden ||= current_user.garden
+    end
+
+    def require_login!
+      return if current_user
+
+      halt 401, json({ error: "Please log in." })
+    end
+
+    def set_session_cookie(session)
+      response.set_cookie(SESSION_COOKIE,
+                          value: session.token,
+                          path: "/",
+                          httponly: true,
+                          secure: ENV["RACK_ENV"] == "production",
+                          same_site: :lax,
+                          expires: session.expires_at)
+    end
+
+    def clear_session_cookie
+      response.delete_cookie(SESSION_COOKIE, path: "/")
+    end
+
+    def json_body
+      body = request.body.read
+      request.body.rewind
+      body.to_s.empty? ? {} : JSON.parse(body, symbolize_names: true)
+    rescue JSON::ParserError
+      halt 400, json({ error: "Request body must be JSON." })
+    end
+
+    def user_json(user, session = nil)
+      payload = UserSerializer.new(user).serializable_hash
+      payload[:token] = session.token if session
+      json payload
+    end
+
     # Absolute URL for a cached thumbnail. Overridable for proxies/CDNs.
     def thumbnail_url(plant_id)
       base = ENV["API_BASE_URL"] || "#{request.base_url}#{request.script_name}"
@@ -106,13 +167,89 @@ class Backyarder < Sinatra::Base
     json ApiUsage.summary
   end
 
+  # --- accounts -------------------------------------------------------------
+
+  post "/auth/signup" do
+    params = json_body
+    user = User.new(email: params[:email], password: params[:password])
+    apply_zip_code!(user, params[:zip_code]) if params.key?(:zip_code)
+
+    # A failed zip lookup adds an error that save's validation pass would clear.
+    halt 422, json({ error: user.errors.full_messages.join(", ") }) unless user.errors.empty? && user.save
+
+    Garden.claim_shared!(user)
+    session = Session.issue!(user)
+    set_session_cookie(session)
+    status 201
+    user_json(user, session)
+  end
+
+  post "/auth/login" do
+    params = json_body
+    user = User.authenticate(params[:email], params[:password])
+    halt 401, json({ error: "Email or password is incorrect." }) unless user
+
+    session = Session.issue!(user)
+    set_session_cookie(session)
+    user_json(user, session)
+  end
+
+  delete "/auth/logout" do
+    current_session&.destroy
+    clear_session_cookie
+    status 204
+  end
+
+  get "/auth/me" do
+    require_login!
+    user_json(current_user)
+  end
+
+  # Update settings. zip_code is looked up for a hardiness zone; an unknown
+  # zip is rejected rather than stored.
+  patch "/auth/me" do
+    require_login!
+    params = json_body
+    apply_zip_code!(current_user, params[:zip_code]) if params.key?(:zip_code)
+    halt 422, json({ error: current_user.errors.full_messages.join(", ") }) unless current_user.errors.empty? && current_user.save
+
+    user_json(current_user)
+  end
+
+  # --- wishlist -------------------------------------------------------------
+
+  get "/wishlist" do
+    require_login!
+    json WishlistItemSerializer.new(current_user.wishlist_items.order(:id))
+  end
+
+  post "/wishlist" do
+    require_login!
+    item = current_user.wishlist_items.find_or_create_by!(plant_id: Integer(json_body[:plant_id]))
+    status 201
+    json WishlistItemSerializer.new(item)
+  rescue ArgumentError, TypeError, ActiveRecord::RecordInvalid
+    halt 422, json({ error: "plant_id must be a number." })
+  end
+
+  delete "/wishlist/:plant_id" do
+    require_login!
+    current_user.wishlist_items.where(plant_id: params[:plant_id].to_i).destroy_all
+    status 204
+  end
+
+  # --- garden (always the signed-in user's) ---------------------------------
+
   get "/garden" do
-    json CellSerializer.new(Cell.all)
+    require_login!
+    json CellSerializer.new(current_garden.cells.order(:id))
   end
 
   patch "/cell" do
-    params = JSON.parse(request.body.string, symbolize_names: true)
-    cell = Cell.find_by(location_id: params[:location_id])
+    require_login!
+    params = json_body
+    cell = current_garden.cells.find_by(location_id: params[:location_id])
+    halt 404, json({ error: "No cell #{params[:location_id].inspect} in your garden." }) unless cell
 
     case params[:action]
     when "remove_plant"
@@ -136,21 +273,24 @@ class Backyarder < Sinatra::Base
   end
 
   delete "/garden" do
-    Cell.where(status: :placed).update_all(Cell::CLEARED)
+    require_login!
+    current_garden.cells.where(status: :placed).update_all(Cell::CLEARED)
 
     status 200
   end
 
   delete "/all" do
-    Cell.update_all(Cell::CLEARED)
+    require_login!
+    current_garden.cells.update_all(Cell::CLEARED)
 
     status 200
   end
 
   # Uses the image stored on each cell when it was placed; no Perenual calls.
   get "/garden-stats" do
+    require_login!
     response = {}
-    Cell.where.not(plant_id: nil).each do |cell|
+    current_garden.cells.where.not(plant_id: nil).each do |cell|
       if response[cell.name]
         response[cell.name][:count] += 1
       else
@@ -172,6 +312,24 @@ class Backyarder < Sinatra::Base
   end
 
   private
+
+  # Sets zip_code plus the derived hardiness zone and coordinates, or adds a
+  # validation error if the zip is unknown. A blank zip clears all of them.
+  def apply_zip_code!(user, zip_code)
+    zip = zip_code.to_s.strip
+    if zip.empty?
+      user.assign_attributes(zip_code: nil, hardiness_zone: nil, latitude: nil, longitude: nil)
+      return
+    end
+
+    info = HardinessService.new.lookup(zip)
+    if info
+      user.assign_attributes(zip_code: zip, hardiness_zone: info[:zone], latitude: info[:latitude], longitude: info[:longitude])
+    else
+      user.zip_code = zip
+      user.errors.add(:zip_code, "could not be found; is it a valid US zip code?")
+    end
+  end
 
   # The frontend locks a cell when a plant goes in the ground and re-locks it
   # (placed -> locked) to water it, so every transition to locked is a watering.

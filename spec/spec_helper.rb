@@ -42,3 +42,30 @@ VCR.configure do |config|
 end
 
 WebMock.disable_net_connect!(allow_localhost: true)
+
+# --- request spec helpers ----------------------------------------------------
+
+# Signs in as `user` for request specs by issuing a session and returning the
+# rack env headers that carry it (merge into the env argument of get/patch/...).
+def auth_headers(user)
+  session = Session.issue!(user)
+  { "HTTP_AUTHORIZATION" => "Bearer #{session.token}" }
+end
+
+def json_headers(user = nil)
+  headers = { "CONTENT_TYPE" => "application/json" }
+  user ? headers.merge(auth_headers(user)) : headers
+end
+
+def create_user(email = "gardener@example.com", password: "gardening1")
+  User.create!(email: email, password: password)
+end
+
+def stub_hardiness(zip, zone: "8a", lat: "34.306643", lon: "-83.82352")
+  stub_request(:get, "https://phzmapi.org/#{zip}.json")
+    .to_return(status: 200, body: JSON.generate(zone: zone, temperature_range: "10 to 15", coordinates: { lat: lat, lon: lon }))
+end
+
+def stub_unknown_zip(zip)
+  stub_request(:get, "https://phzmapi.org/#{zip}.json").to_return(status: 404, body: "")
+end
