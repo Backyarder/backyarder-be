@@ -97,6 +97,22 @@ run ``` rake db:seed ``` <br>
 - Run the test suite
 ``` bundle exec rspec spec ``` <br>
 
+## Plant data and the Perenual budget
+
+The free Perenual plan allows 100 requests a day (`ApiUsage` stops at 95). Almost nothing the app does costs a call:
+
+- Stock plants (30) come from snapshots in `mock_json`.
+- A plant's details and care guide are fetched once, ever, and kept with their page image; thumbnails are stored too (`/plants/:id/thumbnail`, `/plants/:id/image`).
+- Search looks in our own `plant_details` table first (every plant we have ever listed) and only asks Perenual when fewer than five local names match. Perenual results are cached per query for a week.
+
+To make search fully local, snapshot the free-tier catalogue once (about 100 calls, spread over a few days inside the budget):
+
+```
+curl -X POST "https://backyarder-be-ch5a.onrender.com/api/v1/plants/catalog?pages=20" -H "X-Cron-Secret: $CRON_SECRET"
+```
+
+Each page is one call and 30 plants (thumbnails are plain downloads). The endpoint stops when fewer than ten calls remain for the day, remembers where it got to, and reports `done: true` when the catalogue is complete. `GET /api/v1/plants/catalog` shows progress without a secret.
+
 ## Alerts and the daily email digest
 
 `GET /api/v1/alerts` (signed in) lists plants due for water, rain over the last two days, and the first frost in the three-day forecast. Weather comes from [Open-Meteo](https://open-meteo.com/) (free, no key) using the coordinates saved with the user's zip code, cached on the user for three hours.

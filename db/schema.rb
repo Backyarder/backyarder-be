@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_11_12_220000) do
+ActiveRecord::Schema[7.0].define(version: 2026_11_13_100000) do
   create_table "api_usages", force: :cascade do |t|
     t.date "day", null: false
     t.integer "count", default: 0, null: false
@@ -55,6 +55,11 @@ ActiveRecord::Schema[7.0].define(version: 2026_11_12_220000) do
     t.string "thumbnail_content_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "common_name"
+    t.text "summary"
+    t.binary "image"
+    t.string "image_content_type"
+    t.index ["common_name"], name: "index_plant_details_on_common_name"
     t.index ["plant_id"], name: "index_plant_details_on_plant_id", unique: true
   end
 
@@ -74,6 +79,14 @@ ActiveRecord::Schema[7.0].define(version: 2026_11_12_220000) do
     t.datetime "updated_at", null: false
     t.index ["token_digest"], name: "index_sessions_on_token_digest", unique: true
     t.index ["user_id"], name: "index_sessions_on_user_id"
+  end
+
+  create_table "settings", force: :cascade do |t|
+    t.string "key", null: false
+    t.text "value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["key"], name: "index_settings_on_key", unique: true
   end
 
   create_table "users", force: :cascade do |t|

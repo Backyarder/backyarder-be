@@ -19,25 +19,35 @@ RSpec.describe "Plant detail caching", type: :request do
       expect(record.care_sections).to be_an Array
     end
 
-    it "refreshes only the details (one call) once the signed image URLs are stale" do
+    it "never fetches the details again, and serves the page image it stored" do
       VCR.use_cassette("plant_show") do
         get "/plants/225"
       end
-      PlantDetail.find_by(plant_id: 225).update_columns(details_fetched_at: Time.now - PlantDetail::IMAGE_TTL - 60)
+      PlantDetail.find_by(plant_id: 225).update_columns(details_fetched_at: Time.now - 30 * 24 * 60 * 60)
 
-      VCR.use_cassette("plant_show") do
-        get "/plants/225"
-      end
-
+      get "/plants/225"
       expect(last_response).to be_ok
-      expect(ApiUsage.count_today).to eq(3)
+      expect(ApiUsage.count_today).to eq(2)
+      attrs = JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes]
+      expect(attrs[:image]).to end_with("/plants/225/image")
+      expect(attrs[:name]).to be_a String
+
+      get "/plants/225/image"
+      expect(last_response).to be_ok
+      expect(last_response.headers["Content-Type"]).to eq("image/jpeg")
+      expect(last_response.body).to eq("imagebytes")
+      expect(last_response.headers["Cache-Control"]).to include("max-age=31536000")
+    end
+
+    it "returns 404 for the image of a plant we have not seen" do
+      get "/plants/4242/image"
+      expect(last_response.status).to eq(404)
     end
 
     it "serves stale details when the budget is gone" do
       VCR.use_cassette("plant_show") do
         get "/plants/225"
       end
-      PlantDetail.find_by(plant_id: 225).update_columns(details_fetched_at: Time.now - PlantDetail::IMAGE_TTL - 60)
       ApiUsage.find_by(day: ApiUsage.today).update!(count: ApiUsage.limit)
 
       get "/plants/225"

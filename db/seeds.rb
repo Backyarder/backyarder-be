@@ -1,4 +1,5 @@
 require "./app/models/cell"
+require "./app/models/plant_detail"
 
 # Seeds run on every production deploy, so only build the garden when it is
 # empty. Set FORCE_SEED=1 to wipe and rebuild it on purpose.
@@ -16,3 +17,6 @@ else
 
   puts "Seeded #{Cell.count} garden cells."
 end
+
+# Stock plant snapshots become searchable rows; idempotent.
+puts "Imported #{PlantDetail.import_stock!} stock plant snapshots into the search index."

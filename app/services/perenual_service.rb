@@ -19,6 +19,11 @@ class PerenualService
     get("v2/species-list", q: query)
   end
 
+  # One page (30 plants) of the whole catalogue, for the local snapshot.
+  def species_list_page(page)
+    get("v2/species-list", page: page)
+  end
+
   def detail_search(plant_id)
     # The v1 species/details endpoint is deprecated and returns null for most
     # fields (type, cycle, watering, hardiness, ...). v2 returns the full record.
@@ -36,8 +41,8 @@ class PerenualService
     return nil unless response.success? && response.headers["content-type"].to_s.start_with?("image/")
 
     [response.body, response.headers["content-type"]]
-  rescue Faraday::Error
-    nil
+  rescue StandardError
+    nil # images are optional; never let a download failure break a request
   end
 
   private
