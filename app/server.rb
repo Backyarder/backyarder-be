@@ -117,7 +117,7 @@ class Backyarder < Sinatra::Base
     plants = results.map do |result|
       plant = Plant.new(id: result[:plant_id], common_name: result[:name])
       plant.hardiness = result[:hardiness]
-      plant.image = result[:has_image] ? thumbnail_url(result[:plant_id]) : nil
+      plant.image = result[:image_path] || (result[:has_image] ? thumbnail_url(result[:plant_id]) : nil)
       plant.type = result[:type]
       plant.sunlight = result[:sunlight]
       plant.watering = result[:watering]

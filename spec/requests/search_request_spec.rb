@@ -79,6 +79,22 @@ RSpec.describe "Search Request", type: :request do
       expect(names).to include("Primrose", "Rosemary")
     end
 
+    it "finds stock plants locally after the seed import, with their frontend pictures" do
+      expect(PlantDetail.import_stock!).to eq(30)
+      expect(PlantDetail.import_stock!).to eq(0)
+      # One local match is "thin", so Perenual is still asked; it has nothing to add here.
+      coneflower_stub = stub_request(:get, %r{perenual\.com/api/v2/species-list}).with(query: hash_including("q" => "coneflower"))
+        .to_return(status: 200, body: JSON.generate(data: []), headers: { "Content-Type" => "application/json" })
+
+      get "/search/coneflower"
+
+      expect(coneflower_stub).to have_been_requested.once
+      first = JSON.parse(last_response.body, symbolize_names: true)[:data].first[:attributes]
+      expect(first[:name]).to eq("coneflower")
+      expect(first[:image]).to eq("/images/plants/2692.jpg")
+      expect(first[:hardiness]).to eq({ min: "3", max: "8" })
+    end
+
     it "asks Perenual when local matches are thin and merges them in" do
       PlantDetail.create!(plant_id: 7, common_name: "Maple leaf viburnum", summary: JSON.generate(cycle: "Perennial", watering: "Average", sunlight: []))
 
