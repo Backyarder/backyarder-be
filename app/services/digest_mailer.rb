@@ -28,6 +28,25 @@ class DigestMailer
     "Backyarder: #{parts.join(' and ')}"
   end
 
+  # Emails a password reset link. Raises NotConfigured when SMTP is not set up.
+  def self.deliver_password_reset(user, token)
+    configure!
+    link = "#{ENV.fetch('APP_BASE_URL', 'https://backyarder.vercel.app')}/reset?token=#{token}"
+    Mail.deliver do
+      from ENV["MAIL_FROM"]
+      to user.email
+      subject "Backyarder: reset your password"
+      body <<~TEXT
+        Someone asked to reset the password for this Backyarder account.
+
+        If that was you, open this link within the next hour:
+        #{link}
+
+        If it wasn't, you can ignore this email; your password has not changed.
+      TEXT
+    end
+  end
+
   # Returns { sent: [...emails], skipped: n, dry_run: bool }.
   def self.deliver_all(now: Time.now, dry_run: false)
     configure! unless dry_run
