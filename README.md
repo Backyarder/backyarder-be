@@ -1,7 +1,7 @@
 
 # Backyarder - BE
 
-## Deployed at: https://backyarder-be-47454958a7d2.herokuapp.com/
+## Deployed at: https://backyarder-be-ch5a.onrender.com/api/v1/ (Render free tier, Neon Postgres)
 [![rspec](https://github.com/Backyarder/backyarder-be/actions/workflows/run-specs.yml/badge.svg)](https://github.com/Backyarder/backyarder-be/actions/workflows/run-specs.yml)
 
 ## Authors
@@ -118,7 +118,7 @@ Our project uses GitHub Actions for Continuous Integration. This ensures that ev
 ### Workflow Details
 - Test Suite: Our tests are run using RSpec. Every PR or push to the main branch triggers the test suite.
 - Linting & Code Quality: We use Rubocop to ensure code quality.
-- On successful tests and code checks, the code is deployed to https://backyarder-be-47454958a7d2.herokuapp.com/
+- Merging to `main` deploys to Render (see `render.yaml`); the build runs migrations and the idempotent seed.
 
 ## Perenual usage and caching
 
