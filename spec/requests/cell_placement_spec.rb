@@ -1,13 +1,14 @@
 require "spec_helper"
 
 RSpec.describe "Search Request", type: :request do
+  let(:user) { create_user }
+  let(:garden) { Garden.create!(user: user, name: "Test") }
+
   describe "PATCH /cell" do
     it "takes a proper json payload and returns a proper json payload" do
-      cell = Cell.create!(location_id: "A1", status: 0)
+      cell = garden.cells.create!(location_id: "A1", status: 0)
       cell_params = { name: "Green Leaf", location_id: "A1", image: "google.com", watering:"Frequent", status: 1, plant_id: 1 }
-
-      headers = { "CONTENT_TYPE" => "application/json" }
-      response = patch "/cell", JSON.generate(cell_params)
+      response = patch "/cell", JSON.generate(cell_params), json_headers(user)
       expect(response).to be_successful
       json_response = JSON.parse(response.body, symbolize_names: true)
       expected = {
@@ -34,10 +35,10 @@ RSpec.describe "Search Request", type: :request do
     end
 
     it "records planting and watering times when a cell is locked" do
-      Cell.create!(location_id: "A1", status: :placed, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Frequent)
+      garden.cells.create!(location_id: "A1", status: :placed, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Frequent)
       cell_params = { name: "Fern", content_type: "Plant", location_id: "A1", image: "img", status: 3, watering: "Frequent", plant_id: 1 }
 
-      response = patch "/cell", JSON.generate(cell_params), { "CONTENT_TYPE" => "application/json" }
+      response = patch "/cell", JSON.generate(cell_params), json_headers(user)
 
       expect(response).to be_successful
       attrs = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
@@ -50,10 +51,10 @@ RSpec.describe "Search Request", type: :request do
 
     it "treats re-locking as a watering but keeps the original planting date" do
       long_ago = Time.now - 10 * 24 * 60 * 60
-      Cell.create!(location_id: "A1", status: :locked, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Frequent, planted_at: long_ago, last_watered_at: long_ago)
+      garden.cells.create!(location_id: "A1", status: :locked, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Frequent, planted_at: long_ago, last_watered_at: long_ago)
       cell_params = { name: "Fern", content_type: "Plant", location_id: "A1", image: "img", status: 3, watering: "Frequent", plant_id: 1 }
 
-      patch "/cell", JSON.generate(cell_params), { "CONTENT_TYPE" => "application/json" }
+      patch "/cell", JSON.generate(cell_params), json_headers(user)
 
       cell = Cell.find_by(location_id: "A1")
       expect(cell.planted_at).to be_within(1).of(long_ago)
@@ -63,9 +64,9 @@ RSpec.describe "Search Request", type: :request do
 
     it "waters a cell with the water action" do
       long_ago = Time.now - 10 * 24 * 60 * 60
-      Cell.create!(location_id: "A1", status: :locked, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Average, planted_at: long_ago, last_watered_at: long_ago)
+      garden.cells.create!(location_id: "A1", status: :locked, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Average, planted_at: long_ago, last_watered_at: long_ago)
 
-      response = patch "/cell", JSON.generate({ action: "water", location_id: "A1" }), { "CONTENT_TYPE" => "application/json" }
+      response = patch "/cell", JSON.generate({ action: "water", location_id: "A1" }), json_headers(user)
 
       expect(response).to be_successful
       attrs = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
@@ -76,21 +77,20 @@ RSpec.describe "Search Request", type: :request do
 
     it "reports needs_water for an overdue plant" do
       long_ago = Time.now - 10 * 24 * 60 * 60
-      Cell.create!(location_id: "A1", status: :locked, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Average, planted_at: long_ago, last_watered_at: long_ago)
+      garden.cells.create!(location_id: "A1", status: :locked, plant_id: 1, name: "Fern", content_type: "Plant", watering: :Average, planted_at: long_ago, last_watered_at: long_ago)
 
-      response = get "/garden"
+      response = get "/garden", nil, auth_headers(user)
 
       attrs = JSON.parse(response.body, symbolize_names: true)[:data][0][:attributes]
       expect(attrs[:needs_water]).to be(true)
     end
 
     it "removes the plant from the cell and sets the status to empty" do
-      cell = Cell.create!(location_id: "A1", status: 1, plant_id: 1, image: "image_url", watering:"Average", name: "Pretty Flower")
+      cell = garden.cells.create!(location_id: "A1", status: 1, plant_id: 1, image: "image_url", watering:"Average", name: "Pretty Flower")
 
       cell_params = { action: "remove_plant", location_id: "A1" }
-      headers = { "CONTENT_TYPE" => "application/json" }
 
-      response = patch "/cell", JSON.generate(cell_params), headers
+      response = patch "/cell", JSON.generate(cell_params), json_headers(user)
 
       expect(response).to be_successful
       json_response = JSON.parse(response.body, symbolize_names: true)
@@ -106,12 +106,11 @@ RSpec.describe "Search Request", type: :request do
     end
 
     it "disables the cell and sets the status to disabled" do
-      cell = Cell.create!(location_id: "A1", status: :empty)
+      cell = garden.cells.create!(location_id: "A1", status: :empty)
 
       cell_params = { action: "disable_cell", location_id: "A1" }
-      headers = { "CONTENT_TYPE" => "application/json" }
 
-      response = patch "/cell", JSON.generate(cell_params), headers
+      response = patch "/cell", JSON.generate(cell_params), json_headers(user)
 
       expect(response).to be_successful
       json_response = JSON.parse(response.body, symbolize_names: true)

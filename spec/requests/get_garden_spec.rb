@@ -1,32 +1,33 @@
 require "spec_helper"
 
 RSpec.describe "Get Garden request", type: :request do
+  let(:user) { create_user }
+  let(:garden) { Garden.create!(user: user, name: "Test") }
+
   describe "get /garden" do
     it "returns all cell data" do
-      Cell.create!(location_id: "A1", status: :empty)
-      Cell.create!(location_id: "A2", status: :empty)
-      Cell.create!(location_id: "A3", status: :empty)
+      garden.cells.create!(location_id: "A1", status: :empty)
+      garden.cells.create!(location_id: "A2", status: :empty)
+      garden.cells.create!(location_id: "A3", status: :empty)
 
-      Cell.create!(location_id: "B1", status: :placed, plant_id: 1, image: "image_url_1", name: "Bushy Bush", watering: :Frequent)
-      Cell.create!(location_id: "B2", status: :placed, plant_id: 2, image: "image_url_2", name: "Weedy Weed", watering: :Minimum)
-      Cell.create!(location_id: "B3", status: :placed, plant_id: 3, image: "image_url_3", name: "Leafy Leaf", watering: :Average)
+      garden.cells.create!(location_id: "B1", status: :placed, plant_id: 1, image: "image_url_1", name: "Bushy Bush", watering: :Frequent)
+      garden.cells.create!(location_id: "B2", status: :placed, plant_id: 2, image: "image_url_2", name: "Weedy Weed", watering: :Minimum)
+      garden.cells.create!(location_id: "B3", status: :placed, plant_id: 3, image: "image_url_3", name: "Leafy Leaf", watering: :Average)
 
-      Cell.create!(location_id: "C1", status: :disabled)
-      Cell.create!(location_id: "C2", status: :disabled)
-      Cell.create!(location_id: "C3", status: :disabled)
+      garden.cells.create!(location_id: "C1", status: :disabled)
+      garden.cells.create!(location_id: "C2", status: :disabled)
+      garden.cells.create!(location_id: "C3", status: :disabled)
 
-      Cell.create!(location_id: "D1", status: :locked, plant_id: 4, image: "image_url_4", name: "Mossy Moss", watering: :None)
-      Cell.create!(location_id: "D2", status: :locked, plant_id: 5, image: "image_url_5", name: "Ferny Fern", watering: :None)
-      Cell.create!(location_id: "D3", status: :locked, plant_id: 6, image: "image_url_6", name: "Grassy Grass", watering: :None)
+      garden.cells.create!(location_id: "D1", status: :locked, plant_id: 4, image: "image_url_4", name: "Mossy Moss", watering: :None)
+      garden.cells.create!(location_id: "D2", status: :locked, plant_id: 5, image: "image_url_5", name: "Ferny Fern", watering: :None)
+      garden.cells.create!(location_id: "D3", status: :locked, plant_id: 6, image: "image_url_6", name: "Grassy Grass", watering: :None)
 
       expect(Cell.empty.count).to eq(3)
       expect(Cell.placed.count).to eq(3)
       expect(Cell.disabled.count).to eq(3)
       expect(Cell.locked.count).to eq(3)
 
-      headers = { "CONTENT_TYPE" => "application/json" }
-
-      response = get "/garden", headers
+      response = get "/garden", nil, auth_headers(user)
 
       expect(response).to be_successful
 

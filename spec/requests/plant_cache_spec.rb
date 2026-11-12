@@ -108,12 +108,13 @@ RSpec.describe "Plant detail caching", type: :request do
       { name: "Nine", content_type: "Plant", location_id: "A1", image: "x", status: 1, plant_id: 9 }
     end
 
-    before { Cell.create!(location_id: "A1", status: :empty) }
+    let(:user) { create_user }
+    before { Garden.create!(user: user, name: "Test").cells.create!(location_id: "A1", status: :empty) }
 
     it "fills watering from cached details without calling Perenual" do
       PlantDetail.create!(plant_id: 9, details: JSON.generate(id: 9, watering: "Frequent"), details_fetched_at: Time.now)
 
-      patch "/cell", JSON.generate(placement), "CONTENT_TYPE" => "application/json"
+      patch "/cell", JSON.generate(placement), json_headers(user)
 
       expect(last_response).to be_ok
       expect(Cell.find_by(location_id: "A1").watering).to eq("Frequent")
@@ -124,7 +125,7 @@ RSpec.describe "Plant detail caching", type: :request do
       stub_request(:get, %r{perenual\.com/api/v2/species/details/9})
         .to_return(status: 200, body: JSON.generate(id: 9, watering: "Average"), headers: { "Content-Type" => "application/json" })
 
-      patch "/cell", JSON.generate(placement), "CONTENT_TYPE" => "application/json"
+      patch "/cell", JSON.generate(placement), json_headers(user)
 
       expect(Cell.find_by(location_id: "A1").watering).to eq("Average")
       expect(ApiUsage.count_today).to eq(1)
@@ -133,7 +134,7 @@ RSpec.describe "Plant detail caching", type: :request do
     it "still places the plant when the budget is gone" do
       ApiUsage.create!(day: ApiUsage.today, count: ApiUsage.limit)
 
-      patch "/cell", JSON.generate(placement), "CONTENT_TYPE" => "application/json"
+      patch "/cell", JSON.generate(placement), json_headers(user)
 
       expect(last_response).to be_ok
       cell = Cell.find_by(location_id: "A1")
@@ -142,7 +143,7 @@ RSpec.describe "Plant detail caching", type: :request do
     end
 
     it "keeps a watering value sent by the client" do
-      patch "/cell", JSON.generate(placement.merge(watering: 1)), "CONTENT_TYPE" => "application/json"
+      patch "/cell", JSON.generate(placement.merge(watering: 1)), json_headers(user)
 
       expect(Cell.find_by(location_id: "A1").watering).to eq("Minimum")
       expect(ApiUsage.count_today).to eq(0)
