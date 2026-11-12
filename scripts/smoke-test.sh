@@ -20,6 +20,7 @@ API="${1:?usage: smoke-test.sh <API_BASE_URL> [FRONTEND_URL]}"
 FRONTEND="${2:-}"
 API="${API%/}"
 TIMEOUT=90   # free-tier hosts cold start slowly
+PY=$(command -v python3 || command -v python || echo python) # macOS ships python3 only
 PASS=0; FAIL=0
 
 say()  { printf '%s\n' "$*"; }
@@ -35,8 +36,8 @@ get() {
 }
 
 # count_data -> number of items in {"data":[...]} using python (present on dev machines and CI)
-count_data() { printf '%s' "$BODY" | python -c 'import sys,json; d=json.load(sys.stdin)["data"]; print(len(d) if isinstance(d,list) else 1)' 2>/dev/null || echo "-1"; }
-json_get()   { printf '%s' "$BODY" | python -c "import sys,json; v=json.load(sys.stdin); print($1)" 2>/dev/null; }
+count_data() { printf '%s' "$BODY" | "$PY" -c 'import sys,json; d=json.load(sys.stdin)["data"]; print(len(d) if isinstance(d,list) else 1)' 2>/dev/null || echo "-1"; }
+json_get()   { printf '%s' "$BODY" | "$PY" -c "import sys,json; v=json.load(sys.stdin); print($1)" 2>/dev/null; }
 
 say "Smoke testing API at $API"
 
@@ -84,7 +85,7 @@ if [ "$CODE" = "200" ] && [ -n "$used" ]; then ok "GET /perenual-usage -> $used 
 
 # 7. garden stats (should be valid JSON even when empty)
 get "/garden-stats"
-if [ "$CODE" = "200" ] && printf '%s' "$BODY" | python -c 'import sys,json; json.load(sys.stdin)' 2>/dev/null; then ok "GET /garden-stats returns JSON"; else bad "GET /garden-stats (HTTP $CODE)" "$(printf '%s' "$BODY" | head -c 200)"; fi
+if [ "$CODE" = "200" ] && printf '%s' "$BODY" | "$PY" -c 'import sys,json; json.load(sys.stdin)' 2>/dev/null; then ok "GET /garden-stats returns JSON"; else bad "GET /garden-stats (HTTP $CODE)" "$(printf '%s' "$BODY" | head -c 200)"; fi
 
 # 8. CORS header present for a browser origin
 hdr=$(curl -sS -m "$TIMEOUT" -i "$API/garden" -H "Origin: ${FRONTEND:-http://localhost:3001}" 2>/dev/null | grep -i "^access-control-allow-origin" | tr -d '\r')

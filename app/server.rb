@@ -116,29 +116,33 @@ class Backyarder < Sinatra::Base
 
     case params[:action]
     when "remove_plant"
-      cell.update(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil, watering: nil)
+      cell.clear!
     when "disable_cell"
       cell.update(status: :disabled)
+    when "water"
+      cell.water!
     else
       watering = params[:watering]
       # Search results from the lightweight species-list call may not carry a
       # watering value; look it up (cached, or one call) so alerts keep working.
       watering = backfill_watering(params[:plant_id]) if watering.nil? && params[:content_type] == "Plant" && params[:plant_id]
 
-      cell.update(status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: watering, content_type: params[:content_type])
+      attrs = { status: params[:status], plant_id: params[:plant_id], image: params[:image], name: params[:name], watering: watering, content_type: params[:content_type] }
+      attrs.merge!(care_timestamps_for(cell, params[:status]))
+      cell.update(attrs)
     end
 
     json CellSerializer.new(cell)
   end
 
   delete "/garden" do
-    Cell.where(status: :placed).update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil)
+    Cell.where(status: :placed).update_all(Cell::CLEARED)
 
     status 200
   end
 
   delete "/all" do
-    Cell.update_all(status: :empty, plant_id: nil, image: nil, name: nil, content_type: nil)
+    Cell.update_all(Cell::CLEARED)
 
     status 200
   end
@@ -168,6 +172,18 @@ class Backyarder < Sinatra::Base
   end
 
   private
+
+  # The frontend locks a cell when a plant goes in the ground and re-locks it
+  # (placed -> locked) to water it, so every transition to locked is a watering.
+  # Emptying a cell forgets its history. Other status changes leave it alone.
+  def care_timestamps_for(cell, raw_status, now = Time.now)
+    status_name = raw_status.is_a?(Integer) ? Cell.statuses.key(raw_status) : raw_status.to_s
+    case status_name
+    when "locked" then { planted_at: cell.planted_at || now, last_watered_at: now }
+    when "empty" then { planted_at: nil, last_watered_at: nil }
+    else {}
+    end
+  end
 
   # Returns the Cell#watering enum key ("Minimum", "Average", "Frequent") for a
   # plant, or nil if Perenual doesn't know or the budget is gone.
