@@ -216,6 +216,27 @@ class Backyarder < Sinatra::Base
     user_json(current_user)
   end
 
+  # --- alerts ---------------------------------------------------------------
+
+  # What needs attention today: plants due for water, recent rain, frost.
+  get "/alerts" do
+    require_login!
+    json GardenAlerts.new(current_user).to_h
+  end
+
+  # Daily email digest for every user, meant to be hit by an external cron
+  # (cron-job.org) with the shared secret. ?dry_run=1 reports without sending.
+  post "/alerts/digest" do
+    secret = ENV["CRON_SECRET"].to_s
+    given = params[:secret].to_s.empty? ? request.env["HTTP_X_CRON_SECRET"].to_s : params[:secret].to_s
+    halt 503, json({ error: "CRON_SECRET is not set on the server." }) if secret.empty?
+    halt 401, json({ error: "Bad secret." }) unless Rack::Utils.secure_compare(secret, given)
+
+    json DigestMailer.deliver_all(dry_run: params[:dry_run] == "1")
+  rescue DigestMailer::NotConfigured => e
+    halt 503, json({ error: e.message })
+  end
+
   # --- wishlist -------------------------------------------------------------
 
   get "/wishlist" do

@@ -7,6 +7,8 @@ gem "bcrypt"
 gem "dotenv"
 gem "faraday"
 gem "json"
+gem "mail"
+gem "net-smtp", require: false # mail needs it; a bundled gem since Ruby 3.1
 gem "jsonapi-serializer"
 gem "pry"
 gem "puma"
