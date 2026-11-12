@@ -200,6 +200,33 @@ class Backyarder < Sinatra::Base
     status 204
   end
 
+  # Always answers 200 so the form cannot be used to discover accounts.
+  # Only sends when the address has an account and SMTP is configured.
+  post "/auth/forgot" do
+    halt 503, json({ error: "Password reset email is not set up on this server yet. Ask the garden owner to reset your password." }) unless DigestMailer.configured?
+
+    user = User.find_by(email: json_body[:email].to_s.strip.downcase)
+    DigestMailer.deliver_password_reset(user, user.issue_reset_token!) if user
+    json({ ok: true })
+  end
+
+  # Sets a new password from an emailed token and signs the user in.
+  post "/auth/reset" do
+    params = json_body
+    user = User.find_by_reset_token(params[:token])
+    halt 422, json({ error: "That reset link is invalid or has expired. Request a new one." }) unless user
+
+    begin
+      user.reset_password!(params[:password].to_s)
+    rescue ActiveRecord::RecordInvalid
+      halt 422, json({ error: user.errors.full_messages.join(", ") })
+    end
+
+    session = Session.issue!(user)
+    set_session_cookie(session)
+    user_json(user, session)
+  end
+
   get "/auth/me" do
     require_login!
     user_json(current_user)
