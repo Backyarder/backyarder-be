@@ -80,7 +80,7 @@ RSpec.describe "Search Request", type: :request do
     end
 
     it "finds stock plants locally after the seed import, with their frontend pictures" do
-      expect(PlantDetail.import_stock!).to eq(30)
+      expect(PlantDetail.import_stock!).to eq(75) # 30 stock + 45 kitchen
       expect(PlantDetail.import_stock!).to eq(0)
       # One local match is "thin", so Perenual is still asked; it has nothing to add here.
       coneflower_stub = stub_request(:get, %r{perenual\.com/api/v2/species-list}).with(query: hash_including("q" => "coneflower"))

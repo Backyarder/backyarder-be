@@ -1,0 +1,61 @@
+{
+  "id": 900003,
+  "common_name": "bell pepper",
+  "scientific_name": [
+    "Capsicum annuum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pepper.svg",
+    "small_url": "/images/kitchen/pepper.svg",
+    "medium_url": "/images/kitchen/pepper.svg",
+    "regular_url": "/images/kitchen/pepper.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water regularly so the soil stays evenly moist; a dry spell at flowering drops the blossoms."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and warmth. Plant out only once nights stay above 55F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "No pruning needed; stake heavy plants. Pick green, or leave to ripen red and sweeter."
+    }
+  ]
+}

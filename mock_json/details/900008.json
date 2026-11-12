@@ -1,0 +1,61 @@
+{
+  "id": 900008,
+  "common_name": "pumpkin",
+  "scientific_name": [
+    "Cucurbita pepo"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/squash.svg",
+    "small_url": "/images/kitchen/squash.svg",
+    "medium_url": "/images/kitchen/squash.svg",
+    "regular_url": "/images/kitchen/squash.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch or two of water a week at the base of the plant; keep it steady while fruit sets."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and lots of space; vines spread ten feet or more."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut with a few inches of stem once the skin resists a fingernail, before the first hard frost."
+    }
+  ]
+}

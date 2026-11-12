@@ -1,0 +1,61 @@
+{
+  "id": 900006,
+  "common_name": "zucchini",
+  "scientific_name": [
+    "Cucurbita pepo"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/squash.svg",
+    "small_url": "/images/kitchen/squash.svg",
+    "medium_url": "/images/kitchen/squash.svg",
+    "regular_url": "/images/kitchen/squash.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering twice a week at the base; wet leaves invite powdery mildew."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and plenty of room, about three feet each way."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest small, six to eight inches, and often. Remove older leaves to keep air moving."
+    }
+  ]
+}

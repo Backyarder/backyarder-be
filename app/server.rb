@@ -118,6 +118,7 @@ class Backyarder < Sinatra::Base
       plant = Plant.new(id: result[:plant_id], common_name: result[:name])
       plant.hardiness = result[:hardiness]
       plant.image = result[:image_path] || (result[:has_image] ? thumbnail_url(result[:plant_id]) : nil)
+      plant.collection = result[:collection]
       plant.type = result[:type]
       plant.sunlight = result[:sunlight]
       plant.watering = result[:watering]
@@ -138,7 +139,7 @@ class Backyarder < Sinatra::Base
     end
 
     plants = type.map do |plant|
-      next if plant.plant_id > PerenualService::FREE_TIER_MAX_ID
+      next unless PerenualService.allowed_id?(plant.plant_id)
 
       plant_details = JSON.parse(File.read("mock_json/details/#{plant.plant_id}.json"), symbolize_names: true)
       plant.hardiness = plant_details[:hardiness]
@@ -171,10 +172,10 @@ class Backyarder < Sinatra::Base
 
   # Two Perenual calls the first time anyone views a plant, then never again.
   get "/plants/:id" do
-    details, sections, has_image = plant_cache.details(params[:id].to_i)
+    details, sections, image = plant_cache.details(params[:id].to_i)
     plant = Detail.new(details)
     plant.section = sections
-    plant.image = has_image ? image_url(params[:id].to_i) : nil
+    plant.image = image == :stored ? image_url(params[:id].to_i) : image
 
     cache_control :public, max_age: ONE_DAY
     json DetailSerializer.new(plant)

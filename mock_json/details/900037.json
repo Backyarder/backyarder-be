@@ -1,0 +1,62 @@
+{
+  "id": 900037,
+  "common_name": "oregano",
+  "scientific_name": [
+    "Origanum vulgare"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water when dry; it is a Mediterranean plant and resents soggy soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun for the strongest flavour."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest just before flowering for the best taste. Cut back hard in spring to renew it."
+    }
+  ]
+}

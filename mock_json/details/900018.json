@@ -1,0 +1,61 @@
+{
+  "id": 900018,
+  "common_name": "carrot",
+  "scientific_name": [
+    "Daucus carota"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep the seedbed moist until germination, then an inch a week. Uneven water forks and splits roots."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in loose stone-free soil so roots grow straight."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Thin seedlings to two inches apart. Pull when the shoulders show the colour you want; smaller is sweeter."
+    }
+  ]
+}

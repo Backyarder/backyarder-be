@@ -1,0 +1,62 @@
+{
+  "id": 900004,
+  "common_name": "chili pepper",
+  "scientific_name": [
+    "Capsicum annuum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pepper.svg",
+    "small_url": "/images/kitchen/pepper.svg",
+    "medium_url": "/images/kitchen/pepper.svg",
+    "regular_url": "/images/kitchen/pepper.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water when the top inch of soil is dry. Slightly stressed plants make hotter chilies."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat; the more sun, the more fruit."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick as they colour. Cutting the first few flowers makes a bigger plant and a larger crop later."
+    }
+  ]
+}

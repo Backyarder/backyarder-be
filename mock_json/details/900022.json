@@ -1,0 +1,59 @@
+{
+  "id": 900022,
+  "common_name": "garlic",
+  "scientific_name": [
+    "Allium sativum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water in spring while leaves grow; stop watering two or three weeks before harvest so bulbs cure in the ground."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Plant cloves in fall for a summer harvest."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Snap off the curly scapes in late spring and eat them. Dig the bulbs when the lower leaves have browned."
+    }
+  ]
+}

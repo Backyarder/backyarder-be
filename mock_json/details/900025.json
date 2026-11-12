@@ -1,0 +1,62 @@
+{
+  "id": 900025,
+  "common_name": "eggplant",
+  "scientific_name": [
+    "Solanum melongena"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/eggplant.svg",
+    "small_url": "/images/kitchen/eggplant.svg",
+    "medium_url": "/images/kitchen/eggplant.svg",
+    "regular_url": "/images/kitchen/eggplant.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Regular deep watering, an inch or more a week; mulch to hold moisture and warmth."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat. Loves the hottest spot in the garden."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Stake the plant. Harvest while the skin is glossy; dull skin means overripe and bitter."
+    }
+  ]
+}

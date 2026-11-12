@@ -1,0 +1,60 @@
+{
+  "id": 900029,
+  "common_name": "celery",
+  "scientific_name": [
+    "Apium graveolens"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "High",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/stalk.svg",
+    "small_url": "/images/kitchen/stalk.svg",
+    "medium_url": "/images/kitchen/stalk.svg",
+    "regular_url": "/images/kitchen/stalk.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "The thirstiest vegetable: never let it dry out or the stalks go stringy and hollow."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to part shade in cool, rich soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest outer stalks as needed or cut the whole plant at the base. Blanch by wrapping the stems if you like it pale."
+    }
+  ]
+}

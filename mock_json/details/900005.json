@@ -1,0 +1,61 @@
+{
+  "id": 900005,
+  "common_name": "cucumber",
+  "scientific_name": [
+    "Cucumis sativus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/squash.svg",
+    "small_url": "/images/kitchen/squash.svg",
+    "medium_url": "/images/kitchen/squash.svg",
+    "regular_url": "/images/kitchen/squash.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Thirsty: water deeply every couple of days in warm weather, at the base to keep leaves dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Give vines a trellis for straighter fruit and better airflow."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick often, every day or two in season; leaving fruit to swell stops the plant producing."
+    }
+  ]
+}

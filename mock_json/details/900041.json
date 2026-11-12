@@ -1,0 +1,66 @@
+{
+  "id": 900041,
+  "common_name": "nasturtium",
+  "scientific_name": [
+    "Tropaeolum majus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies",
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; too much water or fertiliser gives leaves instead of flowers."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in poor soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "No care needed. Leaves and flowers are edible and peppery. Draws aphids away from vegetables."
+    }
+  ]
+}

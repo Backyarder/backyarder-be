@@ -1,0 +1,62 @@
+{
+  "id": 900010,
+  "common_name": "pea",
+  "scientific_name": [
+    "Pisum sativum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pod.svg",
+    "small_url": "/images/kitchen/pod.svg",
+    "medium_url": "/images/kitchen/pod.svg",
+    "regular_url": "/images/kitchen/pod.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady moisture, especially once flowering starts. Mulch to keep roots cool."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in spring; appreciates afternoon shade as summer heat arrives."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Give them something to climb. Harvest every other day once pods fill to keep them coming."
+    }
+  ]
+}

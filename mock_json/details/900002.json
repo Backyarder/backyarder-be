@@ -1,0 +1,63 @@
+{
+  "id": 900002,
+  "common_name": "basil",
+  "scientific_name": [
+    "Ocimum basilicum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep the soil moist but never soggy; basil wilts fast in dry soil and sulks in cold, wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, sheltered from wind. Indoors it wants the brightest window you have."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch the tips every week or two to keep it bushy and delay flowering. Harvest leaves from the top down."
+    }
+  ]
+}

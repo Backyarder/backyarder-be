@@ -1,0 +1,61 @@
+{
+  "id": 900011,
+  "common_name": "sweet corn",
+  "scientific_name": [
+    "Zea mays"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/corn.svg",
+    "small_url": "/images/kitchen/corn.svg",
+    "medium_url": "/images/kitchen/corn.svg",
+    "regular_url": "/images/kitchen/corn.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch of water a week, and never let it dry out while tassels and silks are forming."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Plant in a block of short rows rather than one long row so the wind can pollinate it."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest when the silks turn brown and a pierced kernel bleeds milky juice."
+    }
+  ]
+}

@@ -20,17 +20,26 @@ class PlantCache
     @service = service
   end
 
-  # Returns [details_hash, care_sections, has_image]. Up to two calls on a cold miss.
+  # Returns [details_hash, care_sections, image]. image is :stored (serve from
+  # /plants/:id/image), a frontend path, or nil. Up to two calls on a cold miss;
+  # none for a built-in plant.
   def details(plant_id)
+    if PerenualService.built_in?(plant_id)
+      data = built_in_details(plant_id)
+      return [data, data[:care_sections] || [], data.dig(:default_image, :thumbnail)]
+    end
+
     record = PlantDetail.find_or_initialize_by(plant_id: plant_id)
     ensure_details(record)
     ensure_care(record)
     record.save! if record.changed?
-    [record.details_hash, record.care_sections, record.image?]
+    [record.details_hash, record.care_sections, (:stored if record.image?)]
   end
 
   # Returns [details_hash] without the care guide: at most one call on a miss.
   def details_only(plant_id)
+    return [built_in_details(plant_id)] if PerenualService.built_in?(plant_id)
+
     record = PlantDetail.find_or_initialize_by(plant_id: plant_id)
     ensure_details(record)
     record.save! if record.changed?
@@ -40,6 +49,8 @@ class PlantCache
   # Returns [bytes, content_type] or nil when the plant has no image.
   # At most one call on a cold miss (the care guide is not needed here).
   def thumbnail(plant_id)
+    return nil if PerenualService.built_in?(plant_id) # pictures live with the frontend
+
     record = PlantDetail.find_or_initialize_by(plant_id: plant_id)
     return [record.thumbnail, record.thumbnail_content_type] if record.thumbnail?
 
@@ -77,7 +88,7 @@ class PlantCache
     end
 
     remote = raw
-      .reject { |r| r[:id].to_i > PerenualService::FREE_TIER_MAX_ID }
+      .reject { |r| !PerenualService.allowed_id?(r[:id]) }
       .map { |r| remember_listing(r) }
     # Plants we already know come first; they are the ones people replant.
     results = (local + remote).uniq { |r| r[:plant_id] }.first(RESULTS_PER_SEARCH)
@@ -133,6 +144,14 @@ class PlantCache
   end
 
   private
+
+  # The snapshot for one of our own plants; raises like an unknown Perenual id would.
+  def built_in_details(plant_id)
+    path = File.join(PlantDetail::STOCK_DETAILS_DIR, "#{plant_id.to_i}.json")
+    raise PerenualService::ApiError, "No built-in plant #{plant_id}" unless File.exist?(path)
+
+    JSON.parse(File.read(path), symbolize_names: true)
+  end
 
   def ensure_details(record)
     return if record.details?
