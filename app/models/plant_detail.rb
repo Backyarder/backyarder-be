@@ -1,8 +1,7 @@
 class PlantDetail < ActiveRecord::Base
-  # Perenual signs image URLs for 24 hours; refresh a little before that.
-  IMAGE_TTL = 23 * 60 * 60
-
   validates :plant_id, presence: true, uniqueness: true
+
+  scope :listed, -> { where.not(common_name: nil) }
 
   def details_hash
     details && JSON.parse(details, symbolize_names: true)
@@ -12,11 +11,40 @@ class PlantDetail < ActiveRecord::Base
     care && JSON.parse(care, symbolize_names: true)
   end
 
-  def details_fresh?
-    details.present? && details_fetched_at.present? && details_fetched_at > Time.now - IMAGE_TTL
+  def summary_hash
+    summary ? JSON.parse(summary, symbolize_names: true) : {}
+  end
+
+  # Plant data is static: once we have details we never fetch them again.
+  def details?
+    details.present?
   end
 
   def thumbnail?
     thumbnail.present?
+  end
+
+  def image?
+    image.present?
+  end
+
+  def name
+    common_name || details_hash&.dig(:common_name)
+  end
+
+  # The shape a search result has, built from whatever we know locally.
+  def listing
+    d = details_hash || {}
+    s = summary_hash
+    {
+      plant_id: plant_id,
+      name: name,
+      cycle: s[:cycle] || d[:cycle],
+      watering: s[:watering] || d[:watering],
+      sunlight: s[:sunlight] || d[:sunlight] || [],
+      type: d[:type],
+      hardiness: d[:hardiness],
+      has_image: thumbnail?
+    }
   end
 end

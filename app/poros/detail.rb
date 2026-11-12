@@ -1,9 +1,8 @@
 class Detail
-  attr_accessor :section
+  attr_accessor :section, :image
 
   attr_reader :id,
               :plant_id,
-              :image,
               :name,
               :scientific_name,
               :type,

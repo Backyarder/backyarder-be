@@ -14,11 +14,6 @@ RSpec.describe "Search Request", type: :request do
       .to_return(status: 200, body: species_list_body, headers: { "Content-Type" => "application/json" })
   end
 
-  let!(:thumbnail_stub) do
-    stub_request(:get, %r{perenual\.com/storage/})
-      .to_return(status: 200, body: "jpegbytes", headers: { "Content-Type" => "image/jpeg" })
-  end
-
   describe "GET /search/:q" do
     it "returns list JSON with cached thumbnails and a day-long cache header" do
       get "/search/maple"
@@ -44,7 +39,7 @@ RSpec.describe "Search Request", type: :request do
 
       first = response[:data][0][:attributes]
       expect(first[:image]).to end_with("/plants/#{first[:plant_id]}/thumbnail") # mounted under /api/v1 in config.ru
-      expect(PlantDetail.find_by(plant_id: first[:plant_id]).thumbnail).to eq("jpegbytes")
+      expect(PlantDetail.find_by(plant_id: first[:plant_id]).thumbnail).to eq("imagebytes")
     end
 
     it "serves a repeat search from the cache without calling Perenual again" do
@@ -68,6 +63,42 @@ RSpec.describe "Search Request", type: :request do
                        .find { |p| p[:attributes][:plant_id] == 2692 }[:attributes]
       expect(coneflower[:type]).to eq("flower")
       expect(coneflower[:hardiness]).to eq({ min: "3", max: "8" })
+    end
+
+    it "answers from plants we already know without calling Perenual" do
+      %w[Rose Rosemary Primrose Rosebay Rockrose].each_with_index do |name, i|
+        PlantDetail.create!(plant_id: 100 + i, common_name: name, summary: JSON.generate(cycle: "Perennial", watering: "Average", sunlight: ["full sun"]), thumbnail: "x", thumbnail_content_type: "image/jpeg")
+      end
+
+      get "/search/rose"
+
+      expect(last_response).to be_ok
+      expect(species_list_stub).not_to have_been_requested
+      names = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:name] }
+      expect(names.first(2)).to eq(%w[Rose Rosebay]) # names starting with the query first
+      expect(names).to include("Primrose", "Rosemary")
+    end
+
+    it "asks Perenual when local matches are thin and merges them in" do
+      PlantDetail.create!(plant_id: 7, common_name: "Maple leaf viburnum", summary: JSON.generate(cycle: "Perennial", watering: "Average", sunlight: []))
+
+      get "/search/maple"
+
+      expect(species_list_stub).to have_been_requested.once
+      ids = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:plant_id] }
+      expect(ids).to include(7)
+      expect(ids.size).to eq(10)
+      expect(PlantDetail.find_by(plant_id: 2692).common_name).to eq("coneflower") # remembered from the listing
+    end
+
+    it "falls back to local matches when the budget is spent" do
+      PlantDetail.create!(plant_id: 7, common_name: "Maple leaf viburnum", summary: "{}")
+      ApiUsage.create!(day: ApiUsage.today, count: ApiUsage.limit)
+
+      get "/search/maple"
+
+      expect(last_response).to be_ok
+      expect(JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:plant_id] }).to eq([7])
     end
 
     it "returns 503 with a friendly message when Perenual rate-limits us" do

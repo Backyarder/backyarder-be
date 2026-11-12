@@ -88,8 +88,21 @@ class Backyarder < Sinatra::Base
       "#{base}/plants/#{plant_id}/thumbnail"
     end
 
+    def image_url(plant_id)
+      base = ENV["API_BASE_URL"] || "#{request.base_url}#{request.script_name}"
+      "#{base}/plants/#{plant_id}/image"
+    end
+
     def plant_cache
       @plant_cache ||= PlantCache.new
+    end
+
+    # Shared-secret check for endpoints an external scheduler calls.
+    def require_cron_secret!
+      secret = ENV["CRON_SECRET"].to_s
+      given = params[:secret].to_s.empty? ? request.env["HTTP_X_CRON_SECRET"].to_s : params[:secret].to_s
+      halt 503, json({ error: "CRON_SECRET is not set on the server." }) if secret.empty?
+      halt 401, json({ error: "Bad secret." }) unless Rack::Utils.secure_compare(secret, given)
     end
   end
 
@@ -142,14 +155,40 @@ class Backyarder < Sinatra::Base
     json ListSerializer.new(plants)
   end
 
-  # Two Perenual calls the first time anyone views a plant, then cached.
+  # --- catalogue snapshot (must come before /plants/:id) --------------------
+
+  get "/plants/catalog" do
+    json plant_cache.catalog_status
+  end
+
+  # Snapshot a few pages of Perenual's catalogue into our own table so search
+  # runs locally. Guarded by CRON_SECRET; call repeatedly until done: true.
+  post "/plants/catalog" do
+    require_cron_secret!
+    pages = [[params[:pages].to_i, 1].max, 20].min
+    json plant_cache.snapshot_catalog(pages: pages)
+  end
+
+  # Two Perenual calls the first time anyone views a plant, then never again.
   get "/plants/:id" do
-    details, sections = plant_cache.details(params[:id].to_i)
+    details, sections, has_image = plant_cache.details(params[:id].to_i)
     plant = Detail.new(details)
     plant.section = sections
+    plant.image = has_image ? image_url(params[:id].to_i) : nil
 
     cache_control :public, max_age: ONE_DAY
     json DetailSerializer.new(plant)
+  end
+
+  # The details-page image, stored with the details; never expires.
+  get "/plants/:id/image" do
+    result = plant_cache.image(params[:id].to_i)
+    halt 404 unless result
+
+    bytes, mime = result
+    content_type mime
+    cache_control :public, max_age: ONE_YEAR
+    bytes
   end
 
   # Thumbnails are stored once and served from here with a long cache life.
@@ -254,10 +293,7 @@ class Backyarder < Sinatra::Base
   # Daily email digest for every user, meant to be hit by an external cron
   # (cron-job.org) with the shared secret. ?dry_run=1 reports without sending.
   post "/alerts/digest" do
-    secret = ENV["CRON_SECRET"].to_s
-    given = params[:secret].to_s.empty? ? request.env["HTTP_X_CRON_SECRET"].to_s : params[:secret].to_s
-    halt 503, json({ error: "CRON_SECRET is not set on the server." }) if secret.empty?
-    halt 401, json({ error: "Bad secret." }) unless Rack::Utils.secure_compare(secret, given)
+    require_cron_secret!
 
     json DigestMailer.deliver_all(dry_run: params[:dry_run] == "1")
   rescue DigestMailer::NotConfigured => e

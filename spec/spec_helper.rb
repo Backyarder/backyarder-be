@@ -24,6 +24,8 @@ RSpec.configure do |config|
 
   config.before(:each) do
     DatabaseCleaner.clean
+    # Default image bytes for any thumbnail or page image download.
+    stub_request(:get, %r{perenual\.com/storage/|wasabisys\.com/}).to_return(status: 200, body: "imagebytes", headers: { "Content-Type" => "image/jpeg" })
   end
   config.after(:each) do
     DatabaseCleaner.clean
@@ -38,6 +40,9 @@ VCR.configure do |config|
   config.allow_http_connections_when_no_cassette = false
   config.filter_sensitive_data("<API_KEY>") { ENV["PERENUAL_API_KEY"] }
   config.filter_sensitive_data("<API_KEY>") { ENV["UNSPLASH_ACCESS_KEY"] }
+  # Image downloads from Perenual's bucket are not API calls and are not in
+  # the cassettes; let the WebMock stub below answer them inside cassettes too.
+  config.ignore_request { |request| !request.uri.include?("perenual.com/api/") }
   config.debug_logger = $stdout
 end
 
