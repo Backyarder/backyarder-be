@@ -123,12 +123,13 @@ Each page is one call and 30 plants (thumbnails are plain downloads). The endpoi
 curl -X POST "https://backyarder-be-ch5a.onrender.com/api/v1/alerts/digest" -H "X-Cron-Secret: $CRON_SECRET"
 ```
 
-Add `?dry_run=1` to see who would get mail without sending. `GET /api/v1/alerts/smtp-check` (same header) opens an SMTP session without sending anything and reports the error if the host, port or login is wrong. A failed delivery for one user is reported under `failed` and never stops the others. Environment variables on Render:
+Add `?dry_run=1` to see who would get mail without sending. `GET /api/v1/alerts/mail-check` (same header) verifies the mail transport without sending anything: with Brevo it reads the account using the key; with SMTP it opens a session. Errors come back as text. A failed delivery for one user is reported under `failed` and never stops the others. Environment variables on Render:
 
 | Variable | Purpose |
 | --- | --- |
 | `CRON_SECRET` | Shared secret the scheduler sends; the endpoint is off until it is set |
-| `SMTP_HOST`, `SMTP_PORT` (587), `SMTP_USER`, `SMTP_PASSWORD` | Any SMTP relay: a Gmail app password, Brevo's free tier, etc. |
+| `BREVO_API_KEY` | Brevo's HTTP API (SMTP & API → API keys). Use this on Render: its free tier blocks outbound SMTP ports, HTTPS is fine. |
+| `SMTP_HOST`, `SMTP_PORT` (587), `SMTP_USER`, `SMTP_PASSWORD` | Alternative to the API key where SMTP is allowed (local, paid hosts). |
 | `MAIL_FROM` | Sender address |
 | `APP_BASE_URL` | Link in the email (defaults to https://backyarder.vercel.app) |
 
