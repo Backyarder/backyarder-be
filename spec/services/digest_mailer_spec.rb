@@ -26,7 +26,7 @@ RSpec.describe DigestMailer do
     allow(described_class).to receive(:configure!)
     result = described_class.deliver_all(now: now)
 
-    expect(result).to include(sent: ["due@example.com"], skipped: 1)
+    expect(result).to include(sent: ["due@example.com"], failed: [], skipped: 1)
     mail = Mail::TestMailer.deliveries.last
     expect(mail.to).to eq(["due@example.com"])
     expect(mail.subject).to eq("Backyarder: 1 plant needs water")
@@ -43,8 +43,44 @@ RSpec.describe DigestMailer do
 
     result = described_class.deliver_all(now: now, dry_run: true)
 
-    expect(result).to eq(sent: ["due@example.com"], skipped: 0, dry_run: true)
+    expect(result).to eq(sent: ["due@example.com"], failed: [], skipped: 0, dry_run: true)
     expect(Mail::TestMailer.deliveries).to be_empty
+  end
+
+  it "reports a delivery failure for one user and carries on with the others" do
+    user_with_due_plant("first@example.com")
+    user_with_due_plant("second@example.com")
+    allow(described_class).to receive(:configure!)
+    calls = 0
+    allow(Mail).to receive(:deliver) do
+      calls += 1
+      raise Net::OpenTimeout, "execution expired" if calls == 1
+    end
+
+    result = described_class.deliver_all(now: now)
+
+    expect(result[:failed]).to eq([{ email: "first@example.com", error: "Net::OpenTimeout: execution expired" }])
+    expect(result[:sent]).to eq(["second@example.com"])
+    expect(User.find_by(email: "first@example.com").last_digest_sent_on).to be_nil
+    expect(User.find_by(email: "second@example.com").last_digest_sent_on).to eq(now.to_date)
+  end
+
+  it "checks the SMTP connection and reports errors as data" do
+    expect(described_class.check).to include(ok: false)
+    expect(described_class.check[:error]).to include("not configured")
+
+    %w[SMTP_HOST SMTP_USER SMTP_PASSWORD].each { |k| ENV[k] = "x" }
+    ENV["SMTP_HOST"] = "smtp.example.test"
+    smtp = instance_double(Net::SMTP, "open_timeout=": nil, "read_timeout=": nil, enable_starttls_auto: nil)
+    allow(Net::SMTP).to receive(:new).with("smtp.example.test", 587).and_return(smtp)
+
+    allow(smtp).to receive(:start).and_raise(Net::OpenTimeout, "execution expired")
+    expect(described_class.check).to include(ok: false, host: "smtp.example.test", port: 587, error: "Net::OpenTimeout: execution expired")
+
+    allow(smtp).to receive(:start).and_return(nil)
+    expect(described_class.check).to include(ok: true, host: "smtp.example.test", port: 587)
+  ensure
+    %w[SMTP_HOST SMTP_USER SMTP_PASSWORD].each { |k| ENV.delete(k) }
   end
 
   it "refuses to send when SMTP is not configured" do

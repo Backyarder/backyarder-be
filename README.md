@@ -123,7 +123,7 @@ Each page is one call and 30 plants (thumbnails are plain downloads). The endpoi
 curl -X POST "https://backyarder-be-ch5a.onrender.com/api/v1/alerts/digest" -H "X-Cron-Secret: $CRON_SECRET"
 ```
 
-Add `?dry_run=1` to see who would get mail without sending. Environment variables on Render:
+Add `?dry_run=1` to see who would get mail without sending. `GET /api/v1/alerts/smtp-check` (same header) opens an SMTP session without sending anything and reports the error if the host, port or login is wrong. A failed delivery for one user is reported under `failed` and never stops the others. Environment variables on Render:
 
 | Variable | Purpose |
 | --- | --- |
