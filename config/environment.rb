@@ -21,6 +21,9 @@ Dir.glob(File.join(APP_ROOT, "app", "*.rb")).each { |file| require file }
 class Backyarder < Sinatra::Base
   set :method_override, true
   set :root, APP_ROOT
+  # Never send Sinatra's HTML exception page (hundreds of KB) to API clients.
+  set :show_exceptions, false
+  set :dump_errors, true
   # Let custom `error` handlers (e.g. Perenual quota -> 503) run in development
   # too; only unhandled exceptions get Sinatra's debug page.
   set :show_exceptions, :after_handler

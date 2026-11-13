@@ -30,11 +30,23 @@ RSpec.describe "Alerts", type: :request do
 
     post "/alerts/digest?dry_run=1", nil, { "HTTP_X_CRON_SECRET" => "s3cret" }
     expect(last_response).to be_ok
-    expect(JSON.parse(last_response.body, symbolize_names: true)).to eq(sent: [user.email], skipped: 0, dry_run: true)
+    expect(JSON.parse(last_response.body, symbolize_names: true)).to eq(sent: [user.email], failed: [], skipped: 0, dry_run: true)
 
     post "/alerts/digest?secret=s3cret"
     expect(last_response.status).to eq(503)
     expect(JSON.parse(last_response.body)["error"]).to include("SMTP_HOST")
+  ensure
+    ENV.delete("CRON_SECRET")
+  end
+
+  it "GET /alerts/smtp-check reports the SMTP state behind the secret" do
+    ENV["CRON_SECRET"] = "s3cret"
+    get "/alerts/smtp-check"
+    expect(last_response.status).to eq(401)
+
+    get "/alerts/smtp-check", nil, { "HTTP_X_CRON_SECRET" => "s3cret" }
+    expect(last_response.status).to eq(502)
+    expect(JSON.parse(last_response.body)["error"]).to include("not configured")
   ensure
     ENV.delete("CRON_SECRET")
   end

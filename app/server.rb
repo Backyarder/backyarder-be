@@ -296,9 +296,19 @@ class Backyarder < Sinatra::Base
   post "/alerts/digest" do
     require_cron_secret!
 
-    json DigestMailer.deliver_all(dry_run: params[:dry_run] == "1")
+    result = DigestMailer.deliver_all(dry_run: params[:dry_run] == "1")
+    status 502 if result[:failed].any? && result[:sent].empty?
+    json result
   rescue DigestMailer::NotConfigured => e
     halt 503, json({ error: e.message })
+  end
+
+  # Does the server's SMTP configuration work? No mail is sent.
+  get "/alerts/smtp-check" do
+    require_cron_secret!
+    result = DigestMailer.check
+    status 502 unless result[:ok]
+    json result
   end
 
   # --- wishlist -------------------------------------------------------------
