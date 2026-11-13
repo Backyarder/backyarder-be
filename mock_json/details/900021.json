@@ -1,0 +1,59 @@
+{
+  "id": 900021,
+  "common_name": "onion",
+  "scientific_name": [
+    "Allium cepa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Shallow roots: water lightly and often while bulbs form, then stop once the tops fall over."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and weed-free soil; onions hate competition."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest when the tops flop and yellow. Cure in a dry airy spot for two weeks before storing."
+    }
+  ]
+}

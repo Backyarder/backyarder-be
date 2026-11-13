@@ -9,6 +9,18 @@ class PerenualService
 
   BASE_URL = "https://perenual.com/api/".freeze
   FREE_TIER_MAX_ID = 3000
+  # Our own built-in plants (the kitchen garden set in mock_json) use ids from
+  # here up; they never touch Perenual.
+  BUILT_IN_MIN_ID = 900_000
+
+  def self.built_in?(plant_id)
+    plant_id.to_i >= BUILT_IN_MIN_ID
+  end
+
+  # A Perenual id the free key can read, or one of ours.
+  def self.allowed_id?(plant_id)
+    built_in?(plant_id) || plant_id.to_i <= FREE_TIER_MAX_ID
+  end
 
   def conn
     Faraday.new(BASE_URL)

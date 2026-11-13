@@ -1,0 +1,61 @@
+{
+  "id": 900032,
+  "common_name": "rosemary",
+  "scientific_name": [
+    "Salvia rosmarinus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April",
+    "May"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the soil dry between waterings; wet feet are the usual way to kill it."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and sharp drainage. Bring pots indoors where winters drop below about 15F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Snip sprigs any time. Trim lightly after flowering; never cut into bare old wood."
+    }
+  ]
+}

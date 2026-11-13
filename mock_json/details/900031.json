@@ -1,0 +1,64 @@
+{
+  "id": 900031,
+  "common_name": "mint",
+  "scientific_name": [
+    "Mentha spicata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": true,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Likes it moist; water whenever the surface dries."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun or part shade. Grow it in a pot, even sunk in the bed, or it will take over."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut often, down to a few inches, to keep fresh growth coming. Shear back after flowering."
+    }
+  ]
+}

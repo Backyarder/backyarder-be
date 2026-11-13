@@ -1,0 +1,60 @@
+{
+  "id": 900015,
+  "common_name": "broccoli",
+  "scientific_name": [
+    "Brassica oleracea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Consistent moisture, about an inch and a half a week; stress makes small, early heads."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in cool weather. Plant for spring or fall harvests."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut the main head while the buds are tight; side shoots follow for weeks afterwards."
+    }
+  ]
+}

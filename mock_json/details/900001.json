@@ -1,0 +1,62 @@
+{
+  "id": 900001,
+  "common_name": "tomato",
+  "scientific_name": [
+    "Solanum lycopersicum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tomato.svg",
+    "small_url": "/images/kitchen/tomato.svg",
+    "medium_url": "/images/kitchen/tomato.svg",
+    "regular_url": "/images/kitchen/tomato.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water deeply two or three times a week, more in heat; keep it even to avoid blossom-end rot and split fruit. Water the soil, not the leaves."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Six to eight hours of full sun. Less sun means fewer, later fruit."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch out suckers on indeterminate types and tie to a stake or cage as it grows. Pick fruit when fully coloured and slightly soft."
+    }
+  ]
+}

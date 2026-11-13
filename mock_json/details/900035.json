@@ -1,0 +1,63 @@
+{
+  "id": 900035,
+  "common_name": "dill",
+  "scientific_name": [
+    "Anethum graveolens"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; let the surface dry between times."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, sown where it will grow since it dislikes transplanting."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Snip leaves any time; let a few plants flower for the seed heads and the swallowtail butterflies."
+    }
+  ]
+}

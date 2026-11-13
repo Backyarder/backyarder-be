@@ -1,0 +1,61 @@
+{
+  "id": 900013,
+  "common_name": "spinach",
+  "scientific_name": [
+    "Spinacia oleracea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist; mulch helps. Dry, hot soil makes it bolt."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in cool weather, part shade once days warm up."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest outer leaves from the outside in, or cut the whole plant an inch above the soil for regrowth."
+    }
+  ]
+}

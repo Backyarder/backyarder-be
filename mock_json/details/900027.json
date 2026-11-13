@@ -1,0 +1,61 @@
+{
+  "id": 900027,
+  "common_name": "watermelon",
+  "scientific_name": [
+    "Citrullus lanatus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/melon.svg",
+    "small_url": "/images/kitchen/melon.svg",
+    "medium_url": "/images/kitchen/melon.svg",
+    "regular_url": "/images/kitchen/melon.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep weekly watering while vines grow and fruit sets; ease off in the last week for sweeter fruit."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, heat and a lot of room."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Ripe when the tendril nearest the fruit dries and the underside turns from white to yellow."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 900023,
+  "common_name": "leek",
+  "scientific_name": [
+    "Allium ampeloprasum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October",
+    "November"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady water through the season for thick stems."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to part shade; happy in cool weather."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Hill soil up around the stems as they grow to blanch them white. Harvest from fall through winter."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900030,
+  "common_name": "asparagus",
+  "scientific_name": [
+    "Asparagus officinalis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "November",
+    "December"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/stalk.svg",
+    "small_url": "/images/kitchen/stalk.svg",
+    "medium_url": "/images/kitchen/stalk.svg",
+    "regular_url": "/images/kitchen/stalk.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water well in the first two years while roots establish; mature beds are fairly drought tolerant."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in a permanent bed; it lives twenty years."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Do not harvest the first two springs. After that cut spears for six to eight weeks, then let the ferns grow. Cut ferns down after they brown in late fall."
+    }
+  ]
+}

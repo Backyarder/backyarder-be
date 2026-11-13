@@ -101,7 +101,7 @@ run ``` rake db:seed ``` <br>
 
 The free Perenual plan allows 100 requests a day (`ApiUsage` stops at 95). Almost nothing the app does costs a call:
 
-- Stock plants (30) come from snapshots in `mock_json`.
+- Stock plants (30 ornamentals from Perenual snapshots, plus a built-in kitchen garden set of 45 vegetables, herbs and companion flowers with ids from 900001) come from `mock_json`. The kitchen set is hand-written (`collection: "kitchen"`), including its care notes, and never touches Perenual; its pictures are icons hosted by the frontend under `/images/kitchen/`.
 - A plant's details and care guide are fetched once, ever, and kept with their page image; thumbnails are stored too (`/plants/:id/thumbnail`, `/plants/:id/image`).
 - Search looks in our own `plant_details` table first (every plant we have ever listed) and only asks Perenual when fewer than five local names match. Perenual results are cached per query for a week.
 

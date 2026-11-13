@@ -1,0 +1,64 @@
+{
+  "id": 900040,
+  "common_name": "marigold",
+  "scientific_name": [
+    "Tagetes patula"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water at the base when the soil is dry; established plants shrug off short droughts."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. More sun, more flowers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Deadhead spent flowers to keep it blooming until frost. A classic companion for tomatoes and beans."
+    }
+  ]
+}

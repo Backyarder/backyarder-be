@@ -5,7 +5,8 @@ class Plant
                 :image,
                 :name,
                 :type,
-                :content_type
+                :content_type,
+                :collection
 
   attr_reader :id,
               :plant_id
@@ -20,5 +21,6 @@ class Plant
     @type = nil
     @id = nil
     @content_type = nil
+    @collection = data[:collection]
   end
 end

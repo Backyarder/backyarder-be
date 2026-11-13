@@ -1,0 +1,62 @@
+{
+  "id": 900042,
+  "common_name": "sunflower",
+  "scientific_name": [
+    "Helianthus annuus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep, infrequent watering; the taproot finds water once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, sheltered from strong wind, or stake tall varieties."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Leave heads to ripen for seed, or cut them and hang to dry. Birds will take what you do not."
+    }
+  ]
+}

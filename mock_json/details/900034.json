@@ -1,0 +1,63 @@
+{
+  "id": 900034,
+  "common_name": "parsley",
+  "scientific_name": [
+    "Petroselinum crispum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist; it droops when thirsty and recovers quickly."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun or part shade. Slow to germinate: soak the seed overnight."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut outer stems at the base; the centre keeps producing. It flowers and finishes in its second year."
+    }
+  ]
+}

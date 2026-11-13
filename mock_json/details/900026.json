@@ -1,0 +1,62 @@
+{
+  "id": 900026,
+  "common_name": "strawberry",
+  "scientific_name": [
+    "Fragaria x ananassa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/berry.svg",
+    "small_url": "/images/kitchen/berry.svg",
+    "medium_url": "/images/kitchen/berry.svg",
+    "regular_url": "/images/kitchen/berry.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch or two a week, more while fruiting; water the soil and keep the berries off wet ground with straw."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun for the sweetest fruit."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick fully red berries every couple of days. Remove runners unless you want new plants; renew beds every three years."
+    }
+  ]
+}

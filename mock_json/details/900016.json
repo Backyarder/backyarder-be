@@ -1,0 +1,60 @@
+{
+  "id": 900016,
+  "common_name": "cabbage",
+  "scientific_name": [
+    "Brassica oleracea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green",
+    "purple"
+  ],
+  "pruning_month": [
+    "July",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even watering, about an inch a week. Sudden heavy watering after drought splits the heads."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and rich soil in cool weather."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest when the head is firm. Cut high and a few small heads may regrow from the stump."
+    }
+  ]
+}

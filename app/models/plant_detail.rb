@@ -45,7 +45,8 @@ class PlantDetail < ActiveRecord::Base
       type: d[:type],
       hardiness: d[:hardiness],
       has_image: thumbnail?,
-      image_path: s[:image_path]  # frontend-hosted picture, when the plant is a stock snapshot
+      image_path: s[:image_path],  # frontend-hosted picture, when the plant is a stock snapshot
+      collection: s[:collection]   # "kitchen" for the built-in kitchen garden set
     }
   end
 
@@ -70,7 +71,8 @@ class PlantDetail < ActiveRecord::Base
       thumb = data.dig(:default_image, :thumbnail)
       record.summary = JSON.generate(record.summary_hash.merge(
         cycle: data[:cycle], watering: data[:watering], sunlight: data[:sunlight] || [],
-        scientific_name: data[:scientific_name], image_path: (thumb if thumb.to_s.start_with?("/images/"))
+        scientific_name: data[:scientific_name], image_path: (thumb if thumb.to_s.start_with?("/images/")),
+        collection: data[:collection]
       ))
       if record.changed?
         record.save!

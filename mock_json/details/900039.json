@@ -1,0 +1,62 @@
+{
+  "id": 900039,
+  "common_name": "chives",
+  "scientific_name": [
+    "Allium schoenoprasum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "edible_leaf": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; tolerates some drought once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to part shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut leaves an inch above the ground, a few at a time or the whole clump; it regrows in weeks. The purple flowers are edible."
+    }
+  ]
+}

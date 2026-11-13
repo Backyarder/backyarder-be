@@ -1,0 +1,61 @@
+{
+  "id": 900007,
+  "common_name": "butternut squash",
+  "scientific_name": [
+    "Cucurbita moschata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "edible_leaf": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/squash.svg",
+    "small_url": "/images/kitchen/squash.svg",
+    "medium_url": "/images/kitchen/squash.svg",
+    "regular_url": "/images/kitchen/squash.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water deeply once a week, more in drought; ease off as the fruit ripens."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, with space for vines to run or a sturdy trellis."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest when the skin is hard and tan and the stem has dried. Cure in the sun for a week to store."
+    }
+  ]
+}
