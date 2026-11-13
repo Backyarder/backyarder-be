@@ -303,12 +303,14 @@ class Backyarder < Sinatra::Base
     halt 503, json({ error: e.message })
   end
 
-  # Does the server's SMTP configuration work? No mail is sent.
-  get "/alerts/smtp-check" do
-    require_cron_secret!
-    result = DigestMailer.check
-    status 502 unless result[:ok]
-    json result
+  # Does the server's mail configuration work? No mail is sent.
+  ["/alerts/mail-check", "/alerts/smtp-check"].each do |path|
+    get path do
+      require_cron_secret!
+      result = DigestMailer.check
+      status 502 unless result[:ok]
+      json result
+    end
   end
 
   # --- wishlist -------------------------------------------------------------

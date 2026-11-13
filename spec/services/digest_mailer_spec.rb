@@ -83,6 +83,61 @@ RSpec.describe DigestMailer do
     %w[SMTP_HOST SMTP_USER SMTP_PASSWORD].each { |k| ENV.delete(k) }
   end
 
+  describe "Brevo HTTP transport" do
+    before do
+      ENV["BREVO_API_KEY"] = "brevo-key"
+      ENV["MAIL_FROM"] = "garden@example.com"
+    end
+    after { ENV.delete("BREVO_API_KEY") }
+
+    it "sends through the API and records the day" do
+      user_with_due_plant("api@example.com")
+      send_stub = stub_request(:post, "https://api.brevo.com/v3/smtp/email")
+        .with(headers: { "api-key" => "brevo-key" })
+        .to_return(status: 201, body: '{"messageId":"x"}', headers: { "Content-Type" => "application/json" })
+
+      result = described_class.deliver_all(now: now)
+
+      expect(result).to include(sent: ["api@example.com"], failed: [])
+      expect(send_stub).to have_been_requested.once
+      body = JSON.parse(WebMock::RequestRegistry.instance.requested_signatures.hash.keys.find { |r| r.uri.to_s.include?("smtp/email") }.body)
+      expect(body["sender"]["email"]).to eq("garden@example.com")
+      expect(body["to"]).to eq([{ "email" => "api@example.com" }])
+      expect(body["subject"]).to eq("Backyarder: 1 plant needs water")
+      expect(body["textContent"]).to include("Fern in A1")
+      expect(Mail::TestMailer.deliveries).to be_empty
+    end
+
+    it "reports an API refusal as a failed delivery" do
+      user_with_due_plant("api@example.com")
+      stub_request(:post, "https://api.brevo.com/v3/smtp/email").to_return(status: 401, body: '{"message":"Key not found"}')
+
+      result = described_class.deliver_all(now: now)
+
+      expect(result[:sent]).to eq([])
+      expect(result[:failed].first[:error]).to include("HTTP 401", "Key not found")
+    end
+
+    it "checks the key against the account endpoint" do
+      stub_request(:get, "https://api.brevo.com/v3/account").with(headers: { "api-key" => "brevo-key" })
+        .to_return(status: 200, body: '{"email":"owner@example.com"}', headers: { "Content-Type" => "application/json" })
+      expect(described_class.check).to include(ok: true, transport: "brevo", account_email: "owner@example.com")
+
+      stub_request(:get, "https://api.brevo.com/v3/account").to_return(status: 401, body: '{"message":"Key not found"}')
+      expect(described_class.check).to include(ok: false, transport: "brevo")
+      expect(described_class.check[:error]).to include("HTTP 401")
+    end
+
+    it "is used for password reset mail too" do
+      user = User.create!(email: "reset@example.com", password: "gardening1")
+      send_stub = stub_request(:post, "https://api.brevo.com/v3/smtp/email").to_return(status: 201, body: "{}")
+
+      described_class.deliver_password_reset(user, "tok")
+
+      expect(send_stub).to have_been_requested.once
+    end
+  end
+
   it "refuses to send when SMTP is not configured" do
     expect { described_class.deliver_all(now: now) }.to raise_error(DigestMailer::NotConfigured)
   end
