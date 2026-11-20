@@ -39,7 +39,7 @@ RSpec.describe "Garden areas", type: :request do
 
   it "names an unnamed area and rejects bad names" do
     send_json(:post, "/gardens", {})
-    expect(body[:data][:attributes][:name]).to eq("New area")
+    expect(body[:data][:attributes][:name]).to eq("New plot")
 
     send_json(:post, "/gardens", name: "x" * 41)
     expect(last_response.status).to eq(422)

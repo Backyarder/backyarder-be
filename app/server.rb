@@ -53,7 +53,7 @@ class Backyarder < Sinatra::Base
         if id.nil? || id.to_s.empty?
           current_user.garden
         else
-          current_user.gardens.find_by(id: id.to_i) || halt(404, json({ error: "No garden area #{id.inspect}." }))
+          current_user.gardens.find_by(id: id.to_i) || halt(404, json({ error: "No garden plot #{id.inspect}." }))
         end
       end
     end
@@ -386,10 +386,10 @@ class Backyarder < Sinatra::Base
 
   post "/gardens" do
     require_login!
-    halt 422, json({ error: "You can have up to #{Garden::MAX_PER_USER} garden areas." }) if current_user.gardens.count >= Garden::MAX_PER_USER
+    halt 422, json({ error: "You can have up to #{Garden::MAX_PER_USER} garden plots." }) if current_user.gardens.count >= Garden::MAX_PER_USER
 
     body = json_body
-    garden = Garden.create_for!(current_user, name: body[:name].to_s.strip.empty? ? "New area" : body[:name], indoor: body[:indoor] == true)
+    garden = Garden.create_for!(current_user, name: body[:name].to_s.strip.empty? ? "New plot" : body[:name], indoor: body[:indoor] == true)
     json GardenSerializer.new(garden, params: { counts: {} })
   rescue ActiveRecord::RecordInvalid => e
     halt 422, json({ error: e.record.errors.full_messages.to_sentence })
@@ -397,7 +397,7 @@ class Backyarder < Sinatra::Base
 
   patch "/gardens/:id" do
     require_login!
-    garden = current_user.gardens.find_by(id: params[:id].to_i) || halt(404, json({ error: "No garden area #{params[:id].inspect}." }))
+    garden = current_user.gardens.find_by(id: params[:id].to_i) || halt(404, json({ error: "No garden plot #{params[:id].inspect}." }))
     halt 422, json({ error: garden.errors.full_messages.to_sentence }) unless garden.update(garden_attrs(json_body))
 
     gardens_json
@@ -405,8 +405,8 @@ class Backyarder < Sinatra::Base
 
   delete "/gardens/:id" do
     require_login!
-    garden = current_user.gardens.find_by(id: params[:id].to_i) || halt(404, json({ error: "No garden area #{params[:id].inspect}." }))
-    halt 422, json({ error: "You need at least one garden area." }) if current_user.gardens.count <= 1
+    garden = current_user.gardens.find_by(id: params[:id].to_i) || halt(404, json({ error: "No garden plot #{params[:id].inspect}." }))
+    halt 422, json({ error: "You need at least one garden plot." }) if current_user.gardens.count <= 1
 
     garden.destroy!
     gardens_json
