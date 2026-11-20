@@ -97,6 +97,10 @@ run ``` rake db:seed ``` <br>
 - Run the test suite
 ``` bundle exec rspec spec ``` <br>
 
+## Health check
+
+`GET /api/v1/stats` returns aggregate counts (accounts, recent sign-ups and logins, gardens with plants, plants due for water, digests sent, plant-data budget). It is public on purpose and contains no emails, names or plant names.
+
 ## Plant data and the Perenual budget
 
 The free Perenual plan allows 100 requests a day (`ApiUsage` stops at 95). Almost nothing the app does costs a call:
