@@ -1,4 +1,5 @@
 require "json"
+require "digest"
 require "sinatra"
 require "dotenv"
 
@@ -88,6 +89,17 @@ class Backyarder < Sinatra::Base
       "#{base}/plants/#{plant_id}/thumbnail"
     end
 
+    # Plant data changes when we add or fix plants, so browsers must check
+    # back each time; an unchanged body answers 304 from its fingerprint and
+    # costs nothing to re-download.
+    def revalidated_json(object)
+      body = object.to_json
+      cache_control :public, :no_cache
+      etag Digest::SHA256.hexdigest(body)[0, 32]
+      content_type :json
+      body
+    end
+
     def image_url(plant_id)
       base = ENV["API_BASE_URL"] || "#{request.base_url}#{request.script_name}"
       "#{base}/plants/#{plant_id}/image"
@@ -126,8 +138,7 @@ class Backyarder < Sinatra::Base
       plant
     end
 
-    cache_control :public, max_age: ONE_DAY
-    json ListSerializer.new(plants)
+    revalidated_json ListSerializer.new(plants)
   end
 
   # Stock plants come from snapshots in mock_json; no Perenual calls.
@@ -152,8 +163,7 @@ class Backyarder < Sinatra::Base
       plant
     end
 
-    cache_control :public, max_age: ONE_HOUR
-    json ListSerializer.new(plants)
+    revalidated_json ListSerializer.new(plants)
   end
 
   # --- catalogue snapshot (must come before /plants/:id) --------------------
@@ -177,8 +187,7 @@ class Backyarder < Sinatra::Base
     plant.section = sections
     plant.image = image == :stored ? image_url(params[:id].to_i) : image
 
-    cache_control :public, max_age: ONE_DAY
-    json DetailSerializer.new(plant)
+    revalidated_json DetailSerializer.new(plant)
   end
 
   # The details-page image, stored with the details; never expires.

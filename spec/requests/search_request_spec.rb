@@ -19,7 +19,7 @@ RSpec.describe "Search Request", type: :request do
       get "/search/maple"
 
       expect(last_response).to be_ok
-      expect(last_response.headers["Cache-Control"]).to include("max-age=86400")
+      expect(last_response.headers["Cache-Control"]).to include("no-cache")
       response = JSON.parse(last_response.body, symbolize_names: true)
       expect(response[:data]).to be_an(Array)
       expect(response[:data].count).to eq(10)
@@ -93,6 +93,19 @@ RSpec.describe "Search Request", type: :request do
       expect(first[:name]).to eq("coneflower")
       expect(first[:image]).to eq("/images/plants/2692.jpg")
       expect(first[:hardiness]).to eq({ min: "3", max: "8" })
+    end
+
+    it "puts plants added after a search was cached at the top of that cached search" do
+      get "/search/maple"
+      expect(species_list_stub).to have_been_requested.once
+      PlantDetail.create!(plant_id: 900_500, common_name: "maple, sugar", summary: JSON.generate(collection: "trees", watering: "Average", sunlight: ["full sun"]))
+
+      get "/search/maple"
+
+      expect(species_list_stub).to have_been_requested.once
+      results = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes] }
+      expect(results.first).to include(name: "maple, sugar", collection: "trees")
+      expect(results.size).to eq(10)
     end
 
     it "asks Perenual when local matches are thin and merges them in" do
