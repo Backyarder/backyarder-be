@@ -70,12 +70,74 @@ RSpec.describe GardenAlerts do
     expect(described_class.new(user, now: now).message).to be_nil
   end
 
+  describe "rain counts as a watering" do
+    it "pushes back the due date of outdoor plants after a day with half an inch or more" do
+      stub_weather(rain: [0, 0.7, 0, 0, 0]) # yesterday: 0.7 in
+      plant("A1", :Frequent, 3)              # would be due (2-day interval)
+
+      alerts = described_class.new(user, now: now)
+
+      expect(alerts.rained_at).to eq(Time.utc(*(now.to_date - 1).to_s.split("-").map(&:to_i), 18))
+      expect(alerts.needs_water).to be_empty
+      expect(alerts.to_h[:rain_watered_on]).to eq((now.to_date - 1).iso8601)
+      cell = user.garden.cells.find_by(location_id: "A1")
+      expect(cell.next_water_at(rained_at: alerts.rain_credit.call(cell))).to eq(alerts.rained_at + 2 * day)
+    end
+
+    it "ignores today's forecast rain and light rain" do
+      stub_weather(rain: [0.3, 0.4, 1.2, 0, 0]) # today's 1.2 in hasn't necessarily fallen yet
+      plant("A1", :Frequent, 3)
+
+      alerts = described_class.new(user, now: now)
+
+      expect(alerts.rained_at).to be_nil
+      expect(alerts.needs_water.map(&:location_id)).to eq(["A1"])
+    end
+
+    it "never credits rain to houseplants" do
+      stub_weather(rain: [0, 0.9, 0, 0, 0])
+      plant("A1", :Frequent, 3)
+      user.garden.cells.find_by(location_id: "A1").update!(plant_id: 777, name: "snake plant")
+      PlantDetail.create!(plant_id: 777, common_name: "snake plant", summary: JSON.generate(collection: "indoor"))
+
+      alerts = described_class.new(user, now: now)
+
+      expect(alerts.needs_water.map(&:location_id)).to eq(["A1"])
+    end
+
+    it "remembers rain from more than two days ago, but leaves it out of the two-day total" do
+      days = (-6..2).map { |o| (now.to_date + o).iso8601 }
+      rain = [0, 0.8, 0, 0, 0, 0, 0, 0, 0] # five days ago
+      stub_request(:get, %r{api\.open-meteo\.com/v1/forecast}).to_return(status: 200, headers: { "Content-Type" => "application/json" },
+        body: JSON.generate(daily: { time: days, precipitation_sum: rain, temperature_2m_min: Array.new(9, 50) }))
+      plant("A1", :Minimum, 9) # watered nine days ago: due tomorrow, or in five days counting the rain
+
+      alerts = described_class.new(user, now: now)
+
+      expect(alerts.rained_at.to_date).to eq(now.to_date - 5)
+      expect(alerts.recent_rain_in).to eq(0.0)
+      expect(alerts.needs_water).to be_empty
+    end
+
+    it "doesn't move a watering that happened after the rain" do
+      stub_weather(rain: [0.8, 0, 0, 0, 0]) # two days ago
+      plant("A1", :Average, 1)              # watered yesterday
+
+      alerts = described_class.new(user, now: now)
+      cell = user.garden.cells.find_by(location_id: "A1")
+
+      expect(cell.next_water_at(rained_at: alerts.rain_credit.call(cell))).to eq(cell.last_watered_at + 5 * day)
+      expect(alerts.message).to be_nil
+    end
+  end
+
   it "writes a readable message only when there is something to say" do
     stub_weather(rain: [0.4, 0.2, 0, 0, 0])
     expect(described_class.new(user, now: now).message).to be_nil
 
     plant("B2", :Frequent, 3)
     message = described_class.new(user.reload, now: now).message
-    expect(message).to include("Plants due for water (1)", "Plant B2 in B2", "skip these", "https://backyarder.vercel.app")
+    expect(message).to include("Plants due for water (1)", "Plant B2 in B2", "https://backyarder.vercel.app")
+    expect(message).not_to include("counted as a watering") # 0.4 and 0.2 in: no single day reached half an inch
   end
 end

@@ -16,11 +16,13 @@ class CellSerializer
     object.last_watered_at&.utc&.iso8601
   end
 
-  attribute :next_water_at do |object|
-    object.next_water_at&.utc&.iso8601
+  # params[:rain_credit] is a callable cell -> rained_at (or nil); see
+  # GardenAlerts#rain_credit.
+  attribute :next_water_at do |object, params|
+    object.next_water_at(rained_at: params[:rain_credit]&.call(object))&.utc&.iso8601
   end
 
-  attribute :needs_water do |object|
-    object.needs_water?
+  attribute :needs_water do |object, params|
+    object.needs_water?(Time.now, rained_at: params[:rain_credit]&.call(object))
   end
 end

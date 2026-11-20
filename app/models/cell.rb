@@ -29,14 +29,17 @@ class Cell < ActiveRecord::Base
     last_watered_at || planted_at
   end
 
-  def next_water_at
+  # rained_at: when enough rain fell to count as a watering (outdoor plants
+  # only; the caller decides). The later of that and the last watering wins.
+  def next_water_at(rained_at: nil)
     return nil unless tracks_watering? && last_care_at
 
-    last_care_at + watering_interval
+    base = [last_care_at, rained_at].compact.max
+    base + watering_interval
   end
 
-  def needs_water?(now = Time.now)
-    due = next_water_at
+  def needs_water?(now = Time.now, rained_at: nil)
+    due = next_water_at(rained_at: rained_at)
     !due.nil? && due <= now
   end
 

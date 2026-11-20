@@ -20,6 +20,21 @@ RSpec.describe "Alerts", type: :request do
     expect(last_response.status).to eq(401)
   end
 
+  it "GET /garden reports a rain-watered outdoor plant as not due" do
+    user = create_user
+    user.update!(latitude: 34.3, longitude: -83.8)
+    days = (-2..2).map { |o| (Time.now.utc.to_date + o).iso8601 }
+    stub_request(:get, %r{api\.open-meteo\.com}).to_return(status: 200, headers: { "Content-Type" => "application/json" },
+      body: JSON.generate(daily: { time: days, precipitation_sum: [0, 0.9, 0, 0, 0], temperature_2m_min: [50, 50, 50, 50, 50] }))
+    user.garden.cells.find_by(location_id: "C3").update!(status: :locked, name: "Fern", plant_id: 1, content_type: "Plant", watering: :Frequent, planted_at: Time.now - 9 * day, last_watered_at: Time.now - 3 * day)
+
+    get "/garden", nil, auth_headers(user)
+
+    c3 = JSON.parse(last_response.body, symbolize_names: true)[:data].find { |c| c[:attributes][:location_id] == "C3" }[:attributes]
+    expect(c3[:needs_water]).to be(false)
+    expect(Time.iso8601(c3[:next_water_at])).to be > Time.now
+  end
+
   it "POST /alerts/digest needs the cron secret and reports a dry run" do
     user = create_user
     user.garden.cells.find_by(location_id: "C3").update!(status: :locked, name: "Fern", plant_id: 1, content_type: "Plant", watering: :Frequent, planted_at: Time.now - 9 * day, last_watered_at: Time.now - 9 * day)
