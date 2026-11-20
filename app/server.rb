@@ -203,6 +203,12 @@ class Backyarder < Sinatra::Base
     bytes
   end
 
+  # Public health check: aggregate counts only, nothing that identifies anyone.
+  get "/stats" do
+    cache_control :no_store
+    json AppStats.new.to_h
+  end
+
   get "/perenual-usage" do
     json ApiUsage.summary
   end
