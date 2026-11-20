@@ -19,7 +19,7 @@ RSpec.describe "Search Request", type: :request do
       get "/search/maple"
 
       expect(last_response).to be_ok
-      expect(last_response.headers["Cache-Control"]).to include("max-age=86400")
+      expect(last_response.headers["Cache-Control"]).to include("no-cache")
       response = JSON.parse(last_response.body, symbolize_names: true)
       expect(response[:data]).to be_an(Array)
       expect(response[:data].count).to eq(10)

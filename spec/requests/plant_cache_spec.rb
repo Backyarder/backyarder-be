@@ -6,7 +6,7 @@ RSpec.describe "Plant detail caching", type: :request do
       VCR.use_cassette("plant_show") do
         get "/plants/225"
         expect(last_response).to be_ok
-        expect(last_response.headers["Cache-Control"]).to include("max-age=86400")
+        expect(last_response.headers["Cache-Control"]).to include("no-cache")
         expect(ApiUsage.count_today).to eq(2)
 
         get "/plants/225"
