@@ -356,7 +356,7 @@ class Backyarder < Sinatra::Base
 
   get "/garden" do
     require_login!
-    json CellSerializer.new(current_garden.cells.order(:id))
+    json CellSerializer.new(current_garden.cells.order(:id), params: { rain_credit: GardenAlerts.new(current_user).rain_credit })
   end
 
   patch "/cell" do
@@ -383,7 +383,7 @@ class Backyarder < Sinatra::Base
       cell.update(attrs)
     end
 
-    json CellSerializer.new(cell)
+    json CellSerializer.new(cell, params: { rain_credit: GardenAlerts.new(current_user).rain_credit })
   end
 
   delete "/garden" do
