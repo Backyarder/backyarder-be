@@ -94,7 +94,7 @@ RSpec.describe Cell, "watering schedule" do
 
     expect(cell.planted_at).to eq(now)
     expect(cell.last_watered_at).to eq(now)
-    expect(cell.next_water_at).to eq(now + Cell::WATERING_INTERVAL_DAYS["Average"] * day)
+    expect(cell.next_water_at).to eq(now + WateringPlan::CATEGORY_DAYS["Average"] * day)
     expect(cell.needs_water?(now + 4 * day)).to be(false)
     expect(cell.needs_water?(now + 5 * day)).to be(true)
   end

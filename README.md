@@ -519,6 +519,27 @@ PATCH /api/v1/cell
 }
 ```
 
+#### Set a Watering Schedule
+`days` is a whole number of days from 1 to 60, `0` to turn reminders off, or `null` to go back to the automatic plan (anything else is a 422).
+```
+{
+  "location_id": "A1",
+  "action": "set_watering",
+  "days": 14
+}
+```
+
+Every cell carries its plan: `watering_days` (null = no reminders), `watering_reason`, `watering_source` (`auto` or `custom`), `watering_auto_days` (what the automatic plan would be), `watering_rain_resets` (whether a half-inch of rain counts as a watering) and `watering_override_days`. The automatic plan (see `app/services/watering_plan.rb`):
+
+| Plant | Frequent | Average | Minimum |
+|---|---|---|---|
+| Houseplant, or anything in an indoor plot (rain never counts) | 3 | 7 | 14 |
+| Annual or biennial (most vegetables) | 2 | 4 | 7 |
+| Other outdoor plants, first 8 weeks (12 for trees and shrubs) | 2 | 3 | 4 |
+| ...once established | 4 | 7 | 14 |
+| ...established and drought tolerant, succulent or cactus | 28 | 28 | 28 |
+| Nothing known about the plant | 2 | 5 | 10 |
+
 ### Delete Garden
 DELETE /api/v1/garden
 (Clears all cells in the garden with status of 'placed')

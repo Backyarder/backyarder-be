@@ -19,6 +19,7 @@ class GardenAlerts
   def cells
     @cells ||= Cell.joins(:garden).where(gardens: { user_id: user.id })
                    .includes(:garden).order("gardens.position, gardens.id, cells.id").to_a
+                   .tap { |list| WateringPlan.preload(list) }
   end
 
   def needs_water
@@ -49,20 +50,13 @@ class GardenAlerts
     @rained_at = day && Time.utc(*day[:date].split("-").map(&:to_i), 18)
   end
 
-  # cell -> rained_at for outdoor plants, nil indoors: in an area marked
-  # indoor, or a built-in houseplant (identified by its collection).
+  # cell -> rained_at for outdoor plants, nil when rain can't reach them (an
+  # indoor plot or a houseplant; see WateringPlan).
   def rain_credit
     @rain_credit ||= begin
       credit = rained_at
-      indoor = credit ? indoor_plant_ids : Set.new
-      indoor_gardens = credit ? user.gardens.where(indoor: true).pluck(:id).to_set : Set.new
-      ->(cell) { credit && !indoor.include?(cell.plant_id) && !indoor_gardens.include?(cell.garden_id) ? credit : nil }
+      ->(cell) { credit if credit && cell.watering_plan(@now)[:rain_resets] }
     end
-  end
-
-  def indoor_plant_ids
-    ids = Cell.joins(:garden).where(gardens: { user_id: user.id }).where.not(plant_id: nil).distinct.pluck(:plant_id)
-    PlantDetail.where(plant_id: ids).select { |r| r.summary_hash[:collection] == "indoor" }.map(&:plant_id).to_set
   end
 
   # Cached on the user; nil when the user has no coordinates or the service failed.
@@ -114,7 +108,7 @@ class GardenAlerts
   def to_h
     {
       date: today,
-      needs_water: needs_water.map { |c| { location_id: c.location_id, name: c.name, plant_id: c.plant_id, watering: c.watering, garden_id: c.garden_id, garden_name: c.garden.name, next_water_at: c.next_water_at(rained_at: rain_credit.call(c))&.utc&.iso8601 } },
+      needs_water: needs_water.map { |c| { location_id: c.location_id, name: c.name, plant_id: c.plant_id, watering: c.watering, garden_id: c.garden_id, garden_name: c.garden.name, watering_days: c.watering_plan(@now)[:days], next_water_at: c.next_water_at(rained_at: rain_credit.call(c), now: @now)&.utc&.iso8601 } },
       recent_rain_in: recent_rain_in,
       rain_watered_on: rained_at&.to_date&.iso8601,
       rain_covers_watering: rain_covers_watering?,
@@ -132,7 +126,7 @@ class GardenAlerts
     if needs_water.any?
       lines << "Plants due for water (#{needs_water.size}):"
       several = user.gardens.count > 1
-      needs_water.each { |c| lines << "  - #{c.name} in #{several ? "#{c.garden.name}, " : ''}#{c.location_id} (#{c.watering} watering)" }
+      needs_water.each { |c| lines << "  - #{c.name} in #{several ? "#{c.garden.name}, " : ''}#{c.location_id} (every #{c.watering_plan(@now)[:days]} days)" }
       lines << ""
     end
     lines << "Rain on #{rained_at.to_date.strftime('%A')} counted as a watering for your outdoor plants." if rained_at

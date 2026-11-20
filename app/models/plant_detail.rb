@@ -72,7 +72,7 @@ class PlantDetail < ActiveRecord::Base
       record.summary = JSON.generate(record.summary_hash.merge(
         cycle: data[:cycle], watering: data[:watering], sunlight: data[:sunlight] || [],
         scientific_name: data[:scientific_name], image_path: (thumb if thumb.to_s.start_with?("/images/")),
-        collection: data[:collection]
+        collection: data[:collection], type: data[:type], drought_tolerant: data[:drought_tolerant]
       ))
       if record.changed?
         record.save!

@@ -435,6 +435,8 @@ class Backyarder < Sinatra::Base
       cell.update(status: :disabled)
     when "water"
       cell.water!
+    when "set_watering" # days: null = automatic plan, 0 = never remind, 1..60
+      halt 422, json({ error: "days must be a whole number from 0 to #{Cell::MAX_OVERRIDE_DAYS}, or null for automatic." }) unless cell.update(watering_override_days: params[:days])
     else
       watering = params[:watering]
       # Search results from the lightweight species-list call may not carry a

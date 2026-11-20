@@ -163,4 +163,46 @@ RSpec.describe GardenAlerts do
     expect(message).to include("Plants due for water (1)", "Plant B2 in B2", "https://backyarder.vercel.app")
     expect(message).not_to include("counted as a watering") # 0.4 and 0.2 in: no single day reached half an inch
   end
+  describe "per-plant watering plans" do
+    def month_of_weather(rain_days_ago: nil)
+      days = (-30..2).map { |o| (now.to_date + o).iso8601 }
+      rain = days.map { |d| rain_days_ago && d == (now.to_date - rain_days_ago).iso8601 ? 0.8 : 0 }
+      stub_request(:get, %r{api\.open-meteo\.com/v1/forecast}).to_return(status: 200, headers: { "Content-Type" => "application/json" },
+        body: JSON.generate(daily: { time: days, precipitation_sum: rain, temperature_2m_min: Array.new(days.size, 50) }))
+    end
+
+    def butterfly_bush(location, watered_days_ago, plot: user.garden, **attrs)
+      PlantDetail.find_or_create_by!(plant_id: 900_483) do |r|
+        r.summary = JSON.generate(type: "Deciduous shrub", cycle: "Perennial", watering: "Minimum", drought_tolerant: true, collection: "trees")
+      end
+      plot.cells.find_by(location_id: location).update!({ status: :locked, name: "butterfly bush", plant_id: 900_483, content_type: "Plant", watering: :Minimum,
+                                                          planted_at: now - 200 * day, last_watered_at: now - watered_days_ago * day }.merge(attrs))
+    end
+
+    it "leaves an established butterfly bush alone for four weeks, and rain three weeks ago resets it" do
+      month_of_weather
+      butterfly_bush("A1", 20)
+      butterfly_bush("A2", 29)
+      plant("A3", :Minimum, 11) # unknown plant: old 10-day interval
+
+      alerts = described_class.new(user, now: now)
+      expect(alerts.needs_water.map(&:location_id)).to eq(%w[A2 A3])
+      expect(alerts.to_h[:needs_water].first).to include(location_id: "A2", watering_days: 28)
+      expect(alerts.message).to include("butterfly bush in A2 (every 28 days)", "Plant A3 in A3 (every 10 days)")
+      expect(alerts.counts[user.garden.id]).to eq(plants: 3, needs_water: 2)
+
+      month_of_weather(rain_days_ago: 21)
+      alerts = described_class.new(user.reload, now: now + GardenAlerts::WEATHER_TTL + 1)
+      expect(alerts.needs_water.map(&:location_id)).to eq(%w[A3])
+      expect(alerts.recent_rain_in).to eq(0.0)
+    end
+
+    it "respects a cell's custom schedule" do
+      month_of_weather
+      butterfly_bush("A1", 20, watering_override_days: 14)
+      butterfly_bush("A2", 40, watering_override_days: 0)
+
+      expect(described_class.new(user, now: now).needs_water.map(&:location_id)).to eq(%w[A1])
+    end
+  end
 end
