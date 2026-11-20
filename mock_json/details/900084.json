@@ -1,0 +1,60 @@
+{
+  "id": 900084,
+  "common_name": "sweet pea",
+  "scientific_name": [
+    "Lathyrus odoratus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist; mulch keeps the roots cool."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in cool weather: sow early in spring, or in fall where winters are mild."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Give it a trellis and pick flowers daily; once it sets pods it stops blooming. The seeds are not edible."
+    }
+  ]
+}

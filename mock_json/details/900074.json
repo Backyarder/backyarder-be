@@ -1,0 +1,60 @@
+{
+  "id": 900074,
+  "common_name": "buckwheat",
+  "scientific_name": [
+    "Fagopyrum esculentum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cover crop",
+  "cycle": "Annual",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Rarely needs watering; it sprouts fast in warm soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. A quick summer cover between crops."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut within a week of flowering, before it sets seed, then turn it in."
+    }
+  ]
+}

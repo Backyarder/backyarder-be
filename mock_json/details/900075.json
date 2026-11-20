@@ -1,0 +1,58 @@
+{
+  "id": 900075,
+  "common_name": "winter rye",
+  "scientific_name": [
+    "Secale cereale"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cover crop",
+  "cycle": "Annual",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April",
+    "May"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Rain is usually enough; water only if fall is very dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Sow in early fall and it grows right through winter."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Mow or cut it as it flowers in spring and leave it as mulch; wait two to three weeks before sowing small seeds."
+    }
+  ]
+}

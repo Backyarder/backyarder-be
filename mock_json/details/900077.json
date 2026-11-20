@@ -1,0 +1,63 @@
+{
+  "id": 900077,
+  "common_name": "cosmos",
+  "scientific_name": [
+    "Cosmos bipinnatus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; too much water makes floppy plants."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and poor soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Deadhead to keep it blooming into fall, and leave a few to self-sow."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900054,
+  "common_name": "parsnip",
+  "scientific_name": [
+    "Pastinaca sativa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "November",
+    "December"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep the seedbed moist for the two to three weeks it takes to sprout, then an inch a week."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in deep, loose, stone-free soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Leave in the ground until after a few frosts for sweeter roots. Wear gloves when handling the leaves; the sap can irritate skin in sunlight."
+    }
+  ]
+}

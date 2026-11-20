@@ -1,0 +1,60 @@
+{
+  "id": 900115,
+  "common_name": "oakleaf hydrangea",
+  "scientific_name": [
+    "Hydrangea quercifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; copes with dry soil better than bigleaf."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade to sun; more sun gives better fall colour."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Blooms on old wood: prune lightly right after flowering. Red fall colour. A North American native. Toxic to pets."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900063,
+  "common_name": "tarragon",
+  "scientific_name": [
+    "Artemisia dracunculus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July",
+    "August"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let it dry between waterings."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade, in well-drained soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Snip sprigs all summer and divide every three years. French tarragon grows from cuttings, not seed."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900082,
+  "common_name": "bearded iris",
+  "scientific_name": [
+    "Iris germanica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; let it dry between waterings."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, with the tops of the rhizomes left exposed."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Remove flower stalks after bloom and divide every three to four years in late summer."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900106,
+  "common_name": "crape myrtle",
+  "scientific_name": [
+    "Lagerstroemia indica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun for flowers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune lightly in late winter, removing crossing and inward branches. Don't top it."
+    }
+  ]
+}

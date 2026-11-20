@@ -1,0 +1,59 @@
+{
+  "id": 900097,
+  "common_name": "asiatic lily",
+  "scientific_name": [
+    "Lilium asiatic hybrids"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tulip.svg",
+    "small_url": "/images/kitchen/tulip.svg",
+    "medium_url": "/images/kitchen/tulip.svg",
+    "regular_url": "/images/kitchen/tulip.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture while growing."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun on top, with cool, shaded roots."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Remove spent flowers but leave the stem until it yellows. Very toxic to cats, even the pollen."
+    }
+  ]
+}

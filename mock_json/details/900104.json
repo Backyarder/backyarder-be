@@ -1,0 +1,59 @@
+{
+  "id": 900104,
+  "common_name": "creeping juniper",
+  "scientific_name": [
+    "Juniperus horizontalis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Shrub",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Very drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. A tough groundcover for slopes."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Rarely needs pruning; cut back to a side shoot, never into bare wood."
+    }
+  ]
+}

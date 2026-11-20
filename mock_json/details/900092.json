@@ -1,0 +1,59 @@
+{
+  "id": 900092,
+  "common_name": "coral bells",
+  "scientific_name": [
+    "Heuchera spp."
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Foliage",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "hummingbirds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate, even moisture with good drainage."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; morning sun is fine."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Trim tattered leaves in spring and replant when the crowns rise out of the soil."
+    }
+  ]
+}

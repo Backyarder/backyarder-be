@@ -1,0 +1,60 @@
+{
+  "id": 900119,
+  "common_name": "pear",
+  "scientific_name": [
+    "Pyrus communis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February",
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pear.svg",
+    "small_url": "/images/kitchen/pear.svg",
+    "medium_url": "/images/kitchen/pear.svg",
+    "regular_url": "/images/kitchen/pear.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering every week or two for the first years."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Plant two varieties for pollination."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick when the fruit lifts off easily and ripen it indoors; pears go mealy if left to ripen on the tree."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900117,
+  "common_name": "sweet cherry",
+  "scientific_name": [
+    "Prunus avium"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "High",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/stonefruit.svg",
+    "small_url": "/images/kitchen/stonefruit.svg",
+    "medium_url": "/images/kitchen/stonefruit.svg",
+    "regular_url": "/images/kitchen/stonefruit.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering in dry spells."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Most need a second variety nearby for pollination."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in late summer to limit disease, and net against birds."
+    }
+  ]
+}

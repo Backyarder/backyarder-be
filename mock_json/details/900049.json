@@ -1,0 +1,63 @@
+{
+  "id": 900049,
+  "common_name": "arugula",
+  "scientific_name": [
+    "Eruca vesicaria"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "September",
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Light, frequent watering; dry arugula turns bitter and bolts."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Cool weather; part shade in summer."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Ready in about four weeks. Cut two inches above the soil for a second cutting. The flowers are edible too."
+    }
+  ]
+}

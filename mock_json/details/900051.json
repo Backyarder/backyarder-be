@@ -1,0 +1,59 @@
+{
+  "id": 900051,
+  "common_name": "brussels sprouts",
+  "scientific_name": [
+    "Brassica oleracea var. gemmifera"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October",
+    "November"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch and a half a week, steadily, through a long season."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. A fall crop that tastes best after frost."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick sprouts from the bottom up as they firm. Snapping off the top in early fall puts the plant's energy into the sprouts."
+    }
+  ]
+}

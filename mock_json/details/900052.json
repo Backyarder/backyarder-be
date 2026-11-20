@@ -1,0 +1,58 @@
+{
+  "id": 900052,
+  "common_name": "kohlrabi",
+  "scientific_name": [
+    "Brassica oleracea var. gongylodes"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; uneven watering makes the bulbs woody or split."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in cool weather."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick when the swollen stem is two to three inches across; bigger ones turn tough."
+    }
+  ]
+}

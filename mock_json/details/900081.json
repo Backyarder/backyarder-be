@@ -1,0 +1,59 @@
+{
+  "id": 900081,
+  "common_name": "peony",
+  "scientific_name": [
+    "Paeonia lactiflora"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water deeply in dry spells; established plants are tough."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and a cold winter to bloom."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Plant the eyes no more than two inches deep or it won't flower. Cut foliage to the ground in fall. It can live for decades."
+    }
+  ]
+}

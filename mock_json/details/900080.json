@@ -1,0 +1,60 @@
+{
+  "id": 900080,
+  "common_name": "garden phlox",
+  "scientific_name": [
+    "Phlox paniculata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September"
+  ],
+  "attracts": [
+    "butterflies",
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "About an inch a week at the base."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade, with space for air flow."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Thin to five stems per clump in spring to prevent mildew, and deadhead for longer bloom."
+    }
+  ]
+}

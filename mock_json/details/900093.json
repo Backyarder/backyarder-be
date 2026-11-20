@@ -1,0 +1,59 @@
+{
+  "id": 900093,
+  "common_name": "switchgrass",
+  "scientific_name": [
+    "Panicum virgatum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Ornamental grass",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tolerates clay, sand and wet spots."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Leave it standing for winter interest and cut it to six inches in late winter. A North American native."
+    }
+  ]
+}

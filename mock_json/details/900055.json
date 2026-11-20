@@ -1,0 +1,58 @@
+{
+  "id": 900055,
+  "common_name": "sweet potato",
+  "scientific_name": [
+    "Ipomoea batatas"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water well while the slips root, then about an inch a week; ease off in the last three weeks so the roots don't crack."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, warm soil and a long frost-free season."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Dig before frost when the leaves yellow, then cure the roots somewhere warm for a week to sweeten them."
+    }
+  ]
+}

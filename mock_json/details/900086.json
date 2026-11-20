@@ -1,0 +1,61 @@
+{
+  "id": 900086,
+  "common_name": "snapdragon",
+  "scientific_name": [
+    "Antirrhinum majus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture at the base."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in cool weather; it slows down in high heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch young plants for more stems and cut spent spikes for a second bloom."
+    }
+  ]
+}
