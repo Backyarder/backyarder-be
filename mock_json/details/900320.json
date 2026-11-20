@@ -1,0 +1,59 @@
+{
+  "id": 900320,
+  "common_name": "prairie smoke",
+  "scientific_name": [
+    "Geum triflorum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; good drainage is essential."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in lean soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "No care needed. Feathery pink seed heads look like smoke."
+    }
+  ]
+}

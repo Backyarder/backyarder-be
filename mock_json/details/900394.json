@@ -1,0 +1,60 @@
+{
+  "id": 900394,
+  "common_name": "snowdrop",
+  "scientific_name": [
+    "Galanthus nivalis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tulip.svg",
+    "small_url": "/images/kitchen/tulip.svg",
+    "medium_url": "/images/kitchen/tulip.svg",
+    "regular_url": "/images/kitchen/tulip.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Rain is usually enough."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade under deciduous trees."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Plant in fall or 'in the green' after flowering. Bulbs are toxic."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 900367,
+  "common_name": "Vidalia onion",
+  "scientific_name": [
+    "Allium cepa 'Granex'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even water while bulbs swell."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; short-day onion for the South, planted in fall."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest when tops fall over. Sweet and mild; doesn't store long. Toxic to pets."
+    }
+  ]
+}

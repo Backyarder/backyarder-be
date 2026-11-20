@@ -1,0 +1,59 @@
+{
+  "id": 900375,
+  "common_name": "hops",
+  "scientific_name": [
+    "Humulus lupulus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grape.svg",
+    "small_url": "/images/kitchen/grape.svg",
+    "medium_url": "/images/kitchen/grape.svg",
+    "regular_url": "/images/kitchen/grape.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Thirsty while climbing."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and a 15-foot trellis."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut bines to the ground in fall. Very toxic to dogs."
+    }
+  ]
+}

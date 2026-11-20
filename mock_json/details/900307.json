@@ -1,0 +1,59 @@
+{
+  "id": 900307,
+  "common_name": "mountain laurel",
+  "scientific_name": [
+    "Kalmia latifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Broadleaf evergreen",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture in acidic, well-drained soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; more flowers with some morning sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Snap off spent flowers. Every part is highly toxic to people and pets."
+    }
+  ]
+}

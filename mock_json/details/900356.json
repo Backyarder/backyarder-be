@@ -1,0 +1,60 @@
+{
+  "id": 900356,
+  "common_name": "popcorn",
+  "scientific_name": [
+    "Zea mays var. everta"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/corn.svg",
+    "small_url": "/images/kitchen/corn.svg",
+    "medium_url": "/images/kitchen/corn.svg",
+    "regular_url": "/images/kitchen/corn.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch a week, especially while tasselling."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; plant in blocks, away from sweet corn."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Let ears dry on the stalk, then cure indoors for a few weeks."
+    }
+  ]
+}

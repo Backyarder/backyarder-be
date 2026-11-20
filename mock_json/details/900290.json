@@ -1,0 +1,59 @@
+{
+  "id": 900290,
+  "common_name": "bald cypress",
+  "scientific_name": [
+    "Taxodium distichum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Tolerates standing water but also average soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; thrives from swamps to lawns."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Drops its needles in fall. Forms 'knees' near water."
+    }
+  ]
+}

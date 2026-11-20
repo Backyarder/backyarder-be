@@ -1,0 +1,62 @@
+{
+  "id": 900310,
+  "common_name": "sweet pepperbush",
+  "scientific_name": [
+    "Clethra alnifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies",
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Likes moist soil; tolerates wet spots."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to full shade; more flowers in sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in late winter. Fragrant midsummer spikes. A North American native."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900397,
+  "common_name": "calla lily",
+  "scientific_name": [
+    "Zantedeschia aethiopica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tulip.svg",
+    "small_url": "/images/kitchen/tulip.svg",
+    "medium_url": "/images/kitchen/tulip.svg",
+    "regular_url": "/images/kitchen/tulip.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep moist; it grows at pond edges."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; afternoon shade in heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Store rhizomes indoors in cold areas. Toxic to people and pets."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900330,
+  "common_name": "Asian pear",
+  "scientific_name": [
+    "Pyrus pyrifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pear.svg",
+    "small_url": "/images/kitchen/pear.svg",
+    "medium_url": "/images/kitchen/pear.svg",
+    "regular_url": "/images/kitchen/pear.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering every week or two."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; plant two varieties."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Thin to one fruit per cluster. Unlike European pears, ripen on the tree."
+    }
+  ]
+}

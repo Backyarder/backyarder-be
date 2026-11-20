@@ -1,0 +1,60 @@
+{
+  "id": 900386,
+  "common_name": "million bells",
+  "scientific_name": [
+    "Calibrachoa x hybrida"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the top inch dry; soggy soil causes root rot."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; at least six hours."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Self-cleaning; feed regularly in pots."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900299,
+  "common_name": "wax myrtle",
+  "scientific_name": [
+    "Morella cerifera"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Broadleaf evergreen",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; also takes wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; salt tolerant."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Shear for a hedge or limb up as a small tree. A Southeast native."
+    }
+  ]
+}

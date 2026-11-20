@@ -1,0 +1,59 @@
+{
+  "id": 900286,
+  "common_name": "tamarack",
+  "scientific_name": [
+    "Larix laricina"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "6"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Likes moist to wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and cold winters."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "A conifer that turns gold and drops its needles in fall: that's normal."
+    }
+  ]
+}

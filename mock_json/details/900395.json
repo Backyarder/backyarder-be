@@ -1,0 +1,59 @@
+{
+  "id": 900395,
+  "common_name": "gladiolus",
+  "scientific_name": [
+    "Gladiolus x hortulanus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tulip.svg",
+    "small_url": "/images/kitchen/tulip.svg",
+    "medium_url": "/images/kitchen/tulip.svg",
+    "regular_url": "/images/kitchen/tulip.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water weekly while growing."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and shelter from wind."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Plant corms in spring; dig and store in fall north of zone 7. Stake tall spikes. Toxic to pets."
+    }
+  ]
+}

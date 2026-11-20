@@ -1,0 +1,59 @@
+{
+  "id": 900369,
+  "common_name": "marjoram",
+  "scientific_name": [
+    "Origanum majorana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let it dry between waterings."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; grown as an annual in cold areas."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest just before flowering. Sweeter than oregano. Toxic to pets."
+    }
+  ]
+}

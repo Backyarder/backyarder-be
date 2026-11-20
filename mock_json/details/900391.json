@@ -1,0 +1,60 @@
+{
+  "id": 900391,
+  "common_name": "love-in-a-mist",
+  "scientific_name": [
+    "Nigella damascena"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; it fades in drought."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Sow every few weeks in spring. Decorative seed pods."
+    }
+  ]
+}

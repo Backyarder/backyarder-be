@@ -1,0 +1,60 @@
+{
+  "id": 900366,
+  "common_name": "sorrel",
+  "scientific_name": [
+    "Rumex acetosa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "September"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture keeps leaves tender."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; shade slows bolting."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut flower stalks to keep leaves tender. Lemony leaves; toxic to pets in quantity (oxalates)."
+    }
+  ]
+}

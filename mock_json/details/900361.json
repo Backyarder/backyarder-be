@@ -1,0 +1,60 @@
+{
+  "id": 900361,
+  "common_name": "radicchio",
+  "scientific_name": [
+    "Cichorium intybus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; dry soil makes it bitter."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun in cool weather; a fall crop."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut heads when firm; cold turns them deep red and milder."
+    }
+  ]
+}

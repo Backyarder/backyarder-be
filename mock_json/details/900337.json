@@ -1,0 +1,59 @@
+{
+  "id": 900337,
+  "common_name": "black walnut",
+  "scientific_name": [
+    "Juglans nigra"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/nut.svg",
+    "small_url": "/images/kitchen/nut.svg",
+    "medium_url": "/images/kitchen/nut.svg",
+    "regular_url": "/images/kitchen/nut.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering while young."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and lots of room."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Its roots release juglone, which kills tomatoes and many plants nearby. Mouldy hulls are toxic to dogs."
+    }
+  ]
+}

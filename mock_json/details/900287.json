@@ -1,0 +1,59 @@
+{
+  "id": 900287,
+  "common_name": "white spruce",
+  "scientific_name": [
+    "Picea glauca"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "6"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering for the first two years."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and cold winters."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Remove dead lower branches only. Dwarf Alberta spruce is a compact form."
+    }
+  ]
+}

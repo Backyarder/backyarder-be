@@ -1,0 +1,59 @@
+{
+  "id": 900399,
+  "common_name": "freesia",
+  "scientific_name": [
+    "Freesia refracta hybrids"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tulip.svg",
+    "small_url": "/images/kitchen/tulip.svg",
+    "medium_url": "/images/kitchen/tulip.svg",
+    "regular_url": "/images/kitchen/tulip.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture while growing; dry after flowering."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in cool weather."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Plant corms in fall in the South, spring elsewhere. Very fragrant."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900351,
+  "common_name": "dragon fruit",
+  "scientific_name": [
+    "Selenicereus undatus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cactus",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/cactus.svg",
+    "small_url": "/images/kitchen/cactus.svg",
+    "medium_url": "/images/kitchen/cactus.svg",
+    "regular_url": "/images/kitchen/cactus.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water when the top inch dries; it's a jungle cactus, not a desert one."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade; bring pots in below 40F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Give it a sturdy post. Flowers open at night."
+    }
+  ]
+}

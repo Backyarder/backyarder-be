@@ -1,0 +1,61 @@
+{
+  "id": 900378,
+  "common_name": "flowering tobacco",
+  "scientific_name": [
+    "Nicotiana alata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; it droops when dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; fragrant in the evening."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Fragrant at night. Toxic to people and pets."
+    }
+  ]
+}

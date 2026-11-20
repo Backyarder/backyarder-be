@@ -1,0 +1,59 @@
+{
+  "id": 900338,
+  "common_name": "pecan",
+  "scientific_name": [
+    "Carya illinoinensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/nut.svg",
+    "small_url": "/images/kitchen/nut.svg",
+    "medium_url": "/images/kitchen/nut.svg",
+    "regular_url": "/images/kitchen/nut.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering during nut fill in late summer."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and long hot summers; plant two varieties."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Grows to 70 feet. Harvest nuts as husks split in fall."
+    }
+  ]
+}

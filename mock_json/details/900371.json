@@ -1,0 +1,60 @@
+{
+  "id": 900371,
+  "common_name": "lovage",
+  "scientific_name": [
+    "Levisticum officinale"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; it wilts in drought."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; grows six feet tall."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Use leaves like celery. Cut back after flowering for fresh growth."
+    }
+  ]
+}

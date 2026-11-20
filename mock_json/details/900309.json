@@ -1,0 +1,60 @@
+{
+  "id": 900309,
+  "common_name": "heavenly bamboo",
+  "scientific_name": [
+    "Nandina domestica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Broadleaf evergreen",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "6",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; reddest leaves in sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut the tallest canes to the ground. Invasive in the Southeast; berries are toxic to birds and pets. Sterile varieties exist."
+    }
+  ]
+}

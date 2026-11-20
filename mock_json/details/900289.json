@@ -1,0 +1,59 @@
+{
+  "id": 900289,
+  "common_name": "eastern hemlock",
+  "scientific_name": [
+    "Tsuga canadensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep moist; it suffers in drought."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade, sheltered from hot wind."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Takes shearing as a hedge. Check for woolly adelgid (white tufts under needles)."
+    }
+  ]
+}

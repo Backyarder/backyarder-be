@@ -1,0 +1,61 @@
+{
+  "id": 900357,
+  "common_name": "sunchoke",
+  "scientific_name": [
+    "Helianthus tuberosus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October",
+    "November"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; grows eight feet tall."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Dig tubers after frost. Every scrap regrows, so give it a bed of its own."
+    }
+  ]
+}

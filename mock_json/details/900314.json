@@ -1,0 +1,59 @@
+{
+  "id": 900314,
+  "common_name": "Carolina jessamine",
+  "scientific_name": [
+    "Gelsemium sempervirens"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; water weekly the first year."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun for the most flowers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune after the late-winter bloom. Every part is highly toxic to people and pets."
+    }
+  ]
+}
