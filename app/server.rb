@@ -95,7 +95,9 @@ class Backyarder < Sinatra::Base
     def revalidated_json(object)
       body = object.to_json
       cache_control :public, :no_cache
-      etag Digest::SHA256.hexdigest(body)[0, 32]
+      # Weak: Render's edge (Cloudflare) rewrites strong ETags to weak ones,
+      # and the browser echoes back what it received.
+      etag Digest::SHA256.hexdigest(body)[0, 32], kind: :weak
       content_type :json
       body
     end
