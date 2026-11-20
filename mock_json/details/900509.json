@@ -1,0 +1,59 @@
+{
+  "id": 900509,
+  "common_name": "blue agave",
+  "scientific_name": [
+    "Agave tequilana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water monthly in summer at most."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; frost damages it below 25F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "The tequila agave. Sharp tips and irritating sap; wear gloves."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900544,
+  "common_name": "lemon verbena",
+  "scientific_name": [
+    "Aloysia citrodora"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; let pots dry slightly."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; bring pots indoors below freezing."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Strongest lemon scent of any herb. Pinch often. Toxic to pets."
+    }
+  ]
+}

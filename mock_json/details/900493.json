@@ -1,0 +1,60 @@
+{
+  "id": 900493,
+  "common_name": "beach rose",
+  "scientific_name": [
+    "Rosa rugosa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/rose.svg",
+    "small_url": "/images/kitchen/rose.svg",
+    "medium_url": "/images/kitchen/rose.svg",
+    "regular_url": "/images/kitchen/rose.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tolerates salt spray and sand."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Big edible hips in fall. Spreads by suckers and is invasive on some coasts."
+    }
+  ]
+}

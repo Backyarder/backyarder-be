@@ -1,0 +1,59 @@
+{
+  "id": 900531,
+  "common_name": "chickpea",
+  "scientific_name": [
+    "Cicer arietinum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pod.svg",
+    "small_url": "/images/kitchen/pod.svg",
+    "medium_url": "/images/kitchen/pod.svg",
+    "regular_url": "/images/kitchen/pod.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; too much water causes disease."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, cool spring planting."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick green for fresh, or let pods dry on the plant."
+    }
+  ]
+}

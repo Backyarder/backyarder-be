@@ -1,0 +1,60 @@
+{
+  "id": 900428,
+  "common_name": "foxglove",
+  "scientific_name": [
+    "Digitalis purpurea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; don't let it dry out in bloom."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; full sun in cool summers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Biennial: it flowers in its second year, then sets seed. Every part is highly toxic to people and pets."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 900526,
+  "common_name": "butterhead lettuce",
+  "scientific_name": [
+    "Lactuca sativa var. capitata 'Buttercrunch'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Light, frequent watering."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun in spring and fall, part shade in summer."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest the loose head whole; tender buttery leaves."
+    }
+  ]
+}

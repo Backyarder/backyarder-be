@@ -1,0 +1,59 @@
+{
+  "id": 900503,
+  "common_name": "living stones",
+  "scientific_name": [
+    "Lithops spp."
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water only in spring and fall growth, and never while old leaves shrivel."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright light, some direct sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Overwatering is the usual killer. Fall flowers emerge from the split."
+    }
+  ]
+}

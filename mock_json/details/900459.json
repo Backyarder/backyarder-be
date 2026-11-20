@@ -1,0 +1,60 @@
+{
+  "id": 900459,
+  "common_name": "sneezeweed",
+  "scientific_name": [
+    "Helenium autumnale"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep moist; it sulks in drought."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; flops in shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch in early summer to prevent flopping. It doesn't cause sneezing. Toxic to pets."
+    }
+  ]
+}

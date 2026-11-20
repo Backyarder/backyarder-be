@@ -1,0 +1,60 @@
+{
+  "id": 900429,
+  "common_name": "delphinium",
+  "scientific_name": [
+    "Delphinium elatum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady moisture and rich soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and cool summers; shelter from wind."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Stake the tall spikes early and cut them after bloom for a fall rebloom. Highly toxic to people and pets."
+    }
+  ]
+}

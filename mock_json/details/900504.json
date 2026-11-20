@@ -1,0 +1,59 @@
+{
+  "id": 900504,
+  "common_name": "claret cup cactus",
+  "scientific_name": [
+    "Echinocereus triglochidiatus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cactus",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/cactus.svg",
+    "small_url": "/images/kitchen/cactus.svg",
+    "medium_url": "/images/kitchen/cactus.svg",
+    "regular_url": "/images/kitchen/cactus.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "No water in winter; occasional summer water."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and gravelly soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "One of the hardiest cacti. Scarlet spring flowers for hummingbirds."
+    }
+  ]
+}

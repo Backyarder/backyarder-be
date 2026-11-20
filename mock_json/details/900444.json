@@ -1,0 +1,59 @@
+{
+  "id": 900444,
+  "common_name": "feather reed grass",
+  "scientific_name": [
+    "Calamagrostis x acutiflora 'Karl Foerster'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Ornamental grass",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; tolerates clay."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut to six inches in late winter. Upright plumes from early summer."
+    }
+  ]
+}

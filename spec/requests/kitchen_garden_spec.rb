@@ -10,7 +10,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     stock = data.reject { |p| p[:attributes][:collection] }
     by_collection = data.map { |p| p[:attributes][:collection] }.compact.tally
     expect(stock.size).to eq(30)
-    expect(by_collection).to eq("kitchen" => 133, "flowers" => 95, "trees" => 129, "succulents" => 13, "indoor" => 54)
+    expect(by_collection).to eq("kitchen" => 165, "flowers" => 134, "trees" => 162, "succulents" => 30, "indoor" => 67)
     tomato = kitchen.find { |p| p[:attributes][:name] == "tomato" }[:attributes]
     expect(tomato).to include(plant_id: 900001, watering: "Frequent", type: "Vegetable", content_type: "Plant", image: "/images/kitchen/tomato.svg")
     expect(tomato[:hardiness]).to eq({ min: "2", max: "11" })

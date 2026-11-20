@@ -80,7 +80,7 @@ RSpec.describe "Search Request", type: :request do
     end
 
     it "finds stock plants locally after the seed import, with their frontend pictures" do
-      expect(PlantDetail.import_stock!).to eq(454) # 30 stock + 424 built-in
+      expect(PlantDetail.import_stock!).to eq(588) # 30 stock + 558 built-in
       expect(PlantDetail.import_stock!).to eq(0)
       # One local match is "thin", so Perenual is still asked; it has nothing to add here.
       coneflower_stub = stub_request(:get, %r{perenual\.com/api/v2/species-list}).with(query: hash_including("q" => "coneflower"))
@@ -98,7 +98,7 @@ RSpec.describe "Search Request", type: :request do
     it "puts plants added after a search was cached at the top of that cached search" do
       get "/search/maple"
       expect(species_list_stub).to have_been_requested.once
-      PlantDetail.create!(plant_id: 900_500, common_name: "maple, sugar", summary: JSON.generate(collection: "trees", watering: "Average", sunlight: ["full sun"]))
+      PlantDetail.create!(plant_id: 999_999, common_name: "maple, sugar", summary: JSON.generate(collection: "trees", watering: "Average", sunlight: ["full sun"]))
 
       get "/search/maple"
 

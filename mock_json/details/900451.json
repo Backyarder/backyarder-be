@@ -1,0 +1,57 @@
+{
+  "id": 900451,
+  "common_name": "lady fern",
+  "scientific_name": [
+    "Athyrium filix-femina"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Foliage",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep moist; it tolerates wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part to full shade; sun only if wet."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Lacy fronds; cut back in spring."
+    }
+  ]
+}

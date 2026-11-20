@@ -1,0 +1,59 @@
+{
+  "id": 900513,
+  "common_name": "pencil cactus",
+  "scientific_name": [
+    "Euphorbia tirucalli"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the soil dry completely."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright light; 'Sticks on Fire' turns red in sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Wear gloves and eye protection when pruning: the milky sap is caustic. Toxic to people and pets."
+    }
+  ]
+}

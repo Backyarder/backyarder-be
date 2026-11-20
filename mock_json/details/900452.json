@@ -1,0 +1,57 @@
+{
+  "id": 900452,
+  "common_name": "cinnamon fern",
+  "scientific_name": [
+    "Osmundastrum cinnamomeum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Foliage",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Likes wet soil; good for boggy shade."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; sun if kept wet."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cinnamon-coloured fertile fronds in spring. A North American native."
+    }
+  ]
+}

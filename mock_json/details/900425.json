@@ -1,0 +1,60 @@
+{
+  "id": 900425,
+  "common_name": "yarrow",
+  "scientific_name": [
+    "Achillea millefolium"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; rich, wet soil makes it flop."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in lean soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back after the first bloom for a second. Spreads; divide every few years. Toxic to pets."
+    }
+  ]
+}

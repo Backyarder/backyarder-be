@@ -1,0 +1,59 @@
+{
+  "id": 900497,
+  "common_name": "burro's tail",
+  "scientific_name": [
+    "Sedum morganianum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water when the soil is fully dry; leaves plump up when watered."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright light, a little direct sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Leaves drop at a touch; hang it where it won't be brushed. Replant fallen leaves."
+    }
+  ]
+}

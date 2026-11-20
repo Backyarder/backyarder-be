@@ -1,0 +1,57 @@
+{
+  "id": 900443,
+  "common_name": "blue fescue",
+  "scientific_name": [
+    "Festuca glauca"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Ornamental grass",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; wet soil rots it."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun for the bluest colour."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Comb out dead blades in spring; replace clumps every few years."
+    }
+  ]
+}

@@ -8027,6 +8027,2304 @@
                 "thumbnail": "/images/kitchen/houseplant.svg"
             },
             "collection": "indoor"
+        },
+        {
+            "id": 900425,
+            "common_name": "yarrow",
+            "scientific_name": [
+                "Achillea millefolium"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900426,
+            "common_name": "astilbe",
+            "scientific_name": [
+                "Astilbe x arendsii"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900427,
+            "common_name": "columbine",
+            "scientific_name": [
+                "Aquilegia canadensis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900428,
+            "common_name": "foxglove",
+            "scientific_name": [
+                "Digitalis purpurea"
+            ],
+            "other_name": [],
+            "cycle": "Biennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900429,
+            "common_name": "delphinium",
+            "scientific_name": [
+                "Delphinium elatum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900430,
+            "common_name": "hollyhock",
+            "scientific_name": [
+                "Alcea rosea"
+            ],
+            "other_name": [],
+            "cycle": "Biennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900431,
+            "common_name": "threadleaf coreopsis",
+            "scientific_name": [
+                "Coreopsis verticillata"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900432,
+            "common_name": "blanket flower",
+            "scientific_name": [
+                "Gaillardia x grandiflora"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900433,
+            "common_name": "garden pinks",
+            "scientific_name": [
+                "Dianthus plumarius"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900434,
+            "common_name": "evergreen candytuft",
+            "scientific_name": [
+                "Iberis sempervirens"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900435,
+            "common_name": "basket-of-gold",
+            "scientific_name": [
+                "Aurinia saxatilis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900436,
+            "common_name": "sea thrift",
+            "scientific_name": [
+                "Armeria maritima"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900437,
+            "common_name": "bugleweed",
+            "scientific_name": [
+                "Ajuga reptans"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900438,
+            "common_name": "spotted deadnettle",
+            "scientific_name": [
+                "Lamium maculatum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900439,
+            "common_name": "Siberian bugloss",
+            "scientific_name": [
+                "Brunnera macrophylla"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900440,
+            "common_name": "Japanese anemone",
+            "scientific_name": [
+                "Anemone x hybrida"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900441,
+            "common_name": "Japanese forest grass",
+            "scientific_name": [
+                "Hakonechloa macra"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/grass.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900442,
+            "common_name": "fountain grass",
+            "scientific_name": [
+                "Cenchrus alopecuroides"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/grass.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900443,
+            "common_name": "blue fescue",
+            "scientific_name": [
+                "Festuca glauca"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/grass.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900444,
+            "common_name": "feather reed grass",
+            "scientific_name": [
+                "Calamagrostis x acutiflora 'Karl Foerster'"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/grass.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900445,
+            "common_name": "maiden grass",
+            "scientific_name": [
+                "Miscanthus sinensis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/grass.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900446,
+            "common_name": "lilyturf",
+            "scientific_name": [
+                "Liriope muscari"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900447,
+            "common_name": "mondo grass",
+            "scientific_name": [
+                "Ophiopogon japonicus"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/grass.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900448,
+            "common_name": "ostrich fern",
+            "scientific_name": [
+                "Matteuccia struthiopteris"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900449,
+            "common_name": "Christmas fern",
+            "scientific_name": [
+                "Polystichum acrostichoides"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900450,
+            "common_name": "Japanese painted fern",
+            "scientific_name": [
+                "Athyrium niponicum var. pictum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900451,
+            "common_name": "lady fern",
+            "scientific_name": [
+                "Athyrium filix-femina"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900452,
+            "common_name": "cinnamon fern",
+            "scientific_name": [
+                "Osmundastrum cinnamomeum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900453,
+            "common_name": "Stokes' aster",
+            "scientific_name": [
+                "Stokesia laevis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900454,
+            "common_name": "lady's mantle",
+            "scientific_name": [
+                "Alchemilla mollis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900455,
+            "common_name": "sea holly",
+            "scientific_name": [
+                "Eryngium planum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900456,
+            "common_name": "anise hyssop",
+            "scientific_name": [
+                "Agastache foeniculum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900457,
+            "common_name": "hardy hibiscus",
+            "scientific_name": [
+                "Hibiscus moscheutos"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900458,
+            "common_name": "turtlehead",
+            "scientific_name": [
+                "Chelone glabra"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900459,
+            "common_name": "sneezeweed",
+            "scientific_name": [
+                "Helenium autumnale"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900460,
+            "common_name": "New York ironweed",
+            "scientific_name": [
+                "Vernonia noveboracensis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900461,
+            "common_name": "smooth aster",
+            "scientific_name": [
+                "Symphyotrichum laeve"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900462,
+            "common_name": "false sunflower",
+            "scientific_name": [
+                "Heliopsis helianthoides"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900463,
+            "common_name": "orange coneflower",
+            "scientific_name": [
+                "Rudbeckia fulgida 'Goldsturm'"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "flowers"
+        },
+        {
+            "id": 900464,
+            "common_name": "red maple",
+            "scientific_name": [
+                "Acer rubrum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900465,
+            "common_name": "sugar maple",
+            "scientific_name": [
+                "Acer saccharum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900466,
+            "common_name": "river birch",
+            "scientific_name": [
+                "Betula nigra"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900467,
+            "common_name": "paper birch",
+            "scientific_name": [
+                "Betula papyrifera"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900468,
+            "common_name": "eastern redbud",
+            "scientific_name": [
+                "Cercis canadensis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900469,
+            "common_name": "flowering crabapple",
+            "scientific_name": [
+                "Malus spp."
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900470,
+            "common_name": "Washington hawthorn",
+            "scientific_name": [
+                "Crataegus phaenopyrum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900471,
+            "common_name": "American hornbeam",
+            "scientific_name": [
+                "Carpinus caroliniana"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900472,
+            "common_name": "hackberry",
+            "scientific_name": [
+                "Celtis occidentalis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900473,
+            "common_name": "northern catalpa",
+            "scientific_name": [
+                "Catalpa speciosa"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900474,
+            "common_name": "Kwanzan cherry",
+            "scientific_name": [
+                "Prunus serrulata 'Kanzan'"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900475,
+            "common_name": "Yoshino cherry",
+            "scientific_name": [
+                "Prunus x yedoensis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900476,
+            "common_name": "London planetree",
+            "scientific_name": [
+                "Platanus x acerifolia"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900477,
+            "common_name": "red buckeye",
+            "scientific_name": [
+                "Aesculus pavia"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900478,
+            "common_name": "disease-resistant American elm",
+            "scientific_name": [
+                "Ulmus americana 'Princeton'"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900479,
+            "common_name": "lacebark elm",
+            "scientific_name": [
+                "Ulmus parvifolia"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tree.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900480,
+            "common_name": "serviceberry",
+            "scientific_name": [
+                "Amelanchier canadensis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/berry.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900481,
+            "common_name": "red chokeberry",
+            "scientific_name": [
+                "Aronia arbutifolia"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/berry.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900482,
+            "common_name": "red twig dogwood",
+            "scientific_name": [
+                "Cornus sericea"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900483,
+            "common_name": "butterfly bush",
+            "scientific_name": [
+                "Buddleja davidii"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900484,
+            "common_name": "glossy abelia",
+            "scientific_name": [
+                "Abelia x grandiflora"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900485,
+            "common_name": "camellia",
+            "scientific_name": [
+                "Camellia japonica"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900486,
+            "common_name": "winter daphne",
+            "scientific_name": [
+                "Daphne odora"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900487,
+            "common_name": "slender deutzia",
+            "scientific_name": [
+                "Deutzia gracilis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900488,
+            "common_name": "golden St. John's wort",
+            "scientific_name": [
+                "Hypericum frondosum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900489,
+            "common_name": "fragrant sumac",
+            "scientific_name": [
+                "Rhus aromatica"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900490,
+            "common_name": "staghorn sumac",
+            "scientific_name": [
+                "Rhus typhina"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900491,
+            "common_name": "doublefile viburnum",
+            "scientific_name": [
+                "Viburnum plicatum f. tomentosum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900492,
+            "common_name": "Korean spice viburnum",
+            "scientific_name": [
+                "Viburnum carlesii"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900493,
+            "common_name": "beach rose",
+            "scientific_name": [
+                "Rosa rugosa"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/rose.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900494,
+            "common_name": "common boxwood",
+            "scientific_name": [
+                "Buxus sempervirens"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900495,
+            "common_name": "bottlebrush buckeye",
+            "scientific_name": [
+                "Aesculus parviflora"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900496,
+            "common_name": "flowering quince",
+            "scientific_name": [
+                "Chaenomeles speciosa"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/shrub.svg"
+            },
+            "collection": "trees"
+        },
+        {
+            "id": 900497,
+            "common_name": "burro's tail",
+            "scientific_name": [
+                "Sedum morganianum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900498,
+            "common_name": "string of bananas",
+            "scientific_name": [
+                "Curio radicans"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900499,
+            "common_name": "crown of thorns",
+            "scientific_name": [
+                "Euphorbia milii"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900500,
+            "common_name": "panda plant",
+            "scientific_name": [
+                "Kalanchoe tomentosa"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900501,
+            "common_name": "ghost plant",
+            "scientific_name": [
+                "Graptopetalum paraguayense"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900502,
+            "common_name": "paddle plant",
+            "scientific_name": [
+                "Kalanchoe luciae"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900503,
+            "common_name": "living stones",
+            "scientific_name": [
+                "Lithops spp."
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900504,
+            "common_name": "claret cup cactus",
+            "scientific_name": [
+                "Echinocereus triglochidiatus"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/cactus.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900505,
+            "common_name": "fishhook barrel cactus",
+            "scientific_name": [
+                "Ferocactus wislizeni"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/cactus.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900506,
+            "common_name": "saguaro",
+            "scientific_name": [
+                "Carnegiea gigantea"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/cactus.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900507,
+            "common_name": "organ pipe cactus",
+            "scientific_name": [
+                "Stenocereus thurberi"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/cactus.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900508,
+            "common_name": "teddy bear cholla",
+            "scientific_name": [
+                "Cylindropuntia bigelovii"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/cactus.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900509,
+            "common_name": "blue agave",
+            "scientific_name": [
+                "Agave tequilana"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900510,
+            "common_name": "Queen Victoria agave",
+            "scientific_name": [
+                "Agave victoriae-reginae"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900511,
+            "common_name": "Joshua tree",
+            "scientific_name": [
+                "Yucca brevifolia"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900512,
+            "common_name": "soaptree yucca",
+            "scientific_name": [
+                "Yucca elata"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900513,
+            "common_name": "pencil cactus",
+            "scientific_name": [
+                "Euphorbia tirucalli"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/succulent.svg"
+            },
+            "collection": "succulents"
+        },
+        {
+            "id": 900514,
+            "common_name": "grape tomato",
+            "scientific_name": [
+                "Solanum lycopersicum 'Grape'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tomato.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900515,
+            "common_name": "San Marzano tomato",
+            "scientific_name": [
+                "Solanum lycopersicum 'San Marzano'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tomato.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900516,
+            "common_name": "Brandywine tomato",
+            "scientific_name": [
+                "Solanum lycopersicum 'Brandywine'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tomato.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900517,
+            "common_name": "Cherokee Purple tomato",
+            "scientific_name": [
+                "Solanum lycopersicum 'Cherokee Purple'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/tomato.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900518,
+            "common_name": "serrano pepper",
+            "scientific_name": [
+                "Capsicum annuum 'Serrano'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/pepper.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900519,
+            "common_name": "Anaheim pepper",
+            "scientific_name": [
+                "Capsicum annuum 'Anaheim'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/pepper.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900520,
+            "common_name": "Hungarian wax pepper",
+            "scientific_name": [
+                "Capsicum annuum 'Hungarian Wax'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/pepper.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900521,
+            "common_name": "Japanese eggplant",
+            "scientific_name": [
+                "Solanum melongena 'Ichiban'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/eggplant.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900522,
+            "common_name": "pickling cucumber",
+            "scientific_name": [
+                "Cucumis sativus 'Boston Pickling'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/squash.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900523,
+            "common_name": "English cucumber",
+            "scientific_name": [
+                "Cucumis sativus 'Telegraph'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/squash.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900524,
+            "common_name": "Florence fennel",
+            "scientific_name": [
+                "Foeniculum vulgare var. azoricum"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/stalk.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900525,
+            "common_name": "elephant garlic",
+            "scientific_name": [
+                "Allium ampeloprasum var. ampeloprasum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/bulb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900526,
+            "common_name": "butterhead lettuce",
+            "scientific_name": [
+                "Lactuca sativa var. capitata 'Buttercrunch'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900527,
+            "common_name": "leaf lettuce",
+            "scientific_name": [
+                "Lactuca sativa 'Black Seeded Simpson'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900528,
+            "common_name": "Malabar spinach",
+            "scientific_name": [
+                "Basella alba"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900529,
+            "common_name": "New Zealand spinach",
+            "scientific_name": [
+                "Tetragonia tetragonioides"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900530,
+            "common_name": "amaranth greens",
+            "scientific_name": [
+                "Amaranthus tricolor"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/leafy.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900531,
+            "common_name": "chickpea",
+            "scientific_name": [
+                "Cicer arietinum"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/pod.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900532,
+            "common_name": "icebox watermelon",
+            "scientific_name": [
+                "Citrullus lanatus 'Sugar Baby'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/melon.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900533,
+            "common_name": "delicata squash",
+            "scientific_name": [
+                "Cucurbita pepo 'Delicata'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/squash.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900534,
+            "common_name": "kabocha squash",
+            "scientific_name": [
+                "Cucurbita maxima 'Kabocha'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/squash.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900535,
+            "common_name": "daikon radish",
+            "scientific_name": [
+                "Raphanus sativus var. longipinnatus"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/root.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900536,
+            "common_name": "French breakfast radish",
+            "scientific_name": [
+                "Raphanus sativus 'French Breakfast'"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/root.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900537,
+            "common_name": "hyssop",
+            "scientific_name": [
+                "Hyssopus officinalis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900538,
+            "common_name": "calendula",
+            "scientific_name": [
+                "Calendula officinalis"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/flower.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900539,
+            "common_name": "chervil",
+            "scientific_name": [
+                "Anthriscus cerefolium"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900540,
+            "common_name": "anise",
+            "scientific_name": [
+                "Pimpinella anisum"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900541,
+            "common_name": "shiso",
+            "scientific_name": [
+                "Perilla frutescens"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900542,
+            "common_name": "culantro",
+            "scientific_name": [
+                "Eryngium foetidum"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900543,
+            "common_name": "epazote",
+            "scientific_name": [
+                "Dysphania ambrosioides"
+            ],
+            "other_name": [],
+            "cycle": "Annual",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900544,
+            "common_name": "lemon verbena",
+            "scientific_name": [
+                "Aloysia citrodora"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900545,
+            "common_name": "Mexican tarragon",
+            "scientific_name": [
+                "Tagetes lucida"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Minimum",
+            "sunlight": [
+                "full sun"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/herb.svg"
+            },
+            "collection": "kitchen"
+        },
+        {
+            "id": 900546,
+            "common_name": "elephant ear",
+            "scientific_name": [
+                "Alocasia x amazonica"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900547,
+            "common_name": "caladium",
+            "scientific_name": [
+                "Caladium bicolor"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900548,
+            "common_name": "rex begonia",
+            "scientific_name": [
+                "Begonia rex-cultorum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900549,
+            "common_name": "watermelon peperomia",
+            "scientific_name": [
+                "Peperomia argyreia"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900550,
+            "common_name": "peacock plant",
+            "scientific_name": [
+                "Goeppertia makoyana"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900551,
+            "common_name": "aluminum plant",
+            "scientific_name": [
+                "Pilea cadierei"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900552,
+            "common_name": "Easter lily",
+            "scientific_name": [
+                "Lilium longiflorum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "full sun",
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900553,
+            "common_name": "majesty palm",
+            "scientific_name": [
+                "Ravenea rivularis"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900554,
+            "common_name": "cat palm",
+            "scientific_name": [
+                "Chamaedorea cataractarum"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900555,
+            "common_name": "lipstick plant",
+            "scientific_name": [
+                "Aeschynanthus radicans"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900556,
+            "common_name": "goldfish plant",
+            "scientific_name": [
+                "Nematanthus gregarius"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900557,
+            "common_name": "zebra plant",
+            "scientific_name": [
+                "Aphelandra squarrosa"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Frequent",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
+        },
+        {
+            "id": 900558,
+            "common_name": "Persian shield",
+            "scientific_name": [
+                "Strobilanthes dyeriana"
+            ],
+            "other_name": [],
+            "cycle": "Perennial",
+            "watering": "Average",
+            "sunlight": [
+                "part shade"
+            ],
+            "default_image": {
+                "thumbnail": "/images/kitchen/houseplant.svg"
+            },
+            "collection": "indoor"
         }
     ],
     "to": 30,
