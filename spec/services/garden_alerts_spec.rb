@@ -94,6 +94,29 @@ RSpec.describe GardenAlerts do
       expect(alerts.needs_water.map(&:location_id)).to eq(["A1"])
     end
 
+    it "never credits rain to plants in an indoor area, and names the area in the digest" do
+      stub_weather(rain: [0, 0.9, 0, 0, 0])
+      plant("A1", :Frequent, 3)
+      sunroom = Garden.create_for!(user, name: "Sunroom", indoor: true)
+      sunroom.cells.find_by(location_id: "C4").update!(status: :locked, name: "Pothos", plant_id: 55, content_type: "Plant", watering: :Frequent, planted_at: now - 3 * day)
+
+      alerts = described_class.new(user, now: now)
+
+      expect(alerts.needs_water.map(&:name)).to eq(["Pothos"])
+      expect(alerts.to_h[:needs_water].first).to include(garden_id: sunroom.id, garden_name: "Sunroom")
+      expect(alerts.message).to include("Pothos in Sunroom, C4")
+    end
+
+    it "skips frost warnings when every area is indoors" do
+      stub_weather(rain: [0, 0, 0, 0, 0], lows: [50, 50, 50, 28, 50])
+      plant("A1", :Average, 1)
+      user.garden.update!(indoor: true)
+
+      expect(described_class.new(user, now: now).frost).to be_nil
+      user.garden.update!(indoor: false)
+      expect(described_class.new(user, now: now).frost).not_to be_nil
+    end
+
     it "never credits rain to houseplants" do
       stub_weather(rain: [0, 0.9, 0, 0, 0])
       plant("A1", :Frequent, 3)

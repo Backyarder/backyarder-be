@@ -15,8 +15,26 @@ class GardenAlerts
     @weather_service = weather_service
   end
 
+  # Every cell in every one of the user's garden areas, area order first.
+  def cells
+    @cells ||= Cell.joins(:garden).where(gardens: { user_id: user.id })
+                   .includes(:garden).order("gardens.position, gardens.id, cells.id").to_a
+  end
+
   def needs_water
-    @needs_water ||= user.garden.cells.order(:id).select { |cell| cell.needs_water?(@now, rained_at: rain_credit.call(cell)) }
+    @needs_water ||= cells.select { |cell| cell.needs_water?(@now, rained_at: rain_credit.call(cell)) }
+  end
+
+  # { garden_id => { plants:, needs_water: } } for the area tabs.
+  def counts
+    cells.group_by(&:garden_id).transform_values do |list|
+      { plants: list.count { |c| c.plant_id }, needs_water: list.count { |c| needs_water.include?(c) } }
+    end
+  end
+
+  # False only when the user has areas and every one is indoors.
+  def outdoor_areas?
+    user.gardens.none? || user.gardens.where(indoor: false).exists?
   end
 
   # The most recent day before today with at least RAIN_SKIP_INCHES of rain,
@@ -31,18 +49,19 @@ class GardenAlerts
     @rained_at = day && Time.utc(*day[:date].split("-").map(&:to_i), 18)
   end
 
-  # cell -> rained_at for outdoor plants, nil for houseplants (rain doesn't
-  # reach them). Built-in houseplants are identified by their collection.
+  # cell -> rained_at for outdoor plants, nil indoors: in an area marked
+  # indoor, or a built-in houseplant (identified by its collection).
   def rain_credit
     @rain_credit ||= begin
       credit = rained_at
       indoor = credit ? indoor_plant_ids : Set.new
-      ->(cell) { credit && !indoor.include?(cell.plant_id) ? credit : nil }
+      indoor_gardens = credit ? user.gardens.where(indoor: true).pluck(:id).to_set : Set.new
+      ->(cell) { credit && !indoor.include?(cell.plant_id) && !indoor_gardens.include?(cell.garden_id) ? credit : nil }
     end
   end
 
   def indoor_plant_ids
-    ids = user.garden.cells.where.not(plant_id: nil).distinct.pluck(:plant_id)
+    ids = Cell.joins(:garden).where(gardens: { user_id: user.id }).where.not(plant_id: nil).distinct.pluck(:plant_id)
     PlantDetail.where(plant_id: ids).select { |r| r.summary_hash[:collection] == "indoor" }.map(&:plant_id).to_set
   end
 
@@ -80,7 +99,10 @@ class GardenAlerts
   end
 
   # First upcoming day (today or later) at or below freezing, or nil.
+  # Nothing to protect when every area is indoors.
   def frost
+    return nil unless outdoor_areas?
+
     days = weather&.dig(:days) || []
     days.find { |d| d[:date] >= today && d[:low_f] && d[:low_f] <= FROST_F }
   end
@@ -92,7 +114,7 @@ class GardenAlerts
   def to_h
     {
       date: today,
-      needs_water: needs_water.map { |c| { location_id: c.location_id, name: c.name, plant_id: c.plant_id, watering: c.watering, next_water_at: c.next_water_at(rained_at: rain_credit.call(c))&.utc&.iso8601 } },
+      needs_water: needs_water.map { |c| { location_id: c.location_id, name: c.name, plant_id: c.plant_id, watering: c.watering, garden_id: c.garden_id, garden_name: c.garden.name, next_water_at: c.next_water_at(rained_at: rain_credit.call(c))&.utc&.iso8601 } },
       recent_rain_in: recent_rain_in,
       rain_watered_on: rained_at&.to_date&.iso8601,
       rain_covers_watering: rain_covers_watering?,
@@ -109,7 +131,8 @@ class GardenAlerts
     lines = ["Good morning! Here's your Backyarder report for #{today}.", ""]
     if needs_water.any?
       lines << "Plants due for water (#{needs_water.size}):"
-      needs_water.each { |c| lines << "  - #{c.name} in #{c.location_id} (#{c.watering} watering)" }
+      several = user.gardens.count > 1
+      needs_water.each { |c| lines << "  - #{c.name} in #{several ? "#{c.garden.name}, " : ''}#{c.location_id} (#{c.watering} watering)" }
       lines << ""
     end
     lines << "Rain on #{rained_at.to_date.strftime('%A')} counted as a watering for your outdoor plants." if rained_at

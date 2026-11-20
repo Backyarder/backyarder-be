@@ -53,7 +53,8 @@ class User < ActiveRecord::Base
   end
 
   # Every user gets one garden for now; created lazily so signup stays cheap.
+  # The first garden area; created on first use.
   def garden
-    gardens.first || Garden.create_for!(self)
+    gardens.ordered.first || Garden.create_for!(self)
   end
 end

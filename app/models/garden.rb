@@ -7,7 +7,17 @@ class Garden < ActiveRecord::Base
   belongs_to :user, optional: true # nil = the legacy shared garden
   has_many :cells, dependent: :destroy
 
-  validates :name, presence: true
+  MAX_PER_USER = 12
+  MAX_NAME = 40
+
+  before_validation { self.name = name.to_s.strip }
+  validates :name, presence: true, length: { maximum: MAX_NAME }
+
+  scope :ordered, -> { order(:position, :id) }
+
+  def outdoor?
+    !indoor?
+  end
 
   # The pre-accounts garden (no user). The first person to sign up inherits
   # it so the plants already in the ground are not lost; returns nil if there
@@ -20,9 +30,10 @@ class Garden < ActiveRecord::Base
     shared
   end
 
-  def self.create_for!(user, name: "My Garden")
+  def self.create_for!(user, name: "My Garden", indoor: false)
     transaction do
-      garden = create!(user: user, name: name)
+      position = (user.gardens.maximum(:position) || -1) + 1
+      garden = create!(user: user, name: name, indoor: indoor, position: position)
       garden.seed_cells!
       garden
     end

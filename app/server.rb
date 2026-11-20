@@ -45,8 +45,17 @@ class Backyarder < Sinatra::Base
       current_session&.user
     end
 
+    # The garden area a request is about: ?garden_id= (or garden_id in a
+    # JSON body), else the user's first area. Another user's id is a 404.
     def current_garden
-      @current_garden ||= current_user.garden
+      @current_garden ||= begin
+        id = params[:garden_id] || json_body[:garden_id]
+        if id.nil? || id.to_s.empty?
+          current_user.garden
+        else
+          current_user.gardens.find_by(id: id.to_i) || halt(404, json({ error: "No garden area #{id.inspect}." }))
+        end
+      end
     end
 
     def require_login!
@@ -352,7 +361,58 @@ class Backyarder < Sinatra::Base
     status 204
   end
 
-  # --- garden (always the signed-in user's) ---------------------------------
+  # --- garden areas -----------------------------------------------------------
+
+  helpers do
+    def gardens_json(status_code = 200)
+      current_user.garden # make sure there is at least one
+      alerts = GardenAlerts.new(current_user)
+      status status_code
+      json GardenSerializer.new(current_user.gardens.ordered, params: { counts: alerts.counts })
+    end
+
+    def garden_attrs(body)
+      attrs = {}
+      attrs[:name] = body[:name] if body.key?(:name)
+      attrs[:indoor] = body[:indoor] == true if body.key?(:indoor)
+      attrs
+    end
+  end
+
+  get "/gardens" do
+    require_login!
+    gardens_json
+  end
+
+  post "/gardens" do
+    require_login!
+    halt 422, json({ error: "You can have up to #{Garden::MAX_PER_USER} garden areas." }) if current_user.gardens.count >= Garden::MAX_PER_USER
+
+    body = json_body
+    garden = Garden.create_for!(current_user, name: body[:name].to_s.strip.empty? ? "New area" : body[:name], indoor: body[:indoor] == true)
+    json GardenSerializer.new(garden, params: { counts: {} })
+  rescue ActiveRecord::RecordInvalid => e
+    halt 422, json({ error: e.record.errors.full_messages.to_sentence })
+  end
+
+  patch "/gardens/:id" do
+    require_login!
+    garden = current_user.gardens.find_by(id: params[:id].to_i) || halt(404, json({ error: "No garden area #{params[:id].inspect}." }))
+    halt 422, json({ error: garden.errors.full_messages.to_sentence }) unless garden.update(garden_attrs(json_body))
+
+    gardens_json
+  end
+
+  delete "/gardens/:id" do
+    require_login!
+    garden = current_user.gardens.find_by(id: params[:id].to_i) || halt(404, json({ error: "No garden area #{params[:id].inspect}." }))
+    halt 422, json({ error: "You need at least one garden area." }) if current_user.gardens.count <= 1
+
+    garden.destroy!
+    gardens_json
+  end
+
+  # --- garden cells (the signed-in user's area; ?garden_id= picks one) ------
 
   get "/garden" do
     require_login!
