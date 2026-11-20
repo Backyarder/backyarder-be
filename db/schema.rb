@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_11_13_100000) do
+ActiveRecord::Schema[7.0].define(version: 2026_11_20_120000) do
   create_table "api_usages", force: :cascade do |t|
     t.date "day", null: false
     t.integer "count", default: 0, null: false
@@ -43,6 +43,8 @@ ActiveRecord::Schema[7.0].define(version: 2026_11_13_100000) do
     t.string "name", default: "My Garden", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "indoor", default: false, null: false
+    t.integer "position", default: 0, null: false
     t.index ["user_id"], name: "index_gardens_on_user_id"
   end
 
