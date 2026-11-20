@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900132.jpg",
+    "small_url": "/images/plants/900132.jpg",
+    "medium_url": "/images/plants/900132.jpg",
+    "regular_url": "/images/plants/900132.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Shear by half after the first bloom for a second flush. Unlike catnip it doesn't self-seed much."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nepeta_faassenii6.jpg"
+  }
 }

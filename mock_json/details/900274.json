@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/bulb.svg",
-    "small_url": "/images/kitchen/bulb.svg",
-    "medium_url": "/images/kitchen/bulb.svg",
-    "regular_url": "/images/kitchen/bulb.svg"
+    "thumbnail": "/images/plants/900274.jpg",
+    "small_url": "/images/plants/900274.jpg",
+    "medium_url": "/images/plants/900274.jpg",
+    "regular_url": "/images/plants/900274.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Plant single bulbs in fall or early spring; each makes a cluster. Cure before storing. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Charles P.",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Shallots_-_sliced_and_whole.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shallots_-_sliced_and_whole.jpg"
+  }
 }

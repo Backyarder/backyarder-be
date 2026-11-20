@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900063.jpg",
+    "small_url": "/images/plants/900063.jpg",
+    "medium_url": "/images/plants/900063.jpg",
+    "regular_url": "/images/plants/900063.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Snip sprigs all summer and divide every three years. French tarragon grows from cuttings, not seed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ies",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Estragon_1511.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Estragon_1511.jpg"
+  }
 }

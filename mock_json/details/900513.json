@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900513.jpg",
+    "small_url": "/images/plants/900513.jpg",
+    "medium_url": "/images/plants/900513.jpg",
+    "regular_url": "/images/plants/900513.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Wear gloves and eye protection when pruning: the milky sap is caustic. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mokkie",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pencil_Tree_(Euphorbia_tirucalli).jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900392.jpg",
+    "small_url": "/images/plants/900392.jpg",
+    "medium_url": "/images/plants/900392.jpg",
+    "regular_url": "/images/plants/900392.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Plant six inches deep in fall. Very fragrant. Bulbs are toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Plantman",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hyacinth_flower.jpg"
+  }
 }

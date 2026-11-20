@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grape.svg",
-    "small_url": "/images/kitchen/grape.svg",
-    "medium_url": "/images/kitchen/grape.svg",
-    "regular_url": "/images/kitchen/grape.svg"
+    "thumbnail": "/images/plants/900375.jpg",
+    "small_url": "/images/plants/900375.jpg",
+    "medium_url": "/images/plants/900375.jpg",
+    "regular_url": "/images/plants/900375.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut bines to the ground in fall. Very toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "LuckyStarr",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Humulus_Lupulus_Hopfendolde-mit-hopfengarten.jpg"
+  }
 }

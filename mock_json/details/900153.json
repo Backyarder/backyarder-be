@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900153.jpg",
+    "small_url": "/images/plants/900153.jpg",
+    "medium_url": "/images/plants/900153.jpg",
+    "regular_url": "/images/plants/900153.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Takes shearing well; prune in late spring. Every part except the red flesh is highly toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Anand Kulanthaivel",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taxus_media.JPG"
+  }
 }

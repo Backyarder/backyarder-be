@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900470.jpg",
+    "small_url": "/images/plants/900470.jpg",
+    "medium_url": "/images/plants/900470.jpg",
+    "regular_url": "/images/plants/900470.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Thorny; plant away from paths. Red berries persist for birds."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Cillas",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Crataegus_phaenopyrum_HRM.jpg"
+  }
 }

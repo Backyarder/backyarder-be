@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900476.jpg",
+    "small_url": "/images/plants/900476.jpg",
+    "medium_url": "/images/plants/900476.jpg",
+    "regular_url": "/images/plants/900476.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Camouflage bark. Prune in winter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Richard Croft",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Berkeley_Square_-_geograph.org.uk_-_911963.jpg"
+  }
 }

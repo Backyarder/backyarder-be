@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900401.jpg",
+    "small_url": "/images/plants/900401.jpg",
+    "medium_url": "/images/plants/900401.jpg",
+    "regular_url": "/images/plants/900401.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Don't cut the old flower spurs; they rebloom. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Yvan leduc",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:NKN-2007-06-13_114250_Hoya_Carnosa_(Yvan_Leduc_author_for_Wikipedia).jpg"
+  }
 }

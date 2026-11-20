@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900248.jpg",
+    "small_url": "/images/plants/900248.jpg",
+    "medium_url": "/images/plants/900248.jpg",
+    "regular_url": "/images/plants/900248.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Cut tall canes to make them branch. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "rojypala",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dracaena_fragrans_(2).jpg"
+  }
 }

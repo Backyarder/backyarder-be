@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900076.jpg",
+    "small_url": "/images/plants/900076.jpg",
+    "medium_url": "/images/plants/900076.jpg",
+    "regular_url": "/images/plants/900076.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "The more you cut, the more it blooms. Pinch young plants once for bushier growth."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zinnienbl%C3%BCte_Zinnia_elegans_stack15_20190722-RM-7222254.jpg"
+  }
 }

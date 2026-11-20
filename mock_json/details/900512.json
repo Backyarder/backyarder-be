@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900512.jpg",
+    "small_url": "/images/plants/900512.jpg",
+    "medium_url": "/images/plants/900512.jpg",
+    "regular_url": "/images/plants/900512.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Tall white flower spikes in early summer. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yucca_elata_blooming.jpg"
+  }
 }

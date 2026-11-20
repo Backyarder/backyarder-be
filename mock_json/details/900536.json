@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900536.jpg",
+    "small_url": "/images/plants/900536.jpg",
+    "medium_url": "/images/plants/900536.jpg",
+    "regular_url": "/images/plants/900536.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Ready in about 25 days; pull promptly."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Self, en:User:Jengod",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg"
+  }
 }

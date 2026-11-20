@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900298.jpg",
+    "small_url": "/images/plants/900298.jpg",
+    "medium_url": "/images/plants/900298.jpg",
+    "regular_url": "/images/plants/900298.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune right after flowering. Late frosts can brown the flowers."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jean Tosti",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Magnolia_x_soulangeana_(Jean_Tosti).jpg"
+  }
 }

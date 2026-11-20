@@ -31,10 +31,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900189.jpg",
+    "small_url": "/images/plants/900189.jpg",
+    "medium_url": "/images/plants/900189.jpg",
+    "regular_url": "/images/plants/900189.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Comb out dead blades in late winter. Self-seeds heavily and is invasive in California and parts of the West."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nassella_tenuissima.jpg"
+  }
 }

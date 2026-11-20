@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900322.jpg",
+    "small_url": "/images/plants/900322.jpg",
+    "medium_url": "/images/plants/900322.jpg",
+    "regular_url": "/images/plants/900322.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Short lived; let it self-sow and don't mulch over the crowns. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Barnes, Dr. Thomas G.",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Lobelia_cardinalis_-_Cardinal_Flower.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lobelia_cardinalis_-_Cardinal_Flower.jpg"
+  }
 }

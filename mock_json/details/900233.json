@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900233.jpg",
+    "small_url": "/images/plants/900233.jpg",
+    "medium_url": "/images/plants/900233.jpg",
+    "regular_url": "/images/plants/900233.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Pinch stems to keep it full. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Philodendron_scandens_subsp_oxycardium2.jpg"
+  }
 }

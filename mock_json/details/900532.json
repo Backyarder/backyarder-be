@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/melon.svg",
-    "small_url": "/images/kitchen/melon.svg",
-    "medium_url": "/images/kitchen/melon.svg",
-    "regular_url": "/images/kitchen/melon.svg"
+    "thumbnail": "/images/plants/900532.jpg",
+    "small_url": "/images/plants/900532.jpg",
+    "medium_url": "/images/plants/900532.jpg",
+    "regular_url": "/images/plants/900532.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Eight-to-ten-pound melons; ripe when the tendril browns."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
+  }
 }

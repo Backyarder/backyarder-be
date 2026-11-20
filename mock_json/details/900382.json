@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900382.jpg",
+    "small_url": "/images/plants/900382.jpg",
+    "medium_url": "/images/plants/900382.jpg",
+    "regular_url": "/images/plants/900382.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pinch flower spikes to keep the leaves bold. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Bjoertvedt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plectranthus_scutellarioides_-_El_Yunque_nat_park_PR_IMG_2120.JPG"
+  }
 }

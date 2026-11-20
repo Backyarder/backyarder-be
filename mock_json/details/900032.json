@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900032.jpg",
+    "small_url": "/images/plants/900032.jpg",
+    "medium_url": "/images/plants/900032.jpg",
+    "regular_url": "/images/plants/900032.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Snip sprigs any time. Trim lightly after flowering; never cut into bare old wood."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Margalob",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rosemary_in_bloom.JPG"
+  }
 }

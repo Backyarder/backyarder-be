@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900441.jpg",
+    "small_url": "/images/plants/900441.jpg",
+    "medium_url": "/images/plants/900441.jpg",
+    "regular_url": "/images/plants/900441.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Cut back in early spring. Cascading, bamboo-like leaves for shade."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Photo by and (c)2006 Derek Ramsey (Ram-Man). Location…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hakonechloa_macra_%27All_Gold%27_Leaves_2448px.jpg"
+  }
 }

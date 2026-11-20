@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900051.jpg",
+    "small_url": "/images/plants/900051.jpg",
+    "medium_url": "/images/plants/900051.jpg",
+    "regular_url": "/images/plants/900051.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick sprouts from the bottom up as they firm. Snapping off the top in early fall puts the plant's energy into the sprouts."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric Hunt",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brussels_sprout_closeup.jpg"
+  }
 }

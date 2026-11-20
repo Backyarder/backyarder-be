@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900261.jpg",
+    "small_url": "/images/plants/900261.jpg",
+    "medium_url": "/images/plants/900261.jpg",
+    "regular_url": "/images/plants/900261.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pick red and string them up to dry for flakes."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Lotus Head from Johannesburg, Gauteng, South Africa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chilis-1.jpg"
+  }
 }

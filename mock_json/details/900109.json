@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900109.jpg",
+    "small_url": "/images/plants/900109.jpg",
+    "medium_url": "/images/plants/900109.jpg",
+    "regular_url": "/images/plants/900109.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Prune after flowering. Plant two for more berries for birds. A North American native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ted Bodner, Southern Weed Science Society/James H. Miller…",
+    "license": "CC BY 3.0 us",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Viburnum_dentatum_flowers.jpg"
+  }
 }

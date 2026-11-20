@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900016.jpg",
+    "small_url": "/images/plants/900016.jpg",
+    "medium_url": "/images/plants/900016.jpg",
+    "regular_url": "/images/plants/900016.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Harvest when the head is firm. Cut high and a few small heads may regrow from the stump."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Rasbak",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Witte_kool.jpg"
+  }
 }

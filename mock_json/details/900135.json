@@ -35,10 +35,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900135.jpg",
+    "small_url": "/images/plants/900135.jpg",
+    "medium_url": "/images/plants/900135.jpg",
+    "regular_url": "/images/plants/900135.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Spreads by runners, so give it room or edge it. One of the best native plants for pollinators."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "User:SB_Johnny",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pycnanthemum_muticum_heds_and_bracts_001.JPG"
+  }
 }

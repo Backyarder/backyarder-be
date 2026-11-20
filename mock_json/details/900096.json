@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900096.jpg",
+    "small_url": "/images/plants/900096.jpg",
+    "medium_url": "/images/plants/900096.jpg",
+    "regular_url": "/images/plants/900096.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Plant six inches deep in fall and leave the foliage for six weeks after bloom. Deer and voles leave them alone. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Narcissus_poeticus_subsp._radiiflorus.1658.jpg"
+  }
 }

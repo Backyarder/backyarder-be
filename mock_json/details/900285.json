@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900285.jpg",
+    "small_url": "/images/plants/900285.jpg",
+    "medium_url": "/images/plants/900285.jpg",
+    "regular_url": "/images/plants/900285.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Suckers form thickets; mow them if you want a single trunk. Brilliant orange fall colour."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Randy Everette",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sassafras_Leaves_June_Nbg_(261691941).jpeg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900395.jpg",
+    "small_url": "/images/plants/900395.jpg",
+    "medium_url": "/images/plants/900395.jpg",
+    "regular_url": "/images/plants/900395.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Plant corms in spring; dig and store in fall north of zone 7. Stake tall spikes. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:0_Gladiolus_italicus_-_Samo%C3%ABns_(1).JPG"
+  }
 }

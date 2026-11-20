@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900446.jpg",
+    "small_url": "/images/plants/900446.jpg",
+    "medium_url": "/images/plants/900446.jpg",
+    "regular_url": "/images/plants/900446.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Mow or shear to a few inches in late winter before new growth."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Qwert1234",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liriope_muscari_4.JPG"
+  }
 }

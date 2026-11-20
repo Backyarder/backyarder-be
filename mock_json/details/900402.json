@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900402.jpg",
+    "small_url": "/images/plants/900402.jpg",
+    "medium_url": "/images/plants/900402.jpg",
+    "regular_url": "/images/plants/900402.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Remove spent flowers. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Taken by Fanghong",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AnthuriumAndraenum.jpg"
+  }
 }

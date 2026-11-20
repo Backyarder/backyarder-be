@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900268.jpg",
+    "small_url": "/images/plants/900268.jpg",
+    "medium_url": "/images/plants/900268.jpg",
+    "regular_url": "/images/plants/900268.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Harvest when the ground spot turns orange. Stores for a couple of months."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr_070730-7820_Cucurbita_pepo.jpg"
+  }
 }

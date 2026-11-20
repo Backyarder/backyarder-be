@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900188.jpg",
+    "small_url": "/images/plants/900188.jpg",
+    "medium_url": "/images/plants/900188.jpg",
+    "regular_url": "/images/plants/900188.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Short lived but self-sows. Toxic to livestock and pets if eaten. A Southwest native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Curtis Clark",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Baileya_multiradiata_head_2003-07-03.jpg"
+  }
 }

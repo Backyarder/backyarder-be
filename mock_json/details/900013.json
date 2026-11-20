@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900013.jpg",
+    "small_url": "/images/plants/900013.jpg",
+    "medium_url": "/images/plants/900013.jpg",
+    "regular_url": "/images/plants/900013.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Harvest outer leaves from the outside in, or cut the whole plant an inch above the soil for regrowth."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Rasbak",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Spinacia_oleracea_Spinazie_bloeiend.jpg"
+  }
 }

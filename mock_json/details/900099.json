@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900099.jpg",
+    "small_url": "/images/plants/900099.jpg",
+    "medium_url": "/images/plants/900099.jpg",
+    "regular_url": "/images/plants/900099.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune only in winter to avoid spreading oak wilt."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Velela",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Quercus_rubra_@_Tortworth_Court.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Quercus_rubra_@_Tortworth_Court.jpg"
+  }
 }

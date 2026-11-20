@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/bulb.svg",
-    "small_url": "/images/kitchen/bulb.svg",
-    "medium_url": "/images/kitchen/bulb.svg",
-    "regular_url": "/images/kitchen/bulb.svg"
+    "thumbnail": "/images/plants/900525.jpg",
+    "small_url": "/images/plants/900525.jpg",
+    "medium_url": "/images/plants/900525.jpg",
+    "regular_url": "/images/plants/900525.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Huge, mild cloves; actually a leek relative. Plant in fall. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dave Whitinger",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Elephant_Garlic_(Allium_ampeloprasum)_2.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900458.jpg",
+    "small_url": "/images/plants/900458.jpg",
+    "medium_url": "/images/plants/900458.jpg",
+    "regular_url": "/images/plants/900458.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pinch in early summer for bushier plants. A native host for the Baltimore checkerspot."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mason Brock (Masebrock",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Chelone_glabra_Red_River_Gorge.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chelone_glabra_Red_River_Gorge.JPG"
+  }
 }

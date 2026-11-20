@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900423.jpg",
+    "small_url": "/images/plants/900423.jpg",
+    "medium_url": "/images/plants/900423.jpg",
+    "regular_url": "/images/plants/900423.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Grow it mounted on a board. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "themaskedlapwing",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Platycerium_bifurcatum_612351086.jpg"
+  }
 }

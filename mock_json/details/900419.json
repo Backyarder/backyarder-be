@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900419.jpg",
+    "small_url": "/images/plants/900419.jpg",
+    "medium_url": "/images/plants/900419.jpg",
+    "regular_url": "/images/plants/900419.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "After flowering keep the leaves growing; rest the bulb dry in fall to rebloom. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Drew Avery",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hippeastrum_reginae.jpg"
+  }
 }

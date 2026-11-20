@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900046.jpg",
+    "small_url": "/images/plants/900046.jpg",
+    "medium_url": "/images/plants/900046.jpg",
+    "regular_url": "/images/plants/900046.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Cut outer stalks an inch above the soil and the centre keeps producing from late spring until a hard frost."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Neelix at English Wikipedia",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Chard_(Beta_vulgaris_var_cicla).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chard_(Beta_vulgaris_var_cicla).jpg"
+  }
 }

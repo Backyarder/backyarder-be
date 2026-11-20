@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900541.jpg",
+    "small_url": "/images/plants/900541.jpg",
+    "medium_url": "/images/plants/900541.jpg",
+    "regular_url": "/images/plants/900541.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pinch flowers to keep leaves coming. Self-sows heavily. Toxic to livestock."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dalgial",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Perilla_frutescens_var._acuta.JPG"
+  }
 }

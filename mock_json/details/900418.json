@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900418.jpg",
+    "small_url": "/images/plants/900418.jpg",
+    "medium_url": "/images/plants/900418.jpg",
+    "regular_url": "/images/plants/900418.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Keep it out of cold drafts. The sap irritates; mildly toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Weihnachtsstern_-_gro%C3%9F.jpg"
+  }
 }

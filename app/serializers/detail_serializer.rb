@@ -20,5 +20,6 @@ class DetailSerializer
              :drought_tolerant,
              :invasive,
              :indoor,
+             :image_credit,
              :section
 end

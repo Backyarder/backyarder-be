@@ -38,10 +38,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900040.jpg",
+    "small_url": "/images/plants/900040.jpg",
+    "medium_url": "/images/plants/900040.jpg",
+    "regular_url": "/images/plants/900040.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -60,5 +60,11 @@
       "type": "pruning",
       "description": "Deadhead spent flowers to keep it blooming until frost. A classic companion for tomatoes and beans."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:French_marigold.jpg"
+  }
 }

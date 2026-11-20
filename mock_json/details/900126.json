@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900126.jpg",
+    "small_url": "/images/plants/900126.jpg",
+    "medium_url": "/images/plants/900126.jpg",
+    "regular_url": "/images/plants/900126.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut off last year's tattered leaves in late winter as the flowers appear. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dominicus Johannes Bergsma",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Helleborus_orientalis._Lenteroos_04.JPG"
+  }
 }

@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900400.jpg",
+    "small_url": "/images/plants/900400.jpg",
+    "medium_url": "/images/plants/900400.jpg",
+    "regular_url": "/images/plants/900400.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Pot up the pups. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Husky",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pilea_peperomioides_Chinese_money_plant.jpg"
+  }
 }

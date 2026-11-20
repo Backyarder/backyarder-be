@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900007.jpg",
+    "small_url": "/images/plants/900007.jpg",
+    "medium_url": "/images/plants/900007.jpg",
+    "regular_url": "/images/plants/900007.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Harvest when the skin is hard and tan and the stem has dried. Cure in the sun for a week to store."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "George Chernilevsky",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Cucurbita_moschata_Butternut_2012_G2.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cucurbita_moschata_Butternut_2012_G2.jpg"
+  }
 }

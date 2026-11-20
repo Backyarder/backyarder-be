@@ -33,10 +33,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900445.jpg",
+    "small_url": "/images/plants/900445.jpg",
+    "medium_url": "/images/plants/900445.jpg",
+    "regular_url": "/images/plants/900445.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut back in late winter. Invasive in parts of the East; sterile cultivars exist."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "松岡明芳",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Japanese_pampas_grass_%E3%82%B9%E3%82%B9%E3%82%AD%E3%81%AE%E7%A9%82%E6%B3%A2PB080105.jpg"
+  }
 }

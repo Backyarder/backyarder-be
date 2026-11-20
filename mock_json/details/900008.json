@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900008.jpg",
+    "small_url": "/images/plants/900008.jpg",
+    "medium_url": "/images/plants/900008.jpg",
+    "regular_url": "/images/plants/900008.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cut with a few inches of stem once the skin resists a fingernail, before the first hard frost."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:FrenchMarketPumpkinsB.jpg"
+  }
 }

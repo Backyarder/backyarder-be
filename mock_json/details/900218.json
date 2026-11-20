@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/citrus.svg",
-    "small_url": "/images/kitchen/citrus.svg",
-    "medium_url": "/images/kitchen/citrus.svg",
-    "regular_url": "/images/kitchen/citrus.svg"
+    "thumbnail": "/images/plants/900218.jpg",
+    "small_url": "/images/plants/900218.jpg",
+    "medium_url": "/images/plants/900218.jpg",
+    "regular_url": "/images/plants/900218.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick limes green or let them turn yellow and juicier. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dinesh Valke from Thane, India",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Citrus_%C3%97_aurantiifolia_(Christm.)_Swingle_(51906868474).jpg"
+  }
 }

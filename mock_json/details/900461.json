@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900461.jpg",
+    "small_url": "/images/plants/900461.jpg",
+    "medium_url": "/images/plants/900461.jpg",
+    "regular_url": "/images/plants/900461.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Blue fall daisies with less mildew than New England aster."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Kathleen Houlahan Chayer",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Symphyotrichum_laeve_93797924_(cropped).jpg"
+  }
 }

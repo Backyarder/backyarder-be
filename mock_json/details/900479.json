@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900479.jpg",
+    "small_url": "/images/plants/900479.jpg",
+    "medium_url": "/images/plants/900479.jpg",
+    "regular_url": "/images/plants/900479.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Mottled bark; resists Dutch elm disease. Prune in winter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ronnie Nijboer",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RN_Ulmus_parvifolia_(Hilversum).JPG"
+  }
 }

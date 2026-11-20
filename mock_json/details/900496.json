@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900496.jpg",
+    "small_url": "/images/plants/900496.jpg",
+    "medium_url": "/images/plants/900496.jpg",
+    "regular_url": "/images/plants/900496.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Very early red flowers on thorny stems. Prune after flowering; the fruit makes jelly."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2019-04-12_13_45_12_Flowering_quince_flowers_along_Terrace_Boulevard_in_the_Parkway_Village_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg"
+  }
 }

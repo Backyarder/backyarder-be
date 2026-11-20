@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900526.jpg",
+    "small_url": "/images/plants/900526.jpg",
+    "medium_url": "/images/plants/900526.jpg",
+    "regular_url": "/images/plants/900526.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Harvest the loose head whole; tender buttery leaves."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "en:User:Geographer",
+    "license": "CC BY 1.0",
+    "license_url": "https://creativecommons.org/licenses/by/1.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Iceberg_lettuce_in_SB.jpg"
+  }
 }

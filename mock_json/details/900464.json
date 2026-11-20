@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900464.jpg",
+    "small_url": "/images/plants/900464.jpg",
+    "medium_url": "/images/plants/900464.jpg",
+    "regular_url": "/images/plants/900464.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune in late summer or fall; maples bleed sap in spring."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ayotte, Gilles, 1948-",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Acer_rubrum_15-p.bot-a.rubrum-114.jpg"
+  }
 }

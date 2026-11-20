@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900448.jpg",
+    "small_url": "/images/plants/900448.jpg",
+    "medium_url": "/images/plants/900448.jpg",
+    "regular_url": "/images/plants/900448.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Spreads by runners. The spring fiddleheads are edible when cooked."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "The Cosmonaut",
+    "license": "CC BY-SA 2.5 ca",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Matteuccia_struthiopteris_fiddleheads.jpg"
+  }
 }

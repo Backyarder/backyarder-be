@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/stonefruit.svg",
-    "small_url": "/images/kitchen/stonefruit.svg",
-    "medium_url": "/images/kitchen/stonefruit.svg",
-    "regular_url": "/images/kitchen/stonefruit.svg"
+    "thumbnail": "/images/plants/900120.jpg",
+    "small_url": "/images/plants/900120.jpg",
+    "medium_url": "/images/plants/900120.jpg",
+    "regular_url": "/images/plants/900120.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick when soft and drooping; figs don't ripen after picking. Prune lightly in late winter. The sap irritates skin and the plant is toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fig_(Ficus_carica)_fruit_halved.jpg"
+  }
 }

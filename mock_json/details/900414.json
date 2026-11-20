@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900414.jpg",
+    "small_url": "/images/plants/900414.jpg",
+    "medium_url": "/images/plants/900414.jpg",
+    "regular_url": "/images/plants/900414.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Give it a pole or let it trail. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Aitor",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monstera_adansonii_79319231.jpg"
+  }
 }

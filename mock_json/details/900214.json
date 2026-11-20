@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/palm.svg",
-    "small_url": "/images/kitchen/palm.svg",
-    "medium_url": "/images/kitchen/palm.svg",
-    "regular_url": "/images/kitchen/palm.svg"
+    "thumbnail": "/images/plants/900214.jpg",
+    "small_url": "/images/plants/900214.jpg",
+    "medium_url": "/images/plants/900214.jpg",
+    "regular_url": "/images/plants/900214.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Leaf stems have saw teeth; wear gloves. A tough Southeast native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stephen Lea from English Wikipedia",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:SawPalmetto.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SawPalmetto.jpg"
+  }
 }

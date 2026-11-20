@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900398.jpg",
+    "small_url": "/images/plants/900398.jpg",
+    "medium_url": "/images/plants/900398.jpg",
+    "regular_url": "/images/plants/900398.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Soak corms before planting, claws down. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "SuperJew",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Persian_Buttercup_01.jpg"
+  }
 }

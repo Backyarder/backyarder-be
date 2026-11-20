@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900191.jpg",
+    "small_url": "/images/plants/900191.jpg",
+    "medium_url": "/images/plants/900191.jpg",
+    "regular_url": "/images/plants/900191.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Short lived; let it self-sow. A desert native hummingbird plant."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Rachel Stringham…",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Penstemon_parryi_-_Rachel_Stringham_01.jpg"
+  }
 }

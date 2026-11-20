@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900079.jpg",
+    "small_url": "/images/plants/900079.jpg",
+    "medium_url": "/images/plants/900079.jpg",
+    "regular_url": "/images/plants/900079.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Deadhead for a second flush; divide every three years as the centre dies out."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alex Abair",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monarda_didyma_inflorescence_and_upper_cauline_leaves.jpg"
+  }
 }

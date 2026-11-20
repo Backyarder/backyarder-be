@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900366.jpg",
+    "small_url": "/images/plants/900366.jpg",
+    "medium_url": "/images/plants/900366.jpg",
+    "regular_url": "/images/plants/900366.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut flower stalks to keep leaves tender. Lemony leaves; toxic to pets in quantity (oxalates)."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Rumex_acetosa_-_Habit.jpg"
+  }
 }

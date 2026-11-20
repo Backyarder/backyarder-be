@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900422.jpg",
+    "small_url": "/images/plants/900422.jpg",
+    "medium_url": "/images/plants/900422.jpg",
+    "regular_url": "/images/plants/900422.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Wipe the glossy fronds. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Asplenium_nidus_(Bukidnon,_Philippines)_02.jpg"
+  }
 }

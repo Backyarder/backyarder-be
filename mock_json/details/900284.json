@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900284.jpg",
+    "small_url": "/images/plants/900284.jpg",
+    "medium_url": "/images/plants/900284.jpg",
+    "regular_url": "/images/plants/900284.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Little pruning needed. Seeds and pods are toxic; choose a seedless male for yards."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gymnocladus_dioicus_JPG1a.jpg"
+  }
 }

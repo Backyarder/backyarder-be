@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900157.jpg",
+    "small_url": "/images/plants/900157.jpg",
+    "medium_url": "/images/plants/900157.jpg",
+    "regular_url": "/images/plants/900157.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune in late winter. Self-seeds heavily; choose seedless varieties or remove seed pods."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric Kounce TexasRaiser",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hibiscus_Syriacus.JPG"
+  }
 }

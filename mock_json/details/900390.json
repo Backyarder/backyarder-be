@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900390.jpg",
+    "small_url": "/images/plants/900390.jpg",
+    "medium_url": "/images/plants/900390.jpg",
+    "regular_url": "/images/plants/900390.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Sow directly; it resents transplanting. Self-sows."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Kaldari",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kaldari_Eschscholzia_californica_01.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/bulb.svg",
-    "small_url": "/images/kitchen/bulb.svg",
-    "medium_url": "/images/kitchen/bulb.svg",
-    "regular_url": "/images/kitchen/bulb.svg"
+    "thumbnail": "/images/plants/900022.jpg",
+    "small_url": "/images/plants/900022.jpg",
+    "medium_url": "/images/plants/900022.jpg",
+    "regular_url": "/images/plants/900022.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Snap off the curly scapes in late spring and eat them. Dig the bulbs when the lower leaves have browned."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg"
+  }
 }

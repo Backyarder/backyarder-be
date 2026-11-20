@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900316.jpg",
+    "small_url": "/images/plants/900316.jpg",
+    "medium_url": "/images/plants/900316.jpg",
+    "regular_url": "/images/plants/900316.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cut back in late winter. More mildew resistant than garden bee balm. A prairie native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric Hunt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monarda_fistulosa_Arkansas.jpg"
+  }
 }

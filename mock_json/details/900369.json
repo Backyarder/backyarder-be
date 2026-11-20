@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900369.jpg",
+    "small_url": "/images/plants/900369.jpg",
+    "medium_url": "/images/plants/900369.jpg",
+    "regular_url": "/images/plants/900369.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Harvest just before flowering. Sweeter than oregano. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Origanum_majorana_002.JPG"
+  }
 }

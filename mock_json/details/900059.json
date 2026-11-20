@@ -33,10 +33,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900059.jpg",
+    "small_url": "/images/plants/900059.jpg",
+    "medium_url": "/images/plants/900059.jpg",
+    "regular_url": "/images/plants/900059.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Dig roots in late fall after frost, when they are most pungent."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Pethan",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Armoracia_rusticana.jpg"
+  }
 }

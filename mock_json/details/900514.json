@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tomato.svg",
-    "small_url": "/images/kitchen/tomato.svg",
-    "medium_url": "/images/kitchen/tomato.svg",
-    "regular_url": "/images/kitchen/tomato.svg"
+    "thumbnail": "/images/plants/900514.jpg",
+    "small_url": "/images/plants/900514.jpg",
+    "medium_url": "/images/plants/900514.jpg",
+    "regular_url": "/images/plants/900514.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cage or stake and pick daily. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Braggimedia",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Grape_tomatoes_on_the_vine.JPG"
+  }
 }

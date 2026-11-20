@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900205.jpg",
+    "small_url": "/images/plants/900205.jpg",
+    "medium_url": "/images/plants/900205.jpg",
+    "regular_url": "/images/plants/900205.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Wear gloves and never burn the trimmings. Every part is highly toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alvesgaspar",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_flowers_leaves.jpg"
+  }
 }

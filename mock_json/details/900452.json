@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900452.jpg",
+    "small_url": "/images/plants/900452.jpg",
+    "medium_url": "/images/plants/900452.jpg",
+    "regular_url": "/images/plants/900452.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Cinnamon-coloured fertile fronds in spring. A North American native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Antepenultimate",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Osmundastrum_cinnamomeum_May2015.jpg"
+  }
 }

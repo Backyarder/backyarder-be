@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900053.jpg",
+    "small_url": "/images/plants/900053.jpg",
+    "medium_url": "/images/plants/900053.jpg",
+    "regular_url": "/images/plants/900053.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pull at two to three inches across. The greens are good to eat too."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "thebittenword.com",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Turnip_2622027.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900344.jpg",
+    "small_url": "/images/plants/900344.jpg",
+    "medium_url": "/images/plants/900344.jpg",
+    "regular_url": "/images/plants/900344.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "A low groundcover; trim runners in spring. No flooding needed in a garden bed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Photo by Keith Weller",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Cranberry_bog.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cranberry_bog.jpg"
+  }
 }

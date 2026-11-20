@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900471.jpg",
+    "small_url": "/images/plants/900471.jpg",
+    "medium_url": "/images/plants/900471.jpg",
+    "regular_url": "/images/plants/900471.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Muscle-like smooth grey bark. Little pruning needed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Photo by and (c)2005 Derek Ramsey (Ram-Man",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:American_Hornbeam_Leaves_600.jpg"
+  }
 }

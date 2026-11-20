@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900372.jpg",
+    "small_url": "/images/plants/900372.jpg",
+    "medium_url": "/images/plants/900372.jpg",
+    "regular_url": "/images/plants/900372.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pinch tips for bushiness. Harvest before flowering when sweetest."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Flyingbikie (Robert Lynch, Melbourne/Australia",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stevia_plant.jpg"
+  }
 }

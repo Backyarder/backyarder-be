@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900320.jpg",
+    "small_url": "/images/plants/900320.jpg",
+    "medium_url": "/images/plants/900320.jpg",
+    "regular_url": "/images/plants/900320.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "No care needed. Feathery pink seed heads look like smoke."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Walter Siegmund (talk",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Geum_triflorum_4879.JPG"
+  }
 }

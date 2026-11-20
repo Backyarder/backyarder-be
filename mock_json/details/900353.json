@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900353.jpg",
+    "small_url": "/images/plants/900353.jpg",
+    "medium_url": "/images/plants/900353.jpg",
+    "regular_url": "/images/plants/900353.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick lower leaves and leave the top; it grows into a palm-like stalk."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Raffi Kojian",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brassica_-_Gardenology.org-IMG_0606_bbg09.jpg"
+  }
 }

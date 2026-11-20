@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900439.jpg",
+    "small_url": "/images/plants/900439.jpg",
+    "medium_url": "/images/plants/900439.jpg",
+    "regular_url": "/images/plants/900439.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Forget-me-not flowers in spring; silver-leaved forms like 'Jack Frost' carry the summer."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Brunnera_macrophylla,_flowers_-_Les_Martels,_Giroussens_Tarn.jpg"
+  }
 }

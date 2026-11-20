@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grape.svg",
-    "small_url": "/images/kitchen/grape.svg",
-    "medium_url": "/images/kitchen/grape.svg",
-    "regular_url": "/images/kitchen/grape.svg"
+    "thumbnail": "/images/plants/900224.jpg",
+    "small_url": "/images/plants/900224.jpg",
+    "medium_url": "/images/plants/900224.jpg",
+    "regular_url": "/images/plants/900224.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune back to short spurs on permanent arms every winter. The Southeast's native grape. Toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Vitis_rotundifolia.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vitis_rotundifolia.jpg"
+  }
 }

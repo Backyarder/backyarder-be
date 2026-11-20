@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900216.jpg",
+    "small_url": "/images/plants/900216.jpg",
+    "medium_url": "/images/plants/900216.jpg",
+    "regular_url": "/images/plants/900216.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune in winter to avoid oak wilt. Acorns are toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ebyabe",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:FL_Volusia_Oak03.jpg"
+  }
 }

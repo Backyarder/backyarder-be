@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900518.jpg",
+    "small_url": "/images/plants/900518.jpg",
+    "medium_url": "/images/plants/900518.jpg",
+    "regular_url": "/images/plants/900518.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Hotter than jalapeño; very productive. Pick green or red."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Cindy from Wisconsin, USA",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serranochilis.jpg"
+  }
 }

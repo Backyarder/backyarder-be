@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900543.jpg",
+    "small_url": "/images/plants/900543.jpg",
+    "medium_url": "/images/plants/900543.jpg",
+    "regular_url": "/images/plants/900543.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Used sparingly with beans. Self-seeds; toxic in quantity."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Robert H. Mohlenbrock",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Dysphania_ambrosioides_NRCS-1_(cropped).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dysphania_ambrosioides_NRCS-1_(cropped).jpg"
+  }
 }

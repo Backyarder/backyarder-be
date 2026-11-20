@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900003.jpg",
+    "small_url": "/images/plants/900003.jpg",
+    "medium_url": "/images/plants/900003.jpg",
+    "regular_url": "/images/plants/900003.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "No pruning needed; stake heavy plants. Pick green, or leave to ripen red and sweeter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Kham Tran - www.khamtran.com",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Green-Yellow-Red-Pepper-2009.jpg"
+  }
 }

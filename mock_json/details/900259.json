@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900259.jpg",
+    "small_url": "/images/plants/900259.jpg",
+    "medium_url": "/images/plants/900259.jpg",
+    "regular_url": "/images/plants/900259.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick dark green for roasting, or dry red ones as ancho chiles. Stake heavy plants."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "stef yau from Seattle, USA",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Poblano_Pepper.jpg"
+  }
 }

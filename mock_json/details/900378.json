@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900378.jpg",
+    "small_url": "/images/plants/900378.jpg",
+    "medium_url": "/images/plants/900378.jpg",
+    "regular_url": "/images/plants/900378.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Fragrant at night. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Carl E Lewis",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nicotiana_alata1By_Carl_E_Lewis.jpg"
+  }
 }

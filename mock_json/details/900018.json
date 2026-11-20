@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900018.jpg",
+    "small_url": "/images/plants/900018.jpg",
+    "medium_url": "/images/plants/900018.jpg",
+    "regular_url": "/images/plants/900018.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Thin seedlings to two inches apart. Pull when the shoulders show the colour you want; smaller is sweeter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Evan-Amos",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900098.jpg",
+    "small_url": "/images/plants/900098.jpg",
+    "medium_url": "/images/plants/900098.jpg",
+    "regular_url": "/images/plants/900098.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Plant three to four inches deep in fall and leave the leaves until they yellow."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Generalrelative",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Crocus_vernus_with_bee.jpg"
+  }
 }

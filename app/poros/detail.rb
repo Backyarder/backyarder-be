@@ -19,7 +19,8 @@ class Detail
               :poisonous_to_pets,
               :drought_tolerant,
               :invasive,
-              :indoor
+              :indoor,
+              :image_credit
 
   def initialize(data)
     @plant_id = data[:id]
@@ -42,6 +43,7 @@ class Detail
     @drought_tolerant = data[:drought_tolerant]
     @invasive = data[:invasive]
     @indoor = data[:indoor]
+    @image_credit = data[:image_credit] # author/license/source of a Commons photo (built-ins)
     @id = nil
   end
 

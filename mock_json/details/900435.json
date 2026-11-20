@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900435.jpg",
+    "small_url": "/images/plants/900435.jpg",
+    "medium_url": "/images/plants/900435.jpg",
+    "regular_url": "/images/plants/900435.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Shear after the yellow spring flush."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "T. Kebert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aurinia_saxatilis_TK_2021-04-22_4.jpg"
+  }
 }

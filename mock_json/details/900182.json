@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/cactus.svg",
-    "small_url": "/images/kitchen/cactus.svg",
-    "medium_url": "/images/kitchen/cactus.svg",
-    "regular_url": "/images/kitchen/cactus.svg"
+    "thumbnail": "/images/plants/900182.jpg",
+    "small_url": "/images/plants/900182.jpg",
+    "medium_url": "/images/plants/900182.jpg",
+    "regular_url": "/images/plants/900182.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Repot with gloves and newspaper. Very slow growing."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Echinocactus_grusonii_(aka).jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900465.jpg",
+    "small_url": "/images/plants/900465.jpg",
+    "medium_url": "/images/plants/900465.jpg",
+    "regular_url": "/images/plants/900465.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune in late summer. The syrup maple; orange fall colour."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Superior National Forest",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Acer_saccharum_1-jgreenlee_(5098070608).jpg"
+  }
 }

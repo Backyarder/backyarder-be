@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900100.jpg",
+    "small_url": "/images/plants/900100.jpg",
+    "medium_url": "/images/plants/900100.jpg",
+    "regular_url": "/images/plants/900100.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune only in winter. Slow growing, long lived, and one of the best trees for wildlife."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Marty Aligata at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Keeler_Oak_Tree_-_distance_photo,_May_2013.jpg"
+  }
 }

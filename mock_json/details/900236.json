@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900236.jpg",
+    "small_url": "/images/plants/900236.jpg",
+    "medium_url": "/images/plants/900236.jpg",
+    "regular_url": "/images/plants/900236.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Trim brown fronds. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Homer Edward Price",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Fern_(2873392811).png"
+  }
 }

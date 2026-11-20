@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pod.svg",
-    "small_url": "/images/kitchen/pod.svg",
-    "medium_url": "/images/kitchen/pod.svg",
-    "regular_url": "/images/kitchen/pod.svg"
+    "thumbnail": "/images/plants/900060.jpg",
+    "small_url": "/images/plants/900060.jpg",
+    "medium_url": "/images/plants/900060.jpg",
+    "regular_url": "/images/plants/900060.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Dig the whole plant when the leaves yellow and hang it to dry for two weeks before shelling."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ibn Dagara",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Groundnuts_in_container.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900276.jpg",
+    "small_url": "/images/plants/900276.jpg",
+    "medium_url": "/images/plants/900276.jpg",
+    "regular_url": "/images/plants/900276.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Little pruning needed. Remove only dead or crossing lower branches."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Walter Siegmund (talk",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pseudotsuga_menziesii_7456.JPG"
+  }
 }

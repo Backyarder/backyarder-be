@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900442.jpg",
+    "small_url": "/images/plants/900442.jpg",
+    "medium_url": "/images/plants/900442.jpg",
+    "regular_url": "/images/plants/900442.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut to a few inches in late winter. Fuzzy plumes in late summer."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Daderot",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Pennisetum_alopecuroides_-_Berlin_Botanical_Garden_-_IMG_8624.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pennisetum_alopecuroides_-_Berlin_Botanical_Garden_-_IMG_8624.JPG"
+  }
 }

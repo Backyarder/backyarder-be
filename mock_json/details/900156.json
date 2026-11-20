@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900156.jpg",
+    "small_url": "/images/plants/900156.jpg",
+    "medium_url": "/images/plants/900156.jpg",
+    "regular_url": "/images/plants/900156.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Prune lightly in spring. A native evergreen alternative to boxwood. Berries are toxic."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alex Abair",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ilex_glabra_251258583.jpg"
+  }
 }

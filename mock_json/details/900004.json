@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900004.jpg",
+    "small_url": "/images/plants/900004.jpg",
+    "medium_url": "/images/plants/900004.jpg",
+    "regular_url": "/images/plants/900004.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Pick as they colour. Cutting the first few flowers makes a bigger plant and a larger crop later."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Takeaway",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Madame_Jeanette_and_other_chillies.jpg"
+  }
 }

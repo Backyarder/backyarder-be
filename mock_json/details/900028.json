@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/melon.svg",
-    "small_url": "/images/kitchen/melon.svg",
-    "medium_url": "/images/kitchen/melon.svg",
-    "regular_url": "/images/kitchen/melon.svg"
+    "thumbnail": "/images/plants/900028.jpg",
+    "small_url": "/images/plants/900028.jpg",
+    "medium_url": "/images/plants/900028.jpg",
+    "regular_url": "/images/plants/900028.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Ripe when it smells sweet and slips from the vine with gentle pressure."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Rasbak at Dutch Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Meloen_vrucht_met_bloem.jpg"
+  }
 }

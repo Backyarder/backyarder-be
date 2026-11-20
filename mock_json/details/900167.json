@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900167.jpg",
+    "small_url": "/images/plants/900167.jpg",
+    "medium_url": "/images/plants/900167.jpg",
+    "regular_url": "/images/plants/900167.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Prune in winter to develop a vase shape. A disease-resistant elm look-alike."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "ja:User:Miya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zelkova_serrata_Noma_keyaki01.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900115.jpg",
+    "small_url": "/images/plants/900115.jpg",
+    "medium_url": "/images/plants/900115.jpg",
+    "regular_url": "/images/plants/900115.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Blooms on old wood: prune lightly right after flowering. Red fall colour. A North American native. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric in SF",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hydrangea_quercifolia_BhamBotGdn.jpg"
+  }
 }

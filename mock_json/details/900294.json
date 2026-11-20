@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900294.jpg",
+    "small_url": "/images/plants/900294.jpg",
+    "medium_url": "/images/plants/900294.jpg",
+    "regular_url": "/images/plants/900294.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Keep it 50 feet from pipes and septic lines; roots seek water. Branches drop often."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Fab5669",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_(01).jpg"
+  }
 }

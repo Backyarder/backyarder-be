@@ -36,10 +36,10 @@
   "invasive": true,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900064.jpg",
+    "small_url": "/images/plants/900064.jpg",
+    "medium_url": "/images/plants/900064.jpg",
+    "regular_url": "/images/plants/900064.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Harvest leaves any time. Cut back after flowering or it self-seeds everywhere."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Amitchell125",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lemon_balm_plant.jpg"
+  }
 }

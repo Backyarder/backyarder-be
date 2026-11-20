@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900535.jpg",
+    "small_url": "/images/plants/900535.jpg",
+    "medium_url": "/images/plants/900535.jpg",
+    "regular_url": "/images/plants/900535.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Long white roots; also breaks up compacted soil."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "KimYunmi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Different_kinds_of_White_Radish.png"
+  }
 }

@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900050.jpg",
+    "small_url": "/images/plants/900050.jpg",
+    "medium_url": "/images/plants/900050.jpg",
+    "regular_url": "/images/plants/900050.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cut baby heads at six inches or full heads at a foot, at the base."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "spurekar",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bok_Choy_(49553125456).jpg"
+  }
 }

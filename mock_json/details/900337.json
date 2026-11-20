@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/nut.svg",
-    "small_url": "/images/kitchen/nut.svg",
-    "medium_url": "/images/kitchen/nut.svg",
-    "regular_url": "/images/kitchen/nut.svg"
+    "thumbnail": "/images/plants/900337.jpg",
+    "small_url": "/images/plants/900337.jpg",
+    "medium_url": "/images/plants/900337.jpg",
+    "regular_url": "/images/plants/900337.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Its roots release juglone, which kills tomatoes and many plants nearby. Mouldy hulls are toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Black_Walnut_nut_and_leave_detail.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Black_Walnut_nut_and_leave_detail.JPG"
+  }
 }

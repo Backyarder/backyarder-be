@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900483.jpg",
+    "small_url": "/images/plants/900483.jpg",
+    "medium_url": "/images/plants/900483.jpg",
+    "regular_url": "/images/plants/900483.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut to a foot in early spring. Invasive in many states; plant sterile varieties."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "--IKAl 15:22, 23 July 2007 (UTC",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:BuddlejaDavidiiStrauch.jpg"
+  }
 }

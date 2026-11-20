@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900358.jpg",
+    "small_url": "/images/plants/900358.jpg",
+    "medium_url": "/images/plants/900358.jpg",
+    "regular_url": "/images/plants/900358.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Harvest rhizomes after eight to ten months, or snap off pieces as needed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Schlaghecken Josef",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ingwer_(Zingiber_officinale)_Freiland_Anbau_Pflanze-2-Josef_Schlaghecken.jpg"
+  }
 }

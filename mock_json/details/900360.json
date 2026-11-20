@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900360.jpg",
+    "small_url": "/images/plants/900360.jpg",
+    "medium_url": "/images/plants/900360.jpg",
+    "regular_url": "/images/plants/900360.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Pull lower leaves as the root swells. Harvest before hard freezes."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "DocteurCosmos",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%A9leri-rave-fendu.jpg"
+  }
 }

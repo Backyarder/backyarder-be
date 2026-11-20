@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900047.jpg",
+    "small_url": "/images/plants/900047.jpg",
+    "medium_url": "/images/plants/900047.jpg",
+    "regular_url": "/images/plants/900047.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick lower leaves at hand size and leave the top rosette growing; plants produce for months."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Evan-Amos",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Collard-Greens-Bundle.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Collard-Greens-Bundle.jpg"
+  }
 }

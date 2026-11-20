@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900533.jpg",
+    "small_url": "/images/plants/900533.jpg",
+    "medium_url": "/images/plants/900533.jpg",
+    "regular_url": "/images/plants/900533.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Edible skin; harvest when cream with green stripes. Stores two to three months."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Green Mountain Girls Farm",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cucurbita_pepo_Delicata_squash_Green_Mountain_Girls_Farm.jpg"
+  }
 }

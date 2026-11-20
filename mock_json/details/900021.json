@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/bulb.svg",
-    "small_url": "/images/kitchen/bulb.svg",
-    "medium_url": "/images/kitchen/bulb.svg",
-    "regular_url": "/images/kitchen/bulb.svg"
+    "thumbnail": "/images/plants/900021.jpg",
+    "small_url": "/images/plants/900021.jpg",
+    "medium_url": "/images/plants/900021.jpg",
+    "regular_url": "/images/plants/900021.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Harvest when the tops flop and yellow. Cure in a dry airy spot for two weeks before storing."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Colin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg"
+  }
 }

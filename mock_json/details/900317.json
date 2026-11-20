@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900317.jpg",
+    "small_url": "/images/plants/900317.jpg",
+    "medium_url": "/images/plants/900317.jpg",
+    "regular_url": "/images/plants/900317.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Comb or cut back in early spring. Flowers smell faintly of popcorn."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Daderot",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Sporobolus_heterolepis_-_Denver_Botanic_Gardens_-_DSC00886.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sporobolus_heterolepis_-_Denver_Botanic_Gardens_-_DSC00886.JPG"
+  }
 }

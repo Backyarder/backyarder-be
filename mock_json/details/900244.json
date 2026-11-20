@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900244.jpg",
+    "small_url": "/images/plants/900244.jpg",
+    "medium_url": "/images/plants/900244.jpg",
+    "regular_url": "/images/plants/900244.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Long nights and cool temperatures in fall trigger blooms. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Cactus_de_noël.jpg: Empereur Day derivative work: Peter…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cactus_de_no%C3%ABl_rev.jpg"
+  }
 }

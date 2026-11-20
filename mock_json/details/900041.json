@@ -40,10 +40,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900041.jpg",
+    "small_url": "/images/plants/900041.jpg",
+    "medium_url": "/images/plants/900041.jpg",
+    "regular_url": "/images/plants/900041.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -62,5 +62,11 @@
       "type": "pruning",
       "description": "No care needed. Leaves and flowers are edible and peppery. Draws aphids away from vegetables."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "George Chernilevsky",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_2005_G1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_2005_G1.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900271.jpg",
+    "small_url": "/images/plants/900271.jpg",
+    "medium_url": "/images/plants/900271.jpg",
+    "regular_url": "/images/plants/900271.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut the whole head when firm."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Bayartai",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Napa_cabbages.png"
+  }
 }

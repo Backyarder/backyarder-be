@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900026.jpg",
+    "small_url": "/images/plants/900026.jpg",
+    "medium_url": "/images/plants/900026.jpg",
+    "regular_url": "/images/plants/900026.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Pick fully red berries every couple of days. Remove runners unless you want new plants; renew beds every three years."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg"
+  }
 }

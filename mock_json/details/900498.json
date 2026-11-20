@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900498.jpg",
+    "small_url": "/images/plants/900498.jpg",
+    "medium_url": "/images/plants/900498.jpg",
+    "regular_url": "/images/plants/900498.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Faster and tougher than string of pearls. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "KaitM42",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:String_of_Bananas.JPG"
+  }
 }

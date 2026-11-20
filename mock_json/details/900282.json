@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900282.jpg",
+    "small_url": "/images/plants/900282.jpg",
+    "medium_url": "/images/plants/900282.jpg",
+    "regular_url": "/images/plants/900282.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune only in winter. Lower branches droop; remove them as it grows. Acorns are toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Bruce Marlin",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pin_oak_quercus_palustris.jpg"
+  }
 }

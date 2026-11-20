@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900142.jpg",
+    "small_url": "/images/plants/900142.jpg",
+    "medium_url": "/images/plants/900142.jpg",
+    "regular_url": "/images/plants/900142.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "No deadheading needed. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "O Tupinólogo",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vinca_(Catharanthus_roseus)_cultivada_em_Bag%C3%A9,_RS,_Brasil_-_55231652268.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900385.jpg",
+    "small_url": "/images/plants/900385.jpg",
+    "medium_url": "/images/plants/900385.jpg",
+    "regular_url": "/images/plants/900385.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut for drying. Plumed and crested forms."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Quadell (talk) (Uploads",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Celosia_argentea_flowering_q1.jpg"
+  }
 }

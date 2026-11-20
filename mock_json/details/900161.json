@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900161.jpg",
+    "small_url": "/images/plants/900161.jpg",
+    "medium_url": "/images/plants/900161.jpg",
+    "regular_url": "/images/plants/900161.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune in winter. Spiky seed balls drop in fall; fruitless varieties avoid them."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2014-11-02_13_06_29_Sweet_Gum_during_autumn_along_Lower_Ferry_Road_in_Ewing,_New_Jersey.JPG"
+  }
 }

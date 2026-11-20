@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900095.jpg",
+    "small_url": "/images/plants/900095.jpg",
+    "medium_url": "/images/plants/900095.jpg",
+    "regular_url": "/images/plants/900095.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Plant bulbs six to eight inches deep in fall and let the leaves yellow before cutting them. Many hybrids fade after a few years. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dina L",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG"
+  }
 }

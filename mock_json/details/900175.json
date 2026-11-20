@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900175.jpg",
+    "small_url": "/images/plants/900175.jpg",
+    "medium_url": "/images/plants/900175.jpg",
+    "regular_url": "/images/plants/900175.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "One of the most cold-hardy agaves. Pull offsets to make new plants. Sap irritates skin."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mezcal_(Agave_parryi),_Conservatorio_bot%C3%A1nico,_Fort_Wayne,_Indiana,_Estados_Unidos,_2012-11-12,_DD_01.jpg"
+  }
 }

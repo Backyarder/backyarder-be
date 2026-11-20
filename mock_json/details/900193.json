@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900193.jpg",
+    "small_url": "/images/plants/900193.jpg",
+    "medium_url": "/images/plants/900193.jpg",
+    "regular_url": "/images/plants/900193.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Thin the canopy in winter so it doesn't catch wind. Thorny; thornless varieties exist."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Don A.W. Carlson",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Prosopis-glandulosa-foliage.JPG"
+  }
 }

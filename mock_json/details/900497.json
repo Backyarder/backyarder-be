@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900497.jpg",
+    "small_url": "/images/plants/900497.jpg",
+    "medium_url": "/images/plants/900497.jpg",
+    "regular_url": "/images/plants/900497.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Leaves drop at a touch; hang it where it won't be brushed. Replant fallen leaves."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Morningdew51 at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Donkey%27s_tail_in_bloom_March_06.jpg"
+  }
 }

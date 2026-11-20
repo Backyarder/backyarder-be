@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900165.jpg",
+    "small_url": "/images/plants/900165.jpg",
+    "medium_url": "/images/plants/900165.jpg",
+    "regular_url": "/images/plants/900165.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune in winter. The fragrant early-summer flowers are covered in bees."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Plant Image Library",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tilia_americana_(American_Linden)_(28268263222).jpg"
+  }
 }

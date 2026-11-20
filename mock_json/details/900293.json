@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900293.jpg",
+    "small_url": "/images/plants/900293.jpg",
+    "medium_url": "/images/plants/900293.jpg",
+    "regular_url": "/images/plants/900293.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Spreads by root suckers into groves. Remove unwanted suckers."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Famartin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon,_Nevada.jpg"
+  }
 }

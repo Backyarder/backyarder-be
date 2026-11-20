@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900228.jpg",
+    "small_url": "/images/plants/900228.jpg",
+    "medium_url": "/images/plants/900228.jpg",
+    "regular_url": "/images/plants/900228.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Pot up the baby plantlets. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Hierbabuena_0611.JPG: Dtarazona derivative work: Peter…",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Hierbabuena_0611_Revised.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hierbabuena_0611_Revised.jpg"
+  }
 }

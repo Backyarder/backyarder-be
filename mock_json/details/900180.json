@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900180.jpg",
+    "small_url": "/images/plants/900180.jpg",
+    "medium_url": "/images/plants/900180.jpg",
+    "regular_url": "/images/plants/900180.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut old flower stalks in late winter. Spineless and soft-edged, unlike true yucca."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Skarz",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hesperaloe_parviflora.JPG"
+  }
 }

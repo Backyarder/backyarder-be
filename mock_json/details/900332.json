@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900332.jpg",
+    "small_url": "/images/plants/900332.jpg",
+    "medium_url": "/images/plants/900332.jpg",
+    "regular_url": "/images/plants/900332.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Fruit stains paths and cars; plant away from them. Birds will share the crop."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Douglas Goldman",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MorusRubra9.jpg"
+  }
 }

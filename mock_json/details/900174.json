@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900174.jpg",
+    "small_url": "/images/plants/900174.jpg",
+    "medium_url": "/images/plants/900174.jpg",
+    "regular_url": "/images/plants/900174.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Remove dead lower leaves with gloves: the sap irritates skin and the tips are sharp. It flowers once after decades, then dies."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Agave_July_2011-1.jpg"
+  }
 }

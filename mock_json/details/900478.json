@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900478.jpg",
+    "small_url": "/images/plants/900478.jpg",
+    "medium_url": "/images/plants/900478.jpg",
+    "regular_url": "/images/plants/900478.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Choose a resistant variety like 'Princeton' or 'Valley Forge'. Prune in winter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Marty Aligata",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:American_Elm_Tree,_Old_South_Street,_Northampton,_MA_-_October_2019.jpg"
+  }
 }

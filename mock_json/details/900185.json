@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900185.jpg",
+    "small_url": "/images/plants/900185.jpg",
+    "medium_url": "/images/plants/900185.jpg",
+    "regular_url": "/images/plants/900185.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "A tough red-leaved groundcover. Shear after flowering if leggy."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Bjoertvedt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phedimus_spurius_IMG_7179.JPG"
+  }
 }

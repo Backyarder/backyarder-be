@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/corn.svg",
-    "small_url": "/images/kitchen/corn.svg",
-    "medium_url": "/images/kitchen/corn.svg",
-    "regular_url": "/images/kitchen/corn.svg"
+    "thumbnail": "/images/plants/900011.jpg",
+    "small_url": "/images/plants/900011.jpg",
+    "medium_url": "/images/plants/900011.jpg",
+    "regular_url": "/images/plants/900011.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Harvest when the silks turn brown and a pierced kernel bleeds milky juice."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "The original Uploader was wstoakLL at English Wikipedia",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:VegCorn.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:VegCorn.jpg"
+  }
 }

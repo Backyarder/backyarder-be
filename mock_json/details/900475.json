@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900475.jpg",
+    "small_url": "/images/plants/900475.jpg",
+    "medium_url": "/images/plants/900475.jpg",
+    "regular_url": "/images/plants/900475.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "The Washington cherry-blossom tree. Prune after flowering. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "松岡明芳",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2020-04-07_Prunus_%C3%97_yedoensis_Tambasasayama,Hyogo(%E4%B8%B9%E6%B3%A2%E7%AF%A0%E5%B1%B1%E5%B8%82%E7%AF%A0%E5%B1%B1%E5%B7%9D%E3%81%AE%E3%82%BD%E3%83%A1%E3%82%A4%E3%83%A8%E3%82%B7%E3%83%8E)DSCF2986%E2%98%86%E5%BD%A1.jpg"
+  }
 }

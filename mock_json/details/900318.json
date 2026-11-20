@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900318.jpg",
+    "small_url": "/images/plants/900318.jpg",
+    "medium_url": "/images/plants/900318.jpg",
+    "regular_url": "/images/plants/900318.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut back in late winter. Copper-gold plumes in fall. A tallgrass prairie native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mason Brock (Masebrock",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Sorghastrum_nutans_Tennessee.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sorghastrum_nutans_Tennessee.jpg"
+  }
 }

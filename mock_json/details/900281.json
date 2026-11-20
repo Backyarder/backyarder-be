@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900281.jpg",
+    "small_url": "/images/plants/900281.jpg",
+    "medium_url": "/images/plants/900281.jpg",
+    "regular_url": "/images/plants/900281.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune only in winter to avoid oak wilt. Very cold and drought hardy. Acorns are toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Heath Cajandig",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Big_Tree_with_spring_picnic.jpg"
+  }
 }
