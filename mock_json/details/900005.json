@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900005.jpg",
+    "small_url": "/images/plants/900005.jpg",
+    "medium_url": "/images/plants/900005.jpg",
+    "regular_url": "/images/plants/900005.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick often, every day or two in season; leaving fruit to swell stops the plant producing."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stephen Ausmus, USDA ARS",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg"
+  }
 }

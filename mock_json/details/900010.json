@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pod.svg",
-    "small_url": "/images/kitchen/pod.svg",
-    "medium_url": "/images/kitchen/pod.svg",
-    "regular_url": "/images/kitchen/pod.svg"
+    "thumbnail": "/images/plants/900010.jpg",
+    "small_url": "/images/plants/900010.jpg",
+    "medium_url": "/images/plants/900010.jpg",
+    "regular_url": "/images/plants/900010.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Give them something to climb. Harvest every other day once pods fill to keep them coming."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Rasbak",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Doperwt_rijserwt_peulen_Pisum_sativum.jpg"
+  }
 }

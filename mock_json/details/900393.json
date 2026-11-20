@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900393.jpg",
+    "small_url": "/images/plants/900393.jpg",
+    "medium_url": "/images/plants/900393.jpg",
+    "regular_url": "/images/plants/900393.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Plant in fall; spreads into blue drifts."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Opioła Jerzy (Poland",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Muscari_armeniacum_4.jpg"
+  }
 }

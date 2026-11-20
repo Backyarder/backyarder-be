@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900370.jpg",
+    "small_url": "/images/plants/900370.jpg",
+    "medium_url": "/images/plants/900370.jpg",
+    "regular_url": "/images/plants/900370.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick before flowering; the classic bean herb."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Bogdan",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Satureja_hortensis_bgiu.jpg"
+  }
 }

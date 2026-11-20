@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900321.jpg",
+    "small_url": "/images/plants/900321.jpg",
+    "medium_url": "/images/plants/900321.jpg",
+    "regular_url": "/images/plants/900321.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Host plant of the Karner blue butterfly. Seeds are toxic."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "cassi saari",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lupinus_perennis_in_flower.jpg"
+  }
 }

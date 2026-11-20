@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900342.jpg",
+    "small_url": "/images/plants/900342.jpg",
+    "medium_url": "/images/plants/900342.jpg",
+    "regular_url": "/images/plants/900342.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Remove canes older than three years each winter. Net against birds."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Ribes_rubrum_1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ribes_rubrum_1.jpg"
+  }
 }

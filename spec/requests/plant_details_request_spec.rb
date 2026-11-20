@@ -17,6 +17,7 @@ RSpec.describe "Plant details request", type: :request do
         expect(response[:data][:attributes][:plant_id]).to eq(225)
         expect(response[:data][:attributes]).to have_key(:image)
         expect(response[:data][:attributes][:image]).to be_a String
+        expect(response[:data][:attributes][:image_credit]).to be_nil # only built-ins carry a photo credit
         expect(response[:data][:attributes]).to have_key(:name)
         expect(response[:data][:attributes][:name]).to be_a String
         expect(response[:data][:attributes]).to have_key(:scientific_name)

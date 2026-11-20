@@ -32,10 +32,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/bulb.svg",
-    "small_url": "/images/kitchen/bulb.svg",
-    "medium_url": "/images/kitchen/bulb.svg",
-    "regular_url": "/images/kitchen/bulb.svg"
+    "thumbnail": "/images/plants/900367.jpg",
+    "small_url": "/images/plants/900367.jpg",
+    "medium_url": "/images/plants/900367.jpg",
+    "regular_url": "/images/plants/900367.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -54,5 +54,11 @@
       "type": "pruning",
       "description": "Harvest when tops fall over. Sweet and mild; doesn't store long. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "ryan griffis",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vidalia_Onions.jpg"
+  }
 }

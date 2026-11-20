@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/palm.svg",
-    "small_url": "/images/kitchen/palm.svg",
-    "medium_url": "/images/kitchen/palm.svg",
-    "regular_url": "/images/kitchen/palm.svg"
+    "thumbnail": "/images/plants/900221.jpg",
+    "small_url": "/images/plants/900221.jpg",
+    "medium_url": "/images/plants/900221.jpg",
+    "regular_url": "/images/plants/900221.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Each stem fruits once, then cut it down and let a pup replace it."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Lumeaalex",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dwarf_Cavendish.jpg"
+  }
 }

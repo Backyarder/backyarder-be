@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900557.jpg",
+    "small_url": "/images/plants/900557.jpg",
+    "medium_url": "/images/plants/900557.jpg",
+    "regular_url": "/images/plants/900557.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Yellow bracts in fall; needs humidity. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "WayneRay",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AphelandraSquarrosaWPC_edit.jpg"
+  }
 }

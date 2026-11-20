@@ -29,10 +29,10 @@
   "invasive": true,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900249.jpg",
+    "small_url": "/images/plants/900249.jpg",
+    "medium_url": "/images/plants/900249.jpg",
+    "regular_url": "/images/plants/900249.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Keep it indoors: outdoors it is invasive in many states. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hedera_helix_Dover.jpg"
+  }
 }

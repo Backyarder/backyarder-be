@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900033.jpg",
+    "small_url": "/images/plants/900033.jpg",
+    "medium_url": "/images/plants/900033.jpg",
+    "regular_url": "/images/plants/900033.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Harvest sprigs as needed. Shear back by a third after flowering to keep it compact."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Evan-Amos",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thyme-Bundle.jpg"
+  }
 }

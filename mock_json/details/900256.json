@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tomato.svg",
-    "small_url": "/images/kitchen/tomato.svg",
-    "medium_url": "/images/kitchen/tomato.svg",
-    "regular_url": "/images/kitchen/tomato.svg"
+    "thumbnail": "/images/plants/900256.jpg",
+    "small_url": "/images/plants/900256.jpg",
+    "medium_url": "/images/plants/900256.jpg",
+    "regular_url": "/images/plants/900256.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Tall stake or cage, and pinch suckers. Support heavy fruit. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Berrucomons",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Diversit%C3%A9_taille_tomates.jpg"
+  }
 }

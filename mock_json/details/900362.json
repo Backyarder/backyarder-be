@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900362.jpg",
+    "small_url": "/images/plants/900362.jpg",
+    "medium_url": "/images/plants/900362.jpg",
+    "regular_url": "/images/plants/900362.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Tie or cover heads for a week before harvest to blanch them milder."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Oceancetaceen - Alice Chodura",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cichorium_endivia_-_Botanischer_Garten_Mainz_IMG_5453.JPG"
+  }
 }

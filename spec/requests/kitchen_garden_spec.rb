@@ -12,7 +12,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     expect(stock.size).to eq(30)
     expect(by_collection).to eq("kitchen" => 165, "flowers" => 134, "trees" => 162, "succulents" => 30, "indoor" => 67)
     tomato = kitchen.find { |p| p[:attributes][:name] == "tomato" }[:attributes]
-    expect(tomato).to include(plant_id: 900001, watering: "Frequent", type: "Vegetable", content_type: "Plant", image: "/images/kitchen/tomato.svg")
+    expect(tomato).to include(plant_id: 900001, watering: "Frequent", type: "Vegetable", content_type: "Plant", image: "/images/plants/900001.jpg")
     expect(tomato[:hardiness]).to eq({ min: "2", max: "11" })
     expect(ApiUsage.count_today).to eq(0)
   end
@@ -23,7 +23,9 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     expect(last_response).to be_ok
     attrs = JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes]
     expect(attrs[:name]).to eq("tomato")
-    expect(attrs[:image]).to eq("/images/kitchen/tomato.svg")
+    expect(attrs[:image]).to eq("/images/plants/900001.jpg")
+    expect(attrs[:image_credit].keys).to contain_exactly(:author, :license, :license_url, :source_url)
+    expect(attrs[:image_credit][:source_url]).to start_with("https://commons.wikimedia.org/wiki/File:")
     expect(attrs[:section].map { |s| s[:type] }).to eq(%w[watering sunlight pruning])
     expect(attrs[:section].first[:description]).to include("Water deeply")
     expect(attrs[:poisonous_to_pets]).to be(true) # tomato plants are toxic to pets (ASPCA)
@@ -43,7 +45,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     get "/search/basil"
     results = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes] }
     expect(results.map { |r| r[:name] }).to eq(["basil", "Thai basil"])
-    expect(results.first).to include(collection: "kitchen", image: "/images/kitchen/herb.svg", watering: "Frequent")
+    expect(results.first).to include(collection: "kitchen", image: "/images/plants/900002.jpg", watering: "Frequent")
 
     get "/search/pepper"
     names = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:name] }
@@ -58,7 +60,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
 
     get "/plants/#{ids['peach tree']}"
     peach = JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes]
-    expect(peach).to include(name: "peach tree", type: "Fruit", edible_fruit: true, poisonous_to_pets: true, image: "/images/kitchen/stonefruit.svg")
+    expect(peach).to include(name: "peach tree", type: "Fruit", edible_fruit: true, poisonous_to_pets: true, image: "/images/plants/900116.jpg")
     expect(peach[:section].map { |s| s[:type] }).to eq(%w[watering sunlight pruning])
 
     get "/plants/#{ids['hosta']}"
@@ -67,7 +69,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
 
     get "/plants/#{ids['snake plant']}"
     snake = JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes]
-    expect(snake).to include(type: "Houseplant", indoor: true, poisonous_to_pets: true, image: "/images/kitchen/houseplant.svg")
+    expect(snake).to include(type: "Houseplant", indoor: true, poisonous_to_pets: true, image: "/images/plants/900225.jpg")
 
     get "/plants/#{ids['tomato']}"
     expect(JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes][:poisonous_to_pets]).to be(true)
@@ -86,8 +88,18 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
       expect(d[:hardiness][:min].to_i).to be <= d[:hardiness][:max].to_i
       expect(d[:care_sections].size).to eq(3)
       expect(d[:care_sections].map { |s| s[:description].length }.min).to be > 20
-      expect(File.basename(d.dig(:default_image, :thumbnail))).to match(/\A[a-z]+\.svg\z/)
+      thumb = d.dig(:default_image, :thumbnail)
+      expect(entry.dig(:default_image, :thumbnail)).to eq(thumb)
+      # A Wikimedia Commons photo (public domain or Creative Commons, credited), or the old icon.
+      photo = thumb == "/images/plants/#{entry[:id]}.jpg"
+      expect(photo || File.basename(thumb).match?(/\A[a-z]+\.svg\z/)).to be(true), entry[:common_name]
+      expect(d.key?(:image_credit)).to eq(photo)
       expect([0, 1]).to include(d[:poisonous_to_pets])
+      next unless photo
+
+      expect(d[:image_credit][:license]).to match(/\A(CC0|CC BY|Public domain)/), entry[:common_name]
+      expect(d[:image_credit][:author]).to be_present
+      expect(d[:image_credit][:source_url]).to start_with("https://commons.wikimedia.org/wiki/File:")
     end
   end
 

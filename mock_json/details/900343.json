@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grape.svg",
-    "small_url": "/images/kitchen/grape.svg",
-    "medium_url": "/images/kitchen/grape.svg",
-    "regular_url": "/images/kitchen/grape.svg"
+    "thumbnail": "/images/plants/900343.jpg",
+    "small_url": "/images/plants/900343.jpg",
+    "medium_url": "/images/plants/900343.jpg",
+    "regular_url": "/images/plants/900343.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Needs a strong arbor and two prunings a year. Grape-sized fruit with edible skin."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Björn Appel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Weiki01.jpg"
+  }
 }

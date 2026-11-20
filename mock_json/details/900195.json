@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900195.jpg",
+    "small_url": "/images/plants/900195.jpg",
+    "medium_url": "/images/plants/900195.jpg",
+    "regular_url": "/images/plants/900195.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune in winter to a single or multi trunk. Orchid-like flowers all summer."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chilopsis_linearis_flower_2.jpg"
+  }
 }

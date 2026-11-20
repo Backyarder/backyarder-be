@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900472.jpg",
+    "small_url": "/images/plants/900472.jpg",
+    "medium_url": "/images/plants/900472.jpg",
+    "regular_url": "/images/plants/900472.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "A tough street tree. Host plant for several butterflies."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Chhe (talk",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Celtis_occidentalis_20090606.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Celtis_occidentalis_20090606.jpg"
+  }
 }

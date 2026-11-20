@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/rose.svg",
-    "small_url": "/images/kitchen/rose.svg",
-    "medium_url": "/images/kitchen/rose.svg",
-    "regular_url": "/images/kitchen/rose.svg"
+    "thumbnail": "/images/plants/900493.jpg",
+    "small_url": "/images/plants/900493.jpg",
+    "medium_url": "/images/plants/900493.jpg",
+    "regular_url": "/images/plants/900493.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Big edible hips in fall. Spreads by suckers and is invasive on some coasts."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Qwert1234",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rosa_rugosa_Tokyo.JPG"
+  }
 }

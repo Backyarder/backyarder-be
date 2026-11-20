@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900179.jpg",
+    "small_url": "/images/plants/900179.jpg",
+    "medium_url": "/images/plants/900179.jpg",
+    "regular_url": "/images/plants/900179.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut the flower stalk after bloom. Sharp leaf tips; plant away from paths. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Moriori",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Yucca_filamentosa.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yucca_filamentosa.jpg"
+  }
 }

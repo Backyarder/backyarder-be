@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/nut.svg",
-    "small_url": "/images/kitchen/nut.svg",
-    "medium_url": "/images/kitchen/nut.svg",
-    "regular_url": "/images/kitchen/nut.svg"
+    "thumbnail": "/images/plants/900339.jpg",
+    "small_url": "/images/plants/900339.jpg",
+    "medium_url": "/images/plants/900339.jpg",
+    "regular_url": "/images/plants/900339.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Remove extra suckers. Squirrels will compete for the crop."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Corylus_americana1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Corylus_americana1.jpg"
+  }
 }

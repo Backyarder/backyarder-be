@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900190.jpg",
+    "small_url": "/images/plants/900190.jpg",
+    "medium_url": "/images/plants/900190.jpg",
+    "regular_url": "/images/plants/900190.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Self-sows; leave a few seed heads. A prairie native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stickpen",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Ratibidacolumnifera.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ratibidacolumnifera.jpg"
+  }
 }

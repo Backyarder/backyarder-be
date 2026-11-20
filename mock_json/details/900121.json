@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/citrus.svg",
-    "small_url": "/images/kitchen/citrus.svg",
-    "medium_url": "/images/kitchen/citrus.svg",
-    "regular_url": "/images/kitchen/citrus.svg"
+    "thumbnail": "/images/plants/900121.jpg",
+    "small_url": "/images/plants/900121.jpg",
+    "medium_url": "/images/plants/900121.jpg",
+    "regular_url": "/images/plants/900121.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick when fully yellow and slightly soft, and prune lightly after harvest. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Debra Roby",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Meyer_Lemon.jpg"
+  }
 }

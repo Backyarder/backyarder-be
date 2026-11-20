@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900042.jpg",
+    "small_url": "/images/plants/900042.jpg",
+    "medium_url": "/images/plants/900042.jpg",
+    "regular_url": "/images/plants/900042.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Leave heads to ripen for seed, or cut them and hang to dry. Birds will take what you do not."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Helianthus_annuus_exposed_2004-05-22.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Helianthus_annuus_exposed_2004-05-22.jpg"
+  }
 }

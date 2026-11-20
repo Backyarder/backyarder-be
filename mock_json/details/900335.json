@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/stonefruit.svg",
-    "small_url": "/images/kitchen/stonefruit.svg",
-    "medium_url": "/images/kitchen/stonefruit.svg",
-    "regular_url": "/images/kitchen/stonefruit.svg"
+    "thumbnail": "/images/plants/900335.jpg",
+    "small_url": "/images/plants/900335.jpg",
+    "medium_url": "/images/plants/900335.jpg",
+    "regular_url": "/images/plants/900335.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune after harvest to keep it small. The sap irritates skin."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Billjones94",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mangoes_(Magnifera_indica)_from_India.jpg"
+  }
 }

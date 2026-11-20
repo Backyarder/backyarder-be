@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/nut.svg",
-    "small_url": "/images/kitchen/nut.svg",
-    "medium_url": "/images/kitchen/nut.svg",
-    "regular_url": "/images/kitchen/nut.svg"
+    "thumbnail": "/images/plants/900340.jpg",
+    "small_url": "/images/plants/900340.jpg",
+    "medium_url": "/images/plants/900340.jpg",
+    "regular_url": "/images/plants/900340.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Collect nuts as burs open; wear gloves. Blight resistant unlike American chestnut."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Richard Webb, Self-employed horticulurist, Bugwood.org",
+    "license": "CC BY 3.0 us",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Castanea_mollissima.jpg"
+  }
 }

@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900546.jpg",
+    "small_url": "/images/plants/900546.jpg",
+    "medium_url": "/images/plants/900546.jpg",
+    "regular_url": "/images/plants/900546.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "May go dormant in winter; reduce water and wait. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jerzy Opioła",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alocasia_x_amazonica_a1.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900437.jpg",
+    "small_url": "/images/plants/900437.jpg",
+    "medium_url": "/images/plants/900437.jpg",
+    "regular_url": "/images/plants/900437.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Spreads fast by runners; edge it away from lawns."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "G. Edward Johnson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ajuga_reptans_20070429_132711_1.jpg"
+  }
 }

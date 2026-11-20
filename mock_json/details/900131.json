@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900131.jpg",
+    "small_url": "/images/plants/900131.jpg",
+    "medium_url": "/images/plants/900131.jpg",
+    "regular_url": "/images/plants/900131.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cut stems down in late winter. A North American native and a butterfly magnet."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mason Brock (Masebrock",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Eutrochium_purpureum.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eutrochium_purpureum.jpg"
+  }
 }

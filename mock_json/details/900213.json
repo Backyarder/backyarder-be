@@ -32,10 +32,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/palm.svg",
-    "small_url": "/images/kitchen/palm.svg",
-    "medium_url": "/images/kitchen/palm.svg",
-    "regular_url": "/images/kitchen/palm.svg"
+    "thumbnail": "/images/plants/900213.jpg",
+    "small_url": "/images/plants/900213.jpg",
+    "medium_url": "/images/plants/900213.jpg",
+    "regular_url": "/images/plants/900213.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -54,5 +54,11 @@
       "type": "pruning",
       "description": "Very slow, clumping and the most cold-hardy palm. Sharp needles at the base."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Rhapidophyllum_Strongbad1982.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rhapidophyllum_Strongbad1982.jpg"
+  }
 }

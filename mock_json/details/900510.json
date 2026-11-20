@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900510.jpg",
+    "small_url": "/images/plants/900510.jpg",
+    "medium_url": "/images/plants/900510.jpg",
+    "regular_url": "/images/plants/900510.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Compact and slow; ideal for pots. Sap irritates skin."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Agave_victoriae-reginae_lv_2.jpg"
+  }
 }

@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900451.jpg",
+    "small_url": "/images/plants/900451.jpg",
+    "medium_url": "/images/plants/900451.jpg",
+    "regular_url": "/images/plants/900451.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Lacy fronds; cut back in spring."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "MPF",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Athyrium_filix-femina0.jpg"
+  }
 }

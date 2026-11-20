@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900087.jpg",
+    "small_url": "/images/plants/900087.jpg",
+    "medium_url": "/images/plants/900087.jpg",
+    "regular_url": "/images/plants/900087.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Shear the spent spikes for a second round of flowers."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "C T Johansson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salvia_nemorosa-IMG_3624.jpg"
+  }
 }

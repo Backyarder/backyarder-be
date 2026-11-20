@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900102.jpg",
+    "small_url": "/images/plants/900102.jpg",
+    "medium_url": "/images/plants/900102.jpg",
+    "regular_url": "/images/plants/900102.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Remove dead lower branches and never cut the central leader."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Chris M Morris",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Blue_Spruce_(15905530369).jpg"
+  }
 }

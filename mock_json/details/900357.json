@@ -35,10 +35,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900357.jpg",
+    "small_url": "/images/plants/900357.jpg",
+    "medium_url": "/images/plants/900357.jpg",
+    "regular_url": "/images/plants/900357.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Dig tubers after frost. Every scrap regrows, so give it a bed of its own."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sunroot_top.jpg"
+  }
 }

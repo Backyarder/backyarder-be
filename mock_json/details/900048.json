@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900048.jpg",
+    "small_url": "/images/plants/900048.jpg",
+    "medium_url": "/images/plants/900048.jpg",
+    "regular_url": "/images/plants/900048.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick young leaves for salads or bigger ones for cooking. Sow again every few weeks."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dalgial",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brassica_juncea_var._juncea.JPG"
+  }
 }

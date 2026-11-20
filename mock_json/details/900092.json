@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900092.jpg",
+    "small_url": "/images/plants/900092.jpg",
+    "medium_url": "/images/plants/900092.jpg",
+    "regular_url": "/images/plants/900092.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Trim tattered leaves in spring and replant when the crowns rise out of the soil."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "User:Geographer",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:San_Gabriel_Mountains_coralbells.jpg"
+  }
 }

@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900038.jpg",
+    "small_url": "/images/plants/900038.jpg",
+    "medium_url": "/images/plants/900038.jpg",
+    "regular_url": "/images/plants/900038.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick leaves as needed. Prune in spring after new growth shows, never into old bare wood. Replace plants every four or five years."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Salvia_officinalis_flowers.jpg"
+  }
 }

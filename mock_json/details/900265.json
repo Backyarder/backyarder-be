@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pod.svg",
-    "small_url": "/images/kitchen/pod.svg",
-    "medium_url": "/images/kitchen/pod.svg",
-    "regular_url": "/images/kitchen/pod.svg"
+    "thumbnail": "/images/plants/900265.jpg",
+    "small_url": "/images/plants/900265.jpg",
+    "medium_url": "/images/plants/900265.jpg",
+    "regular_url": "/images/plants/900265.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pick when pods bulge. Always cook limas: raw beans contain a toxin."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Howard F. Schwartz, Colorado State University, Bugwood.org",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phaseoulus_lunatus.jpg"
+  }
 }

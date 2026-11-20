@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900260.jpg",
+    "small_url": "/images/plants/900260.jpg",
+    "medium_url": "/images/plants/900260.jpg",
+    "regular_url": "/images/plants/900260.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick pale yellow for pickling or let them turn red. Very productive."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Narek75",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Banana_Peppers_(Armenia).jpg"
+  }
 }

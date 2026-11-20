@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900326.jpg",
+    "small_url": "/images/plants/900326.jpg",
+    "medium_url": "/images/plants/900326.jpg",
+    "regular_url": "/images/plants/900326.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Slow to establish; never pick the flowers or leaves, or the plant weakens. Buy nursery-propagated plants."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "СССР",
+    "license": "CC BY-SA 2.5 ca",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Trillium_grandiflorum_at_Backus_Woods.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900364.jpg",
+    "small_url": "/images/plants/900364.jpg",
+    "medium_url": "/images/plants/900364.jpg",
+    "regular_url": "/images/plants/900364.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Harvest outer leaves or the whole rosette."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Idéalités",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brassica_rapa_subsp_narinosa.jpg"
+  }
 }

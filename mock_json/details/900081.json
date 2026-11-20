@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900081.jpg",
+    "small_url": "/images/plants/900081.jpg",
+    "medium_url": "/images/plants/900081.jpg",
+    "regular_url": "/images/plants/900081.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Plant the eyes no more than two inches deep or it won't flower. Cut foliage to the ground in fall. It can live for decades."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ulf Eliasson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lactiflora1b.UME.jpg"
+  }
 }

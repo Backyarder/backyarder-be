@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900177.jpg",
+    "small_url": "/images/plants/900177.jpg",
+    "medium_url": "/images/plants/900177.jpg",
+    "regular_url": "/images/plants/900177.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Each rosette dies after flowering; the chicks fill in. Pull the dead one out."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sempervivum_tectorum_Almindelig_Husl%C3%B8g.jpg"
+  }
 }

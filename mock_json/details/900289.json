@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900289.jpg",
+    "small_url": "/images/plants/900289.jpg",
+    "medium_url": "/images/plants/900289.jpg",
+    "regular_url": "/images/plants/900289.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Takes shearing as a hedge. Check for woolly adelgid (white tufts under needles)."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Bruce Marlin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tsuga_canadensis_morton.jpg"
+  }
 }

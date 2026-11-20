@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900381.jpg",
+    "small_url": "/images/plants/900381.jpg",
+    "medium_url": "/images/plants/900381.jpg",
+    "regular_url": "/images/plants/900381.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "No deadheading needed. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dick Culbert from Gibsons, B.C., Canada",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Begonia_cucullata_(17996084090).jpg"
+  }
 }

@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900450.jpg",
+    "small_url": "/images/plants/900450.jpg",
+    "medium_url": "/images/plants/900450.jpg",
+    "regular_url": "/images/plants/900450.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Cut back dead fronds in spring."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Photo (c)2006 Derek Ramsey (Ram-Man",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Japanese_Painted_Fern_Athyrium_nipponicum_%27Pictum%27_Leaf_1500px.jpg"
+  }
 }

@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900554.jpg",
+    "small_url": "/images/plants/900554.jpg",
+    "medium_url": "/images/plants/900554.jpg",
+    "regular_url": "/images/plants/900554.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "A clumping palm that tolerates lower light. Safe for pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dkbeta232",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cat_palm_fruit_img_2192_s.jpg"
+  }
 }

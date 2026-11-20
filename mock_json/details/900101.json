@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900101.jpg",
+    "small_url": "/images/plants/900101.jpg",
+    "medium_url": "/images/plants/900101.jpg",
+    "regular_url": "/images/plants/900101.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Little pruning needed; pinch the spring candles by half to keep it dense."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "US FWS",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Pinus_strobus_trees.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pinus_strobus_trees.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900067.jpg",
+    "small_url": "/images/plants/900067.jpg",
+    "medium_url": "/images/plants/900067.jpg",
+    "regular_url": "/images/plants/900067.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick leaves as needed and prune in spring to shape."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Forest and Kim Starr",
+    "license": "CC BY 3.0 us",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr-071024-0195-Laurus_nobilis-leaves-Enchanting_Floral_Gardens_of_Kula-Maui_(24867859296).jpg"
+  }
 }

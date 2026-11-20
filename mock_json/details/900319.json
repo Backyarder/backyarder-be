@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900319.jpg",
+    "small_url": "/images/plants/900319.jpg",
+    "medium_url": "/images/plants/900319.jpg",
+    "regular_url": "/images/plants/900319.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Slow to establish and hates moving. Leaves align north-south."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric Hunt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Silphium_laciniatum_Arkansas.jpg"
+  }
 }

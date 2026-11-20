@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900538.jpg",
+    "small_url": "/images/plants/900538.jpg",
+    "medium_url": "/images/plants/900538.jpg",
+    "regular_url": "/images/plants/900538.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Edible petals; deadhead for blooms from spring to frost."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Calendula_January_2008-1_filtered.jpg"
+  }
 }

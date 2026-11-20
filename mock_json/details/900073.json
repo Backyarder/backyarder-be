@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900073.jpg",
+    "small_url": "/images/plants/900073.jpg",
+    "medium_url": "/images/plants/900073.jpg",
+    "regular_url": "/images/plants/900073.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cut down as it flowers and dig it in or leave it as mulch three weeks before planting; it adds nitrogen to the bed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jacquesverlaeken",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kals_am_Grossglockner_flowers_256.jpg"
+  }
 }

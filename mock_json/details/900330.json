@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pear.svg",
-    "small_url": "/images/kitchen/pear.svg",
-    "medium_url": "/images/kitchen/pear.svg",
-    "regular_url": "/images/kitchen/pear.svg"
+    "thumbnail": "/images/plants/900330.jpg",
+    "small_url": "/images/plants/900330.jpg",
+    "medium_url": "/images/plants/900330.jpg",
+    "regular_url": "/images/plants/900330.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Thin to one fruit per cluster. Unlike European pears, ripen on the tree."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nashi_pear.jpg"
+  }
 }

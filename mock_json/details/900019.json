@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900019.jpg",
+    "small_url": "/images/plants/900019.jpg",
+    "medium_url": "/images/plants/900019.jpg",
+    "regular_url": "/images/plants/900019.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Thin to three inches apart and eat the thinnings. Harvest roots at golf-ball to tennis-ball size."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "BriannaWalther",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Detroitdarkredbeets.png"
+  }
 }

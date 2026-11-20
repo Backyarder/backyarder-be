@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/cactus.svg",
-    "small_url": "/images/kitchen/cactus.svg",
-    "medium_url": "/images/kitchen/cactus.svg",
-    "regular_url": "/images/kitchen/cactus.svg"
+    "thumbnail": "/images/plants/900351.jpg",
+    "small_url": "/images/plants/900351.jpg",
+    "medium_url": "/images/plants/900351.jpg",
+    "regular_url": "/images/plants/900351.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Give it a sturdy post. Flowers open at night."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "SMasters",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pitaya_cross_section_ed2.jpg"
+  }
 }

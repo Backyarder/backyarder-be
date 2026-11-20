@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900363.jpg",
+    "small_url": "/images/plants/900363.jpg",
+    "medium_url": "/images/plants/900363.jpg",
+    "regular_url": "/images/plants/900363.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut and it comes again two or three times."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Flickr user masahiko(Masahiko Satoh",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mizuna_001.jpg"
+  }
 }

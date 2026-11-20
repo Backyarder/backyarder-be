@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900176.jpg",
+    "small_url": "/images/plants/900176.jpg",
+    "medium_url": "/images/plants/900176.jpg",
+    "regular_url": "/images/plants/900176.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pot up the pups. The gel soothes burns, but the plant is toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Collage by en:User:MidgleyDJ, original images from…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aloe_vera_flower_inset.png"
+  }
 }

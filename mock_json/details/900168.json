@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900168.jpg",
+    "small_url": "/images/plants/900168.jpg",
+    "medium_url": "/images/plants/900168.jpg",
+    "regular_url": "/images/plants/900168.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Prune side shoots to a few buds in late winter and again in summer. Better behaved than Asian wisteria. Seeds and pods are toxic."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Wisteria_frutescens.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wisteria_frutescens.jpg"
+  }
 }

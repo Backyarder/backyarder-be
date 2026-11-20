@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900054.jpg",
+    "small_url": "/images/plants/900054.jpg",
+    "medium_url": "/images/plants/900054.jpg",
+    "regular_url": "/images/plants/900054.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Leave in the ground until after a few frosts for sweeter roots. Wear gloves when handling the leaves; the sap can irritate skin in sunlight."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Olivier Pichard",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pastinaca_sativa_vallee-de-grace-amiens_80_21072007_4.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900133.jpg",
+    "small_url": "/images/plants/900133.jpg",
+    "medium_url": "/images/plants/900133.jpg",
+    "regular_url": "/images/plants/900133.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Spreads quickly: dig out runners each spring. A North American native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Hardyplants at English Wikipedia",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Physostegiavirg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Physostegiavirg.jpg"
+  }
 }

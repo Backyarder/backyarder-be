@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900199.jpg",
+    "small_url": "/images/plants/900199.jpg",
+    "medium_url": "/images/plants/900199.jpg",
+    "regular_url": "/images/plants/900199.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pinch tips for bushiness and prune in early spring."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Andy / Andrew Fogg from near Cambridge, UK",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hibiscus_Brilliant.jpg"
+  }
 }

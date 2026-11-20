@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/stalk.svg",
-    "small_url": "/images/kitchen/stalk.svg",
-    "medium_url": "/images/kitchen/stalk.svg",
-    "regular_url": "/images/kitchen/stalk.svg"
+    "thumbnail": "/images/plants/900524.jpg",
+    "small_url": "/images/plants/900524.jpg",
+    "medium_url": "/images/plants/900524.jpg",
+    "regular_url": "/images/plants/900524.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Harvest bulbs at tennis-ball size. Keep it away from most vegetables."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Foeniculum_July_2011-1a.jpg"
+  }
 }

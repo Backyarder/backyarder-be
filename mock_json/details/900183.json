@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900183.jpg",
+    "small_url": "/images/plants/900183.jpg",
+    "medium_url": "/images/plants/900183.jpg",
+    "regular_url": "/images/plants/900183.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Remove dead lower leaves and stretched stems; replant offsets. Not toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "EriaWei",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Echeveria_elegans_-_1.png"
+  }
 }

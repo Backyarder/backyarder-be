@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/cactus.svg",
-    "small_url": "/images/kitchen/cactus.svg",
-    "medium_url": "/images/kitchen/cactus.svg",
-    "regular_url": "/images/kitchen/cactus.svg"
+    "thumbnail": "/images/plants/900508.jpg",
+    "small_url": "/images/plants/900508.jpg",
+    "medium_url": "/images/plants/900508.jpg",
+    "regular_url": "/images/plants/900508.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Looks soft but the spines detach at a touch; plant well away from paths and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Matthew Field - http://www.photography.mattfield.com",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cylindropuntia_bigelovii.jpg"
+  }
 }

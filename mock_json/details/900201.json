@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900201.jpg",
+    "small_url": "/images/plants/900201.jpg",
+    "medium_url": "/images/plants/900201.jpg",
+    "regular_url": "/images/plants/900201.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Give it a trellis and pinch for fullness. Sap is toxic."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "日:Jnn",
+    "license": "CC BY 2.1 jp",
+    "license_url": "https://creativecommons.org/licenses/by/2.1/jp/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flower-center142058.jpg"
+  }
 }

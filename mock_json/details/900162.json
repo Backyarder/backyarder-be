@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900162.jpg",
+    "small_url": "/images/plants/900162.jpg",
+    "medium_url": "/images/plants/900162.jpg",
+    "regular_url": "/images/plants/900162.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Plant a named male variety: female trees drop foul-smelling fruit. Little pruning needed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "EecherplazGinkgo06.jpg: Cayambe derivative work: Ginkgotree…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GINKGOBAUM-2.jpg"
+  }
 }

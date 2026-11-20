@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900447.jpg",
+    "small_url": "/images/plants/900447.jpg",
+    "medium_url": "/images/plants/900447.jpg",
+    "regular_url": "/images/plants/900447.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Slow spreading; dwarf forms fill between pavers."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Shabicht",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Japonska_ka%C4%8Dja_brada.jpg"
+  }
 }

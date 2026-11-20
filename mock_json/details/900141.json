@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900141.jpg",
+    "small_url": "/images/plants/900141.jpg",
+    "medium_url": "/images/plants/900141.jpg",
+    "regular_url": "/images/plants/900141.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut back hard in spring where it's perennial. Invasive in Florida and Hawaii; berries are toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:LantanaFlowerLeaves.jpg"
+  }
 }

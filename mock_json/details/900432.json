@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900432.jpg",
+    "small_url": "/images/plants/900432.jpg",
+    "medium_url": "/images/plants/900432.jpg",
+    "regular_url": "/images/plants/900432.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Deadhead for flowers all summer. Short lived; cut back in late summer to help it overwinter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Captain-tucker",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gaillardia_x_grandiflora_%27Oranges_and_Lemons%27_in_NH.jpg"
+  }
 }

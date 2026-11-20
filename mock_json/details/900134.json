@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900134.jpg",
+    "small_url": "/images/plants/900134.jpg",
+    "medium_url": "/images/plants/900134.jpg",
+    "regular_url": "/images/plants/900134.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pinch stems back by a third before July for a bushier, shorter plant. A North American native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "The Cosmonaut",
+    "license": "CC BY-SA 2.5 ca",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Symphyotrichum_novae-angliae3.jpg"
+  }
 }

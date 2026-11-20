@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900529.jpg",
+    "small_url": "/images/plants/900529.jpg",
+    "medium_url": "/images/plants/900529.jpg",
+    "regular_url": "/images/plants/900529.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick tips often. Cook before eating; raw leaves are high in oxalates. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mason Brock (Masebrock",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Tetragonia_tetragonioides.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tetragonia_tetragonioides.jpg"
+  }
 }

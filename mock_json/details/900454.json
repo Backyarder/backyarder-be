@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900454.jpg",
+    "small_url": "/images/plants/900454.jpg",
+    "medium_url": "/images/plants/900454.jpg",
+    "regular_url": "/images/plants/900454.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Shear after flowering to stop self-seeding. Dew beads on the leaves."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Rasbak 14:39, 19 June 2007 (UTC",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alchemilla_mollis_(Fraaie_vrouwenmantel_bloeiwijze)1.jpg"
+  }
 }

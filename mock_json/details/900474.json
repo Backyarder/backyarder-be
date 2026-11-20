@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900474.jpg",
+    "small_url": "/images/plants/900474.jpg",
+    "medium_url": "/images/plants/900474.jpg",
+    "regular_url": "/images/plants/900474.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Double pink flowers; no fruit. Prune after flowering. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Myrabella",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cerisier_du_Japon_Prunus_serrulata.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/citrus.svg",
-    "small_url": "/images/kitchen/citrus.svg",
-    "medium_url": "/images/kitchen/citrus.svg",
-    "regular_url": "/images/kitchen/citrus.svg"
+    "thumbnail": "/images/plants/900217.jpg",
+    "small_url": "/images/plants/900217.jpg",
+    "medium_url": "/images/plants/900217.jpg",
+    "regular_url": "/images/plants/900217.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pick from October to December as fruit colours. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Batholith",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Citrus_unshiu_20101127_c.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Citrus_unshiu_20101127_c.jpg"
+  }
 }

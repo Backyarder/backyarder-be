@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900444.jpg",
+    "small_url": "/images/plants/900444.jpg",
+    "medium_url": "/images/plants/900444.jpg",
+    "regular_url": "/images/plants/900444.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut to six inches in late winter. Upright plumes from early summer."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Photo by David J. Stang",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Calamagrostis_%C3%97_acutiflora_Overdam_2zz.jpg"
+  }
 }

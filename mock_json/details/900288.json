@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900288.jpg",
+    "small_url": "/images/plants/900288.jpg",
+    "medium_url": "/images/plants/900288.jpg",
+    "regular_url": "/images/plants/900288.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "A fast windbreak tree. Little pruning needed."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 3.0 ee",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/ee/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kuusk_Keila-Paldiski_rdt_%C3%A4%C3%A4res.jpg"
+  }
 }

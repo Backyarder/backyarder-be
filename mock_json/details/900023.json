@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/bulb.svg",
-    "small_url": "/images/kitchen/bulb.svg",
-    "medium_url": "/images/kitchen/bulb.svg",
-    "regular_url": "/images/kitchen/bulb.svg"
+    "thumbnail": "/images/plants/900023.jpg",
+    "small_url": "/images/plants/900023.jpg",
+    "medium_url": "/images/plants/900023.jpg",
+    "regular_url": "/images/plants/900023.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Hill soil up around the stems as they grow to blanch them white. Harvest from fall through winter."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Amada44",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Leek_on_white_background_-_0947.jpg"
+  }
 }

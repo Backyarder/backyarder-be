@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900374.jpg",
+    "small_url": "/images/plants/900374.jpg",
+    "medium_url": "/images/plants/900374.jpg",
+    "regular_url": "/images/plants/900374.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pineapple-scented leaves and red fall flowers for hummingbirds."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric Hunt",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salvia_elegans.jpg"
+  }
 }

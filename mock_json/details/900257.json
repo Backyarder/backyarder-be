@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pepper.svg",
-    "small_url": "/images/kitchen/pepper.svg",
-    "medium_url": "/images/kitchen/pepper.svg",
-    "regular_url": "/images/kitchen/pepper.svg"
+    "thumbnail": "/images/plants/900257.jpg",
+    "small_url": "/images/plants/900257.jpg",
+    "medium_url": "/images/plants/900257.jpg",
+    "regular_url": "/images/plants/900257.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick green, or leave to turn red and sweeter. Corking lines on the skin are normal."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Immature_jalapeno_capsicum_annuum_var_annuum.jpeg"
+  }
 }

@@ -31,10 +31,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900147.jpg",
+    "small_url": "/images/plants/900147.jpg",
+    "medium_url": "/images/plants/900147.jpg",
+    "regular_url": "/images/plants/900147.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Mow high in early spring to thicken it. Invasive in parts of the East; native Allegheny pachysandra is an alternative."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Kurt Stüber [1]",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pachysandra_terminalis0.jpg"
+  }
 }

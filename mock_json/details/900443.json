@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900443.jpg",
+    "small_url": "/images/plants/900443.jpg",
+    "medium_url": "/images/plants/900443.jpg",
+    "regular_url": "/images/plants/900443.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Comb out dead blades in spring; replace clumps every few years."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Averater",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Festuca_glauca_001_Tehran_Botanical_garden_2016.jpg"
+  }
 }

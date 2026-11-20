@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900539.jpg",
+    "small_url": "/images/plants/900539.jpg",
+    "medium_url": "/images/plants/900539.jpg",
+    "regular_url": "/images/plants/900539.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Sow directly every few weeks; bolts in heat. Delicate anise flavour."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Derzsi Elekes Andor",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zamatos_turbolya_-_2015.04.17.JPG"
+  }
 }

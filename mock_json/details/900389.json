@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900389.jpg",
+    "small_url": "/images/plants/900389.jpg",
+    "medium_url": "/images/plants/900389.jpg",
+    "regular_url": "/images/plants/900389.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Deadhead for more; self-sows. Edible blue petals."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Orikrin1998",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Centaurea_cyanus_flower_001.jpg"
+  }
 }

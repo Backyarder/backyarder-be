@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/citrus.svg",
-    "small_url": "/images/kitchen/citrus.svg",
-    "medium_url": "/images/kitchen/citrus.svg",
-    "regular_url": "/images/kitchen/citrus.svg"
+    "thumbnail": "/images/plants/900219.jpg",
+    "small_url": "/images/plants/900219.jpg",
+    "medium_url": "/images/plants/900219.jpg",
+    "regular_url": "/images/plants/900219.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Taste before picking: oranges don't ripen further off the tree. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ellen Levy Finch (Elf",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:OrangeBloss_wb.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tomato.svg",
-    "small_url": "/images/kitchen/tomato.svg",
-    "medium_url": "/images/kitchen/tomato.svg",
-    "regular_url": "/images/kitchen/tomato.svg"
+    "thumbnail": "/images/plants/900517.jpg",
+    "small_url": "/images/plants/900517.jpg",
+    "medium_url": "/images/plants/900517.jpg",
+    "regular_url": "/images/plants/900517.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Heirloom with dusky purple fruit; pick when the shoulders are still green. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Kazvorpal at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cherokee.purple.jpg"
+  }
 }

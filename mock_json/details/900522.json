@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900522.jpg",
+    "small_url": "/images/plants/900522.jpg",
+    "medium_url": "/images/plants/900522.jpg",
+    "regular_url": "/images/plants/900522.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pick at three to five inches, daily."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Stephen Ausmus, USDA ARS",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg"
+  }
 }

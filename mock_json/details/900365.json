@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900365.jpg",
+    "small_url": "/images/plants/900365.jpg",
+    "medium_url": "/images/plants/900365.jpg",
+    "regular_url": "/images/plants/900365.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Cut stems often. Peppery leaves."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Masparasol",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Watercress_(2).JPG"
+  }
 }

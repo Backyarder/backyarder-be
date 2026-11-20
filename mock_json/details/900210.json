@@ -32,10 +32,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/palm.svg",
-    "small_url": "/images/kitchen/palm.svg",
-    "medium_url": "/images/kitchen/palm.svg",
-    "regular_url": "/images/kitchen/palm.svg"
+    "thumbnail": "/images/plants/900210.jpg",
+    "small_url": "/images/plants/900210.jpg",
+    "medium_url": "/images/plants/900210.jpg",
+    "regular_url": "/images/plants/900210.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -54,5 +54,11 @@
       "type": "pruning",
       "description": "Remove only fully brown fronds. One of the most cold-hardy palms."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Taken by Fanghong",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:TrachycarpusFortunei.jpg"
+  }
 }

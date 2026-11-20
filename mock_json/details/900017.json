@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900017.jpg",
+    "small_url": "/images/plants/900017.jpg",
+    "medium_url": "/images/plants/900017.jpg",
+    "regular_url": "/images/plants/900017.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Tie the outer leaves over the head to keep it white, and cut while the curds are still tight."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Coyau",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chou-fleur_02.jpg"
+  }
 }

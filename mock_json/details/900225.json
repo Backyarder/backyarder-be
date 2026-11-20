@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900225.jpg",
+    "small_url": "/images/plants/900225.jpg",
+    "medium_url": "/images/plants/900225.jpg",
+    "regular_url": "/images/plants/900225.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Wipe dust off the leaves. Repot only when it cracks its pot. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mokkie",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Snake_Plant_(Sansevieria_trifasciata_%27Laurentii%27).jpg"
+  }
 }

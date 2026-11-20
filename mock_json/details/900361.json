@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900361.jpg",
+    "small_url": "/images/plants/900361.jpg",
+    "medium_url": "/images/plants/900361.jpg",
+    "regular_url": "/images/plants/900361.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut heads when firm; cold turns them deep red and milder."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "The original uploader was Kasteelhoeve Puth at English…",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:RadicchioNL.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RadicchioNL.jpg"
+  }
 }

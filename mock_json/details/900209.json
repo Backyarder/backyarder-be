@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900209.jpg",
+    "small_url": "/images/plants/900209.jpg",
+    "medium_url": "/images/plants/900209.jpg",
+    "regular_url": "/images/plants/900209.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune after the spring bloom; it takes shaping well."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Loropetalum-chinensis-rubrum.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Loropetalum-chinensis-rubrum.jpg"
+  }
 }

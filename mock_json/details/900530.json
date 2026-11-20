@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900530.jpg",
+    "small_url": "/images/plants/900530.jpg",
+    "medium_url": "/images/plants/900530.jpg",
+    "regular_url": "/images/plants/900530.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut young leaves; it regrows. A summer replacement for spinach."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Tangopaso",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Amaranthus_tricolor_in_a_flower_bed_near_Notre-Dame_cathedral_in_Paris3.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amaranthus_tricolor_in_a_flower_bed_near_Notre-Dame_cathedral_in_Paris3.jpg"
+  }
 }

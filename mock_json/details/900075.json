@@ -32,10 +32,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900075.jpg",
+    "small_url": "/images/plants/900075.jpg",
+    "medium_url": "/images/plants/900075.jpg",
+    "regular_url": "/images/plants/900075.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -54,5 +54,11 @@
       "type": "pruning",
       "description": "Mow or cut it as it flowers in spring and leave it as mulch; wait two to three weeks before sowing small seeds."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "LSDSL",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ear_of_rye.jpg"
+  }
 }

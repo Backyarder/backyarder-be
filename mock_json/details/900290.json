@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900290.jpg",
+    "small_url": "/images/plants/900290.jpg",
+    "medium_url": "/images/plants/900290.jpg",
+    "regular_url": "/images/plants/900290.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Drops its needles in fall. Forms 'knees' near water."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Taxodium_distichum_NRCSMS01010.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taxodium_distichum_NRCSMS01010.jpg"
+  }
 }

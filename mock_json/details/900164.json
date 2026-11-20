@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900164.jpg",
+    "small_url": "/images/plants/900164.jpg",
+    "medium_url": "/images/plants/900164.jpg",
+    "regular_url": "/images/plants/900164.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune in winter. Peeling white bark is the attraction."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Marty Aligata",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pawling_Sycamore,_Valley_Forge_National_Historic_Park,_Pennsylvania_June_2024.jpg"
+  }
 }

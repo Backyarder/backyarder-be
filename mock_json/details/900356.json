@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/corn.svg",
-    "small_url": "/images/kitchen/corn.svg",
-    "medium_url": "/images/kitchen/corn.svg",
-    "regular_url": "/images/kitchen/corn.svg"
+    "thumbnail": "/images/plants/900356.jpg",
+    "small_url": "/images/plants/900356.jpg",
+    "medium_url": "/images/plants/900356.jpg",
+    "regular_url": "/images/plants/900356.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Let ears dry on the stalk, then cure indoors for a few weeks."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Silverije",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Klip_kukuruza_uzgojen_u_Me%C4%91imurju_(Croatia).JPG"
+  }
 }

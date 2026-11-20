@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/squash.svg",
-    "small_url": "/images/kitchen/squash.svg",
-    "medium_url": "/images/kitchen/squash.svg",
-    "regular_url": "/images/kitchen/squash.svg"
+    "thumbnail": "/images/plants/900266.jpg",
+    "small_url": "/images/plants/900266.jpg",
+    "medium_url": "/images/plants/900266.jpg",
+    "regular_url": "/images/plants/900266.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pick at six inches, every day or two. Watch for squash vine borers at the stem base."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Evan-Amos",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:CSA-Yellow-Squash.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CSA-Yellow-Squash.jpg"
+  }
 }

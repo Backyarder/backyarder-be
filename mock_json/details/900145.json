@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900145.jpg",
+    "small_url": "/images/plants/900145.jpg",
+    "medium_url": "/images/plants/900145.jpg",
+    "regular_url": "/images/plants/900145.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Self-seeds heavily; pull extras in spring. Invasive in parts of the Southeast and West Coast."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Verbena_lila_(Verbena_bonariensis),_Jard%C3%ADn_Bot%C3%A1nico,_M%C3%BAnich,_Alemania,_2013-09-08,_DD_01.JPG"
+  }
 }

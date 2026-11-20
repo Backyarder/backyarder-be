@@ -32,10 +32,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900055.jpg",
+    "small_url": "/images/plants/900055.jpg",
+    "medium_url": "/images/plants/900055.jpg",
+    "regular_url": "/images/plants/900055.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -54,5 +54,11 @@
       "type": "pruning",
       "description": "Dig before frost when the leaves yellow, then cure the roots somewhere warm for a week to sweeten them."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Llez",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ipomoea_batatas_006.JPG"
+  }
 }

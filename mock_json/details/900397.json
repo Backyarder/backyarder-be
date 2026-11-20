@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tulip.svg",
-    "small_url": "/images/kitchen/tulip.svg",
-    "medium_url": "/images/kitchen/tulip.svg",
-    "regular_url": "/images/kitchen/tulip.svg"
+    "thumbnail": "/images/plants/900397.jpg",
+    "small_url": "/images/plants/900397.jpg",
+    "medium_url": "/images/plants/900397.jpg",
+    "regular_url": "/images/plants/900397.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Store rhizomes indoors in cold areas. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Eric Hunt",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zantedeschia_aethiopica_-1.jpg"
+  }
 }

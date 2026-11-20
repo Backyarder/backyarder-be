@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900105.jpg",
+    "small_url": "/images/plants/900105.jpg",
+    "medium_url": "/images/plants/900105.jpg",
+    "regular_url": "/images/plants/900105.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Shear lightly in early summer. Deer love it."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Thuja_occidentalis.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thuja_occidentalis.jpg"
+  }
 }

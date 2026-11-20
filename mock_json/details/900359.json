@@ -31,10 +31,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900359.jpg",
+    "small_url": "/images/plants/900359.jpg",
+    "medium_url": "/images/plants/900359.jpg",
+    "regular_url": "/images/plants/900359.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -53,5 +53,11 @@
       "type": "pruning",
       "description": "Dig rhizomes when the leaves yellow in fall."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "SKsiddhartthan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Turmeric_inflorescence.jpg"
+  }
 }

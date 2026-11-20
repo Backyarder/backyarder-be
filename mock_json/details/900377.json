@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900377.jpg",
+    "small_url": "/images/plants/900377.jpg",
+    "medium_url": "/images/plants/900377.jpg",
+    "regular_url": "/images/plants/900377.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Shear in midsummer to refresh. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "André Karwath aka Aka",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lobelia_close-up_(aka).jpg"
+  }
 }

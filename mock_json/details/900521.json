@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/eggplant.svg",
-    "small_url": "/images/kitchen/eggplant.svg",
-    "medium_url": "/images/kitchen/eggplant.svg",
-    "regular_url": "/images/kitchen/eggplant.svg"
+    "thumbnail": "/images/plants/900521.jpg",
+    "small_url": "/images/plants/900521.jpg",
+    "medium_url": "/images/plants/900521.jpg",
+    "regular_url": "/images/plants/900521.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Long, thin fruit; pick young and glossy. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Joydeep",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Solanum_melongena_24_08_2012_(1).JPG"
+  }
 }

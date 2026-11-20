@@ -36,10 +36,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grape.svg",
-    "small_url": "/images/kitchen/grape.svg",
-    "medium_url": "/images/kitchen/grape.svg",
-    "regular_url": "/images/kitchen/grape.svg"
+    "thumbnail": "/images/plants/900071.jpg",
+    "small_url": "/images/plants/900071.jpg",
+    "medium_url": "/images/plants/900071.jpg",
+    "regular_url": "/images/plants/900071.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -58,5 +58,11 @@
       "type": "pruning",
       "description": "Prune hard in late winter, removing most of last year's growth. Pick by taste: colour comes before sweetness. Grapes are toxic to dogs."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Grapes,_Rostov-on-Don,_Russia.jpg"
+  }
 }

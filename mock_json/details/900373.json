@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/herb.svg",
-    "small_url": "/images/kitchen/herb.svg",
-    "medium_url": "/images/kitchen/herb.svg",
-    "regular_url": "/images/kitchen/herb.svg"
+    "thumbnail": "/images/plants/900373.jpg",
+    "small_url": "/images/plants/900373.jpg",
+    "medium_url": "/images/plants/900373.jpg",
+    "regular_url": "/images/plants/900373.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Shear after flowering. Lemon-scented leaves for fish and tea."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr_070906-8846_Thymus_citriodorus.jpg"
+  }
 }

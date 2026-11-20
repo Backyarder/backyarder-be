@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tomato.svg",
-    "small_url": "/images/kitchen/tomato.svg",
-    "medium_url": "/images/kitchen/tomato.svg",
-    "regular_url": "/images/kitchen/tomato.svg"
+    "thumbnail": "/images/plants/900516.jpg",
+    "small_url": "/images/plants/900516.jpg",
+    "medium_url": "/images/plants/900516.jpg",
+    "regular_url": "/images/plants/900516.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Heirloom; slow to ripen but famous flavour. Stake tall. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "David.moreno72",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brandywine-Tomato.jpg"
+  }
 }

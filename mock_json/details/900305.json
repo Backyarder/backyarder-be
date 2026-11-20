@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900305.jpg",
+    "small_url": "/images/plants/900305.jpg",
+    "medium_url": "/images/plants/900305.jpg",
+    "regular_url": "/images/plants/900305.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Very fast screen. Shear the sides yearly; it reaches 60 feet if not topped."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Leyland_Cypress.jpg"
+  }
 }

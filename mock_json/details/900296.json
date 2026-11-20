@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900296.jpg",
+    "small_url": "/images/plants/900296.jpg",
+    "medium_url": "/images/plants/900296.jpg",
+    "regular_url": "/images/plants/900296.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune after flowering. Creamy flowers in early summer, after common lilac."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Krzysztof Ziarnek, Kenraiz",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Syringa_reticulata_var._mandshurica_kz01.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900024.jpg",
+    "small_url": "/images/plants/900024.jpg",
+    "medium_url": "/images/plants/900024.jpg",
+    "regular_url": "/images/plants/900024.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Hill soil up around the stems twice as they grow. Dig new potatoes at flowering, or the main crop two weeks after the tops die."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Scott Bauer, USDA ARS",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Patates.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Patates.jpg"
+  }
 }

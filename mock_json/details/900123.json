@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900123.jpg",
+    "small_url": "/images/plants/900123.jpg",
+    "medium_url": "/images/plants/900123.jpg",
+    "regular_url": "/images/plants/900123.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Pull mushy leaves after humid spells and cut flower stalks if you only want the silver foliage."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:0_Stachys_byzantina_-_Yvoire_(2).JPG"
+  }
 }

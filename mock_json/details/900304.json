@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900304.jpg",
+    "small_url": "/images/plants/900304.jpg",
+    "medium_url": "/images/plants/900304.jpg",
+    "regular_url": "/images/plants/900304.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Shear in early summer; a boxwood stand-in. Berries are toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ilex_Crenata5.jpg"
+  }
 }

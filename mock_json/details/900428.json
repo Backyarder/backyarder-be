@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900428.jpg",
+    "small_url": "/images/plants/900428.jpg",
+    "medium_url": "/images/plants/900428.jpg",
+    "regular_url": "/images/plants/900428.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Biennial: it flowers in its second year, then sets seed. Every part is highly toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jörg Hempel",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_LC0101.jpg"
+  }
 }

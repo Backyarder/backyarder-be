@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/stalk.svg",
-    "small_url": "/images/kitchen/stalk.svg",
-    "medium_url": "/images/kitchen/stalk.svg",
-    "regular_url": "/images/kitchen/stalk.svg"
+    "thumbnail": "/images/plants/900030.jpg",
+    "small_url": "/images/plants/900030.jpg",
+    "medium_url": "/images/plants/900030.jpg",
+    "regular_url": "/images/plants/900030.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Do not harvest the first two springs. After that cut spears for six to eight weeks, then let the ferns grow. Cut ferns down after they brown in late fall."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Evelyn Simak",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Asparagus_plants_-_geograph.org.uk_-_552470.jpg"
+  }
 }

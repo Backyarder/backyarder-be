@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900104.jpg",
+    "small_url": "/images/plants/900104.jpg",
+    "medium_url": "/images/plants/900104.jpg",
+    "regular_url": "/images/plants/900104.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Rarely needs pruning; cut back to a side shoot, never into bare wood."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "SriMesh",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:JuniperBerry.jpg"
+  }
 }

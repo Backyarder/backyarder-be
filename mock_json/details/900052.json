@@ -32,10 +32,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/root.svg",
-    "small_url": "/images/kitchen/root.svg",
-    "medium_url": "/images/kitchen/root.svg",
-    "regular_url": "/images/kitchen/root.svg"
+    "thumbnail": "/images/plants/900052.jpg",
+    "small_url": "/images/plants/900052.jpg",
+    "medium_url": "/images/plants/900052.jpg",
+    "regular_url": "/images/plants/900052.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -54,5 +54,11 @@
       "type": "pruning",
       "description": "Pick when the swollen stem is two to three inches across; bigger ones turn tough."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brassica_oleracea_var._gongylodes_(kohlrabi).jpg"
+  }
 }

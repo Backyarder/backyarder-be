@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900341.jpg",
+    "small_url": "/images/plants/900341.jpg",
+    "medium_url": "/images/plants/900341.jpg",
+    "regular_url": "/images/plants/900341.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Prune old canes in winter. Thorny; wear gloves to pick."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stachelbeeren.jpg"
+  }
 }

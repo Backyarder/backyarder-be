@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pod.svg",
-    "small_url": "/images/kitchen/pod.svg",
-    "medium_url": "/images/kitchen/pod.svg",
-    "regular_url": "/images/kitchen/pod.svg"
+    "thumbnail": "/images/plants/900355.jpg",
+    "small_url": "/images/plants/900355.jpg",
+    "medium_url": "/images/plants/900355.jpg",
+    "regular_url": "/images/plants/900355.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Harvest when pods are plump and bright green, all at once."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Tammy Green (aka Zesmerelda) from Chicago Upscale Dining +…",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edamame_by_Zesmerelda_in_Chicago.jpg"
+  }
 }

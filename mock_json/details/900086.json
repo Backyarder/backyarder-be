@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900086.jpg",
+    "small_url": "/images/plants/900086.jpg",
+    "medium_url": "/images/plants/900086.jpg",
+    "regular_url": "/images/plants/900086.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pinch young plants for more stems and cut spent spikes for a second bloom."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Craig Franklin",
+    "license": "CC BY-SA 3.0 au",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_BCBG_(02).jpg"
+  }
 }

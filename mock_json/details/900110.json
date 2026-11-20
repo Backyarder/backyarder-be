@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/rose.svg",
-    "small_url": "/images/kitchen/rose.svg",
-    "medium_url": "/images/kitchen/rose.svg",
-    "regular_url": "/images/kitchen/rose.svg"
+    "thumbnail": "/images/plants/900110.jpg",
+    "small_url": "/images/plants/900110.jpg",
+    "medium_url": "/images/plants/900110.jpg",
+    "regular_url": "/images/plants/900110.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Prune in early spring when the forsythia blooms: remove dead wood and cut back by a third."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Trained_rose_and_shrub_rose_against_brick_wall_in_Boreham,_Essex,_England.jpg"
+  }
 }

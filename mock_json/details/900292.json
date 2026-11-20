@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900292.jpg",
+    "small_url": "/images/plants/900292.jpg",
+    "medium_url": "/images/plants/900292.jpg",
+    "regular_url": "/images/plants/900292.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Little pruning needed. Prized by beekeepers for sourwood honey."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Oxydendrum_arboreum.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Oxydendrum_arboreum.jpg"
+  }
 }

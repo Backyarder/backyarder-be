@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900197.jpg",
+    "small_url": "/images/plants/900197.jpg",
+    "medium_url": "/images/plants/900197.jpg",
+    "regular_url": "/images/plants/900197.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut back to a few inches in late winter. Clouds of pink seed heads in fall."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2026-10-15_16_48_00_Pink_Muhly_Grass_along_Tina_Drive_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg"
+  }
 }

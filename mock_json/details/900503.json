@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900503.jpg",
+    "small_url": "/images/plants/900503.jpg",
+    "medium_url": "/images/plants/900503.jpg",
+    "regular_url": "/images/plants/900503.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Overwatering is the usual killer. Fall flowers emerge from the split."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "yellowcloud",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lithops_2.jpg"
+  }
 }

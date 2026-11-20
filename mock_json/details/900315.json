@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900315.jpg",
+    "small_url": "/images/plants/900315.jpg",
+    "medium_url": "/images/plants/900315.jpg",
+    "regular_url": "/images/plants/900315.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Slow to spread. A native, non-invasive alternative to Japanese pachysandra."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Photo (c)2006 Derek Ramsey (Ram-Man",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alleghany_Pachysandra_Pachysandra_procumbens_Plants_3008px.JPG"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/succulent.svg",
-    "small_url": "/images/kitchen/succulent.svg",
-    "medium_url": "/images/kitchen/succulent.svg",
-    "regular_url": "/images/kitchen/succulent.svg"
+    "thumbnail": "/images/plants/900499.jpg",
+    "small_url": "/images/plants/900499.jpg",
+    "medium_url": "/images/plants/900499.jpg",
+    "regular_url": "/images/plants/900499.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Flowers nearly all year. The sap is irritating and toxic."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ezra Katz",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Euphorbia_Milii_flowers.jpg"
+  }
 }

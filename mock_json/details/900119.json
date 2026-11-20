@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pear.svg",
-    "small_url": "/images/kitchen/pear.svg",
-    "medium_url": "/images/kitchen/pear.svg",
-    "regular_url": "/images/kitchen/pear.svg"
+    "thumbnail": "/images/plants/900119.jpg",
+    "small_url": "/images/plants/900119.jpg",
+    "medium_url": "/images/plants/900119.jpg",
+    "regular_url": "/images/plants/900119.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Pick when the fruit lifts off easily and ripen it indoors; pears go mealy if left to ripen on the tree."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Keith Weller",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Pears.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pears.jpg"
+  }
 }

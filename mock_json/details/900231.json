@@ -30,10 +30,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900231.jpg",
+    "small_url": "/images/plants/900231.jpg",
+    "medium_url": "/images/plants/900231.jpg",
+    "regular_url": "/images/plants/900231.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -52,5 +52,11 @@
       "type": "pruning",
       "description": "Rotate a quarter turn monthly and wipe the leaves. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Forest & Kim Starr",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr_031108-0130_Ficus_lyrata.jpg"
+  }
 }

@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900204.jpg",
+    "small_url": "/images/plants/900204.jpg",
+    "medium_url": "/images/plants/900204.jpg",
+    "regular_url": "/images/plants/900204.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut back hard in late winter. Sky-blue flowers most of the year. Toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Vengolis",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plumbago_auriculata_2718.jpg"
+  }
 }

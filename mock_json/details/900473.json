@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900473.jpg",
+    "small_url": "/images/plants/900473.jpg",
+    "medium_url": "/images/plants/900473.jpg",
+    "regular_url": "/images/plants/900473.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Big white flowers in early summer; long bean pods drop in fall."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Mark Wagner",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Catalpa_speciosa_20060624.jpg"
+  }
 }

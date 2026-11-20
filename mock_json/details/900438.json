@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/leafy.svg",
-    "small_url": "/images/kitchen/leafy.svg",
-    "medium_url": "/images/kitchen/leafy.svg",
-    "regular_url": "/images/kitchen/leafy.svg"
+    "thumbnail": "/images/plants/900438.jpg",
+    "small_url": "/images/plants/900438.jpg",
+    "medium_url": "/images/plants/900438.jpg",
+    "regular_url": "/images/plants/900438.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Shear in midsummer if it gets leggy. Silver leaves brighten shade."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Tomasz Kuran aka Meteor2017",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lamium_maculatum_cm01.jpg"
+  }
 }

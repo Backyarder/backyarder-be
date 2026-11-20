@@ -33,10 +33,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900350.jpg",
+    "small_url": "/images/plants/900350.jpg",
+    "medium_url": "/images/plants/900350.jpg",
+    "regular_url": "/images/plants/900350.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune hard in late winter; suckers spread. Leaves and unripe berries are toxic to pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Paul Gross (paul144) and Richard Zhang",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Lycium_barbarum_-_Wolfberries_China_7-05.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lycium_barbarum_-_Wolfberries_China_7-05.jpg"
+  }
 }

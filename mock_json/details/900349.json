@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/berry.svg",
-    "small_url": "/images/kitchen/berry.svg",
-    "medium_url": "/images/kitchen/berry.svg",
-    "regular_url": "/images/kitchen/berry.svg"
+    "thumbnail": "/images/plants/900349.jpg",
+    "small_url": "/images/plants/900349.jpg",
+    "medium_url": "/images/plants/900349.jpg",
+    "regular_url": "/images/plants/900349.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "No runners, so it stays put. Small, intensely flavoured berries all summer."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Jörg Hempel",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fragaria_vesca_LC0389.jpg"
+  }
 }

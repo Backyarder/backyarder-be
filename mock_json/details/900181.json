@@ -34,10 +34,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/cactus.svg",
-    "small_url": "/images/kitchen/cactus.svg",
-    "medium_url": "/images/kitchen/cactus.svg",
-    "regular_url": "/images/kitchen/cactus.svg"
+    "thumbnail": "/images/plants/900181.jpg",
+    "small_url": "/images/plants/900181.jpg",
+    "medium_url": "/images/plants/900181.jpg",
+    "regular_url": "/images/plants/900181.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "No pruning. Red flower tips in spring feed migrating hummingbirds."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ricraider at English Wikipedia",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Ocotillo_GB.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ocotillo_GB.jpg"
+  }
 }

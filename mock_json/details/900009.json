@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/pod.svg",
-    "small_url": "/images/kitchen/pod.svg",
-    "medium_url": "/images/kitchen/pod.svg",
-    "regular_url": "/images/kitchen/pod.svg"
+    "thumbnail": "/images/plants/900009.jpg",
+    "small_url": "/images/plants/900009.jpg",
+    "medium_url": "/images/plants/900009.jpg",
+    "regular_url": "/images/plants/900009.jpg"
   },
   "collection": "kitchen",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Pick pods young and often; a plant left with mature pods stops flowering."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Susan Slater",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:38_-_CIMG1598.JPG"
+  }
 }

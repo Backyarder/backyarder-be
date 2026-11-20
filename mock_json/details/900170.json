@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/flower.svg",
-    "small_url": "/images/kitchen/flower.svg",
-    "medium_url": "/images/kitchen/flower.svg",
-    "regular_url": "/images/kitchen/flower.svg"
+    "thumbnail": "/images/plants/900170.jpg",
+    "small_url": "/images/plants/900170.jpg",
+    "medium_url": "/images/plants/900170.jpg",
+    "regular_url": "/images/plants/900170.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Dies to the ground in cold winters and returns late. Spreads by runners. The fruit (maypops) is edible when it wrinkles."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "H3ini",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Passiflora_incarnata_fruit.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Passiflora_incarnata_fruit.jpg"
+  }
 }

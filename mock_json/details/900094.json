@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/grass.svg",
-    "small_url": "/images/kitchen/grass.svg",
-    "medium_url": "/images/kitchen/grass.svg",
-    "regular_url": "/images/kitchen/grass.svg"
+    "thumbnail": "/images/plants/900094.jpg",
+    "small_url": "/images/plants/900094.jpg",
+    "medium_url": "/images/plants/900094.jpg",
+    "regular_url": "/images/plants/900094.jpg"
   },
   "collection": "flowers",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Cut back to a few inches in late winter. It turns copper in fall. A North American native."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Andropogon_scoparius.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Andropogon_scoparius.jpg"
+  }
 }

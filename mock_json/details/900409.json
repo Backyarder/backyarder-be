@@ -29,10 +29,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/houseplant.svg",
-    "small_url": "/images/kitchen/houseplant.svg",
-    "medium_url": "/images/kitchen/houseplant.svg",
-    "regular_url": "/images/kitchen/houseplant.svg"
+    "thumbnail": "/images/plants/900409.jpg",
+    "small_url": "/images/plants/900409.jpg",
+    "medium_url": "/images/plants/900409.jpg",
+    "regular_url": "/images/plants/900409.jpg"
   },
   "collection": "indoor",
   "care_sections": [
@@ -51,5 +51,11 @@
       "type": "pruning",
       "description": "Pinch and root cuttings to keep it full. The sap irritates pets' skin."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Ruestz (upload 13:54, 11 January 2008",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zebrina_pendula_20060521_2_closer.jpg"
+  }
 }

@@ -34,10 +34,10 @@
   "invasive": true,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900151.jpg",
+    "small_url": "/images/plants/900151.jpg",
+    "medium_url": "/images/plants/900151.jpg",
+    "regular_url": "/images/plants/900151.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -56,5 +56,11 @@
       "type": "pruning",
       "description": "Cut back by half in late winter; shear after the first bloom for a second. Invasive in parts of the East."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "TheNoob1337",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Spiraea_Japonica_Close-up.jpg"
+  }
 }

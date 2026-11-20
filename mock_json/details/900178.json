@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/cactus.svg",
-    "small_url": "/images/kitchen/cactus.svg",
-    "medium_url": "/images/kitchen/cactus.svg",
-    "regular_url": "/images/kitchen/cactus.svg"
+    "thumbnail": "/images/plants/900178.jpg",
+    "small_url": "/images/plants/900178.jpg",
+    "medium_url": "/images/plants/900178.jpg",
+    "regular_url": "/images/plants/900178.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Handle with tongs: the tiny glochids lodge in skin. Pads and fruit are edible once the spines are burned off."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "SEWilco",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Prickly_pear_MN_2007.JPG"
+  }
 }

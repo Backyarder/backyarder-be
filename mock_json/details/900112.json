@@ -35,10 +35,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/shrub.svg",
-    "small_url": "/images/kitchen/shrub.svg",
-    "medium_url": "/images/kitchen/shrub.svg",
-    "regular_url": "/images/kitchen/shrub.svg"
+    "thumbnail": "/images/plants/900112.jpg",
+    "small_url": "/images/plants/900112.jpg",
+    "medium_url": "/images/plants/900112.jpg",
+    "regular_url": "/images/plants/900112.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -57,5 +57,11 @@
       "type": "pruning",
       "description": "Prune right after flowering; later pruning removes next year's buds. Toxic to people and pets."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "YvoBentele",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2018-04-29_Bl%C3%BCte_einer_Gartenazalee_(Rhododendron_simsii).jpg"
+  }
 }

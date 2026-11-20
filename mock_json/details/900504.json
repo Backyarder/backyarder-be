@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/cactus.svg",
-    "small_url": "/images/kitchen/cactus.svg",
-    "medium_url": "/images/kitchen/cactus.svg",
-    "regular_url": "/images/kitchen/cactus.svg"
+    "thumbnail": "/images/plants/900504.jpg",
+    "small_url": "/images/plants/900504.jpg",
+    "medium_url": "/images/plants/900504.jpg",
+    "regular_url": "/images/plants/900504.jpg"
   },
   "collection": "succulents",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "One of the hardiest cacti. Scarlet spring flowers for hummingbirds."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Dave Powell, USDA Forest Service, United States",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Echinocereus_triglochidiatusUGA0807034.jpg"
+  }
 }

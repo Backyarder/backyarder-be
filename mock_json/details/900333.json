@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": true,
   "default_image": {
-    "thumbnail": "/images/kitchen/tree.svg",
-    "small_url": "/images/kitchen/tree.svg",
-    "medium_url": "/images/kitchen/tree.svg",
-    "regular_url": "/images/kitchen/tree.svg"
+    "thumbnail": "/images/plants/900333.jpg",
+    "small_url": "/images/plants/900333.jpg",
+    "medium_url": "/images/plants/900333.jpg",
+    "regular_url": "/images/plants/900333.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "Prune to open the centre after harvest. Fresh olives must be cured before eating."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Abu Shawka",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Olea_europaea_cuspidata-africana_Cape_Town.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Olea_europaea_cuspidata-africana_Cape_Town.JPG"
+  }
 }

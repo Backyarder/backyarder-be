@@ -33,10 +33,10 @@
   "invasive": false,
   "indoor": false,
   "default_image": {
-    "thumbnail": "/images/kitchen/conifer.svg",
-    "small_url": "/images/kitchen/conifer.svg",
-    "medium_url": "/images/kitchen/conifer.svg",
-    "regular_url": "/images/kitchen/conifer.svg"
+    "thumbnail": "/images/plants/900286.jpg",
+    "small_url": "/images/plants/900286.jpg",
+    "medium_url": "/images/plants/900286.jpg",
+    "regular_url": "/images/plants/900286.jpg"
   },
   "collection": "trees",
   "care_sections": [
@@ -55,5 +55,11 @@
       "type": "pruning",
       "description": "A conifer that turns gold and drops its needles in fall: that's normal."
     }
-  ]
+  ],
+  "image_credit": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2024-10-17_12_32_32_American_Larches-Tamaracks_changing_color_in_autumn_in_a_bog_near_Rensselaer_County_Route_42_(Taborton_Road)_in_Sand_Lake,_Rensselaer_County,_New_York.jpg"
+  }
 }
