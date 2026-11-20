@@ -1,0 +1,57 @@
+{
+  "id": 900274,
+  "common_name": "shallot",
+  "scientific_name": [
+    "Allium cepa var. aggregatum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water while bulbs form; stop when the tops fall."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in loose, well-drained soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Plant single bulbs in fall or early spring; each makes a cluster. Cure before storing. Toxic to pets."
+    }
+  ]
+}

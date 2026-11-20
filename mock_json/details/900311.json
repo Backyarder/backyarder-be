@@ -1,0 +1,61 @@
+{
+  "id": 900311,
+  "common_name": "American beautyberry",
+  "scientific_name": [
+    "Callicarpa americana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "6",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; water in long droughts."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; more berries in sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back hard in late winter; it flowers on new wood. Bright purple berries feed birds."
+    }
+  ]
+}

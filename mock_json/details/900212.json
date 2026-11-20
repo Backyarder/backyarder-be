@@ -1,0 +1,59 @@
+{
+  "id": 900212,
+  "common_name": "queen palm",
+  "scientific_name": [
+    "Syagrus romanzoffiana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Palm",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/palm.svg",
+    "small_url": "/images/kitchen/palm.svg",
+    "medium_url": "/images/kitchen/palm.svg",
+    "regular_url": "/images/kitchen/palm.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Regular water and palm fertiliser."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; damaged below about 25F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Remove dead fronds and fruit stalks. Considered invasive in Florida."
+    }
+  ]
+}

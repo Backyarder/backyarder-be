@@ -1,0 +1,59 @@
+{
+  "id": 900532,
+  "common_name": "icebox watermelon",
+  "scientific_name": [
+    "Citrullus lanatus 'Sugar Baby'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/melon.svg",
+    "small_url": "/images/kitchen/melon.svg",
+    "medium_url": "/images/kitchen/melon.svg",
+    "regular_url": "/images/kitchen/melon.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep weekly watering; ease off as fruit ripens."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; fits small gardens."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Eight-to-ten-pound melons; ripe when the tendril browns."
+    }
+  ]
+}

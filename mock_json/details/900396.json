@@ -1,0 +1,59 @@
+{
+  "id": 900396,
+  "common_name": "canna",
+  "scientific_name": [
+    "Canna x generalis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tulip.svg",
+    "small_url": "/images/kitchen/tulip.svg",
+    "medium_url": "/images/kitchen/tulip.svg",
+    "regular_url": "/images/kitchen/tulip.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep moist; it tolerates wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat; tolerates boggy soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Dig rhizomes after frost north of zone 7. Bold tropical leaves."
+    }
+  ]
+}

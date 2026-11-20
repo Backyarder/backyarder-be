@@ -1,0 +1,59 @@
+{
+  "id": 900219,
+  "common_name": "sweet orange",
+  "scientific_name": [
+    "Citrus x sinensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/citrus.svg",
+    "small_url": "/images/kitchen/citrus.svg",
+    "medium_url": "/images/kitchen/citrus.svg",
+    "regular_url": "/images/kitchen/citrus.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering every week or two."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tender below about 28F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Taste before picking: oranges don't ripen further off the tree. Toxic to pets."
+    }
+  ]
+}

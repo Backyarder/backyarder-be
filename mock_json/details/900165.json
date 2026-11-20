@@ -1,0 +1,59 @@
+{
+  "id": 900165,
+  "common_name": "American linden",
+  "scientific_name": [
+    "Tilia americana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; water in droughts."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to part shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in winter. The fragrant early-summer flowers are covered in bees."
+    }
+  ]
+}

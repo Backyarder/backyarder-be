@@ -1,0 +1,59 @@
+{
+  "id": 900163,
+  "common_name": "thornless honeylocust",
+  "scientific_name": [
+    "Gleditsia triacanthos var. inermis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Its light shade lets lawn grow underneath."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in winter to raise the canopy."
+    }
+  ]
+}

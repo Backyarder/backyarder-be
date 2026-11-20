@@ -1,0 +1,61 @@
+{
+  "id": 900365,
+  "common_name": "watercress",
+  "scientific_name": [
+    "Nasturtium officinale"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Constantly wet: grow it in a pot standing in water."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; bolts in hot sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut stems often. Peppery leaves."
+    }
+  ]
+}

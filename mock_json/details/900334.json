@@ -1,0 +1,59 @@
+{
+  "id": 900334,
+  "common_name": "jujube",
+  "scientific_name": [
+    "Ziziphus jujuba"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "6",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/stonefruit.svg",
+    "small_url": "/images/kitchen/stonefruit.svg",
+    "medium_url": "/images/kitchen/stonefruit.svg",
+    "regular_url": "/images/kitchen/stonefruit.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Very drought tolerant."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat; tolerates alkaline soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Little pruning needed. Fruit tastes like apple when crisp and like a date when dried. Suckers spread."
+    }
+  ]
+}

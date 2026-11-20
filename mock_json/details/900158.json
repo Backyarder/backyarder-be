@@ -1,0 +1,60 @@
+{
+  "id": 900158,
+  "common_name": "shrubby cinquefoil",
+  "scientific_name": [
+    "Dasiphora fruticosa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; flowers fade in shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back by a third in late winter. Blooms all summer."
+    }
+  ]
+}

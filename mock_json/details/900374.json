@@ -1,0 +1,60 @@
+{
+  "id": 900374,
+  "common_name": "pineapple sage",
+  "scientific_name": [
+    "Salvia elegans"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "hummingbirds",
+    "butterflies"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; it wilts when dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; an annual where it freezes."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pineapple-scented leaves and red fall flowers for hummingbirds."
+    }
+  ]
+}

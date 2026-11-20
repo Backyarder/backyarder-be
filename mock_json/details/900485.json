@@ -1,0 +1,59 @@
+{
+  "id": 900485,
+  "common_name": "camellia",
+  "scientific_name": [
+    "Camellia japonica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Broadleaf evergreen",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; mulch well."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade and acidic soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Winter and spring flowers. Prune right after flowering."
+    }
+  ]
+}

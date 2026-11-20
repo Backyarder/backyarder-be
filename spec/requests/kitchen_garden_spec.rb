@@ -10,7 +10,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     stock = data.reject { |p| p[:attributes][:collection] }
     by_collection = data.map { |p| p[:attributes][:collection] }.compact.tally
     expect(stock.size).to eq(30)
-    expect(by_collection).to eq("kitchen" => 75, "flowers" => 23, "trees" => 23)
+    expect(by_collection).to eq("kitchen" => 165, "flowers" => 134, "trees" => 162, "succulents" => 30, "indoor" => 67)
     tomato = kitchen.find { |p| p[:attributes][:name] == "tomato" }[:attributes]
     expect(tomato).to include(plant_id: 900001, watering: "Frequent", type: "Vegetable", content_type: "Plant", image: "/images/kitchen/tomato.svg")
     expect(tomato[:hardiness]).to eq({ min: "2", max: "11" })
@@ -26,7 +26,7 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     expect(attrs[:image]).to eq("/images/kitchen/tomato.svg")
     expect(attrs[:section].map { |s| s[:type] }).to eq(%w[watering sunlight pruning])
     expect(attrs[:section].first[:description]).to include("Water deeply")
-    expect(attrs[:poisonous_to_pets]).to be(false)
+    expect(attrs[:poisonous_to_pets]).to be(true) # tomato plants are toxic to pets (ASPCA)
     expect(ApiUsage.count_today).to eq(0)
     expect(PlantDetail.count).to eq(0), "built-ins are not cached rows"
 
@@ -42,13 +42,14 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
 
     get "/search/basil"
     results = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes] }
-    expect(results.map { |r| r[:name] }).to eq(["basil"])
+    expect(results.map { |r| r[:name] }).to eq(["basil", "Thai basil"])
     expect(results.first).to include(collection: "kitchen", image: "/images/kitchen/herb.svg", watering: "Frequent")
 
     get "/search/pepper"
     names = JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:name] }
     expect(names).to include("bell pepper", "chili pepper")
-    expect(stub).to have_been_requested.times(2) # thin local results still ask Perenual once each
+    expect(names).to include("jalapeño pepper", "habanero pepper")
+    expect(stub).to have_been_requested.times(1) # "basil" is thin locally; "pepper" has enough local matches to skip Perenual
   end
 
   it "serves flowers and trees with care notes, toxicity and edibility" do
@@ -63,6 +64,13 @@ RSpec.describe "Kitchen garden (built-in plants)", type: :request do
     get "/plants/#{ids['hosta']}"
     hosta = JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes]
     expect(hosta).to include(sunlight: ["part shade"], poisonous_to_pets: true)
+
+    get "/plants/#{ids['snake plant']}"
+    snake = JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes]
+    expect(snake).to include(type: "Houseplant", indoor: true, poisonous_to_pets: true, image: "/images/kitchen/houseplant.svg")
+
+    get "/plants/#{ids['tomato']}"
+    expect(JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes][:poisonous_to_pets]).to be(true)
 
     get "/plants/#{ids['black-eyed Susan']}"
     expect(JSON.parse(last_response.body, symbolize_names: true)[:data][:attributes][:hardiness]).to eq({ min: "3", max: "9" })

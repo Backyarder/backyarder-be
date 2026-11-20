@@ -1,0 +1,60 @@
+{
+  "id": 900188,
+  "common_name": "desert marigold",
+  "scientific_name": [
+    "Baileya multiradiata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; occasional deep water in summer."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; flops in rich, watered soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Short lived but self-sows. Toxic to livestock and pets if eaten. A Southwest native."
+    }
+  ]
+}

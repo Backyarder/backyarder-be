@@ -1,0 +1,59 @@
+{
+  "id": 900362,
+  "common_name": "endive",
+  "scientific_name": [
+    "Cichorium endivia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; dry soil makes it bitter."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade, in cool weather."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Tie or cover heads for a week before harvest to blanch them milder."
+    }
+  ]
+}

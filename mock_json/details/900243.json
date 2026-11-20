@@ -1,0 +1,55 @@
+{
+  "id": 900243,
+  "common_name": "moth orchid",
+  "scientific_name": [
+    "Phalaenopsis spp."
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water weekly by soaking the bark, then drain fully."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright indirect light; an east window is ideal."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "After flowering, cut the spike above a node for a rebloom. Safe for pets."
+    }
+  ]
+}

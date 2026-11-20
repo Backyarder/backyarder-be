@@ -1,0 +1,57 @@
+{
+  "id": 900450,
+  "common_name": "Japanese painted fern",
+  "scientific_name": [
+    "Athyrium niponicum var. pictum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Foliage",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist; fronds brown when dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; morning sun brings out the silver."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back dead fronds in spring."
+    }
+  ]
+}

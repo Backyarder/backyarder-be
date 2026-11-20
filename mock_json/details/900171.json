@@ -1,0 +1,60 @@
+{
+  "id": 900171,
+  "common_name": "morning glory",
+  "scientific_name": [
+    "Ipomoea purpurea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September"
+  ],
+  "attracts": [
+    "hummingbirds",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; too much fertiliser means leaves instead of flowers."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; the flowers open in the morning and close by afternoon."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Self-seeds aggressively; pull seedlings. Seeds are toxic to people and pets."
+    }
+  ]
+}

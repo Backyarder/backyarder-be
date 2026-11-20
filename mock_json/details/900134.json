@@ -1,0 +1,60 @@
+{
+  "id": 900134,
+  "common_name": "New England aster",
+  "scientific_name": [
+    "Symphyotrichum novae-angliae"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; mildew follows drought stress."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; fewer flowers and more mildew in shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch stems back by a third before July for a bushier, shorter plant. A North American native."
+    }
+  ]
+}

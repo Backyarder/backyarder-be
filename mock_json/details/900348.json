@@ -1,0 +1,61 @@
+{
+  "id": 900348,
+  "common_name": "honeyberry",
+  "scientific_name": [
+    "Lonicera caerulea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/berry.svg",
+    "small_url": "/images/kitchen/berry.svg",
+    "medium_url": "/images/kitchen/berry.svg",
+    "regular_url": "/images/kitchen/berry.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture, especially while fruiting."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; plant two varieties."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Fruits before strawberries. Very cold hardy."
+    }
+  ]
+}

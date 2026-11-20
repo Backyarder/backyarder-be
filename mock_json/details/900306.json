@@ -1,0 +1,60 @@
+{
+  "id": 900306,
+  "common_name": "red tip photinia",
+  "scientific_name": [
+    "Photinia x fraseri"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Broadleaf evergreen",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March",
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; water at the base to avoid leaf spot."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun with good airflow."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Shear for new red growth. Leaves are toxic to pets."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900524,
+  "common_name": "Florence fennel",
+  "scientific_name": [
+    "Foeniculum vulgare var. azoricum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "September",
+    "October"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/stalk.svg",
+    "small_url": "/images/kitchen/stalk.svg",
+    "medium_url": "/images/kitchen/stalk.svg",
+    "regular_url": "/images/kitchen/stalk.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; stress makes it bolt."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in cool weather; a fall crop is easiest."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest bulbs at tennis-ball size. Keep it away from most vegetables."
+    }
+  ]
+}

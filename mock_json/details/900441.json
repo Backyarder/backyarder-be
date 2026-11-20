@@ -1,0 +1,57 @@
+{
+  "id": 900441,
+  "common_name": "Japanese forest grass",
+  "scientific_name": [
+    "Hakonechloa macra"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Ornamental grass",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; the tips brown when dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; gold forms scorch in full sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back in early spring. Cascading, bamboo-like leaves for shade."
+    }
+  ]
+}

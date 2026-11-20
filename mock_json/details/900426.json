@@ -1,0 +1,60 @@
+{
+  "id": 900426,
+  "common_name": "astilbe",
+  "scientific_name": [
+    "Astilbe x arendsii"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep consistently moist; the leaves crisp in dry soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; afternoon sun scorches it."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Leave the dried plumes for winter interest and cut back in spring."
+    }
+  ]
+}

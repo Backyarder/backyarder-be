@@ -1,0 +1,60 @@
+{
+  "id": 900430,
+  "common_name": "hollyhock",
+  "scientific_name": [
+    "Alcea rosea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Biennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water at the base to slow rust on the leaves."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, against a wall or fence for support."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Biennial; let it self-sow. Remove rusty lower leaves."
+    }
+  ]
+}

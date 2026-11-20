@@ -1,0 +1,59 @@
+{
+  "id": 900218,
+  "common_name": "Key lime",
+  "scientific_name": [
+    "Citrus aurantiifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/citrus.svg",
+    "small_url": "/images/kitchen/citrus.svg",
+    "medium_url": "/images/kitchen/citrus.svg",
+    "regular_url": "/images/kitchen/citrus.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; don't let pots dry out."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tender below 32F, so pot it north of zone 9."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick limes green or let them turn yellow and juicier. Toxic to pets."
+    }
+  ]
+}

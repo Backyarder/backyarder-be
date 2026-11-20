@@ -1,0 +1,60 @@
+{
+  "id": 900224,
+  "common_name": "muscadine grape",
+  "scientific_name": [
+    "Vitis rotundifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "6",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grape.svg",
+    "small_url": "/images/kitchen/grape.svg",
+    "medium_url": "/images/kitchen/grape.svg",
+    "regular_url": "/images/kitchen/grape.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering every week or two in dry weather."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and a strong trellis."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune back to short spurs on permanent arms every winter. The Southeast's native grape. Toxic to dogs."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": 900358,
+  "common_name": "ginger",
+  "scientific_name": [
+    "Zingiber officinale"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist while growing."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade and warmth; grow in a pot north of zone 9."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Harvest rhizomes after eight to ten months, or snap off pieces as needed."
+    }
+  ]
+}

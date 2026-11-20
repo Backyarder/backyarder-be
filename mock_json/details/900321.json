@@ -1,0 +1,60 @@
+{
+  "id": 900321,
+  "common_name": "wild lupine",
+  "scientific_name": [
+    "Lupinus perennis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant in sandy soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in sandy acidic soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Host plant of the Karner blue butterfly. Seeds are toxic."
+    }
+  ]
+}

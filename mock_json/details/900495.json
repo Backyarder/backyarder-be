@@ -1,0 +1,60 @@
+{
+  "id": 900495,
+  "common_name": "bottlebrush buckeye",
+  "scientific_name": [
+    "Aesculus parviflora"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "butterflies",
+    "hummingbirds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; mulch the roots."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade to sun; thrives under trees."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Spreads into a wide clump with summer flower spikes. Seeds are toxic."
+    }
+  ]
+}

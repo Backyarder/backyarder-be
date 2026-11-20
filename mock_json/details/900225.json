@@ -1,0 +1,55 @@
+{
+  "id": 900225,
+  "common_name": "snake plant",
+  "scientific_name": [
+    "Dracaena trifasciata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the soil dry completely; once a month is often enough."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Anything from low light to bright indirect light."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Wipe dust off the leaves. Repot only when it cracks its pot. Toxic to pets."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900370,
+  "common_name": "summer savory",
+  "scientific_name": [
+    "Satureja hortensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Annual",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let it dry between waterings."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and well-drained soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick before flowering; the classic bean herb."
+    }
+  ]
+}

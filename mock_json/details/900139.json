@@ -1,0 +1,59 @@
+{
+  "id": 900139,
+  "common_name": "impatiens",
+  "scientific_name": [
+    "Impatiens walleriana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist; it wilts quickly when dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part to full shade; scorches in afternoon sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "No deadheading needed. Pinch leggy stems in midsummer."
+    }
+  ]
+}

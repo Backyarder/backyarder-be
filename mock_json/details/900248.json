@@ -1,0 +1,55 @@
+{
+  "id": 900248,
+  "common_name": "corn plant",
+  "scientific_name": [
+    "Dracaena fragrans"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the top inch dry; use filtered water to avoid brown tips."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Medium indirect light."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut tall canes to make them branch. Toxic to pets."
+    }
+  ]
+}

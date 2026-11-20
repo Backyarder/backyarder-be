@@ -1,0 +1,55 @@
+{
+  "id": 900237,
+  "common_name": "ponytail palm",
+  "scientific_name": [
+    "Beaucarnea recurvata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water every two to three weeks; the swollen base stores water."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright light, some direct sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Not a true palm. Safe for pets."
+    }
+  ]
+}

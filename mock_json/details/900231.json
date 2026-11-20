@@ -1,0 +1,56 @@
+{
+  "id": 900231,
+  "common_name": "fiddle-leaf fig",
+  "scientific_name": [
+    "Ficus lyrata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water when the top two inches dry; it drops leaves if over- or under-watered."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright light, some direct sun; don't move it often."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Rotate a quarter turn monthly and wipe the leaves. Toxic to pets."
+    }
+  ]
+}

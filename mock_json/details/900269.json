@@ -1,0 +1,60 @@
+{
+  "id": 900269,
+  "common_name": "honeydew melon",
+  "scientific_name": [
+    "Cucumis melo var. inodorus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/melon.svg",
+    "small_url": "/images/kitchen/melon.svg",
+    "medium_url": "/images/kitchen/melon.svg",
+    "regular_url": "/images/kitchen/melon.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady water until fruit nears full size, then less."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and a long hot season."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Ripe when the skin turns creamy and slightly waxy; it doesn't slip from the vine like cantaloupe."
+    }
+  ]
+}

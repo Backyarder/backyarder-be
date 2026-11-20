@@ -1,0 +1,59 @@
+{
+  "id": 900282,
+  "common_name": "pin oak",
+  "scientific_name": [
+    "Quercus palustris"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average to moist soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, acidic soil; leaves yellow in alkaline soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune only in winter. Lower branches droop; remove them as it grows. Acorns are toxic to dogs."
+    }
+  ]
+}

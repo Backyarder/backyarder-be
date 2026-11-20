@@ -1,0 +1,59 @@
+{
+  "id": 900525,
+  "common_name": "elephant garlic",
+  "scientific_name": [
+    "Allium ampeloprasum var. ampeloprasum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water through spring; stop when leaves yellow."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in loose, rich soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Huge, mild cloves; actually a leek relative. Plant in fall. Toxic to pets."
+    }
+  ]
+}

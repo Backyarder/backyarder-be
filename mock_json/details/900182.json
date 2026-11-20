@@ -1,0 +1,59 @@
+{
+  "id": 900182,
+  "common_name": "golden barrel cactus",
+  "scientific_name": [
+    "Kroenleinia grusonii"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cactus",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/cactus.svg",
+    "small_url": "/images/kitchen/cactus.svg",
+    "medium_url": "/images/kitchen/cactus.svg",
+    "regular_url": "/images/kitchen/cactus.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water every two to three weeks in summer, not at all in winter."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; light shade in the hottest deserts. Indoors, a very bright window."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Repot with gloves and newspaper. Very slow growing."
+    }
+  ]
+}

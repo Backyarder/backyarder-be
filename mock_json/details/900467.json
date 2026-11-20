@@ -1,0 +1,59 @@
+{
+  "id": 900467,
+  "common_name": "paper birch",
+  "scientific_name": [
+    "Betula papyrifera"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "6"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep roots cool and moist; mulch well."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and cool summers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "White bark; prone to borers in hot climates. Prune in summer."
+    }
+  ]
+}

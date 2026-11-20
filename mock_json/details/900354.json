@@ -1,0 +1,60 @@
+{
+  "id": 900354,
+  "common_name": "cowpea",
+  "scientific_name": [
+    "Vigna unguiculata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pod.svg",
+    "small_url": "/images/kitchen/pod.svg",
+    "medium_url": "/images/kitchen/pod.svg",
+    "regular_url": "/images/kitchen/pod.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; heat and dry spells don't faze it."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and hot weather."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Black-eyed, crowder and cream peas. Pick pods green for fresh peas or dry on the vine."
+    }
+  ]
+}

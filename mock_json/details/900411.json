@@ -1,0 +1,55 @@
+{
+  "id": 900411,
+  "common_name": "flaming Katy",
+  "scientific_name": [
+    "Kalanchoe blossfeldiana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the soil dry between waterings."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright light; long nights trigger blooms."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut spent flower stalks. Toxic to pets."
+    }
+  ]
+}

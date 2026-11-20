@@ -1,0 +1,59 @@
+{
+  "id": 900445,
+  "common_name": "maiden grass",
+  "scientific_name": [
+    "Miscanthus sinensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Ornamental grass",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; flops in shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back in late winter. Invasive in parts of the East; sterile cultivars exist."
+    }
+  ]
+}

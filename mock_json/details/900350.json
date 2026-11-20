@@ -1,0 +1,59 @@
+{
+  "id": 900350,
+  "common_name": "goji berry",
+  "scientific_name": [
+    "Lycium barbarum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/berry.svg",
+    "small_url": "/images/kitchen/berry.svg",
+    "medium_url": "/images/kitchen/berry.svg",
+    "regular_url": "/images/kitchen/berry.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tolerates poor soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune hard in late winter; suckers spread. Leaves and unripe berries are toxic to pets."
+    }
+  ]
+}

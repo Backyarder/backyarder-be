@@ -1,0 +1,60 @@
+{
+  "id": 900174,
+  "common_name": "century plant",
+  "scientific_name": [
+    "Agave americana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "hummingbirds",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water monthly in summer at most; never in winter."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and sharp drainage; give it six feet each way."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Remove dead lower leaves with gloves: the sap irritates skin and the tips are sharp. It flowers once after decades, then dies."
+    }
+  ]
+}

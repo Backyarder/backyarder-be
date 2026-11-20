@@ -1,0 +1,60 @@
+{
+  "id": 900153,
+  "common_name": "yew",
+  "scientific_name": [
+    "Taxus x media"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Shrub",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; wet soil kills it."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to deep shade; one of few evergreens for shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Takes shearing well; prune in late spring. Every part except the red flesh is highly toxic to people and pets."
+    }
+  ]
+}

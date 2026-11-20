@@ -1,0 +1,60 @@
+{
+  "id": 900458,
+  "common_name": "turtlehead",
+  "scientific_name": [
+    "Chelone glabra"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep moist; it likes wet ground."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; sun if moist."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch in early summer for bushier plants. A native host for the Baltimore checkerspot."
+    }
+  ]
+}

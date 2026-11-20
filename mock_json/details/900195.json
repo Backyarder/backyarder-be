@@ -1,0 +1,60 @@
+{
+  "id": 900195,
+  "common_name": "desert willow",
+  "scientific_name": [
+    "Chilopsis linearis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "hummingbirds",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; occasional deep water in summer."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; more flowers with more heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in winter to a single or multi trunk. Orchid-like flowers all summer."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900343,
+  "common_name": "hardy kiwi",
+  "scientific_name": [
+    "Actinidia arguta"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January",
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "High",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grape.svg",
+    "small_url": "/images/kitchen/grape.svg",
+    "medium_url": "/images/kitchen/grape.svg",
+    "regular_url": "/images/kitchen/grape.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; water deeply in summer."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; you need a male and a female plant."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Needs a strong arbor and two prunings a year. Grape-sized fruit with edible skin."
+    }
+  ]
+}

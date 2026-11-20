@@ -31,7 +31,7 @@
   "edible_fruit": false,
   "edible_leaf": true,
   "maintenance": "Low",
-  "poisonous_to_pets": 0,
+  "poisonous_to_pets": 1,
   "drought_tolerant": false,
   "invasive": false,
   "indoor": true,

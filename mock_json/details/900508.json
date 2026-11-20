@@ -1,0 +1,59 @@
+{
+  "id": 900508,
+  "common_name": "teddy bear cholla",
+  "scientific_name": [
+    "Cylindropuntia bigelovii"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cactus",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/cactus.svg",
+    "small_url": "/images/kitchen/cactus.svg",
+    "medium_url": "/images/kitchen/cactus.svg",
+    "regular_url": "/images/kitchen/cactus.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Very drought tolerant."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and desert heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Looks soft but the spines detach at a touch; plant well away from paths and pets."
+    }
+  ]
+}

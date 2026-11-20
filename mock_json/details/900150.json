@@ -1,0 +1,59 @@
+{
+  "id": 900150,
+  "common_name": "creeping thyme",
+  "scientific_name": [
+    "Thymus serpyllum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Groundcover",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; dislikes wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, between pavers or on dry banks."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Takes light foot traffic. Shear lightly after flowering."
+    }
+  ]
+}

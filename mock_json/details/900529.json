@@ -1,0 +1,61 @@
+{
+  "id": 900529,
+  "common_name": "New Zealand spinach",
+  "scientific_name": [
+    "Tetragonia tetragonioides"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; more water means more tender tips."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; takes heat true spinach can't."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick tips often. Cook before eating; raw leaves are high in oxalates. Toxic to pets."
+    }
+  ]
+}
