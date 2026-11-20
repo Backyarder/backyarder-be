@@ -31,6 +31,7 @@ RSpec.describe "Search Request", type: :request do
             "watering_days": 2,
             "watering_reason": "Based on its frequent watering needs",
             "watering_source": "auto",
+            "watering_auto_days": 2,
             "watering_rain_resets": true,
             "watering_override_days": nil
           }
@@ -150,7 +151,7 @@ RSpec.describe "Search Request", type: :request do
 
       expect(response.status).to eq(200)
       attrs = JSON.parse(response.body, symbolize_names: true)[:data][:attributes]
-      expect(attrs).to include(watering_days: 14, watering_source: "custom", watering_override_days: 14, needs_water: true)
+      expect(attrs).to include(watering_days: 14, watering_source: "custom", watering_override_days: 14, watering_auto_days: 28, needs_water: true)
       expect(Cell.find_by(location_id: "A1").watering_override_days).to eq(14)
     end
 

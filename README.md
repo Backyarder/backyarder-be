@@ -529,7 +529,7 @@ PATCH /api/v1/cell
 }
 ```
 
-Every cell carries its plan: `watering_days` (null = no reminders), `watering_reason`, `watering_source` (`auto` or `custom`), `watering_rain_resets` (whether a half-inch of rain counts as a watering) and `watering_override_days`. The automatic plan (see `app/services/watering_plan.rb`):
+Every cell carries its plan: `watering_days` (null = no reminders), `watering_reason`, `watering_source` (`auto` or `custom`), `watering_auto_days` (what the automatic plan would be), `watering_rain_resets` (whether a half-inch of rain counts as a watering) and `watering_override_days`. The automatic plan (see `app/services/watering_plan.rb`):
 
 | Plant | Frequent | Average | Minimum |
 |---|---|---|---|

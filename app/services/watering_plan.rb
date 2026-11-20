@@ -3,7 +3,8 @@ require "set"
 # How often one planted cell wants water, in days, and why.
 #
 #   WateringPlan.for(cell) # => { days: 28, reason: "...", source: "auto",
-#                          #      established_on: Date, rain_resets: true }
+#                          #      established_on: Date, rain_resets: true,
+#                          #      auto_days: 28 }
 #
 # days nil means no reminders. The plan comes from the plant's profile (type,
 # cycle, drought tolerance, built-in collection, Perenual watering level) and
@@ -39,6 +40,7 @@ module WateringPlan
   def for(cell, now: Time.now)
     auto = auto_plan(cell.plant_profile, cell.watering, indoor: cell.plot_indoor?, planted_at: cell.planted_at, today: now.to_date)
     override = cell.watering_override_days
+    auto[:auto_days] = auto[:days]
     return auto if override.nil?
 
     reason = override.zero? ? "Reminders turned off for this plant" : "Your own schedule"

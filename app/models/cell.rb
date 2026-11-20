@@ -40,8 +40,12 @@ class Cell < ActiveRecord::Base
     @plot_indoor = indoor
   end
 
+  # Memoized per day and per the attributes it depends on, since the
+  # serializer asks for several of its fields.
   def watering_plan(now = Time.now)
-    WateringPlan.for(self, now: now)
+    key = [plant_profile, plot_indoor?, watering, watering_override_days, planted_at, now.to_date]
+    @watering_plan = [key, WateringPlan.for(self, now: now)] unless @watering_plan&.first == key
+    @watering_plan.last
   end
 
   # Seconds between waterings, or nil when this cell gets no reminders.

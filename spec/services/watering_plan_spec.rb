@@ -95,7 +95,7 @@ RSpec.describe WateringPlan do
   describe "a gardener's override" do
     it "uses their number of days" do
       cell = planted(900_483, 200, watering_override_days: 10)
-      expect(plan(cell)).to include(days: 10, source: "custom", reason: "Your own schedule", rain_resets: true)
+      expect(plan(cell)).to include(days: 10, source: "custom", reason: "Your own schedule", rain_resets: true, auto_days: 28)
       expect(cell.next_water_at(now: now)).to eq(cell.last_watered_at + 10 * day)
     end
 

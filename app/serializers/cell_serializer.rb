@@ -38,6 +38,12 @@ class CellSerializer
     object.watering_plan[:source]
   end
 
+  # What the automatic plan would be, for "Auto (every N days)" while a
+  # custom schedule is set.
+  attribute :watering_auto_days do |object|
+    object.watering_plan[:auto_days]
+  end
+
   attribute :watering_rain_resets do |object|
     object.watering_plan[:rain_resets]
   end
