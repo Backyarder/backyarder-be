@@ -1,0 +1,60 @@
+{
+  "id": 900058,
+  "common_name": "artichoke",
+  "scientific_name": [
+    "Cynara cardunculus var. scolymus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep weekly watering, kept steady while the buds form."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Perennial where winters are mild; grown as an annual elsewhere."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut buds before the scales open, with an inch of stem. Cut stalks to the ground after harvest."
+    }
+  ]
+}

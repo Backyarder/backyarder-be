@@ -1,0 +1,59 @@
+{
+  "id": 900102,
+  "common_name": "Colorado blue spruce",
+  "scientific_name": [
+    "Picea pungens"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/conifer.svg",
+    "small_url": "/images/kitchen/conifer.svg",
+    "medium_url": "/images/kitchen/conifer.svg",
+    "regular_url": "/images/kitchen/conifer.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering while young; drought tolerant later."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. It struggles in hot, humid summers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Remove dead lower branches and never cut the central leader."
+    }
+  ]
+}

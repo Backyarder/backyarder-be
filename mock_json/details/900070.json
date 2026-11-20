@@ -1,0 +1,61 @@
+{
+  "id": 900070,
+  "common_name": "blackberry",
+  "scientific_name": [
+    "Rubus subg. Rubus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/berry.svg",
+    "small_url": "/images/kitchen/berry.svg",
+    "medium_url": "/images/kitchen/berry.svg",
+    "regular_url": "/images/kitchen/berry.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch a week, kept steady while the fruit swells."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Trellis trailing varieties."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "After harvest remove the canes that fruited; tip new canes at four feet so they branch."
+    }
+  ]
+}

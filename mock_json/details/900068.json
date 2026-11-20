@@ -1,0 +1,61 @@
+{
+  "id": 900068,
+  "common_name": "highbush blueberry",
+  "scientific_name": [
+    "Vaccinium corymbosum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "7"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February",
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/berry.svg",
+    "small_url": "/images/kitchen/berry.svg",
+    "medium_url": "/images/kitchen/berry.svg",
+    "regular_url": "/images/kitchen/berry.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch or two a week; the shallow roots dry fast, so mulch well."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and acidic soil (pH 4.5 to 5.5). Two varieties give a bigger crop."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick off the flowers in the first year. After that remove the oldest canes in late winter. Net against birds."
+    }
+  ]
+}

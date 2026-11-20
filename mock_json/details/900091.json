@@ -1,0 +1,59 @@
+{
+  "id": 900091,
+  "common_name": "hosta",
+  "scientific_name": [
+    "Hosta spp."
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Foliage",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady moisture; the leaf edges scorch when dry."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part to full shade; blue-leaved types want the most shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut flower stalks after bloom and foliage after frost. Watch for slugs. Toxic to pets."
+    }
+  ]
+}

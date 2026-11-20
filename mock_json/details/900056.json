@@ -1,0 +1,61 @@
+{
+  "id": 900056,
+  "common_name": "okra",
+  "scientific_name": [
+    "Abelmoschus esculentus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pod.svg",
+    "small_url": "/images/kitchen/pod.svg",
+    "medium_url": "/images/kitchen/pod.svg",
+    "regular_url": "/images/kitchen/pod.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "About an inch a week; takes heat and short dry spells once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and hot weather; wait until the soil is truly warm to plant."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick pods at three to four inches every day or two; bigger pods turn woody. Wear gloves, the stems are prickly."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900094,
+  "common_name": "little bluestem",
+  "scientific_name": [
+    "Schizachyrium scoparium"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Ornamental grass",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grass.svg",
+    "small_url": "/images/kitchen/grass.svg",
+    "medium_url": "/images/kitchen/grass.svg",
+    "regular_url": "/images/kitchen/grass.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Very drought tolerant; rich, wet soil makes it flop."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in lean soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back to a few inches in late winter. It turns copper in fall. A North American native."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 900048,
+  "common_name": "mustard greens",
+  "scientific_name": [
+    "Brassica juncea"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "September",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist; dry soil makes the leaves tough and extra hot."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun in spring and fall, light shade in summer to slow bolting."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick young leaves for salads or bigger ones for cooking. Sow again every few weeks."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 900071,
+  "common_name": "grape",
+  "scientific_name": [
+    "Vitis spp."
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January",
+    "February",
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "High",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/grape.svg",
+    "small_url": "/images/kitchen/grape.svg",
+    "medium_url": "/images/kitchen/grape.svg",
+    "regular_url": "/images/kitchen/grape.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep, infrequent watering once established; too much water dilutes the flavour."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and a sturdy trellis or arbor."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune hard in late winter, removing most of last year's growth. Pick by taste: colour comes before sweetness. Grapes are toxic to dogs."
+    }
+  ]
+}

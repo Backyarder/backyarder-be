@@ -1,0 +1,61 @@
+{
+  "id": 900069,
+  "common_name": "raspberry",
+  "scientific_name": [
+    "Rubus idaeus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "March"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/berry.svg",
+    "small_url": "/images/kitchen/berry.svg",
+    "medium_url": "/images/kitchen/berry.svg",
+    "regular_url": "/images/kitchen/berry.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch a week, more while fruiting."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun with good air flow."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut canes that have fruited to the ground after harvest. Keep the row narrow; suckers spread."
+    }
+  ]
+}

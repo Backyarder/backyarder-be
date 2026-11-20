@@ -1,0 +1,59 @@
+{
+  "id": 900065,
+  "common_name": "lemongrass",
+  "scientific_name": [
+    "Cymbopogon citratus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Likes steady moisture and warmth."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat. Perennial only where it doesn't freeze; bring a pot indoors elsewhere."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut stalks at the base once they are half an inch thick."
+    }
+  ]
+}

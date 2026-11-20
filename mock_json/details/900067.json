@@ -1,0 +1,59 @@
+{
+  "id": 900067,
+  "common_name": "bay laurel",
+  "scientific_name": [
+    "Laurus nobilis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Herb",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April",
+    "May"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/herb.svg",
+    "small_url": "/images/kitchen/herb.svg",
+    "medium_url": "/images/kitchen/herb.svg",
+    "regular_url": "/images/kitchen/herb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the top inch dry out; potted plants need more in summer."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade. In a pot, bring it indoors where winters drop below about 15F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick leaves as needed and prune in spring to shape."
+    }
+  ]
+}

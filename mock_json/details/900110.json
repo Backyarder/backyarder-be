@@ -1,0 +1,60 @@
+{
+  "id": 900110,
+  "common_name": "shrub rose",
+  "scientific_name": [
+    "Rosa spp."
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March",
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/rose.svg",
+    "small_url": "/images/kitchen/rose.svg",
+    "medium_url": "/images/kitchen/rose.svg",
+    "regular_url": "/images/kitchen/rose.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep watering at the base twice a week in summer; wet leaves spread black spot."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Six or more hours of sun and good air flow."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in early spring when the forsythia blooms: remove dead wood and cut back by a third."
+    }
+  ]
+}

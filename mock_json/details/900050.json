@@ -1,0 +1,61 @@
+{
+  "id": 900050,
+  "common_name": "bok choy",
+  "scientific_name": [
+    "Brassica rapa subsp. chinensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "September",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep the soil constantly moist; a dry spell sends it to seed."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun in cool weather, afternoon shade as it warms."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut baby heads at six inches or full heads at a foot, at the base."
+    }
+  ]
+}

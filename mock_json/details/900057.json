@@ -1,0 +1,60 @@
+{
+  "id": 900057,
+  "common_name": "tomatillo",
+  "scientific_name": [
+    "Physalis philadelphica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tomato.svg",
+    "small_url": "/images/kitchen/tomato.svg",
+    "medium_url": "/images/kitchen/tomato.svg",
+    "regular_url": "/images/kitchen/tomato.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "About an inch a week; fairly drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. Plant at least two: a single plant rarely sets fruit."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick when the fruit fills its papery husk and the husk starts to split."
+    }
+  ]
+}

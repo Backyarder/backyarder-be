@@ -1,0 +1,59 @@
+{
+  "id": 900059,
+  "common_name": "horseradish",
+  "scientific_name": [
+    "Armoracia rusticana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October",
+    "November"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; established roots are tough."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade. Give it a corner or a sunken pot: any root left behind regrows."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Dig roots in late fall after frost, when they are most pungent."
+    }
+  ]
+}

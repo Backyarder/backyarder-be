@@ -1,0 +1,60 @@
+{
+  "id": 900061,
+  "common_name": "rhubarb",
+  "scientific_name": [
+    "Rheum rhabarbarum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April",
+    "May",
+    "June"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/stalk.svg",
+    "small_url": "/images/kitchen/stalk.svg",
+    "medium_url": "/images/kitchen/stalk.svg",
+    "regular_url": "/images/kitchen/stalk.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "About an inch a week, more in hot spells."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade; it needs a cold winter."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Don't pick in the first year. After that pull stalks for eight to ten weeks in spring. Never eat the leaves: they are toxic to people and pets."
+    }
+  ]
+}

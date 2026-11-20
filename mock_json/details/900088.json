@@ -1,0 +1,60 @@
+{
+  "id": 900088,
+  "common_name": "goldenrod",
+  "scientific_name": [
+    "Solidago rugosa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees",
+    "butterflies"
+  ],
+  "flowering_season": "fall",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; rarely needs watering once settled."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tolerates poor, dry soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back by half in early summer for a bushier plant. It doesn't cause hay fever; ragweed does. A North American native."
+    }
+  ]
+}
