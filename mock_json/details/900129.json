@@ -1,0 +1,60 @@
+{
+  "id": 900129,
+  "common_name": "lupine",
+  "scientific_name": [
+    "Lupinus polyphyllus"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; it dislikes both drought and wet feet."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and cool summers; struggles in hot, humid areas."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut spent spikes before they set seed. Short lived; let a few self-sow. Seeds are toxic."
+    }
+  ]
+}

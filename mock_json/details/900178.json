@@ -1,0 +1,59 @@
+{
+  "id": 900178,
+  "common_name": "prickly pear",
+  "scientific_name": [
+    "Opuntia humifusa"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cactus",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/cactus.svg",
+    "small_url": "/images/kitchen/cactus.svg",
+    "medium_url": "/images/kitchen/cactus.svg",
+    "regular_url": "/images/kitchen/cactus.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; no winter water."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and fast drainage."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Handle with tongs: the tiny glochids lodge in skin. Pads and fruit are edible once the spines are burned off."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": 900126,
+  "common_name": "Lenten rose",
+  "scientific_name": [
+    "Helleborus orientalis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "February"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "winter",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; established plants handle short dry spells."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part to full shade under deciduous trees."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut off last year's tattered leaves in late winter as the flowers appear. Toxic to people and pets."
+    }
+  ]
+}

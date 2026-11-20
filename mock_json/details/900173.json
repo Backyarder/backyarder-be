@@ -1,0 +1,59 @@
+{
+  "id": 900173,
+  "common_name": "climbing hydrangea",
+  "scientific_name": [
+    "Hydrangea anomala subsp. petiolaris"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture, especially in its first years."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; fine on a north wall."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Slow for a few years, then vigorous. Prune right after flowering. Toxic to pets."
+    }
+  ]
+}

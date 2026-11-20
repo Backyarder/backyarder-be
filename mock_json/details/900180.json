@@ -1,0 +1,59 @@
+{
+  "id": 900180,
+  "common_name": "red yucca",
+  "scientific_name": [
+    "Hesperaloe parviflora"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant; water every few weeks in extreme heat."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and reflected heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut old flower stalks in late winter. Spineless and soft-edged, unlike true yucca."
+    }
+  ]
+}

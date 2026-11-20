@@ -1,0 +1,59 @@
+{
+  "id": 900200,
+  "common_name": "plumeria",
+  "scientific_name": [
+    "Plumeria rubra"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water weekly in summer; keep dry in winter dormancy."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; grow in a pot and store it frost-free elsewhere."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cuttings root easily once the cut end dries. The milky sap irritates skin and the plant is toxic."
+    }
+  ]
+}

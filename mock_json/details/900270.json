@@ -1,0 +1,58 @@
+{
+  "id": 900270,
+  "common_name": "Yukon Gold potato",
+  "scientific_name": [
+    "Solanum tuberosum 'Yukon Gold'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/root.svg",
+    "small_url": "/images/kitchen/root.svg",
+    "medium_url": "/images/kitchen/root.svg",
+    "regular_url": "/images/kitchen/root.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "An inch or two a week while tubers form."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in loose soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Hill soil twice. Dig two weeks after the tops die back. Green skins and leaves are toxic."
+    }
+  ]
+}

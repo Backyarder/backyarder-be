@@ -1,0 +1,59 @@
+{
+  "id": 900177,
+  "common_name": "hens and chicks",
+  "scientific_name": [
+    "Sempervivum tectorum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Rarely needs water once rooted."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, in gritty soil or rock walls."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Each rosette dies after flowering; the chicks fill in. Pull the dead one out."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900144,
+  "common_name": "pansy",
+  "scientific_name": [
+    "Viola x wittrockiana"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep evenly moist, especially in pots."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Cool weather: spring and fall in the north, winter in the south."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Deadhead often. The flowers are edible."
+    }
+  ]
+}

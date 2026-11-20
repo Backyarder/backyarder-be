@@ -1,0 +1,59 @@
+{
+  "id": 900175,
+  "common_name": "Parry's agave",
+  "scientific_name": [
+    "Agave parryi"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Succulent",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/succulent.svg",
+    "small_url": "/images/kitchen/succulent.svg",
+    "medium_url": "/images/kitchen/succulent.svg",
+    "regular_url": "/images/kitchen/succulent.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Very drought tolerant; keep dry in winter."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, gravelly soil."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "One of the most cold-hardy agaves. Pull offsets to make new plants. Sap irritates skin."
+    }
+  ]
+}

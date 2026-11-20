@@ -1,0 +1,59 @@
+{
+  "id": 900217,
+  "common_name": "satsuma mandarin",
+  "scientific_name": [
+    "Citrus unshiu"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/citrus.svg",
+    "small_url": "/images/kitchen/citrus.svg",
+    "medium_url": "/images/kitchen/citrus.svg",
+    "regular_url": "/images/kitchen/citrus.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Water when the top inch dries; containers need more."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun. The most cold-tolerant citrus, to about 20F."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pick from October to December as fruit colours. Toxic to pets."
+    }
+  ]
+}

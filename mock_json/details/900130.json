@@ -1,0 +1,60 @@
+{
+  "id": 900130,
+  "common_name": "Shasta daisy",
+  "scientific_name": [
+    "Leucanthemum x superbum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "August"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "About an inch a week."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; stems flop in shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Deadhead for more blooms and divide every three years. Toxic to pets."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 900262,
+  "common_name": "sugar snap pea",
+  "scientific_name": [
+    "Pisum sativum var. macrocarpon 'Sugar Snap'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/pod.svg",
+    "small_url": "/images/kitchen/pod.svg",
+    "medium_url": "/images/kitchen/pod.svg",
+    "regular_url": "/images/kitchen/pod.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady moisture once flowering starts."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun in cool weather; sow as soon as the soil can be worked."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Needs a five-foot trellis. Pick when pods are plump; eat pod and all."
+    }
+  ]
+}

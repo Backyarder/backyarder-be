@@ -1,0 +1,55 @@
+{
+  "id": 900239,
+  "common_name": "baby rubber plant",
+  "scientific_name": [
+    "Peperomia obtusifolia"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Let the soil dry halfway; the thick leaves store water."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Medium to bright indirect light."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pinch stems to keep it compact. Safe for pets."
+    }
+  ]
+}

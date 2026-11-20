@@ -1,0 +1,60 @@
+{
+  "id": 900255,
+  "common_name": "Roma tomato",
+  "scientific_name": [
+    "Solanum lycopersicum 'Roma'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tomato.svg",
+    "small_url": "/images/kitchen/tomato.svg",
+    "medium_url": "/images/kitchen/tomato.svg",
+    "regular_url": "/images/kitchen/tomato.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even, deep watering prevents blossom-end rot, which pastes are prone to."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun, six to eight hours."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Determinate: it ripens a big crop at once, ideal for sauce. A short cage is enough. Toxic to pets."
+    }
+  ]
+}

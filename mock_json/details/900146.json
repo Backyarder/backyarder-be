@@ -1,0 +1,59 @@
+{
+  "id": 900146,
+  "common_name": "periwinkle",
+  "scientific_name": [
+    "Vinca minor"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Groundcover",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "April"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; tolerates dry shade once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part to full shade; it fills dry spots under trees."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Mow or shear in early spring to keep it tidy. Invasive in many states; toxic to pets."
+    }
+  ]
+}

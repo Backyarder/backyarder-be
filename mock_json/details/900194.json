@@ -1,0 +1,59 @@
+{
+  "id": 900194,
+  "common_name": "blue palo verde",
+  "scientific_name": [
+    "Parkinsonia florida"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Tree",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "January"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tree.svg",
+    "small_url": "/images/kitchen/tree.svg",
+    "medium_url": "/images/kitchen/tree.svg",
+    "regular_url": "/images/kitchen/tree.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep, infrequent watering; overwatering weakens it."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and reflected heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune in late winter. Green bark photosynthesises; yellow flowers in spring. A desert native."
+    }
+  ]
+}

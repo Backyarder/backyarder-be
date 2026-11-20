@@ -1,0 +1,58 @@
+{
+  "id": 900213,
+  "common_name": "needle palm",
+  "scientific_name": [
+    "Rhapidophyllum hystrix"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Palm",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "6",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/palm.svg",
+    "small_url": "/images/kitchen/palm.svg",
+    "medium_url": "/images/kitchen/palm.svg",
+    "regular_url": "/images/kitchen/palm.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; tolerates wet soil."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Part shade; tolerates sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Very slow, clumping and the most cold-hardy palm. Sharp needles at the base."
+    }
+  ]
+}

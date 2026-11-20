@@ -1,0 +1,60 @@
+{
+  "id": 900209,
+  "common_name": "Chinese fringe flower",
+  "scientific_name": [
+    "Loropetalum chinense"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Broadleaf evergreen",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "7",
+    "max": "10"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; mulch the roots."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Sun to part shade; purple-leaved types colour best in sun."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Prune after the spring bloom; it takes shaping well."
+    }
+  ]
+}

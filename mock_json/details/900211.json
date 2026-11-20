@@ -1,0 +1,60 @@
+{
+  "id": 900211,
+  "common_name": "sabal palm",
+  "scientific_name": [
+    "Sabal palmetto"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Palm",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees",
+    "birds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/palm.svg",
+    "small_url": "/images/kitchen/palm.svg",
+    "medium_url": "/images/kitchen/palm.svg",
+    "regular_url": "/images/kitchen/palm.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Drought tolerant once established; water weekly the first year."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun; tolerates salt spray."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Don't over-trim: remove only dead fronds. The state tree of Florida and South Carolina."
+    }
+  ]
+}

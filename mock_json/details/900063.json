@@ -28,7 +28,7 @@
   "flowering_season": "summer",
   "edible_fruit": false,
   "maintenance": "Low",
-  "poisonous_to_pets": 0,
+  "poisonous_to_pets": 1,
   "drought_tolerant": true,
   "invasive": false,
   "indoor": true,

@@ -1,0 +1,60 @@
+{
+  "id": 900151,
+  "common_name": "Japanese spirea",
+  "scientific_name": [
+    "Spiraea japonica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Deciduous shrub",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "4",
+    "max": "8"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/shrub.svg",
+    "small_url": "/images/kitchen/shrub.svg",
+    "medium_url": "/images/kitchen/shrub.svg",
+    "regular_url": "/images/kitchen/shrub.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Average moisture; water deeply in droughts."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun for the most flowers."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut back by half in late winter; shear after the first bloom for a second. Invasive in parts of the East."
+    }
+  ]
+}

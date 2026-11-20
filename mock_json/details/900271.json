@@ -1,0 +1,59 @@
+{
+  "id": 900271,
+  "common_name": "napa cabbage",
+  "scientific_name": [
+    "Brassica rapa subsp. pekinensis"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June",
+    "October"
+  ],
+  "attracts": [],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/leafy.svg",
+    "small_url": "/images/kitchen/leafy.svg",
+    "medium_url": "/images/kitchen/leafy.svg",
+    "regular_url": "/images/kitchen/leafy.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Even moisture; stress makes it bolt."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Cool weather: grow as a spring or, better, fall crop."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut the whole head when firm."
+    }
+  ]
+}

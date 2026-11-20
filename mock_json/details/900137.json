@@ -1,0 +1,60 @@
+{
+  "id": 900137,
+  "common_name": "Siberian iris",
+  "scientific_name": [
+    "Iris sibirica"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Flower",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "October"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "flowers",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Likes moist soil; tolerates wet spots."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to part shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut foliage down in late fall and divide crowded clumps. Toxic to pets."
+    }
+  ]
+}

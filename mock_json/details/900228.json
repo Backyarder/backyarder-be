@@ -1,0 +1,55 @@
+{
+  "id": 900228,
+  "common_name": "spider plant",
+  "scientific_name": [
+    "Chlorophytum comosum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Houseplant",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "10",
+    "max": "12"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [],
+  "attracts": [],
+  "flowering_season": null,
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/houseplant.svg",
+    "small_url": "/images/kitchen/houseplant.svg",
+    "medium_url": "/images/kitchen/houseplant.svg",
+    "regular_url": "/images/kitchen/houseplant.svg"
+  },
+  "collection": "indoor",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Keep lightly moist; brown tips mean fluoride in tap water or dry air."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Bright indirect light."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Pot up the baby plantlets. Safe for pets."
+    }
+  ]
+}

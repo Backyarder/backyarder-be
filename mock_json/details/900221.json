@@ -1,0 +1,60 @@
+{
+  "id": 900221,
+  "common_name": "dwarf banana",
+  "scientific_name": [
+    "Musa acuminata 'Dwarf Cavendish'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Fruit",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "9",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "June"
+  ],
+  "attracts": [
+    "bees",
+    "hummingbirds"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Moderate",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": true,
+  "default_image": {
+    "thumbnail": "/images/kitchen/palm.svg",
+    "small_url": "/images/kitchen/palm.svg",
+    "medium_url": "/images/kitchen/palm.svg",
+    "regular_url": "/images/kitchen/palm.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Thirsty: keep moist through the growing season."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat; bring pots indoors in winter."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Each stem fruits once, then cut it down and let a pup replace it."
+    }
+  ]
+}

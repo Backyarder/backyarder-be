@@ -1,0 +1,63 @@
+{
+  "id": 900273,
+  "common_name": "green onion",
+  "scientific_name": [
+    "Allium fistulosum"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "hardiness": {
+    "min": "3",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "May",
+    "June",
+    "July",
+    "August"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/bulb.svg",
+    "small_url": "/images/kitchen/bulb.svg",
+    "medium_url": "/images/kitchen/bulb.svg",
+    "regular_url": "/images/kitchen/bulb.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Steady moisture; shallow roots dry fast."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to part shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Cut an inch above the base and it regrows. Toxic to pets."
+    }
+  ]
+}

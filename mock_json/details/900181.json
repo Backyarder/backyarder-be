@@ -1,0 +1,60 @@
+{
+  "id": 900181,
+  "common_name": "ocotillo",
+  "scientific_name": [
+    "Fouquieria splendens"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Cactus",
+  "cycle": "Perennial",
+  "watering": "Minimum",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "8",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "hummingbirds",
+    "bees"
+  ],
+  "flowering_season": "spring",
+  "edible_fruit": false,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/cactus.svg",
+    "small_url": "/images/kitchen/cactus.svg",
+    "medium_url": "/images/kitchen/cactus.svg",
+    "regular_url": "/images/kitchen/cactus.svg"
+  },
+  "collection": "succulents",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Leafs out after rain and drops leaves in drought; water only while establishing."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and desert heat."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "No pruning. Red flower tips in spring feed migrating hummingbirds."
+    }
+  ]
+}

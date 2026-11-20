@@ -1,0 +1,61 @@
+{
+  "id": 900256,
+  "common_name": "beefsteak tomato",
+  "scientific_name": [
+    "Solanum lycopersicum 'Beefsteak'"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vegetable",
+  "cycle": "Annual",
+  "watering": "Frequent",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "2",
+    "max": "11"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "July",
+    "August",
+    "September"
+  ],
+  "attracts": [
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "High",
+  "poisonous_to_pets": 1,
+  "drought_tolerant": false,
+  "invasive": false,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/tomato.svg",
+    "small_url": "/images/kitchen/tomato.svg",
+    "medium_url": "/images/kitchen/tomato.svg",
+    "regular_url": "/images/kitchen/tomato.svg"
+  },
+  "collection": "kitchen",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Deep, steady watering; mulch to keep the soil evenly moist."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun and heat; it needs a long season."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Tall stake or cage, and pinch suckers. Support heavy fruit. Toxic to pets."
+    }
+  ]
+}

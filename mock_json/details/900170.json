@@ -1,0 +1,60 @@
+{
+  "id": 900170,
+  "common_name": "purple passionflower",
+  "scientific_name": [
+    "Passiflora incarnata"
+  ],
+  "other_name": [],
+  "family": null,
+  "type": "Vine",
+  "cycle": "Perennial",
+  "watering": "Average",
+  "sunlight": [
+    "full sun"
+  ],
+  "hardiness": {
+    "min": "5",
+    "max": "9"
+  },
+  "leaf_color": [
+    "green"
+  ],
+  "pruning_month": [
+    "March"
+  ],
+  "attracts": [
+    "butterflies",
+    "bees"
+  ],
+  "flowering_season": "summer",
+  "edible_fruit": true,
+  "maintenance": "Low",
+  "poisonous_to_pets": 0,
+  "drought_tolerant": true,
+  "invasive": true,
+  "indoor": false,
+  "default_image": {
+    "thumbnail": "/images/kitchen/flower.svg",
+    "small_url": "/images/kitchen/flower.svg",
+    "medium_url": "/images/kitchen/flower.svg",
+    "regular_url": "/images/kitchen/flower.svg"
+  },
+  "collection": "trees",
+  "care_sections": [
+    {
+      "id": 1,
+      "type": "watering",
+      "description": "Moderate water; drought tolerant once established."
+    },
+    {
+      "id": 2,
+      "type": "sunlight",
+      "description": "Full sun to light shade."
+    },
+    {
+      "id": 3,
+      "type": "pruning",
+      "description": "Dies to the ground in cold winters and returns late. Spreads by runners. The fruit (maypops) is edible when it wrinkles."
+    }
+  ]
+}
