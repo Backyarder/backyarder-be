@@ -37,6 +37,33 @@ RSpec.describe "Garden areas", type: :request do
     expect(body[:data].map { |g| g[:attributes][:name] }).to eq(["My Garden"])
   end
 
+  it "creates plots of any size up to 15 x 15, lettering rows from A" do
+    send_json(:post, "/gardens", name: "Raised bed", rows: 4, cols: 8)
+
+    expect(last_response).to be_ok
+    expect(body[:data][:attributes]).to include(rows: 4, cols: 8)
+    bed = Garden.find(body[:data][:id])
+    expect(bed.cells.count).to eq(32)
+    ids = bed.cells.pluck(:location_id)
+    expect(ids).to include("A1", "D8")
+    expect(ids).not_to include("E1")
+    expect(ids).not_to include("A9")
+
+    send_json(:post, "/gardens", name: "Default")
+    expect(body[:data][:attributes]).to include(rows: 10, cols: 10)
+
+    [{ rows: 0, cols: 4 }, { rows: 16, cols: 4 }, { rows: "4", cols: 4 }, { rows: 4, cols: 2.5 }].each do |size|
+      send_json(:post, "/gardens", name: "Bad", **size)
+      expect(last_response.status).to eq(422)
+      expect(body[:error]).to include("1 to 15")
+    end
+  end
+
+  it "keeps plot sizes valid on the model too" do
+    expect(Garden.new(user: user, name: "Huge", rows: 16, cols: 1)).not_to be_valid
+    expect(Garden.new(user: user, name: "Wide", rows: 1, cols: 15)).to be_valid
+  end
+
   it "names an unnamed area and rejects bad names" do
     send_json(:post, "/gardens", {})
     expect(body[:data][:attributes][:name]).to eq("New plot")

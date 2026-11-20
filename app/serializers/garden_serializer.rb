@@ -2,7 +2,7 @@ class GardenSerializer
   include JSONAPI::Serializer
 
   set_type :garden
-  attributes :name, :indoor, :position
+  attributes :name, :indoor, :position, :rows, :cols
 
   # Counts for the area tabs (params[:counts] = { garden_id => {...} }).
   attribute :plant_count do |object, params|

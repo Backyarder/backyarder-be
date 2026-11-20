@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_11_20_140000) do
+ActiveRecord::Schema[7.0].define(version: 2026_11_21_090100) do
   create_table "api_usages", force: :cascade do |t|
     t.date "day", null: false
     t.integer "count", default: 0, null: false
@@ -46,6 +46,8 @@ ActiveRecord::Schema[7.0].define(version: 2026_11_20_140000) do
     t.datetime "updated_at", null: false
     t.boolean "indoor", default: false, null: false
     t.integer "position", default: 0, null: false
+    t.integer "rows", default: 10, null: false
+    t.integer "cols", default: 10, null: false
     t.index ["user_id"], name: "index_gardens_on_user_id"
   end
 
