@@ -389,7 +389,10 @@ class Backyarder < Sinatra::Base
     halt 422, json({ error: "You can have up to #{Garden::MAX_PER_USER} garden plots." }) if current_user.gardens.count >= Garden::MAX_PER_USER
 
     body = json_body
-    garden = Garden.create_for!(current_user, name: body[:name].to_s.strip.empty? ? "New plot" : body[:name], indoor: body[:indoor] == true)
+    size = { rows: body.fetch(:rows, 10), cols: body.fetch(:cols, 10) }
+    halt 422, json({ error: "Plots can be 1 to #{Garden::MAX_SIDE} cells on each side." }) unless size.values.all? { |n| n.is_a?(Integer) && n.between?(1, Garden::MAX_SIDE) }
+
+    garden = Garden.create_for!(current_user, name: body[:name].to_s.strip.empty? ? "New plot" : body[:name], indoor: body[:indoor] == true, **size)
     json GardenSerializer.new(garden, params: { counts: {} })
   rescue ActiveRecord::RecordInvalid => e
     halt 422, json({ error: e.record.errors.full_messages.to_sentence })
