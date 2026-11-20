@@ -73,15 +73,16 @@ class PlantCache
   def search(query)
     q = query.to_s.strip.downcase
     cached = SearchCache.find_by(query: q)
-    return cached.results_array if cached&.fresh?
-
     local = local_results(q)
+    # Local matches always come first, so plants added after a query was
+    # cached (built-ins, catalogue pages) still show up on a cached search.
+    return merge(local, cached.results_array) if cached&.fresh?
     return local if local.size >= LOCAL_ENOUGH
 
     begin
       raw = @service.species_list(q)[:data].to_a
     rescue PerenualService::QuotaExceeded
-      return cached.results_array if cached   # stale beats nothing
+      return merge(local, cached.results_array) if cached   # stale beats nothing
       return local if local.any?
 
       raise
@@ -91,7 +92,7 @@ class PlantCache
       .reject { |r| !PerenualService.allowed_id?(r[:id]) }
       .map { |r| remember_listing(r) }
     # Plants we already know come first; they are the ones people replant.
-    results = (local + remote).uniq { |r| r[:plant_id] }.first(RESULTS_PER_SEARCH)
+    results = merge(local, remote)
 
     (cached || SearchCache.new(query: q)).update!(results: JSON.generate(results))
     results
@@ -173,6 +174,10 @@ class PlantCache
 
     guide = @service.maintenance_search(record.plant_id)
     record.care = JSON.generate(guide.dig(:data, 0, :section) || [])
+  end
+
+  def merge(first, second)
+    (first + second).uniq { |r| r[:plant_id] }.first(RESULTS_PER_SEARCH)
   end
 
   # Name matches from our own table: names starting with the query first.
