@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2026_11_20_120000) do
+ActiveRecord::Schema[7.0].define(version: 2026_11_20_140000) do
   create_table "api_usages", force: :cascade do |t|
     t.date "day", null: false
     t.integer "count", default: 0, null: false
@@ -34,6 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2026_11_20_120000) do
     t.integer "garden_id"
     t.datetime "planted_at"
     t.datetime "last_watered_at"
+    t.integer "watering_override_days"
     t.index ["garden_id", "location_id"], name: "index_cells_on_garden_id_and_location_id", unique: true
     t.index ["garden_id"], name: "index_cells_on_garden_id"
   end

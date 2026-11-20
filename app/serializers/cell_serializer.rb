@@ -1,6 +1,14 @@
 class CellSerializer
   include JSONAPI::Serializer
-  attributes :image, :name, :location_id, :status, :watering, :plant_id, :content_type
+  attributes :image, :name, :location_id, :status, :watering, :plant_id, :content_type, :watering_override_days
+
+  # Loads every cell's plant profile in one query before serializing (see
+  # WateringPlan.preload). A relation is loaded once and serialized as-is.
+  def initialize(resource, options = {})
+    resource = resource.to_a if resource.is_a?(ActiveRecord::Relation)
+    WateringPlan.preload(resource)
+    super
+  end
 
   attribute :updated_at do |object|
     object.updated_at.strftime("%m/%d/%Y %k:%M")
@@ -14,6 +22,24 @@ class CellSerializer
 
   attribute :last_watered_at do |object|
     object.last_watered_at&.utc&.iso8601
+  end
+
+  # The cell's watering plan: days between waterings (null = no reminders),
+  # a short reason, "auto" or "custom", and whether rain counts as a watering.
+  attribute :watering_days do |object|
+    object.watering_plan[:days]
+  end
+
+  attribute :watering_reason do |object|
+    object.watering_plan[:reason]
+  end
+
+  attribute :watering_source do |object|
+    object.watering_plan[:source]
+  end
+
+  attribute :watering_rain_resets do |object|
+    object.watering_plan[:rain_resets]
   end
 
   # params[:rain_credit] is a callable cell -> rained_at (or nil); see

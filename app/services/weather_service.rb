@@ -1,9 +1,9 @@
 # Daily rain and low temperatures from Open-Meteo (free, no key, no limits
-# that matter for a handful of gardens). Ten days back (long enough to credit
-# rain against the longest watering interval) and three days ahead.
+# that matter for a handful of gardens). Thirty days back (long enough to
+# credit rain against the longest watering plan, 28 days) and three days ahead.
 class WeatherService
   BASE_URL = "https://api.open-meteo.com/".freeze
-  PAST_DAYS = 10
+  PAST_DAYS = 30
   FORECAST_DAYS = 3
 
   # Returns { days: [{ date:, rain_in:, low_f: }, ...] } or nil on any failure.
