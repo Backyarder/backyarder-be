@@ -81,7 +81,7 @@ class PlantCache
 
     begin
       raw = @service.species_list(q)[:data].to_a
-    rescue PerenualService::QuotaExceeded
+    rescue PerenualService::Error # budget spent, rate-limited, down or unreachable
       return merge(local, cached.results_array) if cached   # stale beats nothing
       return local if local.any?
 
