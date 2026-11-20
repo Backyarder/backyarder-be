@@ -130,6 +130,24 @@ RSpec.describe "Search Request", type: :request do
       expect(JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:plant_id] }).to eq([7])
     end
 
+    it "falls back to local matches when Perenual is down" do
+      PlantDetail.create!(plant_id: 7, common_name: "Maple leaf viburnum", summary: "{}")
+      stub_request(:get, %r{perenual\.com/api/v2/species-list}).to_return(status: 500, body: "oops")
+
+      get "/search/maple"
+
+      expect(last_response).to be_ok
+      expect(JSON.parse(last_response.body, symbolize_names: true)[:data].map { |p| p[:attributes][:plant_id] }).to eq([7])
+    end
+
+    it "returns 502 when Perenual is down and nothing matches locally" do
+      stub_request(:get, %r{perenual\.com/api/v2/species-list}).to_timeout
+
+      get "/search/maple"
+
+      expect(last_response.status).to eq(502)
+    end
+
     it "returns 503 with a friendly message when Perenual rate-limits us" do
       stub_request(:get, %r{perenual\.com/api/v2/species-list}).to_return(status: 429, body: "Too Many Requests")
 
