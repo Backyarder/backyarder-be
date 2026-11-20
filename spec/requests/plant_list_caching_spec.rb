@@ -6,7 +6,7 @@ RSpec.describe "Plant data caching headers", type: :request do
     expect(last_response).to be_ok
     expect(last_response.headers["Cache-Control"]).to include("no-cache")
     etag = last_response.headers["ETag"]
-    expect(etag).to be_a(String)
+    expect(etag).to start_with('W/"')
 
     get "/plants", nil, { "HTTP_IF_NONE_MATCH" => etag }
     expect(last_response.status).to eq(304)
